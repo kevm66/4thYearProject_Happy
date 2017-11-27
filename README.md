@@ -1,2 +1,2 @@
-# 4thYear_Final_Project
+# 4thYearProject_Happy
 Happy - Mental Health App
