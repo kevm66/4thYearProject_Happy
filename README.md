@@ -1,5 +1,4 @@
-# 4thYearProject_Happy
-Happy - Mental Health App
+# 4th Year Project: Happy - The Mental Health App
 
 Description:
 - Happy is an app that allows users to record their current emotions and relate them to other
