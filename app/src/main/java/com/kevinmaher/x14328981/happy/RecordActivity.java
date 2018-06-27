@@ -26,28 +26,28 @@ public class RecordActivity extends AppCompatActivity {
         btnHappy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(RecordActivity.this, ResultsActivity.class));
+                startActivity(new Intent(RecordActivity.this, LogActivity.class));
             }
         });
 
         btnIndifferent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(RecordActivity.this, ResultsActivity.class));
+                startActivity(new Intent(RecordActivity.this, LogActivity.class));
             }
         });
 
         btnSad.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(RecordActivity.this, ResultsActivity.class));
+                startActivity(new Intent(RecordActivity.this, LogActivity.class));
             }
         });
 
         btnRecord.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(RecordActivity.this, ResultsActivity.class));
+                startActivity(new Intent(RecordActivity.this, LogActivity.class));
             }
         });
     }

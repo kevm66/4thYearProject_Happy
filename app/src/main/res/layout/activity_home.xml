@@ -10,7 +10,7 @@
 
         android:layout_alignParentTop="true"
 
-        android:layout_alignStart="@+id/btn_main_register2"
+        android:layout_alignStart="@+id/btn_home_map"
         android:layout_marginTop="27dp"
         android:background="@drawable/buttons_green"
         android:text=":)"
@@ -19,7 +19,7 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/btn_main_register4"
+        android:id="@+id/btn_home_help"
         android:layout_width="323dp"
         android:layout_height="@dimen/button_height"
         android:layout_alignParentBottom="true"
@@ -31,7 +31,7 @@
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_main_register5"
+        android:id="@+id/btn_home_chat"
         android:layout_width="323dp"
         android:layout_height="@dimen/button_height"
         android:layout_alignParentBottom="true"
@@ -43,7 +43,7 @@
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_main_login"
+        android:id="@+id/btn_home_record"
         android:layout_width="339dp"
         android:layout_height="@dimen/button_height"
         android:layout_alignParentTop="true"
@@ -55,7 +55,7 @@
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_main_register2"
+        android:id="@+id/btn_home_map"
         android:layout_width="323dp"
         android:layout_height="@dimen/button_height"
         android:layout_alignParentBottom="true"
@@ -67,7 +67,7 @@
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_main_register3"
+        android:id="@+id/btn_home_results"
         android:layout_width="323dp"
         android:layout_height="@dimen/button_height"
         android:layout_centerInParent="true"
@@ -77,14 +77,14 @@
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_main_register"
+        android:id="@+id/btn_home_log"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
-        android:layout_alignEnd="@+id/btn_main_login"
-        android:layout_alignLeft="@+id/btn_main_login"
-        android:layout_alignRight="@+id/btn_main_login"
-        android:layout_alignStart="@+id/btn_main_login"
-        android:layout_alignTop="@+id/btn_main_login"
+        android:layout_alignEnd="@+id/btn_home_record"
+        android:layout_alignLeft="@+id/btn_home_record"
+        android:layout_alignRight="@+id/btn_home_record"
+        android:layout_alignStart="@+id/btn_home_record"
+        android:layout_alignTop="@+id/btn_home_record"
         android:layout_marginTop="@dimen/button_top_spacing"
         android:background="@drawable/buttons_orange"
         android:text="@string/btn_mood_log"

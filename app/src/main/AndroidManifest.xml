@@ -11,26 +11,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <!-- <activity android:name=".SplashScreenActivity" android:theme="@style/SplashTheme"> -->
-        <!-- <intent-filter> -->
-        <!-- <action android:name="android.intent.action.MAIN" /> -->
-        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-        <!-- </intent-filter> -->
-        <!-- </activity> -->
-
         <activity
-            android:name=".ResultsActivity"
-            android:label="@string/text_title_feeling" />
+            android:name=".HomeActivity"
+            android:label="@string/text_title_home" />
         <activity
-            android:name=".FeelingActivity2"
-            android:label="@string/text_title_feeling" />
+            android:name=".LogActivity"
+            android:label="@string/text_title_log" />
         <activity
             android:name=".LoginActivity"
             android:label="@string/text_title_login" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -44,11 +36,17 @@
             android:name=".RegisterActivity"
             android:label="@string/text_title_register" />
         <activity
+            android:name=".ResultsActivity"
+            android:label="@string/text_title_feeling" />
+        <activity
             android:name=".SettingsActivity"
             android:label="@string/text_title_settings" />
-        <activity
-            android:name="com.kevinmaher.x14328981.buttons_green.BottomNavActivity"
-            android:label="@string/title_activity_bottom_nav"></activity>
+        <!-- <activity android:name=".SplashScreenActivity" android:theme="@style/SplashTheme"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
     </application>
 
 </manifest>

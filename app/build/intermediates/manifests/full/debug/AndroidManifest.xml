@@ -16,21 +16,14 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
-
-        <!-- <activity android:name=".SplashScreenActivity" android:theme="@style/SplashTheme"> -->
-        <!-- <intent-filter> -->
-        <!-- <action android:name="android.intent.action.MAIN" /> -->
-        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-        <!-- </intent-filter> -->
-        <!-- </activity> -->
-
         <activity
-            android:name="com.kevinmaher.x14328981.happy.ResultsActivity"
-            android:label="@string/text_title_feeling" />
+            android:name="com.kevinmaher.x14328981.happy.HomeActivity"
+            android:label="@string/text_title_home" />
         <activity
-            android:name="com.kevinmaher.x14328981.happy.FeelingActivity2"
-            android:label="@string/text_title_feeling" />
+            android:name="com.kevinmaher.x14328981.happy.LogActivity"
+            android:label="@string/text_title_log" />
         <activity
             android:name="com.kevinmaher.x14328981.happy.LoginActivity"
             android:label="@string/text_title_login" />
@@ -51,12 +44,17 @@
             android:name="com.kevinmaher.x14328981.happy.RegisterActivity"
             android:label="@string/text_title_register" />
         <activity
+            android:name="com.kevinmaher.x14328981.happy.ResultsActivity"
+            android:label="@string/text_title_feeling" />
+        <activity
             android:name="com.kevinmaher.x14328981.happy.SettingsActivity"
             android:label="@string/text_title_settings" />
-        <activity
-            android:name="com.kevinmaher.x14328981.buttons_green.BottomNavActivity"
-            android:label="@string/title_activity_bottom_nav" />
-
+        <!-- <activity android:name=".SplashScreenActivity" android:theme="@style/SplashTheme"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
         <meta-data
             android:name="android.support.VERSION"
             android:value="26.1.0" />
