@@ -36,6 +36,9 @@
             android:name=".MapActivity"
             android:label="@string/text_title_map" />
         <activity
+            android:name=".NavActivity"
+            android:label="@string/text_title_nav" />
+        <activity
             android:name=".RecordActivity"
             android:label="@string/text_title_record" />
         <activity

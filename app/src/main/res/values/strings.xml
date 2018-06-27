@@ -44,5 +44,11 @@
     <string name="text_chat_message_bot_1">Hello, how are you feeling today? :)</string>
     <string name="btn_help_send">Send</string>
     <string name="text_title_chat">Chat</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_record">Record</string>
+    <string name="nav_activity">Activity</string>
+    <string name="text_title_nav">Nav</string>
 
 </resources>

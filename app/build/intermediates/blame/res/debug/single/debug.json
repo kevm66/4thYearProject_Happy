@@ -8,12 +8,12 @@
         "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\1ebd38fddadf2de859b046530943464a\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
-        "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
-        "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\1ebd38fddadf2de859b046530943464a\\res\\layout-v16\\notification_template_custom_big.xml"
-    },
-    {
         "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
         "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\1ebd38fddadf2de859b046530943464a\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\1ebd38fddadf2de859b046530943464a\\res\\layout-v16\\notification_template_custom_big.xml"
     },
     {
         "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
@@ -76,12 +76,12 @@
         "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6136da807edb52f76eeea80f4e23d86c\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
-        "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6136da807edb52f76eeea80f4e23d86c\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
-    },
-    {
         "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\1ebd38fddadf2de859b046530943464a\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6136da807edb52f76eeea80f4e23d86c\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_select_dialog_material.xml.flat",
@@ -240,12 +240,12 @@
         "source": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\src\\main\\res\\mipmap-hdpi\\map.png"
     },
     {
-        "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_tick_mark_material.xml.flat",
-        "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6136da807edb52f76eeea80f4e23d86c\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
         "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6136da807edb52f76eeea80f4e23d86c\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_tick_mark_material.xml.flat",
+        "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6136da807edb52f76eeea80f4e23d86c\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -316,12 +316,12 @@
         "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6136da807edb52f76eeea80f4e23d86c\\res\\color-v21\\abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6136da807edb52f76eeea80f4e23d86c\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
         "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6136da807edb52f76eeea80f4e23d86c\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6136da807edb52f76eeea80f4e23d86c\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_design_snackbar_background.xml.flat",
@@ -372,12 +372,12 @@
         "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\d40e7e5eb4887ed62f0a261c0351e7c6\\res\\drawable-xhdpi-v4\\design_ic_visibility_off.png"
     },
     {
-        "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_exit.xml.flat",
-        "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6136da807edb52f76eeea80f4e23d86c\\res\\anim\\abc_popup_exit.xml"
-    },
-    {
         "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_check_material.xml.flat",
         "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6136da807edb52f76eeea80f4e23d86c\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_exit.xml.flat",
+        "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6136da807edb52f76eeea80f4e23d86c\\res\\anim\\abc_popup_exit.xml"
     },
     {
         "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
@@ -1006,6 +1006,10 @@
     {
         "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6136da807edb52f76eeea80f4e23d86c\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_nav.xml.flat",
+        "source": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\src\\main\\res\\layout\\activity_nav.xml"
     },
     {
         "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_enter.xml.flat",

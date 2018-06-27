@@ -21,8 +21,9 @@ public class MainActivity extends AppCompatActivity {
         Log.e("myTag","WARN");
 
         Button btnMainLogin = (Button)findViewById(R.id.btn_help_websites);
-        Button btnMainRegister = (Button)findViewById(R.id.btn_home_map);;
-        Button btnSettings = (Button)findViewById(R.id.btn_main_settings);;
+        Button btnMainRegister = (Button)findViewById(R.id.btn_home_map);
+        Button btnSettings = (Button)findViewById(R.id.btn_main_settings);
+        Button btnNav = (Button)findViewById(R.id.btn_main_nav);
 
         btnMainLogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,6 +43,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, SettingsActivity.class));
+            }
+        });
+
+        btnNav.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, NavActivity.class));
             }
         });
     }
