@@ -19,6 +19,12 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
+            android:name="com.kevinmaher.x14328981.happy.ChatActivity"
+            android:label="@string/text_title_chat" />
+        <activity
+            android:name="com.kevinmaher.x14328981.happy.HelpActivity"
+            android:label="@string/text_title_help" />
+        <activity
             android:name="com.kevinmaher.x14328981.happy.HomeActivity"
             android:label="@string/text_title_home" />
         <activity

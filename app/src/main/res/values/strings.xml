@@ -36,5 +36,13 @@
     <string name="title_notifications">Notifications</string>
     <string name="text_title_home">Home</string>
     <string name="text_title_log">My Mood Log</string>
+    <string name="btn_help_websites">Websites</string>
+    <string name="btn_help_phone">Phone Numbers</string>
+    <string name="text_title_help">Help + Support</string>
+    <string name="btn_chatbox_hint">Enter your message</string>
+    <string name="text_chat_message_user_1">Hi</string>
+    <string name="text_chat_message_bot_1">Hello, how are you feeling today? :)</string>
+    <string name="btn_help_send">Send</string>
+    <string name="text_title_chat">Chat</string>
 
 </resources>

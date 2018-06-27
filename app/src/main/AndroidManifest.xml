@@ -12,6 +12,12 @@
         android:theme="@style/AppTheme">
 
         <activity
+            android:name=".ChatActivity"
+            android:label="@string/text_title_chat" />
+        <activity
+            android:name=".HelpActivity"
+            android:label="@string/text_title_help" />
+        <activity
             android:name=".HomeActivity"
             android:label="@string/text_title_home" />
         <activity

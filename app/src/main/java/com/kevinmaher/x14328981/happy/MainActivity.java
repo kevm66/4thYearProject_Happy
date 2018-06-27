@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         Log.v("myTag","VERBOSE");
         Log.e("myTag","WARN");
 
-        Button btnMainLogin = (Button)findViewById(R.id.btn_home_record);
+        Button btnMainLogin = (Button)findViewById(R.id.btn_help_websites);
         Button btnMainRegister = (Button)findViewById(R.id.btn_home_map);;
         Button btnSettings = (Button)findViewById(R.id.btn_main_settings);;
 

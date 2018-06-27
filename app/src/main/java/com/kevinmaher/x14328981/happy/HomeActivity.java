@@ -15,7 +15,7 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        Button btnRecord = (Button) findViewById(R.id.btn_home_record);
+        Button btnRecord = (Button) findViewById(R.id.btn_help_websites);
         Button btnLog = (Button) findViewById(R.id.btn_home_log);
         Button btnResults = (Button) findViewById(R.id.btn_home_results);
         Button btnMap = (Button) findViewById(R.id.btn_home_map);
@@ -50,19 +50,19 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
-//        btnChat.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(HomeActivity.this, ChatActivity.class));
-//            }
-//        });
+        btnChat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HomeActivity.this, ChatActivity.class));
+            }
+        });
 
-//        btnHelp.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(HomeActivity.this, HelpActivity.class));
-//            }
-//        });
+        btnHelp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HomeActivity.this, HelpActivity.class));
+            }
+        });
     }
 
     //menu button
