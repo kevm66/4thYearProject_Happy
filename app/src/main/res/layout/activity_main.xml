@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_main_login"
+        android:layout_width="339dp"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/text_title_main"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttons_orange"
+        android:text="@string/btn_login_main"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_main_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignEnd="@+id/btn_main_register2"
+        android:layout_alignLeft="@+id/btn_main_register2"
+        android:layout_alignRight="@+id/btn_main_register2"
+        android:layout_alignStart="@+id/btn_main_register2"
+        android:layout_below="@+id/btn_main_register2"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/buttons_grey"
+        android:text="Settings"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_main_register2"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignEnd="@+id/btn_main_login"
+        android:layout_alignLeft="@+id/btn_main_login"
+        android:layout_alignRight="@+id/btn_main_login"
+        android:layout_alignStart="@+id/btn_main_login"
+        android:layout_alignTop="@+id/btn_main_login"
+        android:layout_marginTop="@dimen/button_top_spacing"
+        android:background="@drawable/buttons_orange"
+        android:text="@string/btn_register_main"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/text_title_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/text_title_main"
+        android:textSize="@dimen/title_text_size"
+        android:textStyle="bold" />
+
+</RelativeLayout>

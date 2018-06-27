@@ -1,0 +1,221 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:2:1-54:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\d603536b5d36f2870bbc4e6190c04c58\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\c1550e24f5f6147da098e84e14704902\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\33d2034fb2783d244f198325175a6adf\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\b8ae1e6bf6c09373f0435246d6685c39\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\21be117c61ae1a92251ff9e50c633891\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\52b32b7489ad13effcd82de542cab3f5\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\1952daadf68bd80561d3419e21c839bc\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b39974c6f25b41b7f5499a55b1d33ead\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\6e0ace1003b83800511dbb698d708571\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\f2ad098999e6fea4af2731caca3ff110\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\cc00c1af4ed026249976d2dd7c89cff2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\6ba6e212d4f2db3eec47a39eea5658b7\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f481c45bffe7be9e7ad26f9028e5a608\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5484ac523dbed506ad1758eb55f2d83b\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:2:1-54:12
+	package
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:3:5-45
+		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:2:1-54:12
+		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:2:1-54:12
+		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:5:5-52:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\d603536b5d36f2870bbc4e6190c04c58\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\d603536b5d36f2870bbc4e6190c04c58\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\c1550e24f5f6147da098e84e14704902\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\c1550e24f5f6147da098e84e14704902\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\33d2034fb2783d244f198325175a6adf\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\33d2034fb2783d244f198325175a6adf\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\b8ae1e6bf6c09373f0435246d6685c39\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\b8ae1e6bf6c09373f0435246d6685c39\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\21be117c61ae1a92251ff9e50c633891\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\21be117c61ae1a92251ff9e50c633891\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\52b32b7489ad13effcd82de542cab3f5\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\52b32b7489ad13effcd82de542cab3f5\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\1952daadf68bd80561d3419e21c839bc\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\1952daadf68bd80561d3419e21c839bc\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b39974c6f25b41b7f5499a55b1d33ead\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b39974c6f25b41b7f5499a55b1d33ead\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\6e0ace1003b83800511dbb698d708571\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\6e0ace1003b83800511dbb698d708571\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\f2ad098999e6fea4af2731caca3ff110\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\f2ad098999e6fea4af2731caca3ff110\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\cc00c1af4ed026249976d2dd7c89cff2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\cc00c1af4ed026249976d2dd7c89cff2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\6ba6e212d4f2db3eec47a39eea5658b7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\6ba6e212d4f2db3eec47a39eea5658b7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f481c45bffe7be9e7ad26f9028e5a608\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f481c45bffe7be9e7ad26f9028e5a608\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5484ac523dbed506ad1758eb55f2d83b\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5484ac523dbed506ad1758eb55f2d83b\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:12:9-40
+	android:name
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:6:9-42
+activity#com.kevinmaher.x14328981.happy.ResultsActivity
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:21:9-23:58
+	android:label
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:23:13-55
+	android:name
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:22:13-44
+activity#com.kevinmaher.x14328981.happy.FeelingActivity2
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:24:9-26:58
+	android:label
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:26:13-55
+	android:name
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:25:13-45
+activity#com.kevinmaher.x14328981.happy.LoginActivity
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:27:9-29:56
+	android:label
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:29:13-53
+	android:name
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:28:13-42
+activity#com.kevinmaher.x14328981.happy.MainActivity
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:30:9-36:20
+	android:name
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:30:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:31:13-35:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:34:27-74
+activity#com.kevinmaher.x14328981.happy.MapActivity
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:37:9-39:54
+	android:label
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:39:13-51
+	android:name
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:38:13-40
+activity#com.kevinmaher.x14328981.happy.RecordActivity
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:40:9-42:57
+	android:label
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:42:13-54
+	android:name
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:41:13-43
+activity#com.kevinmaher.x14328981.happy.RegisterActivity
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:43:9-45:59
+	android:label
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:45:13-56
+	android:name
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:44:13-45
+activity#com.kevinmaher.x14328981.happy.SettingsActivity
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:46:9-48:59
+	android:label
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:48:13-56
+	android:name
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:47:13-45
+activity#com.kevinmaher.x14328981.buttons_green.BottomNavActivity
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:49:9-51:74
+	android:label
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:51:13-62
+	android:name
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:50:13-84
+uses-sdk
+INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\d603536b5d36f2870bbc4e6190c04c58\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\d603536b5d36f2870bbc4e6190c04c58\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\c1550e24f5f6147da098e84e14704902\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\c1550e24f5f6147da098e84e14704902\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\33d2034fb2783d244f198325175a6adf\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\33d2034fb2783d244f198325175a6adf\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\b8ae1e6bf6c09373f0435246d6685c39\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\b8ae1e6bf6c09373f0435246d6685c39\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\21be117c61ae1a92251ff9e50c633891\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\21be117c61ae1a92251ff9e50c633891\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\52b32b7489ad13effcd82de542cab3f5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\52b32b7489ad13effcd82de542cab3f5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\1952daadf68bd80561d3419e21c839bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\1952daadf68bd80561d3419e21c839bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b39974c6f25b41b7f5499a55b1d33ead\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b39974c6f25b41b7f5499a55b1d33ead\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\6e0ace1003b83800511dbb698d708571\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\6e0ace1003b83800511dbb698d708571\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\f2ad098999e6fea4af2731caca3ff110\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\f2ad098999e6fea4af2731caca3ff110\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\cc00c1af4ed026249976d2dd7c89cff2\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\cc00c1af4ed026249976d2dd7c89cff2\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\6ba6e212d4f2db3eec47a39eea5658b7\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\6ba6e212d4f2db3eec47a39eea5658b7\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f481c45bffe7be9e7ad26f9028e5a608\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f481c45bffe7be9e7ad26f9028e5a608\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5484ac523dbed506ad1758eb55f2d83b\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5484ac523dbed506ad1758eb55f2d83b\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\d603536b5d36f2870bbc4e6190c04c58\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\d603536b5d36f2870bbc4e6190c04c58\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\c1550e24f5f6147da098e84e14704902\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\c1550e24f5f6147da098e84e14704902\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\b8ae1e6bf6c09373f0435246d6685c39\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\b8ae1e6bf6c09373f0435246d6685c39\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\21be117c61ae1a92251ff9e50c633891\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\21be117c61ae1a92251ff9e50c633891\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\52b32b7489ad13effcd82de542cab3f5\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\52b32b7489ad13effcd82de542cab3f5\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\1952daadf68bd80561d3419e21c839bc\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\1952daadf68bd80561d3419e21c839bc\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b39974c6f25b41b7f5499a55b1d33ead\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\b39974c6f25b41b7f5499a55b1d33ead\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\6e0ace1003b83800511dbb698d708571\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\6e0ace1003b83800511dbb698d708571\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\f2ad098999e6fea4af2731caca3ff110\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\f2ad098999e6fea4af2731caca3ff110\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\cc00c1af4ed026249976d2dd7c89cff2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\cc00c1af4ed026249976d2dd7c89cff2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\6ba6e212d4f2db3eec47a39eea5658b7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\6ba6e212d4f2db3eec47a39eea5658b7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f481c45bffe7be9e7ad26f9028e5a608\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\f481c45bffe7be9e7ad26f9028e5a608\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\d603536b5d36f2870bbc4e6190c04c58\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\d603536b5d36f2870bbc4e6190c04c58\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5484ac523dbed506ad1758eb55f2d83b\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5484ac523dbed506ad1758eb55f2d83b\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\5484ac523dbed506ad1758eb55f2d83b\AndroidManifest.xml:26:13-58

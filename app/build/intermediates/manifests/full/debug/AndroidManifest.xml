@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kevinmaher.x14328981.buttons_green"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <application
+        android:name="com.kevinmaher.x14328981.happy.SplashScreenDelay"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <!-- <activity android:name=".SplashScreenActivity" android:theme="@style/SplashTheme"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+
+        <activity
+            android:name="com.kevinmaher.x14328981.happy.ResultsActivity"
+            android:label="@string/text_title_feeling" />
+        <activity
+            android:name="com.kevinmaher.x14328981.happy.FeelingActivity2"
+            android:label="@string/text_title_feeling" />
+        <activity
+            android:name="com.kevinmaher.x14328981.happy.LoginActivity"
+            android:label="@string/text_title_login" />
+        <activity android:name="com.kevinmaher.x14328981.happy.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kevinmaher.x14328981.happy.MapActivity"
+            android:label="@string/text_title_map" />
+        <activity
+            android:name="com.kevinmaher.x14328981.happy.RecordActivity"
+            android:label="@string/text_title_record" />
+        <activity
+            android:name="com.kevinmaher.x14328981.happy.RegisterActivity"
+            android:label="@string/text_title_register" />
+        <activity
+            android:name="com.kevinmaher.x14328981.happy.SettingsActivity"
+            android:label="@string/text_title_settings" />
+        <activity
+            android:name="com.kevinmaher.x14328981.buttons_green.BottomNavActivity"
+            android:label="@string/title_activity_bottom_nav" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>

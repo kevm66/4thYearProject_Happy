@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Jun 27 16:07:03 BST 2018
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\Happy Master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

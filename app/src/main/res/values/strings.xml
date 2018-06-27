@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Happy</string>
+    <string name="text_title_main">Welcome</string>
+    <string name="btn_login_main">Login</string>
+    <string name="btn_register_main">Register</string>
+    <string name="btn_settings_main">Settings</string>
+    <string name="btn_video_camera">Add Video from Camera</string>
+    <string name="switch_reminders">Remind me to record my mood</string>
+    <string name="switch_big_text">Sounds</string>
+    <string name="switch_vibration">Vibration</string>
+    <string name="switch_debugging">Debugging</string>
+    <string name="text_version_number">App Version: 0.1</string>
+    <string name="text_title_camera">Login</string>
+    <string name="btn_take_photo">Take Photo</string>
+    <string name="btn_record_video">Record Video</string>
+    <string name="text_title_gallery">Register</string>
+    <string name="btn_select_video">Choose Video</string>
+    <string name="btn_choose_photo">Choose Photo</string>
+    <string name="text_title_login">Login</string>
+    <string name="text_title_register">Register</string>
+    <string name="text_title_settings">Settings</string>
+    <string name="text_title_feeling">How Is Everyone Feeling?</string>
+    <string name="text_title_record">How Are You Feeling?</string>
+    <string name="text_title_map">Mood Map</string>
+    <string name="btn_see_map">See Map</string>
+    <string name="btn_results">How others are feeling</string>
+    <string name="btn_record_main">Record Mood</string>
+    <string name="btn_mood_log">My Log</string>
+    <string name="btn_others">Activity Log</string>
+    <string name="btn_mood_map">Mood Map</string>
+    <string name="btn_chat">Chat</string>
+    <string name="btn_help">Help + Support</string>
+    <string name="title_activity_bottom_nav">BottomNavActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>

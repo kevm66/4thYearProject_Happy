@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_register_create_account"
+        android:layout_width="327dp"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="202dp"
+        android:background="@drawable/buttons_orange"
+        android:text="Create Account"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:ems="10"
+        android:hint="Create Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="143dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+</RelativeLayout>
