@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="15"
-        android:targetSdkVersion="26" />
+        android:targetSdkVersion="27" />
 
     <application
         android:name="com.kevinmaher.x14328981.happy.SplashScreenDelay"
@@ -61,13 +61,6 @@
         <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
         <!-- </intent-filter> -->
         <!-- </activity> -->
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="26.1.0" />
-        <meta-data
-            android:name="android.arch.lifecycle.VERSION"
-            android:value="27.0.0-SNAPSHOT" />
-
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
             android:authorities="com.kevinmaher.x14328981.buttons_green.com.android.tools.ir.server.InstantRunContentProvider"
