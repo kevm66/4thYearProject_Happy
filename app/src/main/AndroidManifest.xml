@@ -15,6 +15,9 @@
             android:name=".ChatActivity"
             android:label="@string/text_title_chat" />
         <activity
+            android:name=".Frag1Activity"
+            android:label="@string/text_title_frag_1" />
+        <activity
             android:name=".HelpActivity"
             android:label="@string/text_title_help" />
         <activity

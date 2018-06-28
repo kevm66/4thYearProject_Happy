@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<RelativeLayout
+    android:id="@+id/activity_nav"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,24 +9,40 @@
     tools:context="com.kevinmaher.x14328981.happy.NavActivity">
 
     <FrameLayout
-        android:id="@+id/container"
+        android:id="@+id/frame_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        android:layout_above="@+id/navigation"
+        android:animateLayoutChanges="true" />
 
     <android.support.design.widget.BottomNavigationView
-        android:id="@+id/navigationView"
-        android:layout_width="0dp"
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="0dp"
-        android:layout_marginStart="0dp"
-        android:background="?android:attr/windowBackground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:itemBackground="@color/colorPrimary"
-        app:itemIconTint="@android:color/white"
-        app:itemTextColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/background_light"
+        app:itemIconTint="@color/nav_item_state_list"
+        app:itemTextColor="@color/nav_item_state_list"
         app:menu="@menu/navigation"/>
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
+
+    <!--Working-->
+    <!--android:background="@color/colorPrimary"-->
+    <!--app:itemIconTint="@color/nav_item_state_list"-->
+    <!--app:itemTextColor="@color/nav_item_state_list"-->
+
+    <!--removed last line of FrameLayout-->
+    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+
+    <!--app:itemBackground="@android:color/background_light"-->
+
+    <!--app:itemIconTint="@android:color/darker_gray"-->
+    <!--app:itemTextColor="@android:color/darker_gray"-->
+
+    <!--app:itemIconTint="@color/nav_item_state_list"-->
+    <!--app:itemTextColor="@color/nav_item_state_list"-->
+
+    <!--app:itemBackground="@color/colorPrimary"-->
+    <!--app:itemIconTint="@android:color/white"-->
+    <!--app:itemTextColor="@android:color/white"-->

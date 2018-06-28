@@ -14,6 +14,17 @@
         android:inputType="textPersonName" />
 
     <Button
+        android:id="@+id/btn_register_login"
+        android:layout_width="327dp"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/buttons_grey"
+        android:text="Go to login"
+        android:textColor="@android:color/white" />
+
+    <Button
         android:id="@+id/btn_register_create_account"
         android:layout_width="327dp"
         android:layout_height="@dimen/button_height"

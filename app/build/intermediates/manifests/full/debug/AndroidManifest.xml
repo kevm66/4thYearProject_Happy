@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kevinmaher.x14328981.buttons_green"
+    package="com.kevinmaher.x14328981.happy"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="21"
         android:targetSdkVersion="27" />
 
     <application
@@ -21,6 +21,9 @@
         <activity
             android:name="com.kevinmaher.x14328981.happy.ChatActivity"
             android:label="@string/text_title_chat" />
+        <activity
+            android:name="com.kevinmaher.x14328981.happy.Frag1Activity"
+            android:label="@string/text_title_frag_1" />
         <activity
             android:name="com.kevinmaher.x14328981.happy.HelpActivity"
             android:label="@string/text_title_help" />

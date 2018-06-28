@@ -50,5 +50,8 @@
     <string name="nav_record">Record</string>
     <string name="nav_activity">Activity</string>
     <string name="text_title_nav">Nav</string>
+    <string name="text_title_frag_1">Frag 1</string>
+    <string name="text_title_frag_2">Frag 2</string>
+    <string name="text_title_frag_3">Frag 3</string>
 
 </resources>

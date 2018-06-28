@@ -5,7 +5,7 @@ package com.kevinmaher.x14328981.happy;
 
 public final class BuildConfig {
   public static final boolean DEBUG = Boolean.parseBoolean("true");
-  public static final String APPLICATION_ID = "com.kevinmaher.x14328981.buttons_green";
+  public static final String APPLICATION_ID = "com.kevinmaher.x14328981.happy";
   public static final String BUILD_TYPE = "debug";
   public static final String FLAVOR = "";
   public static final int VERSION_CODE = 1;

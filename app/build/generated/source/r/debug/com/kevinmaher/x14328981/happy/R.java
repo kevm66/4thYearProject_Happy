@@ -454,12 +454,33 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int behavior_autoHide=0x7f030037;
+    public static final int barrierAllowsGoneWidgets=0x7f030037;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>bottom</td><td>3</td><td></td></tr>
+     * <tr><td>end</td><td>6</td><td></td></tr>
+     * <tr><td>left</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>1</td><td></td></tr>
+     * <tr><td>start</td><td>5</td><td></td></tr>
+     * <tr><td>top</td><td>2</td><td></td></tr>
+     * </table>
+     */
+    public static final int barrierDirection=0x7f030038;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int behavior_hideable=0x7f030038;
+    public static final int behavior_autoHide=0x7f030039;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int behavior_hideable=0x7f03003a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -467,7 +488,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int behavior_overlapTop=0x7f030039;
+    public static final int behavior_overlapTop=0x7f03003b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -483,12 +504,12 @@ public final class R {
      * <tr><td>auto</td><td>ffffffff</td><td></td></tr>
      * </table>
      */
-    public static final int behavior_peekHeight=0x7f03003a;
+    public static final int behavior_peekHeight=0x7f03003c;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int behavior_skipCollapsed=0x7f03003b;
+    public static final int behavior_skipCollapsed=0x7f03003d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -496,63 +517,63 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int borderWidth=0x7f03003c;
+    public static final int borderWidth=0x7f03003e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int borderlessButtonStyle=0x7f03003d;
+    public static final int borderlessButtonStyle=0x7f03003f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int bottomSheetDialogTheme=0x7f03003e;
+    public static final int bottomSheetDialogTheme=0x7f030040;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int bottomSheetStyle=0x7f03003f;
+    public static final int bottomSheetStyle=0x7f030041;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonBarButtonStyle=0x7f030040;
+    public static final int buttonBarButtonStyle=0x7f030042;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonBarNegativeButtonStyle=0x7f030041;
+    public static final int buttonBarNegativeButtonStyle=0x7f030043;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonBarNeutralButtonStyle=0x7f030042;
+    public static final int buttonBarNeutralButtonStyle=0x7f030044;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonBarPositiveButtonStyle=0x7f030043;
+    public static final int buttonBarPositiveButtonStyle=0x7f030045;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonBarStyle=0x7f030044;
+    public static final int buttonBarStyle=0x7f030046;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -564,7 +585,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int buttonGravity=0x7f030045;
+    public static final int buttonGravity=0x7f030047;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -572,34 +593,34 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int buttonIconDimen=0x7f030046;
+    public static final int buttonIconDimen=0x7f030048;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonPanelSideLayout=0x7f030047;
+    public static final int buttonPanelSideLayout=0x7f030049;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonStyle=0x7f030048;
+    public static final int buttonStyle=0x7f03004a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int buttonStyleSmall=0x7f030049;
+    public static final int buttonStyleSmall=0x7f03004b;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int buttonTint=0x7f03004a;
+    public static final int buttonTint=0x7f03004c;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -615,47 +636,52 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int buttonTintMode=0x7f03004b;
+    public static final int buttonTintMode=0x7f03004d;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int chainUseRtl=0x7f03004e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int checkboxStyle=0x7f03004c;
+    public static final int checkboxStyle=0x7f03004f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int checkedTextViewStyle=0x7f03004d;
+    public static final int checkedTextViewStyle=0x7f030050;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int closeIcon=0x7f03004e;
+    public static final int closeIcon=0x7f030051;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int closeItemLayout=0x7f03004f;
+    public static final int closeItemLayout=0x7f030052;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int collapseContentDescription=0x7f030050;
+    public static final int collapseContentDescription=0x7f030053;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int collapseIcon=0x7f030051;
+    public static final int collapseIcon=0x7f030054;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -675,56 +701,56 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int collapsedTitleGravity=0x7f030052;
+    public static final int collapsedTitleGravity=0x7f030055;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int collapsedTitleTextAppearance=0x7f030053;
+    public static final int collapsedTitleTextAppearance=0x7f030056;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int color=0x7f030054;
+    public static final int color=0x7f030057;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorAccent=0x7f030055;
+    public static final int colorAccent=0x7f030058;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorBackgroundFloating=0x7f030056;
+    public static final int colorBackgroundFloating=0x7f030059;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorButtonNormal=0x7f030057;
+    public static final int colorButtonNormal=0x7f03005a;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorControlActivated=0x7f030058;
+    public static final int colorControlActivated=0x7f03005b;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorControlHighlight=0x7f030059;
+    public static final int colorControlHighlight=0x7f03005c;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorControlNormal=0x7f03005a;
+    public static final int colorControlNormal=0x7f03005d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -734,44 +760,56 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorError=0x7f03005b;
+    public static final int colorError=0x7f03005e;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorPrimary=0x7f03005c;
+    public static final int colorPrimary=0x7f03005f;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorPrimaryDark=0x7f03005d;
+    public static final int colorPrimaryDark=0x7f030060;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int colorSwitchThumbNormal=0x7f03005e;
+    public static final int colorSwitchThumbNormal=0x7f030061;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int commitIcon=0x7f03005f;
+    public static final int commitIcon=0x7f030062;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int constraintSet=0x7f030060;
+    public static final int constraintSet=0x7f030063;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int contentDescription=0x7f030061;
+    public static final int constraint_referenced_ids=0x7f030064;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int content=0x7f030065;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int contentDescription=0x7f030066;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -779,7 +817,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetEnd=0x7f030062;
+    public static final int contentInsetEnd=0x7f030067;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -787,7 +825,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetEndWithActions=0x7f030063;
+    public static final int contentInsetEndWithActions=0x7f030068;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -795,7 +833,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetLeft=0x7f030064;
+    public static final int contentInsetLeft=0x7f030069;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -803,7 +841,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetRight=0x7f030065;
+    public static final int contentInsetRight=0x7f03006a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -811,7 +849,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetStart=0x7f030066;
+    public static final int contentInsetStart=0x7f03006b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -819,62 +857,62 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int contentInsetStartWithNavigation=0x7f030067;
+    public static final int contentInsetStartWithNavigation=0x7f03006c;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int contentScrim=0x7f030068;
+    public static final int contentScrim=0x7f03006d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int controlBackground=0x7f030069;
+    public static final int controlBackground=0x7f03006e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int coordinatorLayoutStyle=0x7f03006a;
+    public static final int coordinatorLayoutStyle=0x7f03006f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int counterEnabled=0x7f03006b;
+    public static final int counterEnabled=0x7f030070;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int counterMaxLength=0x7f03006c;
+    public static final int counterMaxLength=0x7f030071;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int counterOverflowTextAppearance=0x7f03006d;
+    public static final int counterOverflowTextAppearance=0x7f030072;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int counterTextAppearance=0x7f03006e;
+    public static final int counterTextAppearance=0x7f030073;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int customNavigationLayout=0x7f03006f;
+    public static final int customNavigationLayout=0x7f030074;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int defaultQueryHint=0x7f030070;
+    public static final int defaultQueryHint=0x7f030075;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -882,14 +920,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dialogPreferredPadding=0x7f030071;
+    public static final int dialogPreferredPadding=0x7f030076;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dialogTheme=0x7f030072;
+    public static final int dialogTheme=0x7f030077;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -906,21 +944,21 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int displayOptions=0x7f030073;
+    public static final int displayOptions=0x7f030078;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int divider=0x7f030074;
+    public static final int divider=0x7f030079;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerHorizontal=0x7f030075;
+    public static final int dividerHorizontal=0x7f03007a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -928,14 +966,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dividerPadding=0x7f030076;
+    public static final int dividerPadding=0x7f03007b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerVertical=0x7f030077;
+    public static final int dividerVertical=0x7f03007c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -943,21 +981,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int drawableSize=0x7f030078;
+    public static final int drawableSize=0x7f03007d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int drawerArrowStyle=0x7f030079;
+    public static final int drawerArrowStyle=0x7f03007e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dropDownListViewStyle=0x7f03007a;
+    public static final int dropDownListViewStyle=0x7f03007f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -965,14 +1003,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dropdownListPreferredItemHeight=0x7f03007b;
+    public static final int dropdownListPreferredItemHeight=0x7f030080;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextBackground=0x7f03007c;
+    public static final int editTextBackground=0x7f030081;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -982,14 +1020,14 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int editTextColor=0x7f03007d;
+    public static final int editTextColor=0x7f030082;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextStyle=0x7f03007e;
+    public static final int editTextStyle=0x7f030083;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -997,31 +1035,43 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int elevation=0x7f03007f;
+    public static final int elevation=0x7f030084;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>gone</td><td>0</td><td></td></tr>
+     * <tr><td>invisible</td><td>1</td><td></td></tr>
+     * </table>
+     */
+    public static final int emptyVisibility=0x7f030085;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int errorEnabled=0x7f030080;
+    public static final int errorEnabled=0x7f030086;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int errorTextAppearance=0x7f030081;
+    public static final int errorTextAppearance=0x7f030087;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int expandActivityOverflowButtonDrawable=0x7f030082;
+    public static final int expandActivityOverflowButtonDrawable=0x7f030088;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int expanded=0x7f030083;
+    public static final int expanded=0x7f030089;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1041,7 +1091,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int expandedTitleGravity=0x7f030084;
+    public static final int expandedTitleGravity=0x7f03008a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1049,7 +1099,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMargin=0x7f030085;
+    public static final int expandedTitleMargin=0x7f03008b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1057,7 +1107,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginBottom=0x7f030086;
+    public static final int expandedTitleMarginBottom=0x7f03008c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1065,7 +1115,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginEnd=0x7f030087;
+    public static final int expandedTitleMarginEnd=0x7f03008d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1073,7 +1123,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginStart=0x7f030088;
+    public static final int expandedTitleMarginStart=0x7f03008e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1081,14 +1131,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginTop=0x7f030089;
+    public static final int expandedTitleMarginTop=0x7f03008f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int expandedTitleTextAppearance=0x7f03008a;
+    public static final int expandedTitleTextAppearance=0x7f030090;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1096,7 +1146,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int fabCustomSize=0x7f03008b;
+    public static final int fabCustomSize=0x7f030091;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1109,64 +1159,64 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fabSize=0x7f03008c;
+    public static final int fabSize=0x7f030092;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int fastScrollEnabled=0x7f03008d;
+    public static final int fastScrollEnabled=0x7f030093;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollHorizontalThumbDrawable=0x7f03008e;
+    public static final int fastScrollHorizontalThumbDrawable=0x7f030094;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollHorizontalTrackDrawable=0x7f03008f;
+    public static final int fastScrollHorizontalTrackDrawable=0x7f030095;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollVerticalThumbDrawable=0x7f030090;
+    public static final int fastScrollVerticalThumbDrawable=0x7f030096;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollVerticalTrackDrawable=0x7f030091;
+    public static final int fastScrollVerticalTrackDrawable=0x7f030097;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int font=0x7f030092;
+    public static final int font=0x7f030098;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontFamily=0x7f030093;
+    public static final int fontFamily=0x7f030099;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderAuthority=0x7f030094;
+    public static final int fontProviderAuthority=0x7f03009a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fontProviderCerts=0x7f030095;
+    public static final int fontProviderCerts=0x7f03009b;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1178,7 +1228,7 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontProviderFetchStrategy=0x7f030096;
+    public static final int fontProviderFetchStrategy=0x7f03009c;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      * <p>Must be one of the following constant values.</p>
@@ -1190,17 +1240,17 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      */
-    public static final int fontProviderFetchTimeout=0x7f030097;
+    public static final int fontProviderFetchTimeout=0x7f03009d;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderPackage=0x7f030098;
+    public static final int fontProviderPackage=0x7f03009e;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderQuery=0x7f030099;
+    public static final int fontProviderQuery=0x7f03009f;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1212,16 +1262,16 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontStyle=0x7f03009a;
+    public static final int fontStyle=0x7f0300a0;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int fontWeight=0x7f03009b;
+    public static final int fontWeight=0x7f0300a1;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int foregroundInsidePadding=0x7f03009c;
+    public static final int foregroundInsidePadding=0x7f0300a2;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1229,21 +1279,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int gapBetweenBars=0x7f03009d;
+    public static final int gapBetweenBars=0x7f0300a3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int goIcon=0x7f03009e;
+    public static final int goIcon=0x7f0300a4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int headerLayout=0x7f03009f;
+    public static final int headerLayout=0x7f0300a5;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1251,56 +1301,56 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int height=0x7f0300a0;
+    public static final int height=0x7f0300a6;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hideOnContentScroll=0x7f0300a1;
+    public static final int hideOnContentScroll=0x7f0300a7;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hintAnimationEnabled=0x7f0300a2;
+    public static final int hintAnimationEnabled=0x7f0300a8;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hintEnabled=0x7f0300a3;
+    public static final int hintEnabled=0x7f0300a9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int hintTextAppearance=0x7f0300a4;
+    public static final int hintTextAppearance=0x7f0300aa;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeAsUpIndicator=0x7f0300a5;
+    public static final int homeAsUpIndicator=0x7f0300ab;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeLayout=0x7f0300a6;
+    public static final int homeLayout=0x7f0300ac;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int icon=0x7f0300a7;
+    public static final int icon=0x7f0300ad;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int iconTint=0x7f0300a8;
+    public static final int iconTint=0x7f0300ae;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1316,31 +1366,31 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int iconTintMode=0x7f0300a9;
+    public static final int iconTintMode=0x7f0300af;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int iconifiedByDefault=0x7f0300aa;
+    public static final int iconifiedByDefault=0x7f0300b0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int imageButtonStyle=0x7f0300ab;
+    public static final int imageButtonStyle=0x7f0300b1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int indeterminateProgressStyle=0x7f0300ac;
+    public static final int indeterminateProgressStyle=0x7f0300b2;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int initialActivityCount=0x7f0300ad;
+    public static final int initialActivityCount=0x7f0300b3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1350,25 +1400,25 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int insetForeground=0x7f0300ae;
+    public static final int insetForeground=0x7f0300b4;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int isLightTheme=0x7f0300af;
+    public static final int isLightTheme=0x7f0300b5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int itemBackground=0x7f0300b0;
+    public static final int itemBackground=0x7f0300b6;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int itemIconTint=0x7f0300b1;
+    public static final int itemIconTint=0x7f0300b7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1376,46 +1426,46 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemPadding=0x7f0300b2;
+    public static final int itemPadding=0x7f0300b8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int itemTextAppearance=0x7f0300b3;
+    public static final int itemTextAppearance=0x7f0300b9;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int itemTextColor=0x7f0300b4;
+    public static final int itemTextColor=0x7f0300ba;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int keylines=0x7f0300b5;
+    public static final int keylines=0x7f0300bb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout=0x7f0300b6;
+    public static final int layout=0x7f0300bc;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layoutManager=0x7f0300b7;
+    public static final int layoutManager=0x7f0300bd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_anchor=0x7f0300b8;
+    public static final int layout_anchor=0x7f0300be;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1439,12 +1489,12 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_anchorGravity=0x7f0300b9;
+    public static final int layout_anchorGravity=0x7f0300bf;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layout_behavior=0x7f0300ba;
+    public static final int layout_behavior=0x7f0300c0;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1457,15 +1507,25 @@ public final class R {
      * <tr><td>pin</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_collapseMode=0x7f0300bb;
+    public static final int layout_collapseMode=0x7f0300c1;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_collapseParallaxMultiplier=0x7f0300bc;
+    public static final int layout_collapseParallaxMultiplier=0x7f0300c2;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int layout_constrainedHeight=0x7f0300c3;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int layout_constrainedWidth=0x7f0300c4;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintBaseline_creator=0x7f0300bd;
+    public static final int layout_constraintBaseline_creator=0x7f0300c5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1480,11 +1540,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBaseline_toBaselineOf=0x7f0300be;
+    public static final int layout_constraintBaseline_toBaselineOf=0x7f0300c6;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintBottom_creator=0x7f0300bf;
+    public static final int layout_constraintBottom_creator=0x7f0300c7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1499,7 +1559,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBottom_toBottomOf=0x7f0300c0;
+    public static final int layout_constraintBottom_toBottomOf=0x7f0300c8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1514,12 +1574,31 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBottom_toTopOf=0x7f0300c1;
+    public static final int layout_constraintBottom_toTopOf=0x7f0300c9;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int layout_constraintCircle=0x7f0300ca;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int layout_constraintCircleAngle=0x7f0300cb;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int layout_constraintCircleRadius=0x7f0300cc;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layout_constraintDimensionRatio=0x7f0300c2;
+    public static final int layout_constraintDimensionRatio=0x7f0300cd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1534,7 +1613,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintEnd_toEndOf=0x7f0300c3;
+    public static final int layout_constraintEnd_toEndOf=0x7f0300ce;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1549,7 +1628,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintEnd_toStartOf=0x7f0300c4;
+    public static final int layout_constraintEnd_toStartOf=0x7f0300cf;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1557,7 +1636,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintGuide_begin=0x7f0300c5;
+    public static final int layout_constraintGuide_begin=0x7f0300d0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1565,11 +1644,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintGuide_end=0x7f0300c6;
+    public static final int layout_constraintGuide_end=0x7f0300d1;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintGuide_percent=0x7f0300c7;
+    public static final int layout_constraintGuide_percent=0x7f0300d2;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1577,31 +1656,52 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
      * <tr><td>spread</td><td>0</td><td></td></tr>
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHeight_default=0x7f0300c8;
+    public static final int layout_constraintHeight_default=0x7f0300d3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
      */
-    public static final int layout_constraintHeight_max=0x7f0300c9;
+    public static final int layout_constraintHeight_max=0x7f0300d4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
      */
-    public static final int layout_constraintHeight_min=0x7f0300ca;
+    public static final int layout_constraintHeight_min=0x7f0300d5;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHorizontal_bias=0x7f0300cb;
+    public static final int layout_constraintHeight_percent=0x7f0300d6;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int layout_constraintHorizontal_bias=0x7f0300d7;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1614,15 +1714,15 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHorizontal_chainStyle=0x7f0300cc;
+    public static final int layout_constraintHorizontal_chainStyle=0x7f0300d8;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHorizontal_weight=0x7f0300cd;
+    public static final int layout_constraintHorizontal_weight=0x7f0300d9;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintLeft_creator=0x7f0300ce;
+    public static final int layout_constraintLeft_creator=0x7f0300da;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1637,7 +1737,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintLeft_toLeftOf=0x7f0300cf;
+    public static final int layout_constraintLeft_toLeftOf=0x7f0300db;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1652,11 +1752,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintLeft_toRightOf=0x7f0300d0;
+    public static final int layout_constraintLeft_toRightOf=0x7f0300dc;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintRight_creator=0x7f0300d1;
+    public static final int layout_constraintRight_creator=0x7f0300dd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1671,7 +1771,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintRight_toLeftOf=0x7f0300d2;
+    public static final int layout_constraintRight_toLeftOf=0x7f0300de;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1686,7 +1786,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintRight_toRightOf=0x7f0300d3;
+    public static final int layout_constraintRight_toRightOf=0x7f0300df;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1701,7 +1801,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintStart_toEndOf=0x7f0300d4;
+    public static final int layout_constraintStart_toEndOf=0x7f0300e0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1716,11 +1816,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintStart_toStartOf=0x7f0300d5;
+    public static final int layout_constraintStart_toStartOf=0x7f0300e1;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintTop_creator=0x7f0300d6;
+    public static final int layout_constraintTop_creator=0x7f0300e2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1735,7 +1835,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintTop_toBottomOf=0x7f0300d7;
+    public static final int layout_constraintTop_toBottomOf=0x7f0300e3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1750,11 +1850,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintTop_toTopOf=0x7f0300d8;
+    public static final int layout_constraintTop_toTopOf=0x7f0300e4;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintVertical_bias=0x7f0300d9;
+    public static final int layout_constraintVertical_bias=0x7f0300e5;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1767,11 +1867,11 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintVertical_chainStyle=0x7f0300da;
+    public static final int layout_constraintVertical_chainStyle=0x7f0300e6;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintVertical_weight=0x7f0300db;
+    public static final int layout_constraintVertical_weight=0x7f0300e7;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1779,27 +1879,48 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
      * <tr><td>spread</td><td>0</td><td></td></tr>
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintWidth_default=0x7f0300dc;
+    public static final int layout_constraintWidth_default=0x7f0300e8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
      */
-    public static final int layout_constraintWidth_max=0x7f0300dd;
+    public static final int layout_constraintWidth_max=0x7f0300e9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
      * Available units are: px (pixels), dp (density-independent pixels),
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
      */
-    public static final int layout_constraintWidth_min=0x7f0300de;
+    public static final int layout_constraintWidth_min=0x7f0300ea;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int layout_constraintWidth_percent=0x7f0300eb;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1817,7 +1938,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_dodgeInsetEdges=0x7f0300df;
+    public static final int layout_dodgeInsetEdges=0x7f0300ec;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1825,7 +1946,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_editor_absoluteX=0x7f0300e0;
+    public static final int layout_editor_absoluteX=0x7f0300ed;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1833,7 +1954,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_editor_absoluteY=0x7f0300e1;
+    public static final int layout_editor_absoluteY=0x7f0300ee;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1841,7 +1962,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginBottom=0x7f0300e2;
+    public static final int layout_goneMarginBottom=0x7f0300ef;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1849,7 +1970,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginEnd=0x7f0300e3;
+    public static final int layout_goneMarginEnd=0x7f0300f0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1857,7 +1978,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginLeft=0x7f0300e4;
+    public static final int layout_goneMarginLeft=0x7f0300f1;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1865,7 +1986,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginRight=0x7f0300e5;
+    public static final int layout_goneMarginRight=0x7f0300f2;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1873,7 +1994,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginStart=0x7f0300e6;
+    public static final int layout_goneMarginStart=0x7f0300f3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1881,7 +2002,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginTop=0x7f0300e7;
+    public static final int layout_goneMarginTop=0x7f0300f4;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1898,11 +2019,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int layout_insetEdge=0x7f0300e8;
+    public static final int layout_insetEdge=0x7f0300f5;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_keyline=0x7f0300e9;
+    public static final int layout_keyline=0x7f0300f6;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1910,13 +2031,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>all</td><td>2</td><td></td></tr>
-     * <tr><td>basic</td><td>4</td><td></td></tr>
-     * <tr><td>chains</td><td>8</td><td></td></tr>
-     * <tr><td>none</td><td>1</td><td></td></tr>
+     * <tr><td>barrier</td><td>2</td><td></td></tr>
+     * <tr><td>chains</td><td>4</td><td></td></tr>
+     * <tr><td>dimensions</td><td>8</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int layout_optimizationLevel=0x7f0300ea;
+    public static final int layout_optimizationLevel=0x7f0300f7;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1931,56 +2054,56 @@ public final class R {
      * <tr><td>snap</td><td>10</td><td></td></tr>
      * </table>
      */
-    public static final int layout_scrollFlags=0x7f0300eb;
+    public static final int layout_scrollFlags=0x7f0300f8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_scrollInterpolator=0x7f0300ec;
+    public static final int layout_scrollInterpolator=0x7f0300f9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listChoiceBackgroundIndicator=0x7f0300ed;
+    public static final int listChoiceBackgroundIndicator=0x7f0300fa;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listDividerAlertDialog=0x7f0300ee;
+    public static final int listDividerAlertDialog=0x7f0300fb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listItemLayout=0x7f0300ef;
+    public static final int listItemLayout=0x7f0300fc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listLayout=0x7f0300f0;
+    public static final int listLayout=0x7f0300fd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listMenuViewStyle=0x7f0300f1;
+    public static final int listMenuViewStyle=0x7f0300fe;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listPopupWindowStyle=0x7f0300f2;
+    public static final int listPopupWindowStyle=0x7f0300ff;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1988,7 +2111,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeight=0x7f0300f3;
+    public static final int listPreferredItemHeight=0x7f030100;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1996,7 +2119,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeightLarge=0x7f0300f4;
+    public static final int listPreferredItemHeightLarge=0x7f030101;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2004,7 +2127,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeightSmall=0x7f0300f5;
+    public static final int listPreferredItemHeightSmall=0x7f030102;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2012,7 +2135,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingLeft=0x7f0300f6;
+    public static final int listPreferredItemPaddingLeft=0x7f030103;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2020,19 +2143,19 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingRight=0x7f0300f7;
+    public static final int listPreferredItemPaddingRight=0x7f030104;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int logo=0x7f0300f8;
+    public static final int logo=0x7f030105;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int logoDescription=0x7f0300f9;
+    public static final int logoDescription=0x7f030106;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2040,7 +2163,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxActionInlineWidth=0x7f0300fa;
+    public static final int maxActionInlineWidth=0x7f030107;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2048,38 +2171,38 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxButtonHeight=0x7f0300fb;
+    public static final int maxButtonHeight=0x7f030108;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int measureWithLargestChild=0x7f0300fc;
+    public static final int measureWithLargestChild=0x7f030109;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int menu=0x7f0300fd;
+    public static final int menu=0x7f03010a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int multiChoiceItemLayout=0x7f0300fe;
+    public static final int multiChoiceItemLayout=0x7f03010b;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int navigationContentDescription=0x7f0300ff;
+    public static final int navigationContentDescription=0x7f03010c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int navigationIcon=0x7f030100;
+    public static final int navigationIcon=0x7f03010d;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2092,7 +2215,7 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int navigationMode=0x7f030101;
+    public static final int navigationMode=0x7f03010e;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2108,12 +2231,12 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int numericModifiers=0x7f030102;
+    public static final int numericModifiers=0x7f03010f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int overlapAnchor=0x7f030103;
+    public static final int overlapAnchor=0x7f030110;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2121,7 +2244,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingBottomNoButtons=0x7f030104;
+    public static final int paddingBottomNoButtons=0x7f030111;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2129,7 +2252,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingEnd=0x7f030105;
+    public static final int paddingEnd=0x7f030112;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2137,7 +2260,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingStart=0x7f030106;
+    public static final int paddingStart=0x7f030113;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2145,21 +2268,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingTopNoTitle=0x7f030107;
+    public static final int paddingTopNoTitle=0x7f030114;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelBackground=0x7f030108;
+    public static final int panelBackground=0x7f030115;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelMenuListTheme=0x7f030109;
+    public static final int panelMenuListTheme=0x7f030116;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2167,30 +2290,30 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int panelMenuListWidth=0x7f03010a;
+    public static final int panelMenuListWidth=0x7f030117;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int passwordToggleContentDescription=0x7f03010b;
+    public static final int passwordToggleContentDescription=0x7f030118;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int passwordToggleDrawable=0x7f03010c;
+    public static final int passwordToggleDrawable=0x7f030119;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int passwordToggleEnabled=0x7f03010d;
+    public static final int passwordToggleEnabled=0x7f03011a;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int passwordToggleTint=0x7f03010e;
+    public static final int passwordToggleTint=0x7f03011b;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2205,33 +2328,33 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int passwordToggleTintMode=0x7f03010f;
+    public static final int passwordToggleTintMode=0x7f03011c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupMenuStyle=0x7f030110;
+    public static final int popupMenuStyle=0x7f03011d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupTheme=0x7f030111;
+    public static final int popupTheme=0x7f03011e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupWindowStyle=0x7f030112;
+    public static final int popupWindowStyle=0x7f03011f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int preserveIconSpacing=0x7f030113;
+    public static final int preserveIconSpacing=0x7f030120;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2239,7 +2362,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int pressedTranslationZ=0x7f030114;
+    public static final int pressedTranslationZ=0x7f030121;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2247,69 +2370,69 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int progressBarPadding=0x7f030115;
+    public static final int progressBarPadding=0x7f030122;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int progressBarStyle=0x7f030116;
+    public static final int progressBarStyle=0x7f030123;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int queryBackground=0x7f030117;
+    public static final int queryBackground=0x7f030124;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int queryHint=0x7f030118;
+    public static final int queryHint=0x7f030125;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int radioButtonStyle=0x7f030119;
+    public static final int radioButtonStyle=0x7f030126;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyle=0x7f03011a;
+    public static final int ratingBarStyle=0x7f030127;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleIndicator=0x7f03011b;
+    public static final int ratingBarStyleIndicator=0x7f030128;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleSmall=0x7f03011c;
+    public static final int ratingBarStyleSmall=0x7f030129;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int reverseLayout=0x7f03011d;
+    public static final int reverseLayout=0x7f03012a;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int rippleColor=0x7f03011e;
+    public static final int rippleColor=0x7f03012b;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int scrimAnimationDuration=0x7f03011f;
+    public static final int scrimAnimationDuration=0x7f03012c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2317,49 +2440,49 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int scrimVisibleHeightTrigger=0x7f030120;
+    public static final int scrimVisibleHeightTrigger=0x7f03012d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchHintIcon=0x7f030121;
+    public static final int searchHintIcon=0x7f03012e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchIcon=0x7f030122;
+    public static final int searchIcon=0x7f03012f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchViewStyle=0x7f030123;
+    public static final int searchViewStyle=0x7f030130;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int seekBarStyle=0x7f030124;
+    public static final int seekBarStyle=0x7f030131;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackground=0x7f030125;
+    public static final int selectableItemBackground=0x7f030132;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackgroundBorderless=0x7f030126;
+    public static final int selectableItemBackgroundBorderless=0x7f030133;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2374,7 +2497,7 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int showAsAction=0x7f030127;
+    public static final int showAsAction=0x7f030134;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2388,79 +2511,79 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int showDividers=0x7f030128;
+    public static final int showDividers=0x7f030135;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showText=0x7f030129;
+    public static final int showText=0x7f030136;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showTitle=0x7f03012a;
+    public static final int showTitle=0x7f030137;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int singleChoiceItemLayout=0x7f03012b;
+    public static final int singleChoiceItemLayout=0x7f030138;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int spanCount=0x7f03012c;
+    public static final int spanCount=0x7f030139;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int spinBars=0x7f03012d;
+    public static final int spinBars=0x7f03013a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerDropDownItemStyle=0x7f03012e;
+    public static final int spinnerDropDownItemStyle=0x7f03013b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerStyle=0x7f03012f;
+    public static final int spinnerStyle=0x7f03013c;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int splitTrack=0x7f030130;
+    public static final int splitTrack=0x7f03013d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int srcCompat=0x7f030131;
+    public static final int srcCompat=0x7f03013e;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int stackFromEnd=0x7f030132;
+    public static final int stackFromEnd=0x7f03013f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_above_anchor=0x7f030133;
+    public static final int state_above_anchor=0x7f030140;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_collapsed=0x7f030134;
+    public static final int state_collapsed=0x7f030141;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_collapsible=0x7f030135;
+    public static final int state_collapsible=0x7f030142;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2470,59 +2593,59 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int statusBarBackground=0x7f030136;
+    public static final int statusBarBackground=0x7f030143;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int statusBarScrim=0x7f030137;
+    public static final int statusBarScrim=0x7f030144;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subMenuArrow=0x7f030138;
+    public static final int subMenuArrow=0x7f030145;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int submitBackground=0x7f030139;
+    public static final int submitBackground=0x7f030146;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int subtitle=0x7f03013a;
+    public static final int subtitle=0x7f030147;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextAppearance=0x7f03013b;
+    public static final int subtitleTextAppearance=0x7f030148;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int subtitleTextColor=0x7f03013c;
+    public static final int subtitleTextColor=0x7f030149;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextStyle=0x7f03013d;
+    public static final int subtitleTextStyle=0x7f03014a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int suggestionRowLayout=0x7f03013e;
+    public static final int suggestionRowLayout=0x7f03014b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2530,7 +2653,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchMinWidth=0x7f03013f;
+    public static final int switchMinWidth=0x7f03014c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2538,28 +2661,28 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchPadding=0x7f030140;
+    public static final int switchPadding=0x7f03014d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchStyle=0x7f030141;
+    public static final int switchStyle=0x7f03014e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchTextAppearance=0x7f030142;
+    public static final int switchTextAppearance=0x7f03014f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabBackground=0x7f030143;
+    public static final int tabBackground=0x7f030150;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2567,7 +2690,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabContentStart=0x7f030144;
+    public static final int tabContentStart=0x7f030151;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2579,13 +2702,13 @@ public final class R {
      * <tr><td>fill</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int tabGravity=0x7f030145;
+    public static final int tabGravity=0x7f030152;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabIndicatorColor=0x7f030146;
+    public static final int tabIndicatorColor=0x7f030153;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2593,7 +2716,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabIndicatorHeight=0x7f030147;
+    public static final int tabIndicatorHeight=0x7f030154;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2601,7 +2724,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabMaxWidth=0x7f030148;
+    public static final int tabMaxWidth=0x7f030155;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2609,7 +2732,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabMinWidth=0x7f030149;
+    public static final int tabMinWidth=0x7f030156;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2621,7 +2744,7 @@ public final class R {
      * <tr><td>scrollable</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int tabMode=0x7f03014a;
+    public static final int tabMode=0x7f030157;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2629,7 +2752,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPadding=0x7f03014b;
+    public static final int tabPadding=0x7f030158;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2637,7 +2760,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingBottom=0x7f03014c;
+    public static final int tabPaddingBottom=0x7f030159;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2645,7 +2768,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingEnd=0x7f03014d;
+    public static final int tabPaddingEnd=0x7f03015a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2653,7 +2776,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingStart=0x7f03014e;
+    public static final int tabPaddingStart=0x7f03015b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2661,26 +2784,26 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingTop=0x7f03014f;
+    public static final int tabPaddingTop=0x7f03015c;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabSelectedTextColor=0x7f030150;
+    public static final int tabSelectedTextColor=0x7f03015d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabTextAppearance=0x7f030151;
+    public static final int tabTextAppearance=0x7f03015e;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabTextColor=0x7f030152;
+    public static final int tabTextColor=0x7f03015f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2689,73 +2812,63 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int textAllCaps=0x7f030153;
+    public static final int textAllCaps=0x7f030160;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceLargePopupMenu=0x7f030154;
+    public static final int textAppearanceLargePopupMenu=0x7f030161;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItem=0x7f030155;
+    public static final int textAppearanceListItem=0x7f030162;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSecondary=0x7f030156;
+    public static final int textAppearanceListItemSecondary=0x7f030163;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSmall=0x7f030157;
+    public static final int textAppearanceListItemSmall=0x7f030164;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearancePopupMenuHeader=0x7f030158;
+    public static final int textAppearancePopupMenuHeader=0x7f030165;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultSubtitle=0x7f030159;
+    public static final int textAppearanceSearchResultSubtitle=0x7f030166;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultTitle=0x7f03015a;
+    public static final int textAppearanceSearchResultTitle=0x7f030167;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSmallPopupMenu=0x7f03015b;
-    /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int textColorAlertDialogListItem=0x7f03015c;
+    public static final int textAppearanceSmallPopupMenu=0x7f030168;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2765,7 +2878,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorError=0x7f03015d;
+    public static final int textColorAlertDialogListItem=0x7f030169;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2775,14 +2888,24 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorSearchUrl=0x7f03015e;
+    public static final int textColorError=0x7f03016a;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int textColorSearchUrl=0x7f03016b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int theme=0x7f03015f;
+    public static final int theme=0x7f03016c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2790,7 +2913,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thickness=0x7f030160;
+    public static final int thickness=0x7f03016d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2798,13 +2921,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thumbTextPadding=0x7f030161;
+    public static final int thumbTextPadding=0x7f03016e;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int thumbTint=0x7f030162;
+    public static final int thumbTint=0x7f03016f;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2820,20 +2943,20 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int thumbTintMode=0x7f030163;
+    public static final int thumbTintMode=0x7f030170;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tickMark=0x7f030164;
+    public static final int tickMark=0x7f030171;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tickMarkTint=0x7f030165;
+    public static final int tickMarkTint=0x7f030172;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2849,13 +2972,13 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tickMarkTintMode=0x7f030166;
+    public static final int tickMarkTintMode=0x7f030173;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tint=0x7f030167;
+    public static final int tint=0x7f030174;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2871,17 +2994,17 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tintMode=0x7f030168;
+    public static final int tintMode=0x7f030175;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int title=0x7f030169;
+    public static final int title=0x7f030176;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int titleEnabled=0x7f03016a;
+    public static final int titleEnabled=0x7f030177;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2889,7 +3012,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargin=0x7f03016b;
+    public static final int titleMargin=0x7f030178;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2897,7 +3020,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginBottom=0x7f03016c;
+    public static final int titleMarginBottom=0x7f030179;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2905,7 +3028,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginEnd=0x7f03016d;
+    public static final int titleMarginEnd=0x7f03017a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2913,7 +3036,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginStart=0x7f03016e;
+    public static final int titleMarginStart=0x7f03017b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2921,7 +3044,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginTop=0x7f03016f;
+    public static final int titleMarginTop=0x7f03017c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2929,48 +3052,48 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargins=0x7f030170;
+    public static final int titleMargins=0x7f03017d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextAppearance=0x7f030171;
+    public static final int titleTextAppearance=0x7f03017e;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int titleTextColor=0x7f030172;
+    public static final int titleTextColor=0x7f03017f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextStyle=0x7f030173;
+    public static final int titleTextStyle=0x7f030180;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarId=0x7f030174;
+    public static final int toolbarId=0x7f030181;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarNavigationButtonStyle=0x7f030175;
+    public static final int toolbarNavigationButtonStyle=0x7f030182;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarStyle=0x7f030176;
+    public static final int toolbarStyle=0x7f030183;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2980,32 +3103,32 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tooltipForegroundColor=0x7f030177;
+    public static final int tooltipForegroundColor=0x7f030184;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tooltipFrameBackground=0x7f030178;
+    public static final int tooltipFrameBackground=0x7f030185;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int tooltipText=0x7f030179;
+    public static final int tooltipText=0x7f030186;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int track=0x7f03017a;
+    public static final int track=0x7f030187;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int trackTint=0x7f03017b;
+    public static final int trackTint=0x7f030188;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3021,39 +3144,39 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int trackTintMode=0x7f03017c;
+    public static final int trackTintMode=0x7f030189;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int useCompatPadding=0x7f03017d;
+    public static final int useCompatPadding=0x7f03018a;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int viewInflaterClass=0x7f03017e;
+    public static final int viewInflaterClass=0x7f03018b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int voiceIcon=0x7f03017f;
+    public static final int voiceIcon=0x7f03018c;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBar=0x7f030180;
+    public static final int windowActionBar=0x7f03018d;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBarOverlay=0x7f030181;
+    public static final int windowActionBarOverlay=0x7f03018e;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionModeOverlay=0x7f030182;
+    public static final int windowActionModeOverlay=0x7f03018f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3065,7 +3188,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMajor=0x7f030183;
+    public static final int windowFixedHeightMajor=0x7f030190;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3077,7 +3200,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMinor=0x7f030184;
+    public static final int windowFixedHeightMinor=0x7f030191;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3089,7 +3212,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMajor=0x7f030185;
+    public static final int windowFixedWidthMajor=0x7f030192;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3101,7 +3224,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMinor=0x7f030186;
+    public static final int windowFixedWidthMinor=0x7f030193;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3113,7 +3236,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMajor=0x7f030187;
+    public static final int windowMinWidthMajor=0x7f030194;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3125,12 +3248,12 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMinor=0x7f030188;
+    public static final int windowMinWidthMinor=0x7f030195;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowNoTitle=0x7f030189;
+    public static final int windowNoTitle=0x7f030196;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f040000;
@@ -3213,33 +3336,34 @@ public final class R {
     public static final int material_grey_800=0x7f050047;
     public static final int material_grey_850=0x7f050048;
     public static final int material_grey_900=0x7f050049;
-    public static final int notification_action_color_filter=0x7f05004a;
-    public static final int notification_icon_bg_color=0x7f05004b;
-    public static final int notification_material_background_media_default_color=0x7f05004c;
-    public static final int primary_dark_material_dark=0x7f05004d;
-    public static final int primary_dark_material_light=0x7f05004e;
-    public static final int primary_material_dark=0x7f05004f;
-    public static final int primary_material_light=0x7f050050;
-    public static final int primary_text_default_material_dark=0x7f050051;
-    public static final int primary_text_default_material_light=0x7f050052;
-    public static final int primary_text_disabled_material_dark=0x7f050053;
-    public static final int primary_text_disabled_material_light=0x7f050054;
-    public static final int ripple_material_dark=0x7f050055;
-    public static final int ripple_material_light=0x7f050056;
-    public static final int secondary_text_default_material_dark=0x7f050057;
-    public static final int secondary_text_default_material_light=0x7f050058;
-    public static final int secondary_text_disabled_material_dark=0x7f050059;
-    public static final int secondary_text_disabled_material_light=0x7f05005a;
-    public static final int splash_screen_icon=0x7f05005b;
-    public static final int splash_screen_icon_background=0x7f05005c;
-    public static final int switch_thumb_disabled_material_dark=0x7f05005d;
-    public static final int switch_thumb_disabled_material_light=0x7f05005e;
-    public static final int switch_thumb_material_dark=0x7f05005f;
-    public static final int switch_thumb_material_light=0x7f050060;
-    public static final int switch_thumb_normal_material_dark=0x7f050061;
-    public static final int switch_thumb_normal_material_light=0x7f050062;
-    public static final int tooltip_background_dark=0x7f050063;
-    public static final int tooltip_background_light=0x7f050064;
+    public static final int nav_item_state_list=0x7f05004a;
+    public static final int notification_action_color_filter=0x7f05004b;
+    public static final int notification_icon_bg_color=0x7f05004c;
+    public static final int notification_material_background_media_default_color=0x7f05004d;
+    public static final int primary_dark_material_dark=0x7f05004e;
+    public static final int primary_dark_material_light=0x7f05004f;
+    public static final int primary_material_dark=0x7f050050;
+    public static final int primary_material_light=0x7f050051;
+    public static final int primary_text_default_material_dark=0x7f050052;
+    public static final int primary_text_default_material_light=0x7f050053;
+    public static final int primary_text_disabled_material_dark=0x7f050054;
+    public static final int primary_text_disabled_material_light=0x7f050055;
+    public static final int ripple_material_dark=0x7f050056;
+    public static final int ripple_material_light=0x7f050057;
+    public static final int secondary_text_default_material_dark=0x7f050058;
+    public static final int secondary_text_default_material_light=0x7f050059;
+    public static final int secondary_text_disabled_material_dark=0x7f05005a;
+    public static final int secondary_text_disabled_material_light=0x7f05005b;
+    public static final int splash_screen_icon=0x7f05005c;
+    public static final int splash_screen_icon_background=0x7f05005d;
+    public static final int switch_thumb_disabled_material_dark=0x7f05005e;
+    public static final int switch_thumb_disabled_material_light=0x7f05005f;
+    public static final int switch_thumb_material_dark=0x7f050060;
+    public static final int switch_thumb_material_light=0x7f050061;
+    public static final int switch_thumb_normal_material_dark=0x7f050062;
+    public static final int switch_thumb_normal_material_light=0x7f050063;
+    public static final int tooltip_background_dark=0x7f050064;
+    public static final int tooltip_background_light=0x7f050065;
   }
   public static final class dimen {
     public static final int abc_action_bar_content_inset_material=0x7f060000;
@@ -3551,17 +3675,17 @@ public final class R {
     public static final int action_mode_bar=0x7f080014;
     public static final int action_mode_bar_stub=0x7f080015;
     public static final int action_mode_close_button=0x7f080016;
-    public static final int action_settings=0x7f080017;
-    public static final int action_text=0x7f080018;
-    public static final int actions=0x7f080019;
-    public static final int activity_chooser_view_content=0x7f08001a;
+    public static final int action_text=0x7f080017;
+    public static final int actions=0x7f080018;
+    public static final int activity_chooser_view_content=0x7f080019;
+    public static final int activity_nav=0x7f08001a;
     public static final int add=0x7f08001b;
     public static final int alertTitle=0x7f08001c;
     public static final int all=0x7f08001d;
     public static final int always=0x7f08001e;
     public static final int async=0x7f08001f;
     public static final int auto=0x7f080020;
-    public static final int basic=0x7f080021;
+    public static final int barrier=0x7f080021;
     public static final int beginning=0x7f080022;
     public static final int blocking=0x7f080023;
     public static final int bottom=0x7f080024;
@@ -3582,196 +3706,208 @@ public final class R {
     public static final int btn_indifferent2=0x7f080033;
     public static final int btn_log_filter=0x7f080034;
     public static final int btn_login_login=0x7f080035;
-    public static final int btn_main_nav=0x7f080036;
-    public static final int btn_main_settings=0x7f080037;
-    public static final int btn_record=0x7f080038;
-    public static final int btn_register_create_account=0x7f080039;
-    public static final int btn_results=0x7f08003a;
-    public static final int btn_results_filter=0x7f08003b;
-    public static final int btn_sad=0x7f08003c;
-    public static final int btn_sad2=0x7f08003d;
-    public static final int btn_see_map=0x7f08003e;
-    public static final int buttonPanel=0x7f08003f;
-    public static final int cancel_action=0x7f080040;
-    public static final int center=0x7f080041;
-    public static final int center_horizontal=0x7f080042;
-    public static final int center_vertical=0x7f080043;
-    public static final int chains=0x7f080044;
-    public static final int checkbox=0x7f080045;
-    public static final int chronometer=0x7f080046;
-    public static final int clip_horizontal=0x7f080047;
-    public static final int clip_vertical=0x7f080048;
-    public static final int collapseActionView=0x7f080049;
-    public static final int container=0x7f08004a;
-    public static final int contentPanel=0x7f08004b;
-    public static final int coordinator=0x7f08004c;
-    public static final int custom=0x7f08004d;
-    public static final int customPanel=0x7f08004e;
-    public static final int decor_content_parent=0x7f08004f;
-    public static final int default_activity_button=0x7f080050;
-    public static final int design_bottom_sheet=0x7f080051;
-    public static final int design_menu_item_action_area=0x7f080052;
-    public static final int design_menu_item_action_area_stub=0x7f080053;
-    public static final int design_menu_item_text=0x7f080054;
-    public static final int design_navigation_view=0x7f080055;
-    public static final int disableHome=0x7f080056;
-    public static final int editText2=0x7f080057;
-    public static final int editText3=0x7f080058;
-    public static final int editText4=0x7f080059;
-    public static final int editText6=0x7f08005a;
-    public static final int editText8=0x7f08005b;
-    public static final int edit_query=0x7f08005c;
-    public static final int end=0x7f08005d;
-    public static final int end_padder=0x7f08005e;
-    public static final int enterAlways=0x7f08005f;
-    public static final int enterAlwaysCollapsed=0x7f080060;
-    public static final int exitUntilCollapsed=0x7f080061;
-    public static final int expand_activities_button=0x7f080062;
-    public static final int expanded_menu=0x7f080063;
-    public static final int fill=0x7f080064;
-    public static final int fill_horizontal=0x7f080065;
-    public static final int fill_vertical=0x7f080066;
-    public static final int fixed=0x7f080067;
-    public static final int forever=0x7f080068;
-    public static final int ghost_view=0x7f080069;
-    public static final int home=0x7f08006a;
-    public static final int homeAsUp=0x7f08006b;
-    public static final int icon=0x7f08006c;
-    public static final int icon_group=0x7f08006d;
-    public static final int ifRoom=0x7f08006e;
-    public static final int image=0x7f08006f;
-    public static final int imageView2=0x7f080070;
-    public static final int info=0x7f080071;
-    public static final int italic=0x7f080072;
-    public static final int item_touch_helper_previous_elevation=0x7f080073;
-    public static final int largeLabel=0x7f080074;
-    public static final int left=0x7f080075;
-    public static final int line1=0x7f080076;
-    public static final int line3=0x7f080077;
-    public static final int listMode=0x7f080078;
-    public static final int list_item=0x7f080079;
-    public static final int masked=0x7f08007a;
-    public static final int media_actions=0x7f08007b;
-    public static final int message=0x7f08007c;
-    public static final int middle=0x7f08007d;
-    public static final int mini=0x7f08007e;
-    public static final int multiply=0x7f08007f;
-    public static final int nav_activity=0x7f080080;
-    public static final int nav_home=0x7f080081;
-    public static final int nav_record=0x7f080082;
-    public static final int navigationView=0x7f080083;
-    public static final int navigation_header_container=0x7f080084;
-    public static final int never=0x7f080085;
-    public static final int none=0x7f080086;
-    public static final int normal=0x7f080087;
-    public static final int notification_background=0x7f080088;
-    public static final int notification_main_column=0x7f080089;
-    public static final int notification_main_column_container=0x7f08008a;
-    public static final int packed=0x7f08008b;
-    public static final int parallax=0x7f08008c;
-    public static final int parent=0x7f08008d;
-    public static final int parentPanel=0x7f08008e;
-    public static final int parent_matrix=0x7f08008f;
-    public static final int pin=0x7f080090;
-    public static final int progress_circular=0x7f080091;
-    public static final int progress_horizontal=0x7f080092;
-    public static final int radio=0x7f080093;
-    public static final int right=0x7f080094;
-    public static final int right_icon=0x7f080095;
-    public static final int right_side=0x7f080096;
-    public static final int save_image_matrix=0x7f080097;
-    public static final int save_non_transition_alpha=0x7f080098;
-    public static final int save_scale_type=0x7f080099;
-    public static final int screen=0x7f08009a;
-    public static final int scroll=0x7f08009b;
-    public static final int scrollIndicatorDown=0x7f08009c;
-    public static final int scrollIndicatorUp=0x7f08009d;
-    public static final int scrollView=0x7f08009e;
-    public static final int scrollable=0x7f08009f;
-    public static final int search_badge=0x7f0800a0;
-    public static final int search_bar=0x7f0800a1;
-    public static final int search_button=0x7f0800a2;
-    public static final int search_close_btn=0x7f0800a3;
-    public static final int search_edit_frame=0x7f0800a4;
-    public static final int search_go_btn=0x7f0800a5;
-    public static final int search_mag_icon=0x7f0800a6;
-    public static final int search_plate=0x7f0800a7;
-    public static final int search_src_text=0x7f0800a8;
-    public static final int search_voice_btn=0x7f0800a9;
-    public static final int select_dialog_listview=0x7f0800aa;
-    public static final int shortcut=0x7f0800ab;
-    public static final int showCustom=0x7f0800ac;
-    public static final int showHome=0x7f0800ad;
-    public static final int showTitle=0x7f0800ae;
-    public static final int smallLabel=0x7f0800af;
-    public static final int snackbar_action=0x7f0800b0;
-    public static final int snackbar_text=0x7f0800b1;
-    public static final int snap=0x7f0800b2;
-    public static final int spacer=0x7f0800b3;
-    public static final int split_action_bar=0x7f0800b4;
-    public static final int spread=0x7f0800b5;
-    public static final int spread_inside=0x7f0800b6;
-    public static final int src_atop=0x7f0800b7;
-    public static final int src_in=0x7f0800b8;
-    public static final int src_over=0x7f0800b9;
-    public static final int start=0x7f0800ba;
-    public static final int status_bar_latest_event_content=0x7f0800bb;
-    public static final int submenuarrow=0x7f0800bc;
-    public static final int submit_area=0x7f0800bd;
-    public static final int switch_debugging=0x7f0800be;
-    public static final int switch_reminders=0x7f0800bf;
-    public static final int switch_sounds=0x7f0800c0;
-    public static final int switch_vibration=0x7f0800c1;
-    public static final int tabMode=0x7f0800c2;
-    public static final int tag_transition_group=0x7f0800c3;
-    public static final int text=0x7f0800c4;
-    public static final int text2=0x7f0800c5;
-    public static final int textSpacerNoButtons=0x7f0800c6;
-    public static final int textSpacerNoTitle=0x7f0800c7;
-    public static final int textView=0x7f0800c8;
-    public static final int textView10=0x7f0800c9;
-    public static final int textView11=0x7f0800ca;
-    public static final int textView12=0x7f0800cb;
-    public static final int textView13=0x7f0800cc;
-    public static final int textView14=0x7f0800cd;
-    public static final int textView15=0x7f0800ce;
-    public static final int textView16=0x7f0800cf;
-    public static final int textView2=0x7f0800d0;
-    public static final int textView3=0x7f0800d1;
-    public static final int textView4=0x7f0800d2;
-    public static final int textView5=0x7f0800d3;
-    public static final int textView6=0x7f0800d4;
-    public static final int textView7=0x7f0800d5;
-    public static final int textView8=0x7f0800d6;
-    public static final int text_chat_message_bot_1=0x7f0800d7;
-    public static final int text_chat_message_user_1=0x7f0800d8;
-    public static final int text_input_password_toggle=0x7f0800d9;
-    public static final int text_title_login=0x7f0800da;
-    public static final int text_title_login4=0x7f0800db;
-    public static final int text_title_main=0x7f0800dc;
-    public static final int text_version_number=0x7f0800dd;
-    public static final int textinput_counter=0x7f0800de;
-    public static final int textinput_error=0x7f0800df;
-    public static final int time=0x7f0800e0;
-    public static final int title=0x7f0800e1;
-    public static final int titleDividerNoCustom=0x7f0800e2;
-    public static final int title_template=0x7f0800e3;
-    public static final int top=0x7f0800e4;
-    public static final int topPanel=0x7f0800e5;
-    public static final int touch_outside=0x7f0800e6;
-    public static final int transition_current_scene=0x7f0800e7;
-    public static final int transition_layout_save=0x7f0800e8;
-    public static final int transition_position=0x7f0800e9;
-    public static final int transition_scene_layoutid_cache=0x7f0800ea;
-    public static final int transition_transform=0x7f0800eb;
-    public static final int uniform=0x7f0800ec;
-    public static final int up=0x7f0800ed;
-    public static final int useLogo=0x7f0800ee;
-    public static final int view_offset_helper=0x7f0800ef;
-    public static final int visible=0x7f0800f0;
-    public static final int withText=0x7f0800f1;
-    public static final int wrap=0x7f0800f2;
-    public static final int wrap_content=0x7f0800f3;
+    public static final int btn_login_register=0x7f080036;
+    public static final int btn_main_nav=0x7f080037;
+    public static final int btn_main_settings=0x7f080038;
+    public static final int btn_record=0x7f080039;
+    public static final int btn_register_create_account=0x7f08003a;
+    public static final int btn_register_login=0x7f08003b;
+    public static final int btn_results=0x7f08003c;
+    public static final int btn_results_filter=0x7f08003d;
+    public static final int btn_sad=0x7f08003e;
+    public static final int btn_sad2=0x7f08003f;
+    public static final int btn_see_map=0x7f080040;
+    public static final int buttonPanel=0x7f080041;
+    public static final int cancel_action=0x7f080042;
+    public static final int center=0x7f080043;
+    public static final int center_horizontal=0x7f080044;
+    public static final int center_vertical=0x7f080045;
+    public static final int chains=0x7f080046;
+    public static final int checkbox=0x7f080047;
+    public static final int chronometer=0x7f080048;
+    public static final int clip_horizontal=0x7f080049;
+    public static final int clip_vertical=0x7f08004a;
+    public static final int collapseActionView=0x7f08004b;
+    public static final int container=0x7f08004c;
+    public static final int contentPanel=0x7f08004d;
+    public static final int coordinator=0x7f08004e;
+    public static final int custom=0x7f08004f;
+    public static final int customPanel=0x7f080050;
+    public static final int decor_content_parent=0x7f080051;
+    public static final int default_activity_button=0x7f080052;
+    public static final int design_bottom_sheet=0x7f080053;
+    public static final int design_menu_item_action_area=0x7f080054;
+    public static final int design_menu_item_action_area_stub=0x7f080055;
+    public static final int design_menu_item_text=0x7f080056;
+    public static final int design_navigation_view=0x7f080057;
+    public static final int dimensions=0x7f080058;
+    public static final int direct=0x7f080059;
+    public static final int disableHome=0x7f08005a;
+    public static final int editText2=0x7f08005b;
+    public static final int editText3=0x7f08005c;
+    public static final int editText4=0x7f08005d;
+    public static final int editText6=0x7f08005e;
+    public static final int editText8=0x7f08005f;
+    public static final int edit_query=0x7f080060;
+    public static final int end=0x7f080061;
+    public static final int end_padder=0x7f080062;
+    public static final int enterAlways=0x7f080063;
+    public static final int enterAlwaysCollapsed=0x7f080064;
+    public static final int exitUntilCollapsed=0x7f080065;
+    public static final int expand_activities_button=0x7f080066;
+    public static final int expanded_menu=0x7f080067;
+    public static final int fill=0x7f080068;
+    public static final int fill_horizontal=0x7f080069;
+    public static final int fill_vertical=0x7f08006a;
+    public static final int fixed=0x7f08006b;
+    public static final int forever=0x7f08006c;
+    public static final int frame_layout=0x7f08006d;
+    public static final int ghost_view=0x7f08006e;
+    public static final int gone=0x7f08006f;
+    public static final int home=0x7f080070;
+    public static final int homeAsUp=0x7f080071;
+    public static final int icon=0x7f080072;
+    public static final int icon_group=0x7f080073;
+    public static final int ifRoom=0x7f080074;
+    public static final int image=0x7f080075;
+    public static final int imageView2=0x7f080076;
+    public static final int info=0x7f080077;
+    public static final int invisible=0x7f080078;
+    public static final int italic=0x7f080079;
+    public static final int item_touch_helper_previous_elevation=0x7f08007a;
+    public static final int largeLabel=0x7f08007b;
+    public static final int left=0x7f08007c;
+    public static final int line1=0x7f08007d;
+    public static final int line3=0x7f08007e;
+    public static final int listMode=0x7f08007f;
+    public static final int list_item=0x7f080080;
+    public static final int masked=0x7f080081;
+    public static final int media_actions=0x7f080082;
+    public static final int menu_help=0x7f080083;
+    public static final int menu_settings=0x7f080084;
+    public static final int message=0x7f080085;
+    public static final int middle=0x7f080086;
+    public static final int mini=0x7f080087;
+    public static final int multiply=0x7f080088;
+    public static final int nav_activity=0x7f080089;
+    public static final int nav_home=0x7f08008a;
+    public static final int nav_record=0x7f08008b;
+    public static final int navigation=0x7f08008c;
+    public static final int navigation_header_container=0x7f08008d;
+    public static final int never=0x7f08008e;
+    public static final int none=0x7f08008f;
+    public static final int normal=0x7f080090;
+    public static final int notification_background=0x7f080091;
+    public static final int notification_main_column=0x7f080092;
+    public static final int notification_main_column_container=0x7f080093;
+    public static final int packed=0x7f080094;
+    public static final int parallax=0x7f080095;
+    public static final int parent=0x7f080096;
+    public static final int parentPanel=0x7f080097;
+    public static final int parent_matrix=0x7f080098;
+    public static final int percent=0x7f080099;
+    public static final int pin=0x7f08009a;
+    public static final int progress_circular=0x7f08009b;
+    public static final int progress_horizontal=0x7f08009c;
+    public static final int radio=0x7f08009d;
+    public static final int right=0x7f08009e;
+    public static final int right_icon=0x7f08009f;
+    public static final int right_side=0x7f0800a0;
+    public static final int save_image_matrix=0x7f0800a1;
+    public static final int save_non_transition_alpha=0x7f0800a2;
+    public static final int save_scale_type=0x7f0800a3;
+    public static final int screen=0x7f0800a4;
+    public static final int scroll=0x7f0800a5;
+    public static final int scrollIndicatorDown=0x7f0800a6;
+    public static final int scrollIndicatorUp=0x7f0800a7;
+    public static final int scrollView=0x7f0800a8;
+    public static final int scrollable=0x7f0800a9;
+    public static final int search_badge=0x7f0800aa;
+    public static final int search_bar=0x7f0800ab;
+    public static final int search_button=0x7f0800ac;
+    public static final int search_close_btn=0x7f0800ad;
+    public static final int search_edit_frame=0x7f0800ae;
+    public static final int search_go_btn=0x7f0800af;
+    public static final int search_mag_icon=0x7f0800b0;
+    public static final int search_plate=0x7f0800b1;
+    public static final int search_src_text=0x7f0800b2;
+    public static final int search_voice_btn=0x7f0800b3;
+    public static final int select_dialog_listview=0x7f0800b4;
+    public static final int shortcut=0x7f0800b5;
+    public static final int showCustom=0x7f0800b6;
+    public static final int showHome=0x7f0800b7;
+    public static final int showTitle=0x7f0800b8;
+    public static final int smallLabel=0x7f0800b9;
+    public static final int snackbar_action=0x7f0800ba;
+    public static final int snackbar_text=0x7f0800bb;
+    public static final int snap=0x7f0800bc;
+    public static final int spacer=0x7f0800bd;
+    public static final int split_action_bar=0x7f0800be;
+    public static final int spread=0x7f0800bf;
+    public static final int spread_inside=0x7f0800c0;
+    public static final int src_atop=0x7f0800c1;
+    public static final int src_in=0x7f0800c2;
+    public static final int src_over=0x7f0800c3;
+    public static final int standard=0x7f0800c4;
+    public static final int start=0x7f0800c5;
+    public static final int status_bar_latest_event_content=0x7f0800c6;
+    public static final int submenuarrow=0x7f0800c7;
+    public static final int submit_area=0x7f0800c8;
+    public static final int switch_debugging=0x7f0800c9;
+    public static final int switch_reminders=0x7f0800ca;
+    public static final int switch_sounds=0x7f0800cb;
+    public static final int switch_vibration=0x7f0800cc;
+    public static final int tabMode=0x7f0800cd;
+    public static final int tag_transition_group=0x7f0800ce;
+    public static final int text=0x7f0800cf;
+    public static final int text2=0x7f0800d0;
+    public static final int textSpacerNoButtons=0x7f0800d1;
+    public static final int textSpacerNoTitle=0x7f0800d2;
+    public static final int textView=0x7f0800d3;
+    public static final int textView10=0x7f0800d4;
+    public static final int textView11=0x7f0800d5;
+    public static final int textView12=0x7f0800d6;
+    public static final int textView13=0x7f0800d7;
+    public static final int textView14=0x7f0800d8;
+    public static final int textView15=0x7f0800d9;
+    public static final int textView16=0x7f0800da;
+    public static final int textView2=0x7f0800db;
+    public static final int textView3=0x7f0800dc;
+    public static final int textView4=0x7f0800dd;
+    public static final int textView5=0x7f0800de;
+    public static final int textView6=0x7f0800df;
+    public static final int textView7=0x7f0800e0;
+    public static final int textView8=0x7f0800e1;
+    public static final int text_chat_message_bot_1=0x7f0800e2;
+    public static final int text_chat_message_user_1=0x7f0800e3;
+    public static final int text_input_password_toggle=0x7f0800e4;
+    public static final int text_title_login=0x7f0800e5;
+    public static final int text_title_login4=0x7f0800e6;
+    public static final int text_title_main=0x7f0800e7;
+    public static final int text_version_number=0x7f0800e8;
+    public static final int textinput_counter=0x7f0800e9;
+    public static final int textinput_error=0x7f0800ea;
+    public static final int time=0x7f0800eb;
+    public static final int title=0x7f0800ec;
+    public static final int titleDividerNoCustom=0x7f0800ed;
+    public static final int title_template=0x7f0800ee;
+    public static final int top=0x7f0800ef;
+    public static final int topPanel=0x7f0800f0;
+    public static final int touch_outside=0x7f0800f1;
+    public static final int transition_current_scene=0x7f0800f2;
+    public static final int transition_layout_save=0x7f0800f3;
+    public static final int transition_position=0x7f0800f4;
+    public static final int transition_scene_layoutid_cache=0x7f0800f5;
+    public static final int transition_transform=0x7f0800f6;
+    public static final int truiton_image=0x7f0800f7;
+    public static final int uniform=0x7f0800f8;
+    public static final int up=0x7f0800f9;
+    public static final int useLogo=0x7f0800fa;
+    public static final int view_offset_helper=0x7f0800fb;
+    public static final int visible=0x7f0800fc;
+    public static final int withText=0x7f0800fd;
+    public static final int wrap=0x7f0800fe;
+    public static final int wrap_content=0x7f0800ff;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f090000;
@@ -3814,53 +3950,56 @@ public final class R {
     public static final int abc_select_dialog_material=0x7f0a0019;
     public static final int abc_tooltip=0x7f0a001a;
     public static final int activity_chat=0x7f0a001b;
-    public static final int activity_help=0x7f0a001c;
-    public static final int activity_home=0x7f0a001d;
-    public static final int activity_log=0x7f0a001e;
-    public static final int activity_login=0x7f0a001f;
-    public static final int activity_main=0x7f0a0020;
-    public static final int activity_map=0x7f0a0021;
-    public static final int activity_nav=0x7f0a0022;
-    public static final int activity_record=0x7f0a0023;
-    public static final int activity_register=0x7f0a0024;
-    public static final int activity_results=0x7f0a0025;
-    public static final int activity_settings=0x7f0a0026;
-    public static final int design_bottom_navigation_item=0x7f0a0027;
-    public static final int design_bottom_sheet_dialog=0x7f0a0028;
-    public static final int design_layout_snackbar=0x7f0a0029;
-    public static final int design_layout_snackbar_include=0x7f0a002a;
-    public static final int design_layout_tab_icon=0x7f0a002b;
-    public static final int design_layout_tab_text=0x7f0a002c;
-    public static final int design_menu_item_action_area=0x7f0a002d;
-    public static final int design_navigation_item=0x7f0a002e;
-    public static final int design_navigation_item_header=0x7f0a002f;
-    public static final int design_navigation_item_separator=0x7f0a0030;
-    public static final int design_navigation_item_subheader=0x7f0a0031;
-    public static final int design_navigation_menu=0x7f0a0032;
-    public static final int design_navigation_menu_item=0x7f0a0033;
-    public static final int design_text_input_password_icon=0x7f0a0034;
-    public static final int notification_action=0x7f0a0035;
-    public static final int notification_action_tombstone=0x7f0a0036;
-    public static final int notification_media_action=0x7f0a0037;
-    public static final int notification_media_cancel_action=0x7f0a0038;
-    public static final int notification_template_big_media=0x7f0a0039;
-    public static final int notification_template_big_media_custom=0x7f0a003a;
-    public static final int notification_template_big_media_narrow=0x7f0a003b;
-    public static final int notification_template_big_media_narrow_custom=0x7f0a003c;
-    public static final int notification_template_custom_big=0x7f0a003d;
-    public static final int notification_template_icon_group=0x7f0a003e;
-    public static final int notification_template_lines_media=0x7f0a003f;
-    public static final int notification_template_media=0x7f0a0040;
-    public static final int notification_template_media_custom=0x7f0a0041;
-    public static final int notification_template_part_chronometer=0x7f0a0042;
-    public static final int notification_template_part_time=0x7f0a0043;
-    public static final int select_dialog_item_material=0x7f0a0044;
-    public static final int select_dialog_multichoice_material=0x7f0a0045;
-    public static final int select_dialog_singlechoice_material=0x7f0a0046;
-    public static final int support_simple_spinner_dropdown_item=0x7f0a0047;
+    public static final int activity_frag_1=0x7f0a001c;
+    public static final int activity_frag_2=0x7f0a001d;
+    public static final int activity_frag_3=0x7f0a001e;
+    public static final int activity_help=0x7f0a001f;
+    public static final int activity_home=0x7f0a0020;
+    public static final int activity_log=0x7f0a0021;
+    public static final int activity_login=0x7f0a0022;
+    public static final int activity_main=0x7f0a0023;
+    public static final int activity_map=0x7f0a0024;
+    public static final int activity_nav=0x7f0a0025;
+    public static final int activity_record=0x7f0a0026;
+    public static final int activity_register=0x7f0a0027;
+    public static final int activity_results=0x7f0a0028;
+    public static final int activity_settings=0x7f0a0029;
+    public static final int design_bottom_navigation_item=0x7f0a002a;
+    public static final int design_bottom_sheet_dialog=0x7f0a002b;
+    public static final int design_layout_snackbar=0x7f0a002c;
+    public static final int design_layout_snackbar_include=0x7f0a002d;
+    public static final int design_layout_tab_icon=0x7f0a002e;
+    public static final int design_layout_tab_text=0x7f0a002f;
+    public static final int design_menu_item_action_area=0x7f0a0030;
+    public static final int design_navigation_item=0x7f0a0031;
+    public static final int design_navigation_item_header=0x7f0a0032;
+    public static final int design_navigation_item_separator=0x7f0a0033;
+    public static final int design_navigation_item_subheader=0x7f0a0034;
+    public static final int design_navigation_menu=0x7f0a0035;
+    public static final int design_navigation_menu_item=0x7f0a0036;
+    public static final int design_text_input_password_icon=0x7f0a0037;
+    public static final int notification_action=0x7f0a0038;
+    public static final int notification_action_tombstone=0x7f0a0039;
+    public static final int notification_media_action=0x7f0a003a;
+    public static final int notification_media_cancel_action=0x7f0a003b;
+    public static final int notification_template_big_media=0x7f0a003c;
+    public static final int notification_template_big_media_custom=0x7f0a003d;
+    public static final int notification_template_big_media_narrow=0x7f0a003e;
+    public static final int notification_template_big_media_narrow_custom=0x7f0a003f;
+    public static final int notification_template_custom_big=0x7f0a0040;
+    public static final int notification_template_icon_group=0x7f0a0041;
+    public static final int notification_template_lines_media=0x7f0a0042;
+    public static final int notification_template_media=0x7f0a0043;
+    public static final int notification_template_media_custom=0x7f0a0044;
+    public static final int notification_template_part_chronometer=0x7f0a0045;
+    public static final int notification_template_part_time=0x7f0a0046;
+    public static final int select_dialog_item_material=0x7f0a0047;
+    public static final int select_dialog_multichoice_material=0x7f0a0048;
+    public static final int select_dialog_singlechoice_material=0x7f0a0049;
+    public static final int support_simple_spinner_dropdown_item=0x7f0a004a;
   }
   public static final class menu {
-    public static final int home_menu=0x7f0b0000;
+    public static final int menu_home=0x7f0b0000;
     public static final int navigation=0x7f0b0001;
   }
   public static final class mipmap {
@@ -3947,22 +4086,25 @@ public final class R {
     public static final int text_title_camera=0x7f0d0047;
     public static final int text_title_chat=0x7f0d0048;
     public static final int text_title_feeling=0x7f0d0049;
-    public static final int text_title_gallery=0x7f0d004a;
-    public static final int text_title_help=0x7f0d004b;
-    public static final int text_title_home=0x7f0d004c;
-    public static final int text_title_log=0x7f0d004d;
-    public static final int text_title_login=0x7f0d004e;
-    public static final int text_title_main=0x7f0d004f;
-    public static final int text_title_map=0x7f0d0050;
-    public static final int text_title_nav=0x7f0d0051;
-    public static final int text_title_record=0x7f0d0052;
-    public static final int text_title_register=0x7f0d0053;
-    public static final int text_title_settings=0x7f0d0054;
-    public static final int text_version_number=0x7f0d0055;
-    public static final int title_activity_bottom_nav=0x7f0d0056;
-    public static final int title_dashboard=0x7f0d0057;
-    public static final int title_home=0x7f0d0058;
-    public static final int title_notifications=0x7f0d0059;
+    public static final int text_title_frag_1=0x7f0d004a;
+    public static final int text_title_frag_2=0x7f0d004b;
+    public static final int text_title_frag_3=0x7f0d004c;
+    public static final int text_title_gallery=0x7f0d004d;
+    public static final int text_title_help=0x7f0d004e;
+    public static final int text_title_home=0x7f0d004f;
+    public static final int text_title_log=0x7f0d0050;
+    public static final int text_title_login=0x7f0d0051;
+    public static final int text_title_main=0x7f0d0052;
+    public static final int text_title_map=0x7f0d0053;
+    public static final int text_title_nav=0x7f0d0054;
+    public static final int text_title_record=0x7f0d0055;
+    public static final int text_title_register=0x7f0d0056;
+    public static final int text_title_settings=0x7f0d0057;
+    public static final int text_version_number=0x7f0d0058;
+    public static final int title_activity_bottom_nav=0x7f0d0059;
+    public static final int title_dashboard=0x7f0d005a;
+    public static final int title_home=0x7f0d005b;
+    public static final int title_notifications=0x7f0d005c;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0e0000;
@@ -4352,35 +4494,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.kevinmaher.x14328981.buttons_green:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.kevinmaher.x14328981.buttons_green:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.kevinmaher.x14328981.buttons_green:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.kevinmaher.x14328981.buttons_green:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.kevinmaher.x14328981.buttons_green:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.kevinmaher.x14328981.buttons_green:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.kevinmaher.x14328981.buttons_green:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.kevinmaher.x14328981.buttons_green:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.kevinmaher.x14328981.buttons_green:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.kevinmaher.x14328981.buttons_green:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.kevinmaher.x14328981.buttons_green:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.kevinmaher.x14328981.buttons_green:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.kevinmaher.x14328981.buttons_green:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.kevinmaher.x14328981.buttons_green:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.kevinmaher.x14328981.buttons_green:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.kevinmaher.x14328981.buttons_green:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.kevinmaher.x14328981.buttons_green:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.kevinmaher.x14328981.buttons_green:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.kevinmaher.x14328981.buttons_green:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.kevinmaher.x14328981.buttons_green:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.kevinmaher.x14328981.buttons_green:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.kevinmaher.x14328981.buttons_green:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.kevinmaher.x14328981.buttons_green:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.kevinmaher.x14328981.buttons_green:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.kevinmaher.x14328981.buttons_green:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.kevinmaher.x14328981.buttons_green:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.kevinmaher.x14328981.buttons_green:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.kevinmaher.x14328981.buttons_green:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.kevinmaher.x14328981.buttons_green:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.kevinmaher.x14328981.happy:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.kevinmaher.x14328981.happy:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.kevinmaher.x14328981.happy:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.kevinmaher.x14328981.happy:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.kevinmaher.x14328981.happy:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.kevinmaher.x14328981.happy:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.kevinmaher.x14328981.happy:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.kevinmaher.x14328981.happy:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.kevinmaher.x14328981.happy:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.kevinmaher.x14328981.happy:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.kevinmaher.x14328981.happy:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.kevinmaher.x14328981.happy:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.kevinmaher.x14328981.happy:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.kevinmaher.x14328981.happy:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.kevinmaher.x14328981.happy:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.kevinmaher.x14328981.happy:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.kevinmaher.x14328981.happy:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.kevinmaher.x14328981.happy:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.kevinmaher.x14328981.happy:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.kevinmaher.x14328981.happy:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.kevinmaher.x14328981.happy:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.kevinmaher.x14328981.happy:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.kevinmaher.x14328981.happy:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.kevinmaher.x14328981.happy:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.kevinmaher.x14328981.happy:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.kevinmaher.x14328981.happy:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.kevinmaher.x14328981.happy:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.kevinmaher.x14328981.happy:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.kevinmaher.x14328981.happy:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -4413,17 +4555,17 @@ public final class R {
      * @see #ActionBar_titleTextStyle
      */
     public static final int[] ActionBar={
-        0x7f030031, 0x7f030032, 0x7f030033, 0x7f030062, 
-        0x7f030063, 0x7f030064, 0x7f030065, 0x7f030066, 
-        0x7f030067, 0x7f03006f, 0x7f030073, 0x7f030074, 
-        0x7f03007f, 0x7f0300a0, 0x7f0300a1, 0x7f0300a5, 
-        0x7f0300a6, 0x7f0300a7, 0x7f0300ac, 0x7f0300b2, 
-        0x7f0300f8, 0x7f030101, 0x7f030111, 0x7f030115, 
-        0x7f030116, 0x7f03013a, 0x7f03013d, 0x7f030169, 
-        0x7f030173
+        0x7f030031, 0x7f030032, 0x7f030033, 0x7f030067, 
+        0x7f030068, 0x7f030069, 0x7f03006a, 0x7f03006b, 
+        0x7f03006c, 0x7f030074, 0x7f030078, 0x7f030079, 
+        0x7f030084, 0x7f0300a6, 0x7f0300a7, 0x7f0300ab, 
+        0x7f0300ac, 0x7f0300ad, 0x7f0300b2, 0x7f0300b8, 
+        0x7f030105, 0x7f03010e, 0x7f03011e, 0x7f030122, 
+        0x7f030123, 0x7f030147, 0x7f03014a, 0x7f030176, 
+        0x7f030180
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4431,11 +4573,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:background
+     * @attr name com.kevinmaher.x14328981.happy:background
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4446,11 +4588,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:backgroundSplit
+     * @attr name com.kevinmaher.x14328981.happy:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4461,11 +4603,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:backgroundStacked
+     * @attr name com.kevinmaher.x14328981.happy:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4474,11 +4616,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:contentInsetEnd
+     * @attr name com.kevinmaher.x14328981.happy:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4487,11 +4629,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:contentInsetEndWithActions
+     * @attr name com.kevinmaher.x14328981.happy:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4500,11 +4642,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:contentInsetLeft
+     * @attr name com.kevinmaher.x14328981.happy:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4513,11 +4655,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:contentInsetRight
+     * @attr name com.kevinmaher.x14328981.happy:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4526,11 +4668,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:contentInsetStart
+     * @attr name com.kevinmaher.x14328981.happy:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4539,11 +4681,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:contentInsetStartWithNavigation
+     * @attr name com.kevinmaher.x14328981.happy:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4551,11 +4693,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:customNavigationLayout
+     * @attr name com.kevinmaher.x14328981.happy:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -4573,11 +4715,11 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:displayOptions
+     * @attr name com.kevinmaher.x14328981.happy:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4585,11 +4727,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:divider
+     * @attr name com.kevinmaher.x14328981.happy:divider
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4598,11 +4740,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:elevation
+     * @attr name com.kevinmaher.x14328981.happy:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4611,21 +4753,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:height
+     * @attr name com.kevinmaher.x14328981.happy:height
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:hideOnContentScroll
+     * @attr name com.kevinmaher.x14328981.happy:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4633,11 +4775,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:homeAsUpIndicator
+     * @attr name com.kevinmaher.x14328981.happy:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4645,11 +4787,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:homeLayout
+     * @attr name com.kevinmaher.x14328981.happy:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#icon}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4657,11 +4799,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:icon
+     * @attr name com.kevinmaher.x14328981.happy:icon
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4669,11 +4811,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:indeterminateProgressStyle
+     * @attr name com.kevinmaher.x14328981.happy:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4682,11 +4824,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:itemPadding
+     * @attr name com.kevinmaher.x14328981.happy:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4694,11 +4836,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:logo
+     * @attr name com.kevinmaher.x14328981.happy:logo
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4712,11 +4854,11 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:navigationMode
+     * @attr name com.kevinmaher.x14328981.happy:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4724,11 +4866,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:popupTheme
+     * @attr name com.kevinmaher.x14328981.happy:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4737,11 +4879,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:progressBarPadding
+     * @attr name com.kevinmaher.x14328981.happy:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4749,21 +4891,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:progressBarStyle
+     * @attr name com.kevinmaher.x14328981.happy:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:subtitle
+     * @attr name com.kevinmaher.x14328981.happy:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4771,21 +4913,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:subtitleTextStyle
+     * @attr name com.kevinmaher.x14328981.happy:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:title
+     * @attr name com.kevinmaher.x14328981.happy:title
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4793,7 +4935,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:titleTextStyle
+     * @attr name com.kevinmaher.x14328981.happy:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -4875,12 +5017,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.kevinmaher.x14328981.buttons_green:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.kevinmaher.x14328981.buttons_green:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.kevinmaher.x14328981.buttons_green:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.kevinmaher.x14328981.buttons_green:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.kevinmaher.x14328981.buttons_green:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.kevinmaher.x14328981.buttons_green:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.kevinmaher.x14328981.happy:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.kevinmaher.x14328981.happy:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.kevinmaher.x14328981.happy:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.kevinmaher.x14328981.happy:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.kevinmaher.x14328981.happy:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.kevinmaher.x14328981.happy:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -4890,11 +5032,11 @@ public final class R {
      * @see #ActionMode_titleTextStyle
      */
     public static final int[] ActionMode={
-        0x7f030031, 0x7f030032, 0x7f03004f, 0x7f0300a0, 
-        0x7f03013d, 0x7f030173
+        0x7f030031, 0x7f030032, 0x7f030052, 0x7f0300a6, 
+        0x7f03014a, 0x7f030180
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4902,11 +5044,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:background
+     * @attr name com.kevinmaher.x14328981.happy:background
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4917,11 +5059,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:backgroundSplit
+     * @attr name com.kevinmaher.x14328981.happy:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4929,11 +5071,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:closeItemLayout
+     * @attr name com.kevinmaher.x14328981.happy:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4942,11 +5084,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:height
+     * @attr name com.kevinmaher.x14328981.happy:height
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4954,11 +5096,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:subtitleTextStyle
+     * @attr name com.kevinmaher.x14328981.happy:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4966,7 +5108,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:titleTextStyle
+     * @attr name com.kevinmaher.x14328981.happy:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -4976,17 +5118,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.kevinmaher.x14328981.buttons_green:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.kevinmaher.x14328981.buttons_green:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.kevinmaher.x14328981.happy:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.kevinmaher.x14328981.happy:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
      */
     public static final int[] ActivityChooserView={
-        0x7f030082, 0x7f0300ad
+        0x7f030088, 0x7f0300b3
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4994,17 +5136,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:expandActivityOverflowButtonDrawable
+     * @attr name com.kevinmaher.x14328981.happy:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:initialActivityCount
+     * @attr name com.kevinmaher.x14328981.happy:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -5015,13 +5157,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.kevinmaher.x14328981.buttons_green:buttonIconDimen}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.kevinmaher.x14328981.buttons_green:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.kevinmaher.x14328981.buttons_green:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.kevinmaher.x14328981.buttons_green:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.kevinmaher.x14328981.buttons_green:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle com.kevinmaher.x14328981.buttons_green:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.kevinmaher.x14328981.buttons_green:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.kevinmaher.x14328981.happy:buttonIconDimen}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.kevinmaher.x14328981.happy:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.kevinmaher.x14328981.happy:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.kevinmaher.x14328981.happy:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.kevinmaher.x14328981.happy:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle com.kevinmaher.x14328981.happy:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.kevinmaher.x14328981.happy:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonIconDimen
@@ -5033,8 +5175,8 @@ public final class R {
      * @see #AlertDialog_singleChoiceItemLayout
      */
     public static final int[] AlertDialog={
-        0x010100f2, 0x7f030046, 0x7f030047, 0x7f0300ef, 
-        0x7f0300f0, 0x7f0300fe, 0x7f03012a, 0x7f03012b
+        0x010100f2, 0x7f030048, 0x7f030049, 0x7f0300fc, 
+        0x7f0300fd, 0x7f03010b, 0x7f030137, 0x7f030138
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -5049,7 +5191,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#buttonIconDimen}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonIconDimen}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5058,11 +5200,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:buttonIconDimen
+     * @attr name com.kevinmaher.x14328981.happy:buttonIconDimen
      */
     public static final int AlertDialog_buttonIconDimen=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5070,11 +5212,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:buttonPanelSideLayout
+     * @attr name com.kevinmaher.x14328981.happy:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5082,11 +5224,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:listItemLayout
+     * @attr name com.kevinmaher.x14328981.happy:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5094,11 +5236,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:listLayout
+     * @attr name com.kevinmaher.x14328981.happy:listLayout
      */
     public static final int AlertDialog_listLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5106,21 +5248,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:multiChoiceItemLayout
+     * @attr name com.kevinmaher.x14328981.happy:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:showTitle
+     * @attr name com.kevinmaher.x14328981.happy:showTitle
      */
     public static final int AlertDialog_showTitle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5128,7 +5270,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:singleChoiceItemLayout
+     * @attr name com.kevinmaher.x14328981.happy:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=7;
     /**
@@ -5141,8 +5283,8 @@ public final class R {
      * <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_touchscreenBlocksFocus android:touchscreenBlocksFocus}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_keyboardNavigationCluster android:keyboardNavigationCluster}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_elevation com.kevinmaher.x14328981.buttons_green:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_expanded com.kevinmaher.x14328981.buttons_green:expanded}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_elevation com.kevinmaher.x14328981.happy:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_expanded com.kevinmaher.x14328981.happy:expanded}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_android_background
      * @see #AppBarLayout_android_touchscreenBlocksFocus
@@ -5151,8 +5293,8 @@ public final class R {
      * @see #AppBarLayout_expanded
      */
     public static final int[] AppBarLayout={
-        0x010100d4, 0x0101048f, 0x01010540, 0x7f03007f, 
-        0x7f030083
+        0x010100d4, 0x0101048f, 0x01010540, 0x7f030084, 
+        0x7f030089
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -5190,7 +5332,7 @@ public final class R {
      */
     public static final int AppBarLayout_android_keyboardNavigationCluster=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#elevation}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5199,17 +5341,17 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:elevation
+     * @attr name com.kevinmaher.x14328981.happy:elevation
      */
     public static final int AppBarLayout_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#expanded}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#expanded}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:expanded
+     * @attr name com.kevinmaher.x14328981.happy:expanded
      */
     public static final int AppBarLayout_expanded=4;
     /**
@@ -5219,33 +5361,33 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed com.kevinmaher.x14328981.buttons_green:state_collapsed}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible com.kevinmaher.x14328981.buttons_green:state_collapsible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed com.kevinmaher.x14328981.happy:state_collapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible com.kevinmaher.x14328981.happy:state_collapsible}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayoutStates_state_collapsed
      * @see #AppBarLayoutStates_state_collapsible
      */
     public static final int[] AppBarLayoutStates={
-        0x7f030134, 0x7f030135
+        0x7f030141, 0x7f030142
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#state_collapsed}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#state_collapsed}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:state_collapsed
+     * @attr name com.kevinmaher.x14328981.happy:state_collapsed
      */
     public static final int AppBarLayoutStates_state_collapsed=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#state_collapsible}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#state_collapsible}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:state_collapsible
+     * @attr name com.kevinmaher.x14328981.happy:state_collapsible
      */
     public static final int AppBarLayoutStates_state_collapsible=1;
     /**
@@ -5255,17 +5397,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags com.kevinmaher.x14328981.buttons_green:layout_scrollFlags}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator com.kevinmaher.x14328981.buttons_green:layout_scrollInterpolator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags com.kevinmaher.x14328981.happy:layout_scrollFlags}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator com.kevinmaher.x14328981.happy:layout_scrollInterpolator}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_Layout_layout_scrollFlags
      * @see #AppBarLayout_Layout_layout_scrollInterpolator
      */
     public static final int[] AppBarLayout_Layout={
-        0x7f0300eb, 0x7f0300ec
+        0x7f0300f8, 0x7f0300f9
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_scrollFlags}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_scrollFlags}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -5281,11 +5423,11 @@ public final class R {
      * <tr><td>snap</td><td>10</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_scrollFlags
+     * @attr name com.kevinmaher.x14328981.happy:layout_scrollFlags
      */
     public static final int AppBarLayout_Layout_layout_scrollFlags=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_scrollInterpolator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_scrollInterpolator}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5293,7 +5435,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_scrollInterpolator
+     * @attr name com.kevinmaher.x14328981.happy:layout_scrollInterpolator
      */
     public static final int AppBarLayout_Layout_layout_scrollInterpolator=1;
     /**
@@ -5304,9 +5446,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.kevinmaher.x14328981.buttons_green:srcCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint com.kevinmaher.x14328981.buttons_green:tint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode com.kevinmaher.x14328981.buttons_green:tintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.kevinmaher.x14328981.happy:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint com.kevinmaher.x14328981.happy:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode com.kevinmaher.x14328981.happy:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -5314,7 +5456,7 @@ public final class R {
      * @see #AppCompatImageView_tintMode
      */
     public static final int[] AppCompatImageView={
-        0x01010119, 0x7f030131, 0x7f030167, 0x7f030168
+        0x01010119, 0x7f03013e, 0x7f030174, 0x7f030175
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#src}
@@ -5332,7 +5474,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5340,22 +5482,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:srcCompat
+     * @attr name com.kevinmaher.x14328981.happy:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tint
+     * @attr name com.kevinmaher.x14328981.happy:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5372,7 +5514,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tintMode
+     * @attr name com.kevinmaher.x14328981.happy:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -5383,9 +5525,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.kevinmaher.x14328981.buttons_green:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.kevinmaher.x14328981.buttons_green:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.kevinmaher.x14328981.buttons_green:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.kevinmaher.x14328981.happy:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.kevinmaher.x14328981.happy:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.kevinmaher.x14328981.happy:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -5393,7 +5535,7 @@ public final class R {
      * @see #AppCompatSeekBar_tickMarkTintMode
      */
     public static final int[] AppCompatSeekBar={
-        0x01010142, 0x7f030164, 0x7f030165, 0x7f030166
+        0x01010142, 0x7f030171, 0x7f030172, 0x7f030173
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#thumb}
@@ -5408,7 +5550,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5416,22 +5558,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tickMark
+     * @attr name com.kevinmaher.x14328981.happy:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tickMarkTint
+     * @attr name com.kevinmaher.x14328981.happy:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5448,7 +5590,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tickMarkTintMode
+     * @attr name com.kevinmaher.x14328981.happy:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -5588,13 +5730,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.kevinmaher.x14328981.buttons_green:autoSizeMaxTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.kevinmaher.x14328981.buttons_green:autoSizeMinTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.kevinmaher.x14328981.buttons_green:autoSizePresetSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.kevinmaher.x14328981.buttons_green:autoSizeStepGranularity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.kevinmaher.x14328981.buttons_green:autoSizeTextType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.kevinmaher.x14328981.buttons_green:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.kevinmaher.x14328981.buttons_green:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.kevinmaher.x14328981.happy:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.kevinmaher.x14328981.happy:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.kevinmaher.x14328981.happy:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.kevinmaher.x14328981.happy:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.kevinmaher.x14328981.happy:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.kevinmaher.x14328981.happy:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.kevinmaher.x14328981.happy:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -5607,7 +5749,7 @@ public final class R {
      */
     public static final int[] AppCompatTextView={
         0x01010034, 0x7f03002c, 0x7f03002d, 0x7f03002e, 
-        0x7f03002f, 0x7f030030, 0x7f030093, 0x7f030153
+        0x7f03002f, 0x7f030030, 0x7f030099, 0x7f030160
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -5622,7 +5764,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#autoSizeMaxTextSize}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#autoSizeMaxTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5631,11 +5773,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:autoSizeMaxTextSize
+     * @attr name com.kevinmaher.x14328981.happy:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#autoSizeMinTextSize}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#autoSizeMinTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5644,11 +5786,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:autoSizeMinTextSize
+     * @attr name com.kevinmaher.x14328981.happy:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#autoSizePresetSizes}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#autoSizePresetSizes}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5656,11 +5798,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:autoSizePresetSizes
+     * @attr name com.kevinmaher.x14328981.happy:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#autoSizeStepGranularity}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#autoSizeStepGranularity}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5669,11 +5811,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:autoSizeStepGranularity
+     * @attr name com.kevinmaher.x14328981.happy:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#autoSizeTextType}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#autoSizeTextType}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5686,21 +5828,21 @@ public final class R {
      * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:autoSizeTextType
+     * @attr name com.kevinmaher.x14328981.happy:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:fontFamily
+     * @attr name com.kevinmaher.x14328981.happy:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5710,7 +5852,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:textAllCaps
+     * @attr name com.kevinmaher.x14328981.happy:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=7;
     /**
@@ -5722,124 +5864,124 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.kevinmaher.x14328981.buttons_green:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.kevinmaher.x14328981.buttons_green:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.kevinmaher.x14328981.buttons_green:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.kevinmaher.x14328981.buttons_green:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.kevinmaher.x14328981.buttons_green:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.kevinmaher.x14328981.buttons_green:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.kevinmaher.x14328981.buttons_green:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.kevinmaher.x14328981.buttons_green:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.kevinmaher.x14328981.buttons_green:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.kevinmaher.x14328981.buttons_green:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.kevinmaher.x14328981.buttons_green:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.kevinmaher.x14328981.buttons_green:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.kevinmaher.x14328981.buttons_green:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.kevinmaher.x14328981.buttons_green:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.kevinmaher.x14328981.buttons_green:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.kevinmaher.x14328981.buttons_green:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.kevinmaher.x14328981.buttons_green:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.kevinmaher.x14328981.buttons_green:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.kevinmaher.x14328981.buttons_green:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.kevinmaher.x14328981.buttons_green:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.kevinmaher.x14328981.buttons_green:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.kevinmaher.x14328981.buttons_green:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.kevinmaher.x14328981.buttons_green:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.kevinmaher.x14328981.buttons_green:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.kevinmaher.x14328981.buttons_green:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.kevinmaher.x14328981.buttons_green:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.kevinmaher.x14328981.buttons_green:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.kevinmaher.x14328981.buttons_green:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.kevinmaher.x14328981.buttons_green:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.kevinmaher.x14328981.buttons_green:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.kevinmaher.x14328981.buttons_green:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.kevinmaher.x14328981.buttons_green:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.kevinmaher.x14328981.buttons_green:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.kevinmaher.x14328981.buttons_green:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.kevinmaher.x14328981.buttons_green:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.kevinmaher.x14328981.buttons_green:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.kevinmaher.x14328981.buttons_green:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.kevinmaher.x14328981.buttons_green:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.kevinmaher.x14328981.buttons_green:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.kevinmaher.x14328981.buttons_green:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.kevinmaher.x14328981.buttons_green:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.kevinmaher.x14328981.buttons_green:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.kevinmaher.x14328981.buttons_green:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.kevinmaher.x14328981.buttons_green:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.kevinmaher.x14328981.buttons_green:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.kevinmaher.x14328981.buttons_green:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.kevinmaher.x14328981.buttons_green:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.kevinmaher.x14328981.buttons_green:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.kevinmaher.x14328981.buttons_green:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.kevinmaher.x14328981.buttons_green:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.kevinmaher.x14328981.buttons_green:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.kevinmaher.x14328981.buttons_green:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError com.kevinmaher.x14328981.buttons_green:colorError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.kevinmaher.x14328981.buttons_green:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.kevinmaher.x14328981.buttons_green:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.kevinmaher.x14328981.buttons_green:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.kevinmaher.x14328981.buttons_green:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.kevinmaher.x14328981.buttons_green:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.kevinmaher.x14328981.buttons_green:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.kevinmaher.x14328981.buttons_green:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.kevinmaher.x14328981.buttons_green:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.kevinmaher.x14328981.buttons_green:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.kevinmaher.x14328981.buttons_green:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.kevinmaher.x14328981.buttons_green:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.kevinmaher.x14328981.buttons_green:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.kevinmaher.x14328981.buttons_green:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.kevinmaher.x14328981.buttons_green:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.kevinmaher.x14328981.buttons_green:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.kevinmaher.x14328981.buttons_green:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.kevinmaher.x14328981.buttons_green:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.kevinmaher.x14328981.buttons_green:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.kevinmaher.x14328981.buttons_green:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.kevinmaher.x14328981.buttons_green:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.kevinmaher.x14328981.buttons_green:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.kevinmaher.x14328981.buttons_green:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.kevinmaher.x14328981.buttons_green:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.kevinmaher.x14328981.buttons_green:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.kevinmaher.x14328981.buttons_green:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.kevinmaher.x14328981.buttons_green:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.kevinmaher.x14328981.buttons_green:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.kevinmaher.x14328981.buttons_green:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.kevinmaher.x14328981.buttons_green:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.kevinmaher.x14328981.buttons_green:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.kevinmaher.x14328981.buttons_green:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.kevinmaher.x14328981.buttons_green:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.kevinmaher.x14328981.buttons_green:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.kevinmaher.x14328981.buttons_green:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.kevinmaher.x14328981.buttons_green:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.kevinmaher.x14328981.buttons_green:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.kevinmaher.x14328981.buttons_green:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.kevinmaher.x14328981.buttons_green:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.kevinmaher.x14328981.buttons_green:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.kevinmaher.x14328981.buttons_green:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.kevinmaher.x14328981.buttons_green:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.kevinmaher.x14328981.buttons_green:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.kevinmaher.x14328981.buttons_green:textAppearanceListItemSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.kevinmaher.x14328981.buttons_green:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.kevinmaher.x14328981.buttons_green:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.kevinmaher.x14328981.buttons_green:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.kevinmaher.x14328981.buttons_green:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.kevinmaher.x14328981.buttons_green:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.kevinmaher.x14328981.buttons_green:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.kevinmaher.x14328981.buttons_green:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.kevinmaher.x14328981.buttons_green:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.kevinmaher.x14328981.buttons_green:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.kevinmaher.x14328981.buttons_green:tooltipForegroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.kevinmaher.x14328981.buttons_green:tooltipFrameBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.kevinmaher.x14328981.buttons_green:viewInflaterClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.kevinmaher.x14328981.buttons_green:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.kevinmaher.x14328981.buttons_green:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.kevinmaher.x14328981.buttons_green:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.kevinmaher.x14328981.buttons_green:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.kevinmaher.x14328981.buttons_green:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.kevinmaher.x14328981.buttons_green:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.kevinmaher.x14328981.buttons_green:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.kevinmaher.x14328981.buttons_green:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.kevinmaher.x14328981.buttons_green:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.kevinmaher.x14328981.buttons_green:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.kevinmaher.x14328981.happy:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.kevinmaher.x14328981.happy:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.kevinmaher.x14328981.happy:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.kevinmaher.x14328981.happy:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.kevinmaher.x14328981.happy:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.kevinmaher.x14328981.happy:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.kevinmaher.x14328981.happy:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.kevinmaher.x14328981.happy:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.kevinmaher.x14328981.happy:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.kevinmaher.x14328981.happy:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.kevinmaher.x14328981.happy:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.kevinmaher.x14328981.happy:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.kevinmaher.x14328981.happy:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.kevinmaher.x14328981.happy:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.kevinmaher.x14328981.happy:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.kevinmaher.x14328981.happy:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.kevinmaher.x14328981.happy:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.kevinmaher.x14328981.happy:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.kevinmaher.x14328981.happy:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.kevinmaher.x14328981.happy:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.kevinmaher.x14328981.happy:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.kevinmaher.x14328981.happy:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.kevinmaher.x14328981.happy:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.kevinmaher.x14328981.happy:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.kevinmaher.x14328981.happy:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.kevinmaher.x14328981.happy:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.kevinmaher.x14328981.happy:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.kevinmaher.x14328981.happy:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.kevinmaher.x14328981.happy:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.kevinmaher.x14328981.happy:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.kevinmaher.x14328981.happy:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.kevinmaher.x14328981.happy:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.kevinmaher.x14328981.happy:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.kevinmaher.x14328981.happy:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.kevinmaher.x14328981.happy:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.kevinmaher.x14328981.happy:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.kevinmaher.x14328981.happy:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.kevinmaher.x14328981.happy:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.kevinmaher.x14328981.happy:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.kevinmaher.x14328981.happy:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.kevinmaher.x14328981.happy:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.kevinmaher.x14328981.happy:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.kevinmaher.x14328981.happy:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.kevinmaher.x14328981.happy:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.kevinmaher.x14328981.happy:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.kevinmaher.x14328981.happy:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.kevinmaher.x14328981.happy:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.kevinmaher.x14328981.happy:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.kevinmaher.x14328981.happy:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.kevinmaher.x14328981.happy:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.kevinmaher.x14328981.happy:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.kevinmaher.x14328981.happy:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError com.kevinmaher.x14328981.happy:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.kevinmaher.x14328981.happy:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.kevinmaher.x14328981.happy:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.kevinmaher.x14328981.happy:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.kevinmaher.x14328981.happy:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.kevinmaher.x14328981.happy:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.kevinmaher.x14328981.happy:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.kevinmaher.x14328981.happy:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.kevinmaher.x14328981.happy:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.kevinmaher.x14328981.happy:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.kevinmaher.x14328981.happy:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.kevinmaher.x14328981.happy:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.kevinmaher.x14328981.happy:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.kevinmaher.x14328981.happy:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.kevinmaher.x14328981.happy:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.kevinmaher.x14328981.happy:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.kevinmaher.x14328981.happy:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.kevinmaher.x14328981.happy:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.kevinmaher.x14328981.happy:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.kevinmaher.x14328981.happy:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.kevinmaher.x14328981.happy:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.kevinmaher.x14328981.happy:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.kevinmaher.x14328981.happy:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.kevinmaher.x14328981.happy:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.kevinmaher.x14328981.happy:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.kevinmaher.x14328981.happy:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.kevinmaher.x14328981.happy:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.kevinmaher.x14328981.happy:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.kevinmaher.x14328981.happy:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.kevinmaher.x14328981.happy:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.kevinmaher.x14328981.happy:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.kevinmaher.x14328981.happy:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.kevinmaher.x14328981.happy:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.kevinmaher.x14328981.happy:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.kevinmaher.x14328981.happy:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.kevinmaher.x14328981.happy:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.kevinmaher.x14328981.happy:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.kevinmaher.x14328981.happy:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.kevinmaher.x14328981.happy:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.kevinmaher.x14328981.happy:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.kevinmaher.x14328981.happy:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.kevinmaher.x14328981.happy:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.kevinmaher.x14328981.happy:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.kevinmaher.x14328981.happy:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.kevinmaher.x14328981.happy:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.kevinmaher.x14328981.happy:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.kevinmaher.x14328981.happy:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.kevinmaher.x14328981.happy:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.kevinmaher.x14328981.happy:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.kevinmaher.x14328981.happy:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.kevinmaher.x14328981.happy:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.kevinmaher.x14328981.happy:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.kevinmaher.x14328981.happy:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.kevinmaher.x14328981.happy:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.kevinmaher.x14328981.happy:tooltipFrameBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.kevinmaher.x14328981.happy:viewInflaterClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.kevinmaher.x14328981.happy:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.kevinmaher.x14328981.happy:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.kevinmaher.x14328981.happy:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.kevinmaher.x14328981.happy:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.kevinmaher.x14328981.happy:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.kevinmaher.x14328981.happy:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.kevinmaher.x14328981.happy:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.kevinmaher.x14328981.happy:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.kevinmaher.x14328981.happy:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.kevinmaher.x14328981.happy:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -5972,27 +6114,27 @@ public final class R {
         0x7f030017, 0x7f030018, 0x7f030019, 0x7f03001a, 
         0x7f03001b, 0x7f03001c, 0x7f03001d, 0x7f03001e, 
         0x7f030021, 0x7f030022, 0x7f030023, 0x7f030024, 
-        0x7f030025, 0x7f03002b, 0x7f03003d, 0x7f030040, 
-        0x7f030041, 0x7f030042, 0x7f030043, 0x7f030044, 
-        0x7f030048, 0x7f030049, 0x7f03004c, 0x7f03004d, 
-        0x7f030055, 0x7f030056, 0x7f030057, 0x7f030058, 
-        0x7f030059, 0x7f03005a, 0x7f03005b, 0x7f03005c, 
-        0x7f03005d, 0x7f03005e, 0x7f030069, 0x7f030071, 
-        0x7f030072, 0x7f030075, 0x7f030077, 0x7f03007a, 
-        0x7f03007b, 0x7f03007c, 0x7f03007d, 0x7f03007e, 
-        0x7f0300a5, 0x7f0300ab, 0x7f0300ed, 0x7f0300ee, 
-        0x7f0300f1, 0x7f0300f2, 0x7f0300f3, 0x7f0300f4, 
-        0x7f0300f5, 0x7f0300f6, 0x7f0300f7, 0x7f030108, 
-        0x7f030109, 0x7f03010a, 0x7f030110, 0x7f030112, 
-        0x7f030119, 0x7f03011a, 0x7f03011b, 0x7f03011c, 
-        0x7f030123, 0x7f030124, 0x7f030125, 0x7f030126, 
-        0x7f03012e, 0x7f03012f, 0x7f030141, 0x7f030154, 
-        0x7f030155, 0x7f030156, 0x7f030157, 0x7f030158, 
-        0x7f030159, 0x7f03015a, 0x7f03015b, 0x7f03015c, 
-        0x7f03015e, 0x7f030175, 0x7f030176, 0x7f030177, 
-        0x7f030178, 0x7f03017e, 0x7f030180, 0x7f030181, 
-        0x7f030182, 0x7f030183, 0x7f030184, 0x7f030185, 
-        0x7f030186, 0x7f030187, 0x7f030188, 0x7f030189
+        0x7f030025, 0x7f03002b, 0x7f03003f, 0x7f030042, 
+        0x7f030043, 0x7f030044, 0x7f030045, 0x7f030046, 
+        0x7f03004a, 0x7f03004b, 0x7f03004f, 0x7f030050, 
+        0x7f030058, 0x7f030059, 0x7f03005a, 0x7f03005b, 
+        0x7f03005c, 0x7f03005d, 0x7f03005e, 0x7f03005f, 
+        0x7f030060, 0x7f030061, 0x7f03006e, 0x7f030076, 
+        0x7f030077, 0x7f03007a, 0x7f03007c, 0x7f03007f, 
+        0x7f030080, 0x7f030081, 0x7f030082, 0x7f030083, 
+        0x7f0300ab, 0x7f0300b1, 0x7f0300fa, 0x7f0300fb, 
+        0x7f0300fe, 0x7f0300ff, 0x7f030100, 0x7f030101, 
+        0x7f030102, 0x7f030103, 0x7f030104, 0x7f030115, 
+        0x7f030116, 0x7f030117, 0x7f03011d, 0x7f03011f, 
+        0x7f030126, 0x7f030127, 0x7f030128, 0x7f030129, 
+        0x7f030130, 0x7f030131, 0x7f030132, 0x7f030133, 
+        0x7f03013b, 0x7f03013c, 0x7f03014e, 0x7f030161, 
+        0x7f030162, 0x7f030163, 0x7f030164, 0x7f030165, 
+        0x7f030166, 0x7f030167, 0x7f030168, 0x7f030169, 
+        0x7f03016b, 0x7f030182, 0x7f030183, 0x7f030184, 
+        0x7f030185, 0x7f03018b, 0x7f03018d, 0x7f03018e, 
+        0x7f03018f, 0x7f030190, 0x7f030191, 0x7f030192, 
+        0x7f030193, 0x7f030194, 0x7f030195, 0x7f030196
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
@@ -6017,7 +6159,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6025,11 +6167,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionBarDivider
+     * @attr name com.kevinmaher.x14328981.happy:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6037,11 +6179,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionBarItemBackground
+     * @attr name com.kevinmaher.x14328981.happy:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6049,11 +6191,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionBarPopupTheme
+     * @attr name com.kevinmaher.x14328981.happy:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6070,11 +6212,11 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionBarSize
+     * @attr name com.kevinmaher.x14328981.happy:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6082,11 +6224,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionBarSplitStyle
+     * @attr name com.kevinmaher.x14328981.happy:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6094,11 +6236,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionBarStyle
+     * @attr name com.kevinmaher.x14328981.happy:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6106,11 +6248,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionBarTabBarStyle
+     * @attr name com.kevinmaher.x14328981.happy:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6118,11 +6260,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionBarTabStyle
+     * @attr name com.kevinmaher.x14328981.happy:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6130,11 +6272,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionBarTabTextStyle
+     * @attr name com.kevinmaher.x14328981.happy:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6142,11 +6284,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionBarTheme
+     * @attr name com.kevinmaher.x14328981.happy:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6154,11 +6296,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionBarWidgetTheme
+     * @attr name com.kevinmaher.x14328981.happy:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6166,11 +6308,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionButtonStyle
+     * @attr name com.kevinmaher.x14328981.happy:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6178,11 +6320,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionDropDownStyle
+     * @attr name com.kevinmaher.x14328981.happy:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6190,11 +6332,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionMenuTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6205,11 +6347,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionMenuTextColor
+     * @attr name com.kevinmaher.x14328981.happy:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6217,11 +6359,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionModeBackground
+     * @attr name com.kevinmaher.x14328981.happy:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6229,11 +6371,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionModeCloseButtonStyle
+     * @attr name com.kevinmaher.x14328981.happy:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6241,11 +6383,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionModeCloseDrawable
+     * @attr name com.kevinmaher.x14328981.happy:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6253,11 +6395,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionModeCopyDrawable
+     * @attr name com.kevinmaher.x14328981.happy:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6265,11 +6407,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionModeCutDrawable
+     * @attr name com.kevinmaher.x14328981.happy:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6277,11 +6419,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionModeFindDrawable
+     * @attr name com.kevinmaher.x14328981.happy:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6289,11 +6431,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionModePasteDrawable
+     * @attr name com.kevinmaher.x14328981.happy:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6301,11 +6443,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionModePopupWindowStyle
+     * @attr name com.kevinmaher.x14328981.happy:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6313,11 +6455,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionModeSelectAllDrawable
+     * @attr name com.kevinmaher.x14328981.happy:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6325,11 +6467,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionModeShareDrawable
+     * @attr name com.kevinmaher.x14328981.happy:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6337,11 +6479,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionModeSplitBackground
+     * @attr name com.kevinmaher.x14328981.happy:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6349,11 +6491,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionModeStyle
+     * @attr name com.kevinmaher.x14328981.happy:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6361,11 +6503,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionModeWebSearchDrawable
+     * @attr name com.kevinmaher.x14328981.happy:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6373,11 +6515,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionOverflowButtonStyle
+     * @attr name com.kevinmaher.x14328981.happy:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6385,11 +6527,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionOverflowMenuStyle
+     * @attr name com.kevinmaher.x14328981.happy:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6397,11 +6539,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:activityChooserViewStyle
+     * @attr name com.kevinmaher.x14328981.happy:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6409,21 +6551,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:alertDialogButtonGroupStyle
+     * @attr name com.kevinmaher.x14328981.happy:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:alertDialogCenterButtons
+     * @attr name com.kevinmaher.x14328981.happy:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6431,11 +6573,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:alertDialogStyle
+     * @attr name com.kevinmaher.x14328981.happy:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6443,11 +6585,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:alertDialogTheme
+     * @attr name com.kevinmaher.x14328981.happy:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6455,11 +6597,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:autoCompleteTextViewStyle
+     * @attr name com.kevinmaher.x14328981.happy:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6467,11 +6609,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:borderlessButtonStyle
+     * @attr name com.kevinmaher.x14328981.happy:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6479,11 +6621,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:buttonBarButtonStyle
+     * @attr name com.kevinmaher.x14328981.happy:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6491,11 +6633,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:buttonBarNegativeButtonStyle
+     * @attr name com.kevinmaher.x14328981.happy:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6503,11 +6645,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:buttonBarNeutralButtonStyle
+     * @attr name com.kevinmaher.x14328981.happy:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6515,11 +6657,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:buttonBarPositiveButtonStyle
+     * @attr name com.kevinmaher.x14328981.happy:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6527,11 +6669,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:buttonBarStyle
+     * @attr name com.kevinmaher.x14328981.happy:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6539,11 +6681,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:buttonStyle
+     * @attr name com.kevinmaher.x14328981.happy:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6551,11 +6693,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:buttonStyleSmall
+     * @attr name com.kevinmaher.x14328981.happy:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6563,11 +6705,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:checkboxStyle
+     * @attr name com.kevinmaher.x14328981.happy:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6575,77 +6717,77 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:checkedTextViewStyle
+     * @attr name com.kevinmaher.x14328981.happy:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:colorAccent
+     * @attr name com.kevinmaher.x14328981.happy:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:colorBackgroundFloating
+     * @attr name com.kevinmaher.x14328981.happy:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:colorButtonNormal
+     * @attr name com.kevinmaher.x14328981.happy:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:colorControlActivated
+     * @attr name com.kevinmaher.x14328981.happy:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:colorControlHighlight
+     * @attr name com.kevinmaher.x14328981.happy:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:colorControlNormal
+     * @attr name com.kevinmaher.x14328981.happy:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#colorError}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6656,44 +6798,44 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:colorError
+     * @attr name com.kevinmaher.x14328981.happy:colorError
      */
     public static final int AppCompatTheme_colorError=54;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:colorPrimary
+     * @attr name com.kevinmaher.x14328981.happy:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:colorPrimaryDark
+     * @attr name com.kevinmaher.x14328981.happy:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:colorSwitchThumbNormal
+     * @attr name com.kevinmaher.x14328981.happy:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6701,11 +6843,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:controlBackground
+     * @attr name com.kevinmaher.x14328981.happy:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6714,11 +6856,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:dialogPreferredPadding
+     * @attr name com.kevinmaher.x14328981.happy:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=59;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6726,11 +6868,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:dialogTheme
+     * @attr name com.kevinmaher.x14328981.happy:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=60;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6738,11 +6880,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:dividerHorizontal
+     * @attr name com.kevinmaher.x14328981.happy:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=61;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6750,11 +6892,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:dividerVertical
+     * @attr name com.kevinmaher.x14328981.happy:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=62;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6762,11 +6904,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:dropDownListViewStyle
+     * @attr name com.kevinmaher.x14328981.happy:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=63;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6775,11 +6917,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:dropdownListPreferredItemHeight
+     * @attr name com.kevinmaher.x14328981.happy:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=64;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6787,11 +6929,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:editTextBackground
+     * @attr name com.kevinmaher.x14328981.happy:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=65;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6802,11 +6944,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:editTextColor
+     * @attr name com.kevinmaher.x14328981.happy:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=66;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6814,11 +6956,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:editTextStyle
+     * @attr name com.kevinmaher.x14328981.happy:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=67;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6826,11 +6968,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:homeAsUpIndicator
+     * @attr name com.kevinmaher.x14328981.happy:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=68;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6838,11 +6980,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:imageButtonStyle
+     * @attr name com.kevinmaher.x14328981.happy:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=69;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6850,11 +6992,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:listChoiceBackgroundIndicator
+     * @attr name com.kevinmaher.x14328981.happy:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=70;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6862,11 +7004,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:listDividerAlertDialog
+     * @attr name com.kevinmaher.x14328981.happy:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=71;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6874,11 +7016,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:listMenuViewStyle
+     * @attr name com.kevinmaher.x14328981.happy:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=72;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6886,11 +7028,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:listPopupWindowStyle
+     * @attr name com.kevinmaher.x14328981.happy:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6899,11 +7041,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:listPreferredItemHeight
+     * @attr name com.kevinmaher.x14328981.happy:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=74;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6912,11 +7054,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:listPreferredItemHeightLarge
+     * @attr name com.kevinmaher.x14328981.happy:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=75;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6925,11 +7067,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:listPreferredItemHeightSmall
+     * @attr name com.kevinmaher.x14328981.happy:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=76;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6938,11 +7080,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:listPreferredItemPaddingLeft
+     * @attr name com.kevinmaher.x14328981.happy:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=77;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6951,11 +7093,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:listPreferredItemPaddingRight
+     * @attr name com.kevinmaher.x14328981.happy:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=78;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6963,11 +7105,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:panelBackground
+     * @attr name com.kevinmaher.x14328981.happy:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=79;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6975,11 +7117,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:panelMenuListTheme
+     * @attr name com.kevinmaher.x14328981.happy:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=80;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6988,11 +7130,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:panelMenuListWidth
+     * @attr name com.kevinmaher.x14328981.happy:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=81;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7000,11 +7142,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:popupMenuStyle
+     * @attr name com.kevinmaher.x14328981.happy:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=82;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7012,11 +7154,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:popupWindowStyle
+     * @attr name com.kevinmaher.x14328981.happy:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7024,11 +7166,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:radioButtonStyle
+     * @attr name com.kevinmaher.x14328981.happy:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7036,11 +7178,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:ratingBarStyle
+     * @attr name com.kevinmaher.x14328981.happy:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=85;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7048,11 +7190,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:ratingBarStyleIndicator
+     * @attr name com.kevinmaher.x14328981.happy:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=86;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7060,11 +7202,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:ratingBarStyleSmall
+     * @attr name com.kevinmaher.x14328981.happy:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=87;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7072,11 +7214,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:searchViewStyle
+     * @attr name com.kevinmaher.x14328981.happy:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=88;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7084,11 +7226,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:seekBarStyle
+     * @attr name com.kevinmaher.x14328981.happy:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=89;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7096,11 +7238,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:selectableItemBackground
+     * @attr name com.kevinmaher.x14328981.happy:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=90;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7108,11 +7250,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:selectableItemBackgroundBorderless
+     * @attr name com.kevinmaher.x14328981.happy:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=91;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7120,11 +7262,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:spinnerDropDownItemStyle
+     * @attr name com.kevinmaher.x14328981.happy:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=92;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7132,11 +7274,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:spinnerStyle
+     * @attr name com.kevinmaher.x14328981.happy:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7144,11 +7286,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:switchStyle
+     * @attr name com.kevinmaher.x14328981.happy:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=94;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7156,11 +7298,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:textAppearanceLargePopupMenu
+     * @attr name com.kevinmaher.x14328981.happy:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=95;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7168,11 +7310,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:textAppearanceListItem
+     * @attr name com.kevinmaher.x14328981.happy:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=96;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7180,11 +7322,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:textAppearanceListItemSecondary
+     * @attr name com.kevinmaher.x14328981.happy:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=97;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7192,11 +7334,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:textAppearanceListItemSmall
+     * @attr name com.kevinmaher.x14328981.happy:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=98;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7204,11 +7346,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:textAppearancePopupMenuHeader
+     * @attr name com.kevinmaher.x14328981.happy:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=99;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7216,11 +7358,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:textAppearanceSearchResultSubtitle
+     * @attr name com.kevinmaher.x14328981.happy:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=100;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7228,11 +7370,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:textAppearanceSearchResultTitle
+     * @attr name com.kevinmaher.x14328981.happy:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=101;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7240,11 +7382,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:textAppearanceSmallPopupMenu
+     * @attr name com.kevinmaher.x14328981.happy:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=102;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7255,11 +7397,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:textColorAlertDialogListItem
+     * @attr name com.kevinmaher.x14328981.happy:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=103;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7270,11 +7412,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:textColorSearchUrl
+     * @attr name com.kevinmaher.x14328981.happy:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=104;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7282,11 +7424,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:toolbarNavigationButtonStyle
+     * @attr name com.kevinmaher.x14328981.happy:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=105;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7294,11 +7436,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:toolbarStyle
+     * @attr name com.kevinmaher.x14328981.happy:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=106;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tooltipForegroundColor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7309,11 +7451,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tooltipForegroundColor
+     * @attr name com.kevinmaher.x14328981.happy:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=107;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tooltipFrameBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7321,51 +7463,51 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tooltipFrameBackground
+     * @attr name com.kevinmaher.x14328981.happy:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=108;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#viewInflaterClass}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#viewInflaterClass}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:viewInflaterClass
+     * @attr name com.kevinmaher.x14328981.happy:viewInflaterClass
      */
     public static final int AppCompatTheme_viewInflaterClass=109;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:windowActionBar
+     * @attr name com.kevinmaher.x14328981.happy:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=110;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:windowActionBarOverlay
+     * @attr name com.kevinmaher.x14328981.happy:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=111;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:windowActionModeOverlay
+     * @attr name com.kevinmaher.x14328981.happy:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=112;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7378,11 +7520,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:windowFixedHeightMajor
+     * @attr name com.kevinmaher.x14328981.happy:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=113;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7395,11 +7537,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:windowFixedHeightMinor
+     * @attr name com.kevinmaher.x14328981.happy:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=114;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7412,11 +7554,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:windowFixedWidthMajor
+     * @attr name com.kevinmaher.x14328981.happy:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=115;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7429,11 +7571,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:windowFixedWidthMinor
+     * @attr name com.kevinmaher.x14328981.happy:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=116;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7446,11 +7588,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:windowMinWidthMajor
+     * @attr name com.kevinmaher.x14328981.happy:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=117;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7463,17 +7605,17 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:windowMinWidthMinor
+     * @attr name com.kevinmaher.x14328981.happy:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=118;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:windowNoTitle
+     * @attr name com.kevinmaher.x14328981.happy:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=119;
     /**
@@ -7483,11 +7625,11 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomNavigationView_elevation com.kevinmaher.x14328981.buttons_green:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemBackground com.kevinmaher.x14328981.buttons_green:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemIconTint com.kevinmaher.x14328981.buttons_green:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextColor com.kevinmaher.x14328981.buttons_green:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_menu com.kevinmaher.x14328981.buttons_green:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_elevation com.kevinmaher.x14328981.happy:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemBackground com.kevinmaher.x14328981.happy:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemIconTint com.kevinmaher.x14328981.happy:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextColor com.kevinmaher.x14328981.happy:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_menu com.kevinmaher.x14328981.happy:menu}</code></td><td></td></tr>
      * </table>
      * @see #BottomNavigationView_elevation
      * @see #BottomNavigationView_itemBackground
@@ -7496,11 +7638,11 @@ public final class R {
      * @see #BottomNavigationView_menu
      */
     public static final int[] BottomNavigationView={
-        0x7f03007f, 0x7f0300b0, 0x7f0300b1, 0x7f0300b4, 
-        0x7f0300fd
+        0x7f030084, 0x7f0300b6, 0x7f0300b7, 0x7f0300ba, 
+        0x7f03010a
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#elevation}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7509,11 +7651,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:elevation
+     * @attr name com.kevinmaher.x14328981.happy:elevation
      */
     public static final int BottomNavigationView_elevation=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#itemBackground}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7521,33 +7663,33 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:itemBackground
+     * @attr name com.kevinmaher.x14328981.happy:itemBackground
      */
     public static final int BottomNavigationView_itemBackground=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:itemIconTint
+     * @attr name com.kevinmaher.x14328981.happy:itemIconTint
      */
     public static final int BottomNavigationView_itemIconTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:itemTextColor
+     * @attr name com.kevinmaher.x14328981.happy:itemTextColor
      */
     public static final int BottomNavigationView_itemTextColor=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#menu}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#menu}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7555,7 +7697,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:menu
+     * @attr name com.kevinmaher.x14328981.happy:menu
      */
     public static final int BottomNavigationView_menu=4;
     /**
@@ -7565,29 +7707,29 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable com.kevinmaher.x14328981.buttons_green:behavior_hideable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight com.kevinmaher.x14328981.buttons_green:behavior_peekHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed com.kevinmaher.x14328981.buttons_green:behavior_skipCollapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable com.kevinmaher.x14328981.happy:behavior_hideable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight com.kevinmaher.x14328981.happy:behavior_peekHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed com.kevinmaher.x14328981.happy:behavior_skipCollapsed}</code></td><td></td></tr>
      * </table>
      * @see #BottomSheetBehavior_Layout_behavior_hideable
      * @see #BottomSheetBehavior_Layout_behavior_peekHeight
      * @see #BottomSheetBehavior_Layout_behavior_skipCollapsed
      */
     public static final int[] BottomSheetBehavior_Layout={
-        0x7f030038, 0x7f03003a, 0x7f03003b
+        0x7f03003a, 0x7f03003c, 0x7f03003d
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#behavior_hideable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#behavior_hideable}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:behavior_hideable
+     * @attr name com.kevinmaher.x14328981.happy:behavior_hideable
      */
     public static final int BottomSheetBehavior_Layout_behavior_hideable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#behavior_peekHeight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#behavior_peekHeight}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7604,17 +7746,17 @@ public final class R {
      * <tr><td>auto</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:behavior_peekHeight
+     * @attr name com.kevinmaher.x14328981.happy:behavior_peekHeight
      */
     public static final int BottomSheetBehavior_Layout_behavior_peekHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#behavior_skipCollapsed}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#behavior_skipCollapsed}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:behavior_skipCollapsed
+     * @attr name com.kevinmaher.x14328981.happy:behavior_skipCollapsed
      */
     public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed=2;
     /**
@@ -7624,7 +7766,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.kevinmaher.x14328981.buttons_green:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.kevinmaher.x14328981.happy:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -7632,13 +7774,13 @@ public final class R {
         0x7f030026
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:allowStacking
+     * @attr name com.kevinmaher.x14328981.happy:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -7648,22 +7790,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.kevinmaher.x14328981.buttons_green:collapsedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.kevinmaher.x14328981.buttons_green:collapsedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.kevinmaher.x14328981.buttons_green:contentScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.kevinmaher.x14328981.buttons_green:expandedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.kevinmaher.x14328981.buttons_green:expandedTitleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.kevinmaher.x14328981.buttons_green:expandedTitleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.kevinmaher.x14328981.buttons_green:expandedTitleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.kevinmaher.x14328981.buttons_green:expandedTitleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.kevinmaher.x14328981.buttons_green:expandedTitleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.kevinmaher.x14328981.buttons_green:expandedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration com.kevinmaher.x14328981.buttons_green:scrimAnimationDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger com.kevinmaher.x14328981.buttons_green:scrimVisibleHeightTrigger}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.kevinmaher.x14328981.buttons_green:statusBarScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_title com.kevinmaher.x14328981.buttons_green:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.kevinmaher.x14328981.buttons_green:titleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.kevinmaher.x14328981.buttons_green:toolbarId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.kevinmaher.x14328981.happy:collapsedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.kevinmaher.x14328981.happy:collapsedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.kevinmaher.x14328981.happy:contentScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.kevinmaher.x14328981.happy:expandedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.kevinmaher.x14328981.happy:expandedTitleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.kevinmaher.x14328981.happy:expandedTitleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.kevinmaher.x14328981.happy:expandedTitleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.kevinmaher.x14328981.happy:expandedTitleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.kevinmaher.x14328981.happy:expandedTitleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.kevinmaher.x14328981.happy:expandedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration com.kevinmaher.x14328981.happy:scrimAnimationDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger com.kevinmaher.x14328981.happy:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.kevinmaher.x14328981.happy:statusBarScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_title com.kevinmaher.x14328981.happy:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.kevinmaher.x14328981.happy:titleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.kevinmaher.x14328981.happy:toolbarId}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_collapsedTitleGravity
      * @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -7683,13 +7825,13 @@ public final class R {
      * @see #CollapsingToolbarLayout_toolbarId
      */
     public static final int[] CollapsingToolbarLayout={
-        0x7f030052, 0x7f030053, 0x7f030068, 0x7f030084, 
-        0x7f030085, 0x7f030086, 0x7f030087, 0x7f030088, 
-        0x7f030089, 0x7f03008a, 0x7f03011f, 0x7f030120, 
-        0x7f030137, 0x7f030169, 0x7f03016a, 0x7f030174
+        0x7f030055, 0x7f030056, 0x7f03006d, 0x7f03008a, 
+        0x7f03008b, 0x7f03008c, 0x7f03008d, 0x7f03008e, 
+        0x7f03008f, 0x7f030090, 0x7f03012c, 0x7f03012d, 
+        0x7f030144, 0x7f030176, 0x7f030177, 0x7f030181
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#collapsedTitleGravity}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#collapsedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7710,11 +7852,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:collapsedTitleGravity
+     * @attr name com.kevinmaher.x14328981.happy:collapsedTitleGravity
      */
     public static final int CollapsingToolbarLayout_collapsedTitleGravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#collapsedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#collapsedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7722,22 +7864,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:collapsedTitleTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy:collapsedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#contentScrim}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:contentScrim
+     * @attr name com.kevinmaher.x14328981.happy:contentScrim
      */
     public static final int CollapsingToolbarLayout_contentScrim=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#expandedTitleGravity}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#expandedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7758,11 +7900,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:expandedTitleGravity
+     * @attr name com.kevinmaher.x14328981.happy:expandedTitleGravity
      */
     public static final int CollapsingToolbarLayout_expandedTitleGravity=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#expandedTitleMargin}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#expandedTitleMargin}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7771,11 +7913,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:expandedTitleMargin
+     * @attr name com.kevinmaher.x14328981.happy:expandedTitleMargin
      */
     public static final int CollapsingToolbarLayout_expandedTitleMargin=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#expandedTitleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#expandedTitleMarginBottom}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7784,11 +7926,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:expandedTitleMarginBottom
+     * @attr name com.kevinmaher.x14328981.happy:expandedTitleMarginBottom
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginBottom=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#expandedTitleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#expandedTitleMarginEnd}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7797,11 +7939,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:expandedTitleMarginEnd
+     * @attr name com.kevinmaher.x14328981.happy:expandedTitleMarginEnd
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginEnd=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#expandedTitleMarginStart}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#expandedTitleMarginStart}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7810,11 +7952,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:expandedTitleMarginStart
+     * @attr name com.kevinmaher.x14328981.happy:expandedTitleMarginStart
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#expandedTitleMarginTop}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#expandedTitleMarginTop}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7823,11 +7965,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:expandedTitleMarginTop
+     * @attr name com.kevinmaher.x14328981.happy:expandedTitleMarginTop
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginTop=8;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#expandedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#expandedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7835,20 +7977,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:expandedTitleTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy:expandedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_expandedTitleTextAppearance=9;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#scrimAnimationDuration}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#scrimAnimationDuration}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:scrimAnimationDuration
+     * @attr name com.kevinmaher.x14328981.happy:scrimAnimationDuration
      */
     public static final int CollapsingToolbarLayout_scrimAnimationDuration=10;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#scrimVisibleHeightTrigger}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#scrimVisibleHeightTrigger}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7857,42 +7999,42 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:scrimVisibleHeightTrigger
+     * @attr name com.kevinmaher.x14328981.happy:scrimVisibleHeightTrigger
      */
     public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger=11;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#statusBarScrim}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#statusBarScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:statusBarScrim
+     * @attr name com.kevinmaher.x14328981.happy:statusBarScrim
      */
     public static final int CollapsingToolbarLayout_statusBarScrim=12;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#title}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:title
+     * @attr name com.kevinmaher.x14328981.happy:title
      */
     public static final int CollapsingToolbarLayout_title=13;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#titleEnabled}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#titleEnabled}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:titleEnabled
+     * @attr name com.kevinmaher.x14328981.happy:titleEnabled
      */
     public static final int CollapsingToolbarLayout_titleEnabled=14;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#toolbarId}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#toolbarId}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7900,7 +8042,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:toolbarId
+     * @attr name com.kevinmaher.x14328981.happy:toolbarId
      */
     public static final int CollapsingToolbarLayout_toolbarId=15;
     /**
@@ -7910,17 +8052,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.kevinmaher.x14328981.buttons_green:layout_collapseMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.kevinmaher.x14328981.buttons_green:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.kevinmaher.x14328981.happy:layout_collapseMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.kevinmaher.x14328981.happy:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_Layout_layout_collapseMode
      * @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
      */
     public static final int[] CollapsingToolbarLayout_Layout={
-        0x7f0300bb, 0x7f0300bc
+        0x7f0300c1, 0x7f0300c2
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_collapseMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_collapseMode}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -7934,16 +8076,16 @@ public final class R {
      * <tr><td>pin</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_collapseMode
+     * @attr name com.kevinmaher.x14328981.happy:layout_collapseMode
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseMode=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_collapseParallaxMultiplier}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_collapseParallaxMultiplier}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_collapseParallaxMultiplier
+     * @attr name com.kevinmaher.x14328981.happy:layout_collapseParallaxMultiplier
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier=1;
     /**
@@ -7955,7 +8097,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.kevinmaher.x14328981.buttons_green:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.kevinmaher.x14328981.happy:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -7985,12 +8127,12 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:alpha
+     * @attr name com.kevinmaher.x14328981.happy:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -8001,15 +8143,15 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.kevinmaher.x14328981.buttons_green:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.kevinmaher.x14328981.buttons_green:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.kevinmaher.x14328981.happy:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.kevinmaher.x14328981.happy:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
      * @see #CompoundButton_buttonTintMode
      */
     public static final int[] CompoundButton={
-        0x01010107, 0x7f03004a, 0x7f03004b
+        0x01010107, 0x7f03004c, 0x7f03004d
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#button}
@@ -8024,18 +8166,18 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:buttonTint
+     * @attr name com.kevinmaher.x14328981.happy:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8052,7 +8194,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:buttonTintMode
+     * @attr name com.kevinmaher.x14328981.happy:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -8067,62 +8209,82 @@ public final class R {
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.kevinmaher.x14328981.buttons_green:constraintSet}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.kevinmaher.x14328981.buttons_green:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.kevinmaher.x14328981.buttons_green:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.kevinmaher.x14328981.buttons_green:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.kevinmaher.x14328981.buttons_green:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.kevinmaher.x14328981.buttons_green:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.kevinmaher.x14328981.buttons_green:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.kevinmaher.x14328981.buttons_green:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.kevinmaher.x14328981.buttons_green:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.kevinmaher.x14328981.buttons_green:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.kevinmaher.x14328981.buttons_green:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.kevinmaher.x14328981.buttons_green:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.kevinmaher.x14328981.buttons_green:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.kevinmaher.x14328981.buttons_green:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.kevinmaher.x14328981.buttons_green:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.kevinmaher.x14328981.buttons_green:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.kevinmaher.x14328981.buttons_green:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.kevinmaher.x14328981.buttons_green:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.kevinmaher.x14328981.buttons_green:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.kevinmaher.x14328981.buttons_green:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.kevinmaher.x14328981.buttons_green:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.kevinmaher.x14328981.buttons_green:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.kevinmaher.x14328981.buttons_green:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.kevinmaher.x14328981.buttons_green:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.kevinmaher.x14328981.buttons_green:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.kevinmaher.x14328981.buttons_green:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.kevinmaher.x14328981.buttons_green:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.kevinmaher.x14328981.buttons_green:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.kevinmaher.x14328981.buttons_green:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.kevinmaher.x14328981.buttons_green:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.kevinmaher.x14328981.buttons_green:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.kevinmaher.x14328981.buttons_green:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.kevinmaher.x14328981.buttons_green:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.kevinmaher.x14328981.buttons_green:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.kevinmaher.x14328981.buttons_green:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.kevinmaher.x14328981.buttons_green:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.kevinmaher.x14328981.buttons_green:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.kevinmaher.x14328981.buttons_green:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.kevinmaher.x14328981.buttons_green:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.kevinmaher.x14328981.buttons_green:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.kevinmaher.x14328981.buttons_green:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.kevinmaher.x14328981.buttons_green:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.kevinmaher.x14328981.buttons_green:layout_goneMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.kevinmaher.x14328981.buttons_green:layout_optimizationLevel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets com.kevinmaher.x14328981.happy:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection com.kevinmaher.x14328981.happy:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl com.kevinmaher.x14328981.happy:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.kevinmaher.x14328981.happy:constraintSet}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids com.kevinmaher.x14328981.happy:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight com.kevinmaher.x14328981.happy:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth com.kevinmaher.x14328981.happy:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.kevinmaher.x14328981.happy:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.kevinmaher.x14328981.happy:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.kevinmaher.x14328981.happy:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.kevinmaher.x14328981.happy:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.kevinmaher.x14328981.happy:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle com.kevinmaher.x14328981.happy:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle com.kevinmaher.x14328981.happy:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius com.kevinmaher.x14328981.happy:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.kevinmaher.x14328981.happy:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.kevinmaher.x14328981.happy:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.kevinmaher.x14328981.happy:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.kevinmaher.x14328981.happy:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.kevinmaher.x14328981.happy:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.kevinmaher.x14328981.happy:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.kevinmaher.x14328981.happy:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.kevinmaher.x14328981.happy:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.kevinmaher.x14328981.happy:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent com.kevinmaher.x14328981.happy:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.kevinmaher.x14328981.happy:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.kevinmaher.x14328981.happy:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.kevinmaher.x14328981.happy:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.kevinmaher.x14328981.happy:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.kevinmaher.x14328981.happy:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.kevinmaher.x14328981.happy:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.kevinmaher.x14328981.happy:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.kevinmaher.x14328981.happy:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.kevinmaher.x14328981.happy:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.kevinmaher.x14328981.happy:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.kevinmaher.x14328981.happy:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.kevinmaher.x14328981.happy:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.kevinmaher.x14328981.happy:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.kevinmaher.x14328981.happy:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.kevinmaher.x14328981.happy:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.kevinmaher.x14328981.happy:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.kevinmaher.x14328981.happy:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.kevinmaher.x14328981.happy:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.kevinmaher.x14328981.happy:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.kevinmaher.x14328981.happy:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent com.kevinmaher.x14328981.happy:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.kevinmaher.x14328981.happy:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.kevinmaher.x14328981.happy:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.kevinmaher.x14328981.happy:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.kevinmaher.x14328981.happy:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.kevinmaher.x14328981.happy:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.kevinmaher.x14328981.happy:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.kevinmaher.x14328981.happy:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.kevinmaher.x14328981.happy:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.kevinmaher.x14328981.happy:layout_optimizationLevel}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_Layout_android_orientation
      * @see #ConstraintLayout_Layout_android_maxWidth
      * @see #ConstraintLayout_Layout_android_maxHeight
      * @see #ConstraintLayout_Layout_android_minWidth
      * @see #ConstraintLayout_Layout_android_minHeight
+     * @see #ConstraintLayout_Layout_barrierAllowsGoneWidgets
+     * @see #ConstraintLayout_Layout_barrierDirection
+     * @see #ConstraintLayout_Layout_chainUseRtl
      * @see #ConstraintLayout_Layout_constraintSet
+     * @see #ConstraintLayout_Layout_constraint_referenced_ids
+     * @see #ConstraintLayout_Layout_layout_constrainedHeight
+     * @see #ConstraintLayout_Layout_layout_constrainedWidth
      * @see #ConstraintLayout_Layout_layout_constraintBaseline_creator
      * @see #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf
      * @see #ConstraintLayout_Layout_layout_constraintBottom_creator
      * @see #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf
      * @see #ConstraintLayout_Layout_layout_constraintBottom_toTopOf
+     * @see #ConstraintLayout_Layout_layout_constraintCircle
+     * @see #ConstraintLayout_Layout_layout_constraintCircleAngle
+     * @see #ConstraintLayout_Layout_layout_constraintCircleRadius
      * @see #ConstraintLayout_Layout_layout_constraintDimensionRatio
      * @see #ConstraintLayout_Layout_layout_constraintEnd_toEndOf
      * @see #ConstraintLayout_Layout_layout_constraintEnd_toStartOf
@@ -8132,6 +8294,7 @@ public final class R {
      * @see #ConstraintLayout_Layout_layout_constraintHeight_default
      * @see #ConstraintLayout_Layout_layout_constraintHeight_max
      * @see #ConstraintLayout_Layout_layout_constraintHeight_min
+     * @see #ConstraintLayout_Layout_layout_constraintHeight_percent
      * @see #ConstraintLayout_Layout_layout_constraintHorizontal_bias
      * @see #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle
      * @see #ConstraintLayout_Layout_layout_constraintHorizontal_weight
@@ -8152,6 +8315,7 @@ public final class R {
      * @see #ConstraintLayout_Layout_layout_constraintWidth_default
      * @see #ConstraintLayout_Layout_layout_constraintWidth_max
      * @see #ConstraintLayout_Layout_layout_constraintWidth_min
+     * @see #ConstraintLayout_Layout_layout_constraintWidth_percent
      * @see #ConstraintLayout_Layout_layout_editor_absoluteX
      * @see #ConstraintLayout_Layout_layout_editor_absoluteY
      * @see #ConstraintLayout_Layout_layout_goneMarginBottom
@@ -8164,18 +8328,20 @@ public final class R {
      */
     public static final int[] ConstraintLayout_Layout={
         0x010100c4, 0x0101011f, 0x01010120, 0x0101013f, 
-        0x01010140, 0x7f030060, 0x7f0300bd, 0x7f0300be, 
-        0x7f0300bf, 0x7f0300c0, 0x7f0300c1, 0x7f0300c2, 
-        0x7f0300c3, 0x7f0300c4, 0x7f0300c5, 0x7f0300c6, 
-        0x7f0300c7, 0x7f0300c8, 0x7f0300c9, 0x7f0300ca, 
-        0x7f0300cb, 0x7f0300cc, 0x7f0300cd, 0x7f0300ce, 
-        0x7f0300cf, 0x7f0300d0, 0x7f0300d1, 0x7f0300d2, 
-        0x7f0300d3, 0x7f0300d4, 0x7f0300d5, 0x7f0300d6, 
-        0x7f0300d7, 0x7f0300d8, 0x7f0300d9, 0x7f0300da, 
-        0x7f0300db, 0x7f0300dc, 0x7f0300dd, 0x7f0300de, 
-        0x7f0300e0, 0x7f0300e1, 0x7f0300e2, 0x7f0300e3, 
-        0x7f0300e4, 0x7f0300e5, 0x7f0300e6, 0x7f0300e7, 
-        0x7f0300ea
+        0x01010140, 0x7f030037, 0x7f030038, 0x7f03004e, 
+        0x7f030063, 0x7f030064, 0x7f0300c3, 0x7f0300c4, 
+        0x7f0300c5, 0x7f0300c6, 0x7f0300c7, 0x7f0300c8, 
+        0x7f0300c9, 0x7f0300ca, 0x7f0300cb, 0x7f0300cc, 
+        0x7f0300cd, 0x7f0300ce, 0x7f0300cf, 0x7f0300d0, 
+        0x7f0300d1, 0x7f0300d2, 0x7f0300d3, 0x7f0300d4, 
+        0x7f0300d5, 0x7f0300d6, 0x7f0300d7, 0x7f0300d8, 
+        0x7f0300d9, 0x7f0300da, 0x7f0300db, 0x7f0300dc, 
+        0x7f0300dd, 0x7f0300de, 0x7f0300df, 0x7f0300e0, 
+        0x7f0300e1, 0x7f0300e2, 0x7f0300e3, 0x7f0300e4, 
+        0x7f0300e5, 0x7f0300e6, 0x7f0300e7, 0x7f0300e8, 
+        0x7f0300e9, 0x7f0300ea, 0x7f0300eb, 0x7f0300ed, 
+        0x7f0300ee, 0x7f0300ef, 0x7f0300f0, 0x7f0300f1, 
+        0x7f0300f2, 0x7f0300f3, 0x7f0300f4, 0x7f0300f7
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -8247,107 +8413,99 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_android_minHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#constraintSet}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:constraintSet
+     * @attr name com.kevinmaher.x14328981.happy:barrierAllowsGoneWidgets
      */
-    public static final int ConstraintLayout_Layout_constraintSet=5;
+    public static final int ConstraintLayout_Layout_barrierAllowsGoneWidgets=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#barrierDirection}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintBaseline_creator
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=6;
-    /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintBaseline_toBaselineOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * <tr><td>bottom</td><td>3</td><td></td></tr>
+     * <tr><td>end</td><td>6</td><td></td></tr>
+     * <tr><td>left</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>1</td><td></td></tr>
+     * <tr><td>start</td><td>5</td><td></td></tr>
+     * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintBaseline_toBaselineOf
+     * @attr name com.kevinmaher.x14328981.happy:barrierDirection
      */
-    public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=7;
+    public static final int ConstraintLayout_Layout_barrierDirection=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
-     * <p>May be an integer value, such as "<code>100</code>".
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintBottom_creator
+     * @attr name com.kevinmaher.x14328981.happy:chainUseRtl
      */
-    public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=8;
+    public static final int ConstraintLayout_Layout_chainUseRtl=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintBottom_toBottomOf}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
-     *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintBottom_toBottomOf
-     */
-    public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=9;
-    /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#constraintSet}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>parent</td><td>0</td><td></td></tr>
-     * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintBottom_toTopOf
+     * @attr name com.kevinmaher.x14328981.happy:constraintSet
      */
-    public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=10;
+    public static final int ConstraintLayout_Layout_constraintSet=8;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintDimensionRatio
+     * @attr name com.kevinmaher.x14328981.happy:constraint_referenced_ids
      */
-    public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=11;
+    public static final int ConstraintLayout_Layout_constraint_referenced_ids=9;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constrainedHeight}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constrainedHeight
+     */
+    public static final int ConstraintLayout_Layout_layout_constrainedHeight=10;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constrainedWidth}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constrainedWidth
+     */
+    public static final int ConstraintLayout_Layout_layout_constrainedWidth=11;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintBaseline_creator}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintBaseline_creator
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=12;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8363,11 +8521,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintEnd_toEndOf
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintBaseline_toBaselineOf
      */
-    public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=12;
+    public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=13;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintBottom_creator}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintBottom_creator
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=14;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8383,11 +8550,52 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintEnd_toStartOf
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintBottom_toBottomOf
      */
-    public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=13;
+    public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=15;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintBottom_toTopOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintBottom_toTopOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=16;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintCircle}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintCircle
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintCircle=17;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintCircleAngle}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintCircleAngle
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintCircleAngle=18;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8396,11 +8604,61 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintGuide_begin
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintCircleRadius
      */
-    public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=14;
+    public static final int ConstraintLayout_Layout_layout_constraintCircleRadius=19;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintDimensionRatio}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintDimensionRatio
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=20;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintEnd_toEndOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintEnd_toEndOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=21;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintEnd_toStartOf}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>parent</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintEnd_toStartOf
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=22;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8409,20 +8667,33 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintGuide_end
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintGuide_begin
      */
-    public static final int ConstraintLayout_Layout_layout_constraintGuide_end=15;
+    public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=23;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintGuide_end}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintGuide_end
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintGuide_end=24;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintGuide_percent
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintGuide_percent
      */
-    public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=16;
+    public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=25;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8431,15 +8702,16 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
      * <tr><td>spread</td><td>0</td><td></td></tr>
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintHeight_default
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHeight_default
      */
-    public static final int ConstraintLayout_Layout_layout_constraintHeight_default=17;
+    public static final int ConstraintLayout_Layout_layout_constraintHeight_default=26;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8447,12 +8719,20 @@ public final class R {
      * Available units are: px (pixels), dp (density-independent pixels),
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintHeight_max
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHeight_max
      */
-    public static final int ConstraintLayout_Layout_layout_constraintHeight_max=18;
+    public static final int ConstraintLayout_Layout_layout_constraintHeight_max=27;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8460,21 +8740,38 @@ public final class R {
      * Available units are: px (pixels), dp (density-independent pixels),
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintHeight_min
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHeight_min
      */
-    public static final int ConstraintLayout_Layout_layout_constraintHeight_min=19;
+    public static final int ConstraintLayout_Layout_layout_constraintHeight_min=28;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintHorizontal_bias
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHeight_percent
      */
-    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=20;
+    public static final int ConstraintLayout_Layout_layout_constraintHeight_percent=29;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHorizontal_bias}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHorizontal_bias
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=30;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8488,29 +8785,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintHorizontal_chainStyle
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHorizontal_chainStyle
      */
-    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=21;
+    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintHorizontal_weight
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHorizontal_weight
      */
-    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=22;
+    public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=32;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintLeft_creator
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintLeft_creator
      */
-    public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=23;
+    public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=33;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8526,11 +8823,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintLeft_toLeftOf
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintLeft_toLeftOf
      */
-    public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=24;
+    public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8546,20 +8843,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintLeft_toRightOf
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintLeft_toRightOf
      */
-    public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=25;
+    public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=35;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintRight_creator
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintRight_creator
      */
-    public static final int ConstraintLayout_Layout_layout_constraintRight_creator=26;
+    public static final int ConstraintLayout_Layout_layout_constraintRight_creator=36;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8575,11 +8872,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintRight_toLeftOf
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintRight_toLeftOf
      */
-    public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=27;
+    public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=37;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8595,11 +8892,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintRight_toRightOf
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintRight_toRightOf
      */
-    public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=28;
+    public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=38;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8615,11 +8912,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintStart_toEndOf
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintStart_toEndOf
      */
-    public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=29;
+    public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=39;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8635,20 +8932,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintStart_toStartOf
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintStart_toStartOf
      */
-    public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=30;
+    public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=40;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintTop_creator
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintTop_creator
      */
-    public static final int ConstraintLayout_Layout_layout_constraintTop_creator=31;
+    public static final int ConstraintLayout_Layout_layout_constraintTop_creator=41;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8664,11 +8961,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintTop_toBottomOf
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintTop_toBottomOf
      */
-    public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=32;
+    public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=42;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8684,20 +8981,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintTop_toTopOf
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintTop_toTopOf
      */
-    public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=33;
+    public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=43;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintVertical_bias
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintVertical_bias
      */
-    public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=34;
+    public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=44;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8711,20 +9008,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintVertical_chainStyle
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintVertical_chainStyle
      */
-    public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=35;
+    public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=45;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintVertical_weight
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintVertical_weight
      */
-    public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=36;
+    public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=46;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8733,15 +9030,67 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
      * <tr><td>spread</td><td>0</td><td></td></tr>
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintWidth_default
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintWidth_default
      */
-    public static final int ConstraintLayout_Layout_layout_constraintWidth_default=37;
+    public static final int ConstraintLayout_Layout_layout_constraintWidth_default=47;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintWidth_max}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintWidth_max
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintWidth_max=48;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintWidth_min}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintWidth_min
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintWidth_min=49;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintWidth_percent}
+     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintWidth_percent
+     */
+    public static final int ConstraintLayout_Layout_layout_constraintWidth_percent=50;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8750,11 +9099,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintWidth_max
+     * @attr name com.kevinmaher.x14328981.happy:layout_editor_absoluteX
      */
-    public static final int ConstraintLayout_Layout_layout_constraintWidth_max=38;
+    public static final int ConstraintLayout_Layout_layout_editor_absoluteX=51;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8763,11 +9112,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintWidth_min
+     * @attr name com.kevinmaher.x14328981.happy:layout_editor_absoluteY
      */
-    public static final int ConstraintLayout_Layout_layout_constraintWidth_min=39;
+    public static final int ConstraintLayout_Layout_layout_editor_absoluteY=52;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8776,11 +9125,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_editor_absoluteX
+     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginBottom
      */
-    public static final int ConstraintLayout_Layout_layout_editor_absoluteX=40;
+    public static final int ConstraintLayout_Layout_layout_goneMarginBottom=53;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8789,11 +9138,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_editor_absoluteY
+     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginEnd
      */
-    public static final int ConstraintLayout_Layout_layout_editor_absoluteY=41;
+    public static final int ConstraintLayout_Layout_layout_goneMarginEnd=54;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8802,11 +9151,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_goneMarginBottom
+     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginLeft
      */
-    public static final int ConstraintLayout_Layout_layout_goneMarginBottom=42;
+    public static final int ConstraintLayout_Layout_layout_goneMarginLeft=55;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8815,11 +9164,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_goneMarginEnd
+     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginRight
      */
-    public static final int ConstraintLayout_Layout_layout_goneMarginEnd=43;
+    public static final int ConstraintLayout_Layout_layout_goneMarginRight=56;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8828,11 +9177,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_goneMarginLeft
+     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginStart
      */
-    public static final int ConstraintLayout_Layout_layout_goneMarginLeft=44;
+    public static final int ConstraintLayout_Layout_layout_goneMarginStart=57;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8841,37 +9190,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_goneMarginRight
+     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginTop
      */
-    public static final int ConstraintLayout_Layout_layout_goneMarginRight=45;
+    public static final int ConstraintLayout_Layout_layout_goneMarginTop=58;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_goneMarginStart}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_goneMarginStart
-     */
-    public static final int ConstraintLayout_Layout_layout_goneMarginStart=46;
-    /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_goneMarginTop}
-     * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_goneMarginTop
-     */
-    public static final int ConstraintLayout_Layout_layout_goneMarginTop=47;
-    /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_optimizationLevel}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_optimizationLevel}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8880,15 +9203,62 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>all</td><td>2</td><td></td></tr>
-     * <tr><td>basic</td><td>4</td><td></td></tr>
-     * <tr><td>chains</td><td>8</td><td></td></tr>
-     * <tr><td>none</td><td>1</td><td></td></tr>
+     * <tr><td>barrier</td><td>2</td><td></td></tr>
+     * <tr><td>chains</td><td>4</td><td></td></tr>
+     * <tr><td>dimensions</td><td>8</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_optimizationLevel
+     * @attr name com.kevinmaher.x14328981.happy:layout_optimizationLevel
      */
-    public static final int ConstraintLayout_Layout_layout_optimizationLevel=48;
+    public static final int ConstraintLayout_Layout_layout_optimizationLevel=59;
+    /**
+     * Attributes that can be used with a ConstraintLayout_placeholder.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_content com.kevinmaher.x14328981.happy:content}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility com.kevinmaher.x14328981.happy:emptyVisibility}</code></td><td></td></tr>
+     * </table>
+     * @see #ConstraintLayout_placeholder_content
+     * @see #ConstraintLayout_placeholder_emptyVisibility
+     */
+    public static final int[] ConstraintLayout_placeholder={
+        0x7f030065, 0x7f030085
+      };
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#content}
+     * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.kevinmaher.x14328981.happy:content
+     */
+    public static final int ConstraintLayout_placeholder_content=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#emptyVisibility}
+     * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>gone</td><td>0</td><td></td></tr>
+     * <tr><td>invisible</td><td>1</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.kevinmaher.x14328981.happy:emptyVisibility
+     */
+    public static final int ConstraintLayout_placeholder_emptyVisibility=1;
     /**
      * Attributes that can be used with a ConstraintSet.
      * <p>Includes the following attributes:</p>
@@ -8912,54 +9282,62 @@ public final class R {
      * <tr><td><code>{@link #ConstraintSet_android_translationY android:translationY}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_scaleX android:scaleX}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_scaleY android:scaleY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_android_rotation android:rotation}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_rotationX android:rotationX}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_rotationY android:rotationY}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginStart android:layout_marginStart}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.kevinmaher.x14328981.buttons_green:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.kevinmaher.x14328981.buttons_green:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.kevinmaher.x14328981.buttons_green:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.kevinmaher.x14328981.buttons_green:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.kevinmaher.x14328981.buttons_green:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.kevinmaher.x14328981.buttons_green:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.kevinmaher.x14328981.buttons_green:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.kevinmaher.x14328981.buttons_green:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.kevinmaher.x14328981.buttons_green:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.kevinmaher.x14328981.buttons_green:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.kevinmaher.x14328981.buttons_green:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.kevinmaher.x14328981.buttons_green:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.kevinmaher.x14328981.buttons_green:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.kevinmaher.x14328981.buttons_green:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.kevinmaher.x14328981.buttons_green:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.kevinmaher.x14328981.buttons_green:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.kevinmaher.x14328981.buttons_green:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.kevinmaher.x14328981.buttons_green:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.kevinmaher.x14328981.buttons_green:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.kevinmaher.x14328981.buttons_green:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.kevinmaher.x14328981.buttons_green:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.kevinmaher.x14328981.buttons_green:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.kevinmaher.x14328981.buttons_green:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.kevinmaher.x14328981.buttons_green:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.kevinmaher.x14328981.buttons_green:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.kevinmaher.x14328981.buttons_green:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.kevinmaher.x14328981.buttons_green:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.kevinmaher.x14328981.buttons_green:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.kevinmaher.x14328981.buttons_green:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.kevinmaher.x14328981.buttons_green:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.kevinmaher.x14328981.buttons_green:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.kevinmaher.x14328981.buttons_green:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.kevinmaher.x14328981.buttons_green:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.kevinmaher.x14328981.buttons_green:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.kevinmaher.x14328981.buttons_green:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.kevinmaher.x14328981.buttons_green:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.kevinmaher.x14328981.buttons_green:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.kevinmaher.x14328981.buttons_green:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.kevinmaher.x14328981.buttons_green:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.kevinmaher.x14328981.buttons_green:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.kevinmaher.x14328981.buttons_green:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.kevinmaher.x14328981.buttons_green:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.kevinmaher.x14328981.happy:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.kevinmaher.x14328981.happy:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.kevinmaher.x14328981.happy:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.kevinmaher.x14328981.happy:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.kevinmaher.x14328981.happy:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.kevinmaher.x14328981.happy:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.kevinmaher.x14328981.happy:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle com.kevinmaher.x14328981.happy:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle com.kevinmaher.x14328981.happy:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius com.kevinmaher.x14328981.happy:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.kevinmaher.x14328981.happy:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.kevinmaher.x14328981.happy:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.kevinmaher.x14328981.happy:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.kevinmaher.x14328981.happy:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.kevinmaher.x14328981.happy:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.kevinmaher.x14328981.happy:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.kevinmaher.x14328981.happy:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.kevinmaher.x14328981.happy:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.kevinmaher.x14328981.happy:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent com.kevinmaher.x14328981.happy:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.kevinmaher.x14328981.happy:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.kevinmaher.x14328981.happy:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.kevinmaher.x14328981.happy:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.kevinmaher.x14328981.happy:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.kevinmaher.x14328981.happy:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.kevinmaher.x14328981.happy:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.kevinmaher.x14328981.happy:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.kevinmaher.x14328981.happy:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.kevinmaher.x14328981.happy:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.kevinmaher.x14328981.happy:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.kevinmaher.x14328981.happy:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.kevinmaher.x14328981.happy:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.kevinmaher.x14328981.happy:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.kevinmaher.x14328981.happy:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.kevinmaher.x14328981.happy:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.kevinmaher.x14328981.happy:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.kevinmaher.x14328981.happy:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.kevinmaher.x14328981.happy:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.kevinmaher.x14328981.happy:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.kevinmaher.x14328981.happy:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent com.kevinmaher.x14328981.happy:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.kevinmaher.x14328981.happy:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.kevinmaher.x14328981.happy:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.kevinmaher.x14328981.happy:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.kevinmaher.x14328981.happy:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.kevinmaher.x14328981.happy:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.kevinmaher.x14328981.happy:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.kevinmaher.x14328981.happy:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.kevinmaher.x14328981.happy:layout_goneMarginTop}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintSet_android_orientation
      * @see #ConstraintSet_android_id
@@ -8977,17 +9355,23 @@ public final class R {
      * @see #ConstraintSet_android_translationY
      * @see #ConstraintSet_android_scaleX
      * @see #ConstraintSet_android_scaleY
+     * @see #ConstraintSet_android_rotation
      * @see #ConstraintSet_android_rotationX
      * @see #ConstraintSet_android_rotationY
      * @see #ConstraintSet_android_layout_marginStart
      * @see #ConstraintSet_android_layout_marginEnd
      * @see #ConstraintSet_android_translationZ
      * @see #ConstraintSet_android_elevation
+     * @see #ConstraintSet_layout_constrainedHeight
+     * @see #ConstraintSet_layout_constrainedWidth
      * @see #ConstraintSet_layout_constraintBaseline_creator
      * @see #ConstraintSet_layout_constraintBaseline_toBaselineOf
      * @see #ConstraintSet_layout_constraintBottom_creator
      * @see #ConstraintSet_layout_constraintBottom_toBottomOf
      * @see #ConstraintSet_layout_constraintBottom_toTopOf
+     * @see #ConstraintSet_layout_constraintCircle
+     * @see #ConstraintSet_layout_constraintCircleAngle
+     * @see #ConstraintSet_layout_constraintCircleRadius
      * @see #ConstraintSet_layout_constraintDimensionRatio
      * @see #ConstraintSet_layout_constraintEnd_toEndOf
      * @see #ConstraintSet_layout_constraintEnd_toStartOf
@@ -8997,6 +9381,7 @@ public final class R {
      * @see #ConstraintSet_layout_constraintHeight_default
      * @see #ConstraintSet_layout_constraintHeight_max
      * @see #ConstraintSet_layout_constraintHeight_min
+     * @see #ConstraintSet_layout_constraintHeight_percent
      * @see #ConstraintSet_layout_constraintHorizontal_bias
      * @see #ConstraintSet_layout_constraintHorizontal_chainStyle
      * @see #ConstraintSet_layout_constraintHorizontal_weight
@@ -9017,6 +9402,7 @@ public final class R {
      * @see #ConstraintSet_layout_constraintWidth_default
      * @see #ConstraintSet_layout_constraintWidth_max
      * @see #ConstraintSet_layout_constraintWidth_min
+     * @see #ConstraintSet_layout_constraintWidth_percent
      * @see #ConstraintSet_layout_editor_absoluteX
      * @see #ConstraintSet_layout_editor_absoluteY
      * @see #ConstraintSet_layout_goneMarginBottom
@@ -9031,18 +9417,20 @@ public final class R {
         0x010100f5, 0x010100f7, 0x010100f8, 0x010100f9, 
         0x010100fa, 0x0101031f, 0x01010320, 0x01010321, 
         0x01010322, 0x01010323, 0x01010324, 0x01010325, 
-        0x01010327, 0x01010328, 0x010103b5, 0x010103b6, 
-        0x010103fa, 0x01010440, 0x7f0300bd, 0x7f0300be, 
-        0x7f0300bf, 0x7f0300c0, 0x7f0300c1, 0x7f0300c2, 
-        0x7f0300c3, 0x7f0300c4, 0x7f0300c5, 0x7f0300c6, 
-        0x7f0300c7, 0x7f0300c8, 0x7f0300c9, 0x7f0300ca, 
-        0x7f0300cb, 0x7f0300cc, 0x7f0300cd, 0x7f0300ce, 
-        0x7f0300cf, 0x7f0300d0, 0x7f0300d1, 0x7f0300d2, 
-        0x7f0300d3, 0x7f0300d4, 0x7f0300d5, 0x7f0300d6, 
-        0x7f0300d7, 0x7f0300d8, 0x7f0300d9, 0x7f0300da, 
-        0x7f0300db, 0x7f0300dc, 0x7f0300dd, 0x7f0300de, 
+        0x01010326, 0x01010327, 0x01010328, 0x010103b5, 
+        0x010103b6, 0x010103fa, 0x01010440, 0x7f0300c3, 
+        0x7f0300c4, 0x7f0300c5, 0x7f0300c6, 0x7f0300c7, 
+        0x7f0300c8, 0x7f0300c9, 0x7f0300ca, 0x7f0300cb, 
+        0x7f0300cc, 0x7f0300cd, 0x7f0300ce, 0x7f0300cf, 
+        0x7f0300d0, 0x7f0300d1, 0x7f0300d2, 0x7f0300d3, 
+        0x7f0300d4, 0x7f0300d5, 0x7f0300d6, 0x7f0300d7, 
+        0x7f0300d8, 0x7f0300d9, 0x7f0300da, 0x7f0300db, 
+        0x7f0300dc, 0x7f0300dd, 0x7f0300de, 0x7f0300df, 
         0x7f0300e0, 0x7f0300e1, 0x7f0300e2, 0x7f0300e3, 
-        0x7f0300e4, 0x7f0300e5, 0x7f0300e6, 0x7f0300e7
+        0x7f0300e4, 0x7f0300e5, 0x7f0300e6, 0x7f0300e7, 
+        0x7f0300e8, 0x7f0300e9, 0x7f0300ea, 0x7f0300eb, 
+        0x7f0300ed, 0x7f0300ee, 0x7f0300ef, 0x7f0300f0, 
+        0x7f0300f1, 0x7f0300f2, 0x7f0300f3, 0x7f0300f4
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -9269,6 +9657,15 @@ public final class R {
      */
     public static final int ConstraintSet_android_scaleY=15;
     /**
+     * <p>This symbol is the offset where the {@link android.R.attr#rotation}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name android:rotation
+     */
+    public static final int ConstraintSet_android_rotation=16;
+    /**
      * <p>This symbol is the offset where the {@link android.R.attr#rotationX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
@@ -9276,7 +9673,7 @@ public final class R {
      *
      * @attr name android:rotationX
      */
-    public static final int ConstraintSet_android_rotationX=16;
+    public static final int ConstraintSet_android_rotationX=17;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#rotationY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -9285,7 +9682,7 @@ public final class R {
      *
      * @attr name android:rotationY
      */
-    public static final int ConstraintSet_android_rotationY=17;
+    public static final int ConstraintSet_android_rotationY=18;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_marginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -9298,7 +9695,7 @@ public final class R {
      *
      * @attr name android:layout_marginStart
      */
-    public static final int ConstraintSet_android_layout_marginStart=18;
+    public static final int ConstraintSet_android_layout_marginStart=19;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_marginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -9311,7 +9708,7 @@ public final class R {
      *
      * @attr name android:layout_marginEnd
      */
-    public static final int ConstraintSet_android_layout_marginEnd=19;
+    public static final int ConstraintSet_android_layout_marginEnd=20;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#translationZ}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -9324,7 +9721,7 @@ public final class R {
      *
      * @attr name android:translationZ
      */
-    public static final int ConstraintSet_android_translationZ=20;
+    public static final int ConstraintSet_android_translationZ=21;
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#elevation}
      * attribute's value can be found in the {@link #ConstraintSet} array.
@@ -9337,18 +9734,38 @@ public final class R {
      *
      * @attr name android:elevation
      */
-    public static final int ConstraintSet_android_elevation=21;
+    public static final int ConstraintSet_android_elevation=22;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constrainedHeight}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constrainedHeight
+     */
+    public static final int ConstraintSet_layout_constrainedHeight=23;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constrainedWidth}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constrainedWidth
+     */
+    public static final int ConstraintSet_layout_constrainedWidth=24;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintBaseline_creator
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintBaseline_creator
      */
-    public static final int ConstraintSet_layout_constraintBaseline_creator=22;
+    public static final int ConstraintSet_layout_constraintBaseline_creator=25;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9364,20 +9781,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintBaseline_toBaselineOf
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintBaseline_toBaselineOf
      */
-    public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=23;
+    public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=26;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintBottom_creator
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintBottom_creator
      */
-    public static final int ConstraintSet_layout_constraintBottom_creator=24;
+    public static final int ConstraintSet_layout_constraintBottom_creator=27;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9393,11 +9810,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintBottom_toBottomOf
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintBottom_toBottomOf
      */
-    public static final int ConstraintSet_layout_constraintBottom_toBottomOf=25;
+    public static final int ConstraintSet_layout_constraintBottom_toBottomOf=28;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9413,21 +9830,55 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintBottom_toTopOf
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintBottom_toTopOf
      */
-    public static final int ConstraintSet_layout_constraintBottom_toTopOf=26;
+    public static final int ConstraintSet_layout_constraintBottom_toTopOf=29;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintCircle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintCircle
+     */
+    public static final int ConstraintSet_layout_constraintCircle=30;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintCircleAngle}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintCircleAngle
+     */
+    public static final int ConstraintSet_layout_constraintCircleAngle=31;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintCircleRadius}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintCircleRadius
+     */
+    public static final int ConstraintSet_layout_constraintCircleRadius=32;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintDimensionRatio
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintDimensionRatio
      */
-    public static final int ConstraintSet_layout_constraintDimensionRatio=27;
+    public static final int ConstraintSet_layout_constraintDimensionRatio=33;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9443,11 +9894,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintEnd_toEndOf
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintEnd_toEndOf
      */
-    public static final int ConstraintSet_layout_constraintEnd_toEndOf=28;
+    public static final int ConstraintSet_layout_constraintEnd_toEndOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9463,11 +9914,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintEnd_toStartOf
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintEnd_toStartOf
      */
-    public static final int ConstraintSet_layout_constraintEnd_toStartOf=29;
+    public static final int ConstraintSet_layout_constraintEnd_toStartOf=35;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9476,11 +9927,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintGuide_begin
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintGuide_begin
      */
-    public static final int ConstraintSet_layout_constraintGuide_begin=30;
+    public static final int ConstraintSet_layout_constraintGuide_begin=36;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9489,20 +9940,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintGuide_end
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintGuide_end
      */
-    public static final int ConstraintSet_layout_constraintGuide_end=31;
+    public static final int ConstraintSet_layout_constraintGuide_end=37;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintGuide_percent
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintGuide_percent
      */
-    public static final int ConstraintSet_layout_constraintGuide_percent=32;
+    public static final int ConstraintSet_layout_constraintGuide_percent=38;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9511,15 +9962,16 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
      * <tr><td>spread</td><td>0</td><td></td></tr>
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintHeight_default
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHeight_default
      */
-    public static final int ConstraintSet_layout_constraintHeight_default=33;
+    public static final int ConstraintSet_layout_constraintHeight_default=39;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9527,12 +9979,20 @@ public final class R {
      * Available units are: px (pixels), dp (density-independent pixels),
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintHeight_max
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHeight_max
      */
-    public static final int ConstraintSet_layout_constraintHeight_max=34;
+    public static final int ConstraintSet_layout_constraintHeight_max=40;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9540,21 +10000,38 @@ public final class R {
      * Available units are: px (pixels), dp (density-independent pixels),
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintHeight_min
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHeight_min
      */
-    public static final int ConstraintSet_layout_constraintHeight_min=35;
+    public static final int ConstraintSet_layout_constraintHeight_min=41;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintHorizontal_bias
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHeight_percent
      */
-    public static final int ConstraintSet_layout_constraintHorizontal_bias=36;
+    public static final int ConstraintSet_layout_constraintHeight_percent=42;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHorizontal_bias}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHorizontal_bias
+     */
+    public static final int ConstraintSet_layout_constraintHorizontal_bias=43;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9568,29 +10045,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintHorizontal_chainStyle
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHorizontal_chainStyle
      */
-    public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=37;
+    public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintHorizontal_weight
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHorizontal_weight
      */
-    public static final int ConstraintSet_layout_constraintHorizontal_weight=38;
+    public static final int ConstraintSet_layout_constraintHorizontal_weight=45;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintLeft_creator
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintLeft_creator
      */
-    public static final int ConstraintSet_layout_constraintLeft_creator=39;
+    public static final int ConstraintSet_layout_constraintLeft_creator=46;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9606,11 +10083,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintLeft_toLeftOf
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintLeft_toLeftOf
      */
-    public static final int ConstraintSet_layout_constraintLeft_toLeftOf=40;
+    public static final int ConstraintSet_layout_constraintLeft_toLeftOf=47;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9626,20 +10103,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintLeft_toRightOf
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintLeft_toRightOf
      */
-    public static final int ConstraintSet_layout_constraintLeft_toRightOf=41;
+    public static final int ConstraintSet_layout_constraintLeft_toRightOf=48;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintRight_creator
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintRight_creator
      */
-    public static final int ConstraintSet_layout_constraintRight_creator=42;
+    public static final int ConstraintSet_layout_constraintRight_creator=49;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9655,11 +10132,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintRight_toLeftOf
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintRight_toLeftOf
      */
-    public static final int ConstraintSet_layout_constraintRight_toLeftOf=43;
+    public static final int ConstraintSet_layout_constraintRight_toLeftOf=50;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9675,11 +10152,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintRight_toRightOf
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintRight_toRightOf
      */
-    public static final int ConstraintSet_layout_constraintRight_toRightOf=44;
+    public static final int ConstraintSet_layout_constraintRight_toRightOf=51;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9695,11 +10172,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintStart_toEndOf
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintStart_toEndOf
      */
-    public static final int ConstraintSet_layout_constraintStart_toEndOf=45;
+    public static final int ConstraintSet_layout_constraintStart_toEndOf=52;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9715,20 +10192,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintStart_toStartOf
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintStart_toStartOf
      */
-    public static final int ConstraintSet_layout_constraintStart_toStartOf=46;
+    public static final int ConstraintSet_layout_constraintStart_toStartOf=53;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintTop_creator
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintTop_creator
      */
-    public static final int ConstraintSet_layout_constraintTop_creator=47;
+    public static final int ConstraintSet_layout_constraintTop_creator=54;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9744,11 +10221,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintTop_toBottomOf
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintTop_toBottomOf
      */
-    public static final int ConstraintSet_layout_constraintTop_toBottomOf=48;
+    public static final int ConstraintSet_layout_constraintTop_toBottomOf=55;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9764,20 +10241,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintTop_toTopOf
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintTop_toTopOf
      */
-    public static final int ConstraintSet_layout_constraintTop_toTopOf=49;
+    public static final int ConstraintSet_layout_constraintTop_toTopOf=56;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintVertical_bias
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintVertical_bias
      */
-    public static final int ConstraintSet_layout_constraintVertical_bias=50;
+    public static final int ConstraintSet_layout_constraintVertical_bias=57;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9791,20 +10268,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintVertical_chainStyle
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintVertical_chainStyle
      */
-    public static final int ConstraintSet_layout_constraintVertical_chainStyle=51;
+    public static final int ConstraintSet_layout_constraintVertical_chainStyle=58;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintVertical_weight
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintVertical_weight
      */
-    public static final int ConstraintSet_layout_constraintVertical_weight=52;
+    public static final int ConstraintSet_layout_constraintVertical_weight=59;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9813,15 +10290,67 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>percent</td><td>2</td><td></td></tr>
      * <tr><td>spread</td><td>0</td><td></td></tr>
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintWidth_default
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintWidth_default
      */
-    public static final int ConstraintSet_layout_constraintWidth_default=53;
+    public static final int ConstraintSet_layout_constraintWidth_default=60;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintWidth_max}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintWidth_max
+     */
+    public static final int ConstraintSet_layout_constraintWidth_max=61;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintWidth_min}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintWidth_min
+     */
+    public static final int ConstraintSet_layout_constraintWidth_min=62;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintWidth_percent}
+     * attribute's value can be found in the {@link #ConstraintSet} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.kevinmaher.x14328981.happy:layout_constraintWidth_percent
+     */
+    public static final int ConstraintSet_layout_constraintWidth_percent=63;
+    /**
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9830,11 +10359,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintWidth_max
+     * @attr name com.kevinmaher.x14328981.happy:layout_editor_absoluteX
      */
-    public static final int ConstraintSet_layout_constraintWidth_max=54;
+    public static final int ConstraintSet_layout_editor_absoluteX=64;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9843,11 +10372,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_constraintWidth_min
+     * @attr name com.kevinmaher.x14328981.happy:layout_editor_absoluteY
      */
-    public static final int ConstraintSet_layout_constraintWidth_min=55;
+    public static final int ConstraintSet_layout_editor_absoluteY=65;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9856,11 +10385,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_editor_absoluteX
+     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginBottom
      */
-    public static final int ConstraintSet_layout_editor_absoluteX=56;
+    public static final int ConstraintSet_layout_goneMarginBottom=66;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9869,11 +10398,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_editor_absoluteY
+     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginEnd
      */
-    public static final int ConstraintSet_layout_editor_absoluteY=57;
+    public static final int ConstraintSet_layout_goneMarginEnd=67;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9882,11 +10411,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_goneMarginBottom
+     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginLeft
      */
-    public static final int ConstraintSet_layout_goneMarginBottom=58;
+    public static final int ConstraintSet_layout_goneMarginLeft=68;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9895,11 +10424,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_goneMarginEnd
+     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginRight
      */
-    public static final int ConstraintSet_layout_goneMarginEnd=59;
+    public static final int ConstraintSet_layout_goneMarginRight=69;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9908,11 +10437,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_goneMarginLeft
+     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginStart
      */
-    public static final int ConstraintSet_layout_goneMarginLeft=60;
+    public static final int ConstraintSet_layout_goneMarginStart=70;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9921,35 +10450,9 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_goneMarginRight
+     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginTop
      */
-    public static final int ConstraintSet_layout_goneMarginRight=61;
-    /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_goneMarginStart}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_goneMarginStart
-     */
-    public static final int ConstraintSet_layout_goneMarginStart=62;
-    /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_goneMarginTop}
-     * attribute's value can be found in the {@link #ConstraintSet} array.
-     *
-     * <p>May be a dimension value, which is a floating point number appended with a
-     * unit such as "<code>14.5sp</code>".
-     * Available units are: px (pixels), dp (density-independent pixels),
-     * sp (scaled pixels based on preferred font size), in (inches), and
-     * mm (millimeters).
-     *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_goneMarginTop
-     */
-    public static final int ConstraintSet_layout_goneMarginTop=63;
+    public static final int ConstraintSet_layout_goneMarginTop=71;
     /**
      * Attributes that can be used with a CoordinatorLayout.
      * <p>Includes the following attributes:</p>
@@ -9957,17 +10460,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines com.kevinmaher.x14328981.buttons_green:keylines}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.kevinmaher.x14328981.buttons_green:statusBarBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_keylines com.kevinmaher.x14328981.happy:keylines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.kevinmaher.x14328981.happy:statusBarBackground}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
      */
     public static final int[] CoordinatorLayout={
-        0x7f0300b5, 0x7f030136
+        0x7f0300bb, 0x7f030143
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#keylines}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#keylines}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9975,11 +10478,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:keylines
+     * @attr name com.kevinmaher.x14328981.happy:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#statusBarBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#statusBarBackground}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9990,7 +10493,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:statusBarBackground
+     * @attr name com.kevinmaher.x14328981.happy:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -10001,12 +10504,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.kevinmaher.x14328981.buttons_green:layout_anchor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.kevinmaher.x14328981.buttons_green:layout_anchorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.kevinmaher.x14328981.buttons_green:layout_behavior}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.kevinmaher.x14328981.buttons_green:layout_dodgeInsetEdges}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.kevinmaher.x14328981.buttons_green:layout_insetEdge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.kevinmaher.x14328981.buttons_green:layout_keyline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.kevinmaher.x14328981.happy:layout_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.kevinmaher.x14328981.happy:layout_anchorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.kevinmaher.x14328981.happy:layout_behavior}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.kevinmaher.x14328981.happy:layout_dodgeInsetEdges}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.kevinmaher.x14328981.happy:layout_insetEdge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.kevinmaher.x14328981.happy:layout_keyline}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -10017,8 +10520,8 @@ public final class R {
      * @see #CoordinatorLayout_Layout_layout_keyline
      */
     public static final int[] CoordinatorLayout_Layout={
-        0x010100b3, 0x7f0300b8, 0x7f0300b9, 0x7f0300ba, 
-        0x7f0300df, 0x7f0300e8, 0x7f0300e9
+        0x010100b3, 0x7f0300be, 0x7f0300bf, 0x7f0300c0, 
+        0x7f0300ec, 0x7f0300f5, 0x7f0300f6
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
@@ -10050,7 +10553,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_anchor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_anchor}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10058,11 +10561,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_anchor
+     * @attr name com.kevinmaher.x14328981.happy:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_anchorGravity}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_anchorGravity}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10087,21 +10590,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_anchorGravity
+     * @attr name com.kevinmaher.x14328981.happy:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_behavior}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_behavior}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_behavior
+     * @attr name com.kevinmaher.x14328981.happy:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_dodgeInsetEdges}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_dodgeInsetEdges}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10120,11 +10623,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_dodgeInsetEdges
+     * @attr name com.kevinmaher.x14328981.happy:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_insetEdge}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_insetEdge}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10142,16 +10645,16 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_insetEdge
+     * @attr name com.kevinmaher.x14328981.happy:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout_keyline}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_keyline}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout_keyline
+     * @attr name com.kevinmaher.x14328981.happy:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
@@ -10161,19 +10664,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.kevinmaher.x14328981.buttons_green:bottomSheetDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.kevinmaher.x14328981.buttons_green:bottomSheetStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DesignTheme_textColorError com.kevinmaher.x14328981.buttons_green:textColorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.kevinmaher.x14328981.happy:bottomSheetDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.kevinmaher.x14328981.happy:bottomSheetStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_textColorError com.kevinmaher.x14328981.happy:textColorError}</code></td><td></td></tr>
      * </table>
      * @see #DesignTheme_bottomSheetDialogTheme
      * @see #DesignTheme_bottomSheetStyle
      * @see #DesignTheme_textColorError
      */
     public static final int[] DesignTheme={
-        0x7f03003e, 0x7f03003f, 0x7f03015d
+        0x7f030040, 0x7f030041, 0x7f03016a
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#bottomSheetDialogTheme}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#bottomSheetDialogTheme}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10181,11 +10684,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:bottomSheetDialogTheme
+     * @attr name com.kevinmaher.x14328981.happy:bottomSheetDialogTheme
      */
     public static final int DesignTheme_bottomSheetDialogTheme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#bottomSheetStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#bottomSheetStyle}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10193,11 +10696,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:bottomSheetStyle
+     * @attr name com.kevinmaher.x14328981.happy:bottomSheetStyle
      */
     public static final int DesignTheme_bottomSheetStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#textColorError}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textColorError}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10208,7 +10711,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:textColorError
+     * @attr name com.kevinmaher.x14328981.happy:textColorError
      */
     public static final int DesignTheme_textColorError=2;
     /**
@@ -10218,14 +10721,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.kevinmaher.x14328981.buttons_green:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.kevinmaher.x14328981.buttons_green:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.kevinmaher.x14328981.buttons_green:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.kevinmaher.x14328981.buttons_green:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.kevinmaher.x14328981.buttons_green:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.kevinmaher.x14328981.buttons_green:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.kevinmaher.x14328981.buttons_green:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.kevinmaher.x14328981.buttons_green:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.kevinmaher.x14328981.happy:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.kevinmaher.x14328981.happy:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.kevinmaher.x14328981.happy:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.kevinmaher.x14328981.happy:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.kevinmaher.x14328981.happy:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.kevinmaher.x14328981.happy:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.kevinmaher.x14328981.happy:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.kevinmaher.x14328981.happy:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -10237,11 +10740,11 @@ public final class R {
      * @see #DrawerArrowToggle_thickness
      */
     public static final int[] DrawerArrowToggle={
-        0x7f030029, 0x7f03002a, 0x7f030036, 0x7f030054, 
-        0x7f030078, 0x7f03009d, 0x7f03012d, 0x7f030160
+        0x7f030029, 0x7f03002a, 0x7f030036, 0x7f030057, 
+        0x7f03007d, 0x7f0300a3, 0x7f03013a, 0x7f03016d
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10250,11 +10753,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:arrowHeadLength
+     * @attr name com.kevinmaher.x14328981.happy:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10263,11 +10766,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:arrowShaftLength
+     * @attr name com.kevinmaher.x14328981.happy:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10276,22 +10779,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:barLength
+     * @attr name com.kevinmaher.x14328981.happy:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:color
+     * @attr name com.kevinmaher.x14328981.happy:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10300,11 +10803,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:drawableSize
+     * @attr name com.kevinmaher.x14328981.happy:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10313,21 +10816,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:gapBetweenBars
+     * @attr name com.kevinmaher.x14328981.happy:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:spinBars
+     * @attr name com.kevinmaher.x14328981.happy:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10336,7 +10839,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:thickness
+     * @attr name com.kevinmaher.x14328981.happy:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -10346,15 +10849,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.kevinmaher.x14328981.buttons_green:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.kevinmaher.x14328981.buttons_green:backgroundTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_borderWidth com.kevinmaher.x14328981.buttons_green:borderWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_elevation com.kevinmaher.x14328981.buttons_green:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabCustomSize com.kevinmaher.x14328981.buttons_green:fabCustomSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabSize com.kevinmaher.x14328981.buttons_green:fabSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.kevinmaher.x14328981.buttons_green:pressedTranslationZ}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_rippleColor com.kevinmaher.x14328981.buttons_green:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.kevinmaher.x14328981.buttons_green:useCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.kevinmaher.x14328981.happy:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.kevinmaher.x14328981.happy:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_borderWidth com.kevinmaher.x14328981.happy:borderWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_elevation com.kevinmaher.x14328981.happy:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabCustomSize com.kevinmaher.x14328981.happy:fabCustomSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabSize com.kevinmaher.x14328981.happy:fabSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.kevinmaher.x14328981.happy:pressedTranslationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_rippleColor com.kevinmaher.x14328981.happy:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.kevinmaher.x14328981.happy:useCompatPadding}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_backgroundTint
      * @see #FloatingActionButton_backgroundTintMode
@@ -10367,23 +10870,23 @@ public final class R {
      * @see #FloatingActionButton_useCompatPadding
      */
     public static final int[] FloatingActionButton={
-        0x7f030034, 0x7f030035, 0x7f03003c, 0x7f03007f, 
-        0x7f03008b, 0x7f03008c, 0x7f030114, 0x7f03011e, 
-        0x7f03017d
+        0x7f030034, 0x7f030035, 0x7f03003e, 0x7f030084, 
+        0x7f030091, 0x7f030092, 0x7f030121, 0x7f03012b, 
+        0x7f03018a
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:backgroundTint
+     * @attr name com.kevinmaher.x14328981.happy:backgroundTint
      */
     public static final int FloatingActionButton_backgroundTint=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10400,11 +10903,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:backgroundTintMode
+     * @attr name com.kevinmaher.x14328981.happy:backgroundTintMode
      */
     public static final int FloatingActionButton_backgroundTintMode=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#borderWidth}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#borderWidth}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10413,11 +10916,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:borderWidth
+     * @attr name com.kevinmaher.x14328981.happy:borderWidth
      */
     public static final int FloatingActionButton_borderWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#elevation}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10426,11 +10929,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:elevation
+     * @attr name com.kevinmaher.x14328981.happy:elevation
      */
     public static final int FloatingActionButton_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#fabCustomSize}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fabCustomSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10439,11 +10942,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:fabCustomSize
+     * @attr name com.kevinmaher.x14328981.happy:fabCustomSize
      */
     public static final int FloatingActionButton_fabCustomSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#fabSize}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fabSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10457,11 +10960,11 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:fabSize
+     * @attr name com.kevinmaher.x14328981.happy:fabSize
      */
     public static final int FloatingActionButton_fabSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#pressedTranslationZ}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#pressedTranslationZ}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10470,28 +10973,28 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:pressedTranslationZ
+     * @attr name com.kevinmaher.x14328981.happy:pressedTranslationZ
      */
     public static final int FloatingActionButton_pressedTranslationZ=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#rippleColor}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:rippleColor
+     * @attr name com.kevinmaher.x14328981.happy:rippleColor
      */
     public static final int FloatingActionButton_rippleColor=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#useCompatPadding}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#useCompatPadding}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:useCompatPadding
+     * @attr name com.kevinmaher.x14328981.happy:useCompatPadding
      */
     public static final int FloatingActionButton_useCompatPadding=8;
     /**
@@ -10501,21 +11004,21 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.kevinmaher.x14328981.buttons_green:behavior_autoHide}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.kevinmaher.x14328981.happy:behavior_autoHide}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
      */
     public static final int[] FloatingActionButton_Behavior_Layout={
-        0x7f030037
+        0x7f030039
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#behavior_autoHide}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#behavior_autoHide}
      * attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:behavior_autoHide
+     * @attr name com.kevinmaher.x14328981.happy:behavior_autoHide
      */
     public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide=0;
     /**
@@ -10525,12 +11028,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.kevinmaher.x14328981.buttons_green:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.kevinmaher.x14328981.buttons_green:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.kevinmaher.x14328981.buttons_green:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.kevinmaher.x14328981.buttons_green:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.kevinmaher.x14328981.buttons_green:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.kevinmaher.x14328981.buttons_green:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.kevinmaher.x14328981.happy:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.kevinmaher.x14328981.happy:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.kevinmaher.x14328981.happy:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.kevinmaher.x14328981.happy:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.kevinmaher.x14328981.happy:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.kevinmaher.x14328981.happy:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -10540,21 +11043,21 @@ public final class R {
      * @see #FontFamily_fontProviderQuery
      */
     public static final int[] FontFamily={
-        0x7f030094, 0x7f030095, 0x7f030096, 0x7f030097, 
-        0x7f030098, 0x7f030099
+        0x7f03009a, 0x7f03009b, 0x7f03009c, 0x7f03009d, 
+        0x7f03009e, 0x7f03009f
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:fontProviderAuthority
+     * @attr name com.kevinmaher.x14328981.happy:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10562,11 +11065,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:fontProviderCerts
+     * @attr name com.kevinmaher.x14328981.happy:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10579,11 +11082,11 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:fontProviderFetchStrategy
+     * @attr name com.kevinmaher.x14328981.happy:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -10596,27 +11099,27 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:fontProviderFetchTimeout
+     * @attr name com.kevinmaher.x14328981.happy:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:fontProviderPackage
+     * @attr name com.kevinmaher.x14328981.happy:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:fontProviderQuery
+     * @attr name com.kevinmaher.x14328981.happy:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -10629,9 +11132,9 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_font android:font}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontWeight android:fontWeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.kevinmaher.x14328981.buttons_green:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.kevinmaher.x14328981.buttons_green:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.kevinmaher.x14328981.buttons_green:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.kevinmaher.x14328981.happy:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.kevinmaher.x14328981.happy:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.kevinmaher.x14328981.happy:fontWeight}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -10641,8 +11144,8 @@ public final class R {
      * @see #FontFamilyFont_fontWeight
      */
     public static final int[] FontFamilyFont={
-        0x01010532, 0x01010533, 0x0101053f, 0x7f030092, 
-        0x7f03009a, 0x7f03009b
+        0x01010532, 0x01010533, 0x0101053f, 0x7f030098, 
+        0x7f0300a0, 0x7f0300a1
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#font}
@@ -10683,7 +11186,7 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontStyle=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#font}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10691,11 +11194,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:font
+     * @attr name com.kevinmaher.x14328981.happy:font
      */
     public static final int FontFamilyFont_font=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10708,16 +11211,16 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:fontStyle
+     * @attr name com.kevinmaher.x14328981.happy:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:fontWeight
+     * @attr name com.kevinmaher.x14328981.happy:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=5;
     /**
@@ -10729,14 +11232,14 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.kevinmaher.x14328981.buttons_green:foregroundInsidePadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.kevinmaher.x14328981.happy:foregroundInsidePadding}</code></td><td></td></tr>
      * </table>
      * @see #ForegroundLinearLayout_android_foreground
      * @see #ForegroundLinearLayout_android_foregroundGravity
      * @see #ForegroundLinearLayout_foregroundInsidePadding
      */
     public static final int[] ForegroundLinearLayout={
-        0x01010109, 0x01010200, 0x7f03009c
+        0x01010109, 0x01010200, 0x7f0300a2
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#foreground}
@@ -10781,13 +11284,13 @@ public final class R {
      */
     public static final int ForegroundLinearLayout_android_foregroundGravity=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#foregroundInsidePadding}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#foregroundInsidePadding}
      * attribute's value can be found in the {@link #ForegroundLinearLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:foregroundInsidePadding
+     * @attr name com.kevinmaher.x14328981.happy:foregroundInsidePadding
      */
     public static final int ForegroundLinearLayout_foregroundInsidePadding=2;
     /**
@@ -10833,10 +11336,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.kevinmaher.x14328981.buttons_green:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.kevinmaher.x14328981.buttons_green:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.kevinmaher.x14328981.buttons_green:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.kevinmaher.x14328981.buttons_green:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.kevinmaher.x14328981.happy:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.kevinmaher.x14328981.happy:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.kevinmaher.x14328981.happy:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.kevinmaher.x14328981.happy:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -10850,8 +11353,8 @@ public final class R {
      */
     public static final int[] LinearLayoutCompat={
         0x010100af, 0x010100c4, 0x01010126, 0x01010127, 
-        0x01010128, 0x7f030074, 0x7f030076, 0x7f0300fc, 
-        0x7f030128
+        0x01010128, 0x7f030079, 0x7f03007b, 0x7f030109, 
+        0x7f030135
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -10928,7 +11431,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10936,11 +11439,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:divider
+     * @attr name com.kevinmaher.x14328981.happy:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10949,21 +11452,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:dividerPadding
+     * @attr name com.kevinmaher.x14328981.happy:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:measureWithLargestChild
+     * @attr name com.kevinmaher.x14328981.happy:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10978,7 +11481,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:showDividers
+     * @attr name com.kevinmaher.x14328981.happy:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -11250,16 +11753,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.kevinmaher.x14328981.buttons_green:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.kevinmaher.x14328981.buttons_green:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.kevinmaher.x14328981.buttons_green:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.kevinmaher.x14328981.buttons_green:alphabeticModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription com.kevinmaher.x14328981.buttons_green:contentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint com.kevinmaher.x14328981.buttons_green:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode com.kevinmaher.x14328981.buttons_green:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers com.kevinmaher.x14328981.buttons_green:numericModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.kevinmaher.x14328981.buttons_green:showAsAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText com.kevinmaher.x14328981.buttons_green:tooltipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.kevinmaher.x14328981.happy:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.kevinmaher.x14328981.happy:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.kevinmaher.x14328981.happy:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.kevinmaher.x14328981.happy:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription com.kevinmaher.x14328981.happy:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint com.kevinmaher.x14328981.happy:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode com.kevinmaher.x14328981.happy:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers com.kevinmaher.x14328981.happy:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.kevinmaher.x14328981.happy:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText com.kevinmaher.x14328981.happy:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -11290,8 +11793,8 @@ public final class R {
         0x01010194, 0x010101de, 0x010101df, 0x010101e1, 
         0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5, 
         0x0101026f, 0x7f03000d, 0x7f03001f, 0x7f030020, 
-        0x7f030028, 0x7f030061, 0x7f0300a8, 0x7f0300a9, 
-        0x7f030102, 0x7f030127, 0x7f030179
+        0x7f030028, 0x7f030066, 0x7f0300ae, 0x7f0300af, 
+        0x7f03010f, 0x7f030134, 0x7f030186
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#icon}
@@ -11436,7 +11939,7 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11444,31 +11947,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionLayout
+     * @attr name com.kevinmaher.x14328981.happy:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionProviderClass
+     * @attr name com.kevinmaher.x14328981.happy:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:actionViewClass
+     * @attr name com.kevinmaher.x14328981.happy:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#alphabeticModifiers}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#alphabeticModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11485,32 +11988,32 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:alphabeticModifiers
+     * @attr name com.kevinmaher.x14328981.happy:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#contentDescription}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentDescription}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:contentDescription
+     * @attr name com.kevinmaher.x14328981.happy:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#iconTint}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:iconTint
+     * @attr name com.kevinmaher.x14328981.happy:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11527,11 +12030,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:iconTintMode
+     * @attr name com.kevinmaher.x14328981.happy:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#numericModifiers}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#numericModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11548,11 +12051,11 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:numericModifiers
+     * @attr name com.kevinmaher.x14328981.happy:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11568,17 +12071,17 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:showAsAction
+     * @attr name com.kevinmaher.x14328981.happy:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tooltipText}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tooltipText}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tooltipText
+     * @attr name com.kevinmaher.x14328981.happy:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -11595,8 +12098,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.kevinmaher.x14328981.buttons_green:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.kevinmaher.x14328981.buttons_green:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.kevinmaher.x14328981.happy:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.kevinmaher.x14328981.happy:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -11610,8 +12113,8 @@ public final class R {
      */
     public static final int[] MenuView={
         0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e, 
-        0x0101012f, 0x01010130, 0x01010131, 0x7f030113, 
-        0x7f030138
+        0x0101012f, 0x01010130, 0x01010131, 0x7f030120, 
+        0x7f030145
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowAnimationStyle}
@@ -11701,17 +12204,17 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:preserveIconSpacing
+     * @attr name com.kevinmaher.x14328981.happy:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11719,7 +12222,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:subMenuArrow
+     * @attr name com.kevinmaher.x14328981.happy:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -11732,13 +12235,13 @@ public final class R {
      * <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_elevation com.kevinmaher.x14328981.buttons_green:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_headerLayout com.kevinmaher.x14328981.buttons_green:headerLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemBackground com.kevinmaher.x14328981.buttons_green:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemIconTint com.kevinmaher.x14328981.buttons_green:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextAppearance com.kevinmaher.x14328981.buttons_green:itemTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextColor com.kevinmaher.x14328981.buttons_green:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_menu com.kevinmaher.x14328981.buttons_green:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_elevation com.kevinmaher.x14328981.happy:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_headerLayout com.kevinmaher.x14328981.happy:headerLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemBackground com.kevinmaher.x14328981.happy:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemIconTint com.kevinmaher.x14328981.happy:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextAppearance com.kevinmaher.x14328981.happy:itemTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextColor com.kevinmaher.x14328981.happy:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_menu com.kevinmaher.x14328981.happy:menu}</code></td><td></td></tr>
      * </table>
      * @see #NavigationView_android_background
      * @see #NavigationView_android_fitsSystemWindows
@@ -11752,9 +12255,9 @@ public final class R {
      * @see #NavigationView_menu
      */
     public static final int[] NavigationView={
-        0x010100d4, 0x010100dd, 0x0101011f, 0x7f03007f, 
-        0x7f03009f, 0x7f0300b0, 0x7f0300b1, 0x7f0300b3, 
-        0x7f0300b4, 0x7f0300fd
+        0x010100d4, 0x010100dd, 0x0101011f, 0x7f030084, 
+        0x7f0300a5, 0x7f0300b6, 0x7f0300b7, 0x7f0300b9, 
+        0x7f0300ba, 0x7f03010a
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -11795,7 +12298,7 @@ public final class R {
      */
     public static final int NavigationView_android_maxWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#elevation}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11804,11 +12307,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:elevation
+     * @attr name com.kevinmaher.x14328981.happy:elevation
      */
     public static final int NavigationView_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#headerLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#headerLayout}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11816,11 +12319,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:headerLayout
+     * @attr name com.kevinmaher.x14328981.happy:headerLayout
      */
     public static final int NavigationView_headerLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#itemBackground}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11828,22 +12331,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:itemBackground
+     * @attr name com.kevinmaher.x14328981.happy:itemBackground
      */
     public static final int NavigationView_itemBackground=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:itemIconTint
+     * @attr name com.kevinmaher.x14328981.happy:itemIconTint
      */
     public static final int NavigationView_itemIconTint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#itemTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#itemTextAppearance}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11851,22 +12354,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:itemTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy:itemTextAppearance
      */
     public static final int NavigationView_itemTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:itemTextColor
+     * @attr name com.kevinmaher.x14328981.happy:itemTextColor
      */
     public static final int NavigationView_itemTextColor=8;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#menu}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#menu}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11874,7 +12377,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:menu
+     * @attr name com.kevinmaher.x14328981.happy:menu
      */
     public static final int NavigationView_menu=9;
     /**
@@ -11886,14 +12389,14 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.kevinmaher.x14328981.buttons_green:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.kevinmaher.x14328981.happy:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
      * @see #PopupWindow_overlapAnchor
      */
     public static final int[] PopupWindow={
-        0x01010176, 0x010102c9, 0x7f030103
+        0x01010176, 0x010102c9, 0x7f030110
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
@@ -11923,13 +12426,13 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:overlapAnchor
+     * @attr name com.kevinmaher.x14328981.happy:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -11939,21 +12442,21 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.kevinmaher.x14328981.buttons_green:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.kevinmaher.x14328981.happy:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
     public static final int[] PopupWindowBackgroundState={
-        0x7f030133
+        0x7f030140
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:state_above_anchor
+     * @attr name com.kevinmaher.x14328981.happy:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -11963,17 +12466,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.kevinmaher.x14328981.buttons_green:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.kevinmaher.x14328981.buttons_green:paddingTopNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.kevinmaher.x14328981.happy:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.kevinmaher.x14328981.happy:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
      */
     public static final int[] RecycleListView={
-        0x7f030104, 0x7f030107
+        0x7f030111, 0x7f030114
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11982,11 +12485,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:paddingBottomNoButtons
+     * @attr name com.kevinmaher.x14328981.happy:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11995,7 +12498,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:paddingTopNoTitle
+     * @attr name com.kevinmaher.x14328981.happy:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -12007,15 +12510,15 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled com.kevinmaher.x14328981.buttons_green:fastScrollEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable com.kevinmaher.x14328981.buttons_green:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable com.kevinmaher.x14328981.buttons_green:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable com.kevinmaher.x14328981.buttons_green:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable com.kevinmaher.x14328981.buttons_green:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_layoutManager com.kevinmaher.x14328981.buttons_green:layoutManager}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_reverseLayout com.kevinmaher.x14328981.buttons_green:reverseLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_spanCount com.kevinmaher.x14328981.buttons_green:spanCount}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.kevinmaher.x14328981.buttons_green:stackFromEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled com.kevinmaher.x14328981.happy:fastScrollEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable com.kevinmaher.x14328981.happy:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable com.kevinmaher.x14328981.happy:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable com.kevinmaher.x14328981.happy:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable com.kevinmaher.x14328981.happy:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_layoutManager com.kevinmaher.x14328981.happy:layoutManager}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_reverseLayout com.kevinmaher.x14328981.happy:reverseLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_spanCount com.kevinmaher.x14328981.happy:spanCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.kevinmaher.x14328981.happy:stackFromEnd}</code></td><td></td></tr>
      * </table>
      * @see #RecyclerView_android_orientation
      * @see #RecyclerView_android_descendantFocusability
@@ -12030,9 +12533,9 @@ public final class R {
      * @see #RecyclerView_stackFromEnd
      */
     public static final int[] RecyclerView={
-        0x010100c4, 0x010100f1, 0x7f03008d, 0x7f03008e, 
-        0x7f03008f, 0x7f030090, 0x7f030091, 0x7f0300b7, 
-        0x7f03011d, 0x7f03012c, 0x7f030132
+        0x010100c4, 0x010100f1, 0x7f030093, 0x7f030094, 
+        0x7f030095, 0x7f030096, 0x7f030097, 0x7f0300bd, 
+        0x7f03012a, 0x7f030139, 0x7f03013f
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -12070,17 +12573,17 @@ public final class R {
      */
     public static final int RecyclerView_android_descendantFocusability=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#fastScrollEnabled}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fastScrollEnabled}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:fastScrollEnabled
+     * @attr name com.kevinmaher.x14328981.happy:fastScrollEnabled
      */
     public static final int RecyclerView_fastScrollEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#fastScrollHorizontalThumbDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fastScrollHorizontalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12088,11 +12591,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:fastScrollHorizontalThumbDrawable
+     * @attr name com.kevinmaher.x14328981.happy:fastScrollHorizontalThumbDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalThumbDrawable=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#fastScrollHorizontalTrackDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fastScrollHorizontalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12100,11 +12603,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:fastScrollHorizontalTrackDrawable
+     * @attr name com.kevinmaher.x14328981.happy:fastScrollHorizontalTrackDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalTrackDrawable=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#fastScrollVerticalThumbDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fastScrollVerticalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12112,11 +12615,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:fastScrollVerticalThumbDrawable
+     * @attr name com.kevinmaher.x14328981.happy:fastScrollVerticalThumbDrawable
      */
     public static final int RecyclerView_fastScrollVerticalThumbDrawable=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#fastScrollVerticalTrackDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fastScrollVerticalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12124,46 +12627,46 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:fastScrollVerticalTrackDrawable
+     * @attr name com.kevinmaher.x14328981.happy:fastScrollVerticalTrackDrawable
      */
     public static final int RecyclerView_fastScrollVerticalTrackDrawable=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layoutManager}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layoutManager}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layoutManager
+     * @attr name com.kevinmaher.x14328981.happy:layoutManager
      */
     public static final int RecyclerView_layoutManager=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#reverseLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#reverseLayout}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:reverseLayout
+     * @attr name com.kevinmaher.x14328981.happy:reverseLayout
      */
     public static final int RecyclerView_reverseLayout=8;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#spanCount}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#spanCount}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:spanCount
+     * @attr name com.kevinmaher.x14328981.happy:spanCount
      */
     public static final int RecyclerView_spanCount=9;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#stackFromEnd}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#stackFromEnd}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:stackFromEnd
+     * @attr name com.kevinmaher.x14328981.happy:stackFromEnd
      */
     public static final int RecyclerView_stackFromEnd=10;
     /**
@@ -12173,15 +12676,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.kevinmaher.x14328981.buttons_green:insetForeground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.kevinmaher.x14328981.happy:insetForeground}</code></td><td></td></tr>
      * </table>
      * @see #ScrimInsetsFrameLayout_insetForeground
      */
     public static final int[] ScrimInsetsFrameLayout={
-        0x7f0300ae
+        0x7f0300b4
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#insetForeground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#insetForeground}
      * attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12192,7 +12695,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:insetForeground
+     * @attr name com.kevinmaher.x14328981.happy:insetForeground
      */
     public static final int ScrimInsetsFrameLayout_insetForeground=0;
     /**
@@ -12202,15 +12705,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop com.kevinmaher.x14328981.buttons_green:behavior_overlapTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop com.kevinmaher.x14328981.happy:behavior_overlapTop}</code></td><td></td></tr>
      * </table>
      * @see #ScrollingViewBehavior_Layout_behavior_overlapTop
      */
     public static final int[] ScrollingViewBehavior_Layout={
-        0x7f030039
+        0x7f03003b
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#behavior_overlapTop}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#behavior_overlapTop}
      * attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12219,7 +12722,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:behavior_overlapTop
+     * @attr name com.kevinmaher.x14328981.happy:behavior_overlapTop
      */
     public static final int ScrollingViewBehavior_Layout_behavior_overlapTop=0;
     /**
@@ -12233,19 +12736,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.kevinmaher.x14328981.buttons_green:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.kevinmaher.x14328981.buttons_green:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.kevinmaher.x14328981.buttons_green:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.kevinmaher.x14328981.buttons_green:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.kevinmaher.x14328981.buttons_green:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.kevinmaher.x14328981.buttons_green:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.kevinmaher.x14328981.buttons_green:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.kevinmaher.x14328981.buttons_green:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.kevinmaher.x14328981.buttons_green:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.kevinmaher.x14328981.buttons_green:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.kevinmaher.x14328981.buttons_green:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.kevinmaher.x14328981.buttons_green:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.kevinmaher.x14328981.buttons_green:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon com.kevinmaher.x14328981.happy:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.kevinmaher.x14328981.happy:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.kevinmaher.x14328981.happy:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.kevinmaher.x14328981.happy:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.kevinmaher.x14328981.happy:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.kevinmaher.x14328981.happy:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.kevinmaher.x14328981.happy:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.kevinmaher.x14328981.happy:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.kevinmaher.x14328981.happy:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.kevinmaher.x14328981.happy:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.kevinmaher.x14328981.happy:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.kevinmaher.x14328981.happy:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.kevinmaher.x14328981.happy:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -12267,10 +12770,10 @@ public final class R {
      */
     public static final int[] SearchView={
         0x010100da, 0x0101011f, 0x01010220, 0x01010264, 
-        0x7f03004e, 0x7f03005f, 0x7f030070, 0x7f03009e, 
-        0x7f0300aa, 0x7f0300b6, 0x7f030117, 0x7f030118, 
-        0x7f030121, 0x7f030122, 0x7f030139, 0x7f03013e, 
-        0x7f03017f
+        0x7f030051, 0x7f030062, 0x7f030075, 0x7f0300a4, 
+        0x7f0300b0, 0x7f0300bc, 0x7f030124, 0x7f030125, 
+        0x7f03012e, 0x7f03012f, 0x7f030146, 0x7f03014b, 
+        0x7f03018c
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -12383,7 +12886,7 @@ public final class R {
      */
     public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12391,11 +12894,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:closeIcon
+     * @attr name com.kevinmaher.x14328981.happy:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12403,21 +12906,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:commitIcon
+     * @attr name com.kevinmaher.x14328981.happy:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:defaultQueryHint
+     * @attr name com.kevinmaher.x14328981.happy:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12425,21 +12928,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:goIcon
+     * @attr name com.kevinmaher.x14328981.happy:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:iconifiedByDefault
+     * @attr name com.kevinmaher.x14328981.happy:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#layout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12447,11 +12950,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:layout
+     * @attr name com.kevinmaher.x14328981.happy:layout
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12459,21 +12962,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:queryBackground
+     * @attr name com.kevinmaher.x14328981.happy:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:queryHint
+     * @attr name com.kevinmaher.x14328981.happy:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12481,11 +12984,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:searchHintIcon
+     * @attr name com.kevinmaher.x14328981.happy:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12493,11 +12996,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:searchIcon
+     * @attr name com.kevinmaher.x14328981.happy:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12505,11 +13008,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:submitBackground
+     * @attr name com.kevinmaher.x14328981.happy:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12517,11 +13020,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:suggestionRowLayout
+     * @attr name com.kevinmaher.x14328981.happy:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12529,7 +13032,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:voiceIcon
+     * @attr name com.kevinmaher.x14328981.happy:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -12540,15 +13043,15 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_elevation com.kevinmaher.x14328981.buttons_green:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.kevinmaher.x14328981.buttons_green:maxActionInlineWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_elevation com.kevinmaher.x14328981.happy:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.kevinmaher.x14328981.happy:maxActionInlineWidth}</code></td><td></td></tr>
      * </table>
      * @see #SnackbarLayout_android_maxWidth
      * @see #SnackbarLayout_elevation
      * @see #SnackbarLayout_maxActionInlineWidth
      */
     public static final int[] SnackbarLayout={
-        0x0101011f, 0x7f03007f, 0x7f0300fa
+        0x0101011f, 0x7f030084, 0x7f030107
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
@@ -12564,7 +13067,7 @@ public final class R {
      */
     public static final int SnackbarLayout_android_maxWidth=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#elevation}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12573,11 +13076,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:elevation
+     * @attr name com.kevinmaher.x14328981.happy:elevation
      */
     public static final int SnackbarLayout_elevation=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#maxActionInlineWidth}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#maxActionInlineWidth}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12586,7 +13089,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:maxActionInlineWidth
+     * @attr name com.kevinmaher.x14328981.happy:maxActionInlineWidth
      */
     public static final int SnackbarLayout_maxActionInlineWidth=2;
     /**
@@ -12600,7 +13103,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.kevinmaher.x14328981.buttons_green:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.kevinmaher.x14328981.happy:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -12610,7 +13113,7 @@ public final class R {
      */
     public static final int[] Spinner={
         0x010100b2, 0x01010176, 0x0101017b, 0x01010262, 
-        0x7f030111
+        0x7f03011e
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#entries}
@@ -12675,7 +13178,7 @@ public final class R {
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12683,7 +13186,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:popupTheme
+     * @attr name com.kevinmaher.x14328981.happy:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -12696,17 +13199,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.kevinmaher.x14328981.buttons_green:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.kevinmaher.x14328981.buttons_green:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.kevinmaher.x14328981.buttons_green:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.kevinmaher.x14328981.buttons_green:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.kevinmaher.x14328981.buttons_green:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.kevinmaher.x14328981.buttons_green:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.kevinmaher.x14328981.buttons_green:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.kevinmaher.x14328981.buttons_green:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.kevinmaher.x14328981.buttons_green:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.kevinmaher.x14328981.buttons_green:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.kevinmaher.x14328981.buttons_green:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.kevinmaher.x14328981.happy:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.kevinmaher.x14328981.happy:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.kevinmaher.x14328981.happy:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.kevinmaher.x14328981.happy:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.kevinmaher.x14328981.happy:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.kevinmaher.x14328981.happy:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.kevinmaher.x14328981.happy:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.kevinmaher.x14328981.happy:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.kevinmaher.x14328981.happy:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.kevinmaher.x14328981.happy:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.kevinmaher.x14328981.happy:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -12724,10 +13227,10 @@ public final class R {
      * @see #SwitchCompat_trackTintMode
      */
     public static final int[] SwitchCompat={
-        0x01010124, 0x01010125, 0x01010142, 0x7f030129, 
-        0x7f030130, 0x7f03013f, 0x7f030140, 0x7f030142, 
-        0x7f030161, 0x7f030162, 0x7f030163, 0x7f03017a, 
-        0x7f03017b, 0x7f03017c
+        0x01010124, 0x01010125, 0x01010142, 0x7f030136, 
+        0x7f03013d, 0x7f03014c, 0x7f03014d, 0x7f03014f, 
+        0x7f03016e, 0x7f03016f, 0x7f030170, 0x7f030187, 
+        0x7f030188, 0x7f030189
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textOn}
@@ -12762,27 +13265,27 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#showText}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:showText
+     * @attr name com.kevinmaher.x14328981.happy:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:splitTrack
+     * @attr name com.kevinmaher.x14328981.happy:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12791,11 +13294,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:switchMinWidth
+     * @attr name com.kevinmaher.x14328981.happy:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12804,11 +13307,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:switchPadding
+     * @attr name com.kevinmaher.x14328981.happy:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12816,11 +13319,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:switchTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12829,22 +13332,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:thumbTextPadding
+     * @attr name com.kevinmaher.x14328981.happy:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:thumbTint
+     * @attr name com.kevinmaher.x14328981.happy:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12861,11 +13364,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:thumbTintMode
+     * @attr name com.kevinmaher.x14328981.happy:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#track}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12873,22 +13376,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:track
+     * @attr name com.kevinmaher.x14328981.happy:track
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:trackTint
+     * @attr name com.kevinmaher.x14328981.happy:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12905,7 +13408,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:trackTintMode
+     * @attr name com.kevinmaher.x14328981.happy:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -12967,22 +13470,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #TabLayout_tabBackground com.kevinmaher.x14328981.buttons_green:tabBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabContentStart com.kevinmaher.x14328981.buttons_green:tabContentStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabGravity com.kevinmaher.x14328981.buttons_green:tabGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorColor com.kevinmaher.x14328981.buttons_green:tabIndicatorColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.kevinmaher.x14328981.buttons_green:tabIndicatorHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMaxWidth com.kevinmaher.x14328981.buttons_green:tabMaxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMinWidth com.kevinmaher.x14328981.buttons_green:tabMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMode com.kevinmaher.x14328981.buttons_green:tabMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPadding com.kevinmaher.x14328981.buttons_green:tabPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingBottom com.kevinmaher.x14328981.buttons_green:tabPaddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingEnd com.kevinmaher.x14328981.buttons_green:tabPaddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingStart com.kevinmaher.x14328981.buttons_green:tabPaddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingTop com.kevinmaher.x14328981.buttons_green:tabPaddingTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.kevinmaher.x14328981.buttons_green:tabSelectedTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextAppearance com.kevinmaher.x14328981.buttons_green:tabTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextColor com.kevinmaher.x14328981.buttons_green:tabTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabBackground com.kevinmaher.x14328981.happy:tabBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabContentStart com.kevinmaher.x14328981.happy:tabContentStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabGravity com.kevinmaher.x14328981.happy:tabGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorColor com.kevinmaher.x14328981.happy:tabIndicatorColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.kevinmaher.x14328981.happy:tabIndicatorHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMaxWidth com.kevinmaher.x14328981.happy:tabMaxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMinWidth com.kevinmaher.x14328981.happy:tabMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMode com.kevinmaher.x14328981.happy:tabMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPadding com.kevinmaher.x14328981.happy:tabPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingBottom com.kevinmaher.x14328981.happy:tabPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingEnd com.kevinmaher.x14328981.happy:tabPaddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingStart com.kevinmaher.x14328981.happy:tabPaddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingTop com.kevinmaher.x14328981.happy:tabPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.kevinmaher.x14328981.happy:tabSelectedTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextAppearance com.kevinmaher.x14328981.happy:tabTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextColor com.kevinmaher.x14328981.happy:tabTextColor}</code></td><td></td></tr>
      * </table>
      * @see #TabLayout_tabBackground
      * @see #TabLayout_tabContentStart
@@ -13002,13 +13505,13 @@ public final class R {
      * @see #TabLayout_tabTextColor
      */
     public static final int[] TabLayout={
-        0x7f030143, 0x7f030144, 0x7f030145, 0x7f030146, 
-        0x7f030147, 0x7f030148, 0x7f030149, 0x7f03014a, 
-        0x7f03014b, 0x7f03014c, 0x7f03014d, 0x7f03014e, 
-        0x7f03014f, 0x7f030150, 0x7f030151, 0x7f030152
+        0x7f030150, 0x7f030151, 0x7f030152, 0x7f030153, 
+        0x7f030154, 0x7f030155, 0x7f030156, 0x7f030157, 
+        0x7f030158, 0x7f030159, 0x7f03015a, 0x7f03015b, 
+        0x7f03015c, 0x7f03015d, 0x7f03015e, 0x7f03015f
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tabBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabBackground}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13016,11 +13519,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tabBackground
+     * @attr name com.kevinmaher.x14328981.happy:tabBackground
      */
     public static final int TabLayout_tabBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tabContentStart}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabContentStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13029,11 +13532,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tabContentStart
+     * @attr name com.kevinmaher.x14328981.happy:tabContentStart
      */
     public static final int TabLayout_tabContentStart=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tabGravity}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabGravity}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13046,22 +13549,22 @@ public final class R {
      * <tr><td>fill</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tabGravity
+     * @attr name com.kevinmaher.x14328981.happy:tabGravity
      */
     public static final int TabLayout_tabGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tabIndicatorColor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabIndicatorColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tabIndicatorColor
+     * @attr name com.kevinmaher.x14328981.happy:tabIndicatorColor
      */
     public static final int TabLayout_tabIndicatorColor=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tabIndicatorHeight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabIndicatorHeight}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13070,11 +13573,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tabIndicatorHeight
+     * @attr name com.kevinmaher.x14328981.happy:tabIndicatorHeight
      */
     public static final int TabLayout_tabIndicatorHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tabMaxWidth}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabMaxWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13083,11 +13586,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tabMaxWidth
+     * @attr name com.kevinmaher.x14328981.happy:tabMaxWidth
      */
     public static final int TabLayout_tabMaxWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tabMinWidth}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabMinWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13096,11 +13599,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tabMinWidth
+     * @attr name com.kevinmaher.x14328981.happy:tabMinWidth
      */
     public static final int TabLayout_tabMinWidth=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tabMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabMode}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13113,11 +13616,11 @@ public final class R {
      * <tr><td>scrollable</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tabMode
+     * @attr name com.kevinmaher.x14328981.happy:tabMode
      */
     public static final int TabLayout_tabMode=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tabPadding}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabPadding}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13126,11 +13629,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tabPadding
+     * @attr name com.kevinmaher.x14328981.happy:tabPadding
      */
     public static final int TabLayout_tabPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tabPaddingBottom}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabPaddingBottom}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13139,11 +13642,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tabPaddingBottom
+     * @attr name com.kevinmaher.x14328981.happy:tabPaddingBottom
      */
     public static final int TabLayout_tabPaddingBottom=9;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tabPaddingEnd}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabPaddingEnd}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13152,11 +13655,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tabPaddingEnd
+     * @attr name com.kevinmaher.x14328981.happy:tabPaddingEnd
      */
     public static final int TabLayout_tabPaddingEnd=10;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tabPaddingStart}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabPaddingStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13165,11 +13668,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tabPaddingStart
+     * @attr name com.kevinmaher.x14328981.happy:tabPaddingStart
      */
     public static final int TabLayout_tabPaddingStart=11;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tabPaddingTop}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabPaddingTop}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13178,22 +13681,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tabPaddingTop
+     * @attr name com.kevinmaher.x14328981.happy:tabPaddingTop
      */
     public static final int TabLayout_tabPaddingTop=12;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tabSelectedTextColor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabSelectedTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tabSelectedTextColor
+     * @attr name com.kevinmaher.x14328981.happy:tabSelectedTextColor
      */
     public static final int TabLayout_tabSelectedTextColor=13;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tabTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabTextAppearance}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13201,18 +13704,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tabTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy:tabTextAppearance
      */
     public static final int TabLayout_tabTextAppearance=14;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#tabTextColor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:tabTextColor
+     * @attr name com.kevinmaher.x14328981.happy:tabTextColor
      */
     public static final int TabLayout_tabTextColor=15;
     /**
@@ -13233,8 +13736,8 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily com.kevinmaher.x14328981.buttons_green:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.kevinmaher.x14328981.buttons_green:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily com.kevinmaher.x14328981.happy:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.kevinmaher.x14328981.happy:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -13253,8 +13756,8 @@ public final class R {
     public static final int[] TextAppearance={
         0x01010095, 0x01010096, 0x01010097, 0x01010098, 
         0x0101009a, 0x0101009b, 0x01010161, 0x01010162, 
-        0x01010163, 0x01010164, 0x010103ac, 0x7f030093, 
-        0x7f030153
+        0x01010163, 0x01010164, 0x010103ac, 0x7f030099, 
+        0x7f030160
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textSize}
@@ -13400,17 +13903,17 @@ public final class R {
      */
     public static final int TextAppearance_android_fontFamily=10;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:fontFamily
+     * @attr name com.kevinmaher.x14328981.happy:fontFamily
      */
     public static final int TextAppearance_fontFamily=11;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13420,7 +13923,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:textAllCaps
+     * @attr name com.kevinmaher.x14328981.happy:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=12;
     /**
@@ -13432,20 +13935,20 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterEnabled com.kevinmaher.x14328981.buttons_green:counterEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterMaxLength com.kevinmaher.x14328981.buttons_green:counterMaxLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.kevinmaher.x14328981.buttons_green:counterOverflowTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.kevinmaher.x14328981.buttons_green:counterTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorEnabled com.kevinmaher.x14328981.buttons_green:errorEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.kevinmaher.x14328981.buttons_green:errorTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.kevinmaher.x14328981.buttons_green:hintAnimationEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintEnabled com.kevinmaher.x14328981.buttons_green:hintEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.kevinmaher.x14328981.buttons_green:hintTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription com.kevinmaher.x14328981.buttons_green:passwordToggleContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable com.kevinmaher.x14328981.buttons_green:passwordToggleDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled com.kevinmaher.x14328981.buttons_green:passwordToggleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint com.kevinmaher.x14328981.buttons_green:passwordToggleTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode com.kevinmaher.x14328981.buttons_green:passwordToggleTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterEnabled com.kevinmaher.x14328981.happy:counterEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterMaxLength com.kevinmaher.x14328981.happy:counterMaxLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.kevinmaher.x14328981.happy:counterOverflowTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.kevinmaher.x14328981.happy:counterTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorEnabled com.kevinmaher.x14328981.happy:errorEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.kevinmaher.x14328981.happy:errorTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.kevinmaher.x14328981.happy:hintAnimationEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintEnabled com.kevinmaher.x14328981.happy:hintEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.kevinmaher.x14328981.happy:hintTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription com.kevinmaher.x14328981.happy:passwordToggleContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable com.kevinmaher.x14328981.happy:passwordToggleDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled com.kevinmaher.x14328981.happy:passwordToggleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint com.kevinmaher.x14328981.happy:passwordToggleTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode com.kevinmaher.x14328981.happy:passwordToggleTintMode}</code></td><td></td></tr>
      * </table>
      * @see #TextInputLayout_android_textColorHint
      * @see #TextInputLayout_android_hint
@@ -13465,10 +13968,10 @@ public final class R {
      * @see #TextInputLayout_passwordToggleTintMode
      */
     public static final int[] TextInputLayout={
-        0x0101009a, 0x01010150, 0x7f03006b, 0x7f03006c, 
-        0x7f03006d, 0x7f03006e, 0x7f030080, 0x7f030081, 
-        0x7f0300a2, 0x7f0300a3, 0x7f0300a4, 0x7f03010b, 
-        0x7f03010c, 0x7f03010d, 0x7f03010e, 0x7f03010f
+        0x0101009a, 0x01010150, 0x7f030070, 0x7f030071, 
+        0x7f030072, 0x7f030073, 0x7f030086, 0x7f030087, 
+        0x7f0300a8, 0x7f0300a9, 0x7f0300aa, 0x7f030118, 
+        0x7f030119, 0x7f03011a, 0x7f03011b, 0x7f03011c
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textColorHint}
@@ -13496,26 +13999,26 @@ public final class R {
      */
     public static final int TextInputLayout_android_hint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#counterEnabled}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#counterEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:counterEnabled
+     * @attr name com.kevinmaher.x14328981.happy:counterEnabled
      */
     public static final int TextInputLayout_counterEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#counterMaxLength}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#counterMaxLength}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:counterMaxLength
+     * @attr name com.kevinmaher.x14328981.happy:counterMaxLength
      */
     public static final int TextInputLayout_counterMaxLength=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#counterOverflowTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#counterOverflowTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13523,11 +14026,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:counterOverflowTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy:counterOverflowTextAppearance
      */
     public static final int TextInputLayout_counterOverflowTextAppearance=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#counterTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#counterTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13535,21 +14038,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:counterTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy:counterTextAppearance
      */
     public static final int TextInputLayout_counterTextAppearance=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#errorEnabled}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#errorEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:errorEnabled
+     * @attr name com.kevinmaher.x14328981.happy:errorEnabled
      */
     public static final int TextInputLayout_errorEnabled=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#errorTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#errorTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13557,31 +14060,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:errorTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy:errorTextAppearance
      */
     public static final int TextInputLayout_errorTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#hintAnimationEnabled}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#hintAnimationEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:hintAnimationEnabled
+     * @attr name com.kevinmaher.x14328981.happy:hintAnimationEnabled
      */
     public static final int TextInputLayout_hintAnimationEnabled=8;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#hintEnabled}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#hintEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:hintEnabled
+     * @attr name com.kevinmaher.x14328981.happy:hintEnabled
      */
     public static final int TextInputLayout_hintEnabled=9;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#hintTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#hintTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13589,21 +14092,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:hintTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy:hintTextAppearance
      */
     public static final int TextInputLayout_hintTextAppearance=10;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#passwordToggleContentDescription}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#passwordToggleContentDescription}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:passwordToggleContentDescription
+     * @attr name com.kevinmaher.x14328981.happy:passwordToggleContentDescription
      */
     public static final int TextInputLayout_passwordToggleContentDescription=11;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#passwordToggleDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#passwordToggleDrawable}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13611,32 +14114,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:passwordToggleDrawable
+     * @attr name com.kevinmaher.x14328981.happy:passwordToggleDrawable
      */
     public static final int TextInputLayout_passwordToggleDrawable=12;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#passwordToggleEnabled}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#passwordToggleEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:passwordToggleEnabled
+     * @attr name com.kevinmaher.x14328981.happy:passwordToggleEnabled
      */
     public static final int TextInputLayout_passwordToggleEnabled=13;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#passwordToggleTint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#passwordToggleTint}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:passwordToggleTint
+     * @attr name com.kevinmaher.x14328981.happy:passwordToggleTint
      */
     public static final int TextInputLayout_passwordToggleTint=14;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#passwordToggleTintMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#passwordToggleTintMode}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13652,7 +14155,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:passwordToggleTintMode
+     * @attr name com.kevinmaher.x14328981.happy:passwordToggleTintMode
      */
     public static final int TextInputLayout_passwordToggleTintMode=15;
     /**
@@ -13664,33 +14167,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.kevinmaher.x14328981.buttons_green:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.kevinmaher.x14328981.buttons_green:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.kevinmaher.x14328981.buttons_green:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.kevinmaher.x14328981.buttons_green:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.kevinmaher.x14328981.buttons_green:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.kevinmaher.x14328981.buttons_green:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.kevinmaher.x14328981.buttons_green:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.kevinmaher.x14328981.buttons_green:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.kevinmaher.x14328981.buttons_green:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.kevinmaher.x14328981.buttons_green:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.kevinmaher.x14328981.buttons_green:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.kevinmaher.x14328981.buttons_green:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.kevinmaher.x14328981.buttons_green:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.kevinmaher.x14328981.buttons_green:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.kevinmaher.x14328981.buttons_green:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.kevinmaher.x14328981.buttons_green:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.kevinmaher.x14328981.buttons_green:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.kevinmaher.x14328981.buttons_green:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.kevinmaher.x14328981.buttons_green:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.kevinmaher.x14328981.buttons_green:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.kevinmaher.x14328981.buttons_green:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.kevinmaher.x14328981.buttons_green:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.kevinmaher.x14328981.buttons_green:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.kevinmaher.x14328981.buttons_green:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.kevinmaher.x14328981.buttons_green:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.kevinmaher.x14328981.buttons_green:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.kevinmaher.x14328981.buttons_green:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.kevinmaher.x14328981.happy:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.kevinmaher.x14328981.happy:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.kevinmaher.x14328981.happy:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.kevinmaher.x14328981.happy:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.kevinmaher.x14328981.happy:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.kevinmaher.x14328981.happy:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.kevinmaher.x14328981.happy:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.kevinmaher.x14328981.happy:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.kevinmaher.x14328981.happy:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.kevinmaher.x14328981.happy:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.kevinmaher.x14328981.happy:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.kevinmaher.x14328981.happy:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.kevinmaher.x14328981.happy:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.kevinmaher.x14328981.happy:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.kevinmaher.x14328981.happy:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.kevinmaher.x14328981.happy:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.kevinmaher.x14328981.happy:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.kevinmaher.x14328981.happy:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.kevinmaher.x14328981.happy:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.kevinmaher.x14328981.happy:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.kevinmaher.x14328981.happy:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.kevinmaher.x14328981.happy:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.kevinmaher.x14328981.happy:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.kevinmaher.x14328981.happy:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.kevinmaher.x14328981.happy:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.kevinmaher.x14328981.happy:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.kevinmaher.x14328981.happy:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -13723,14 +14226,14 @@ public final class R {
      * @see #Toolbar_titleTextColor
      */
     public static final int[] Toolbar={
-        0x010100af, 0x01010140, 0x7f030045, 0x7f030050, 
-        0x7f030051, 0x7f030062, 0x7f030063, 0x7f030064, 
-        0x7f030065, 0x7f030066, 0x7f030067, 0x7f0300f8, 
-        0x7f0300f9, 0x7f0300fb, 0x7f0300ff, 0x7f030100, 
-        0x7f030111, 0x7f03013a, 0x7f03013b, 0x7f03013c, 
-        0x7f030169, 0x7f03016b, 0x7f03016c, 0x7f03016d, 
-        0x7f03016e, 0x7f03016f, 0x7f030170, 0x7f030171, 
-        0x7f030172
+        0x010100af, 0x01010140, 0x7f030047, 0x7f030053, 
+        0x7f030054, 0x7f030067, 0x7f030068, 0x7f030069, 
+        0x7f03006a, 0x7f03006b, 0x7f03006c, 0x7f030105, 
+        0x7f030106, 0x7f030108, 0x7f03010c, 0x7f03010d, 
+        0x7f03011e, 0x7f030147, 0x7f030148, 0x7f030149, 
+        0x7f030176, 0x7f030178, 0x7f030179, 0x7f03017a, 
+        0x7f03017b, 0x7f03017c, 0x7f03017d, 0x7f03017e, 
+        0x7f03017f
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -13775,7 +14278,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -13788,21 +14291,21 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:buttonGravity
+     * @attr name com.kevinmaher.x14328981.happy:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:collapseContentDescription
+     * @attr name com.kevinmaher.x14328981.happy:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13810,11 +14313,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:collapseIcon
+     * @attr name com.kevinmaher.x14328981.happy:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13823,11 +14326,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:contentInsetEnd
+     * @attr name com.kevinmaher.x14328981.happy:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13836,11 +14339,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:contentInsetEndWithActions
+     * @attr name com.kevinmaher.x14328981.happy:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13849,11 +14352,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:contentInsetLeft
+     * @attr name com.kevinmaher.x14328981.happy:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13862,11 +14365,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:contentInsetRight
+     * @attr name com.kevinmaher.x14328981.happy:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13875,11 +14378,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:contentInsetStart
+     * @attr name com.kevinmaher.x14328981.happy:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13888,11 +14391,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:contentInsetStartWithNavigation
+     * @attr name com.kevinmaher.x14328981.happy:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13900,21 +14403,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:logo
+     * @attr name com.kevinmaher.x14328981.happy:logo
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:logoDescription
+     * @attr name com.kevinmaher.x14328981.happy:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13923,21 +14426,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:maxButtonHeight
+     * @attr name com.kevinmaher.x14328981.happy:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:navigationContentDescription
+     * @attr name com.kevinmaher.x14328981.happy:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13945,11 +14448,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:navigationIcon
+     * @attr name com.kevinmaher.x14328981.happy:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13957,21 +14460,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:popupTheme
+     * @attr name com.kevinmaher.x14328981.happy:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:subtitle
+     * @attr name com.kevinmaher.x14328981.happy:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13979,32 +14482,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:subtitleTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:subtitleTextColor
+     * @attr name com.kevinmaher.x14328981.happy:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:title
+     * @attr name com.kevinmaher.x14328981.happy:title
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14013,11 +14516,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:titleMargin
+     * @attr name com.kevinmaher.x14328981.happy:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14026,11 +14529,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:titleMarginBottom
+     * @attr name com.kevinmaher.x14328981.happy:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14039,11 +14542,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:titleMarginEnd
+     * @attr name com.kevinmaher.x14328981.happy:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14052,11 +14555,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:titleMarginStart
+     * @attr name com.kevinmaher.x14328981.happy:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14065,11 +14568,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:titleMarginTop
+     * @attr name com.kevinmaher.x14328981.happy:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14078,11 +14581,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:titleMargins
+     * @attr name com.kevinmaher.x14328981.happy:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14090,18 +14593,18 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:titleTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:titleTextColor
+     * @attr name com.kevinmaher.x14328981.happy:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -14113,9 +14616,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.kevinmaher.x14328981.buttons_green:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.kevinmaher.x14328981.buttons_green:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme com.kevinmaher.x14328981.buttons_green:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.kevinmaher.x14328981.happy:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.kevinmaher.x14328981.happy:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.kevinmaher.x14328981.happy:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -14124,8 +14627,8 @@ public final class R {
      * @see #View_theme
      */
     public static final int[] View={
-        0x01010000, 0x010100da, 0x7f030105, 0x7f030106, 
-        0x7f03015f
+        0x01010000, 0x010100da, 0x7f030112, 0x7f030113, 
+        0x7f03016c
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#theme}
@@ -14158,7 +14661,7 @@ public final class R {
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14167,11 +14670,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:paddingEnd
+     * @attr name com.kevinmaher.x14328981.happy:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14180,11 +14683,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:paddingStart
+     * @attr name com.kevinmaher.x14328981.happy:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#theme}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14192,7 +14695,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:theme
+     * @attr name com.kevinmaher.x14328981.happy:theme
      */
     public static final int View_theme=4;
     /**
@@ -14203,8 +14706,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.kevinmaher.x14328981.buttons_green:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.kevinmaher.x14328981.buttons_green:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.kevinmaher.x14328981.happy:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.kevinmaher.x14328981.happy:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -14229,18 +14732,18 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:backgroundTint
+     * @attr name com.kevinmaher.x14328981.happy:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.buttons_green.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14257,7 +14760,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.buttons_green:backgroundTintMode
+     * @attr name com.kevinmaher.x14328981.happy:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**

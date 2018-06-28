@@ -66,23 +66,26 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     //menu button
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.home_menu, menu);
-        return true;
-    }
-
-    //menu button
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.action_settings:
-                startActivity(new Intent(this, SettingsActivity.class));
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
+        @Override
+        public boolean onCreateOptionsMenu(Menu menu) {
+            // Inflate the menu; this adds items to the action bar if it is present.
+            getMenuInflater().inflate(R.menu.menu_home, menu);
+            return true;
         }
+
+        //menu button
+        @Override
+        public boolean onOptionsItemSelected(MenuItem item) {
+            switch (item.getItemId()) {
+                case R.id.menu_settings:
+                    startActivity(new Intent(this, SettingsActivity.class));
+                    return true;
+                case R.id.menu_help:
+                    startActivity(new Intent(this, HelpActivity.class));
+                    return true;
+                default:
+                    return super.onOptionsItemSelected(item);
+            }
     }
 
 

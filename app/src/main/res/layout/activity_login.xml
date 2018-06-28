@@ -5,12 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:id="@+id/btn_login_register"
+        android:layout_width="327dp"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/buttons_grey"
+        android:text="Go to registration"
+        android:textColor="@android:color/white" />
+
     <EditText
         android:id="@+id/editText2"
         android:layout_width="326dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="38dp"
         android:ems="10"
         android:hint="Username"
         android:inputType="textPersonName" />
@@ -21,7 +33,7 @@
         android:layout_height="@dimen/button_height"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="165dp"
+        android:layout_marginTop="201dp"
         android:background="@drawable/buttons_orange"
         android:text="Login"
         android:textColor="@android:color/white" />
@@ -30,10 +42,9 @@
         android:id="@+id/editText6"
         android:layout_width="326dp"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText2"
-        android:layout_alignStart="@+id/editText2"
-        android:layout_below="@+id/editText2"
-        android:layout_marginTop="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword" />
