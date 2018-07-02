@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.kevinmaher.x14328981.happy.MainActivity">
     <item
-        android:id="@+id/menu_help"
+        android:id="@+id/menu_support"
         android:orderInCategory="90"
         android:title="About"
         app:showAsAction="never" />

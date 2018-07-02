@@ -25,8 +25,8 @@
         <!-- android:name=".Frag1Activity" -->
         <!-- android:label="@string/text_title_frag_1" /> -->
         <activity
-            android:name="com.kevinmaher.x14328981.happy.HelpActivity"
-            android:label="@string/text_title_help" />
+            android:name="com.kevinmaher.x14328981.happy.SupportActivity"
+            android:label="@string/text_support_title" />
         <activity
             android:name="com.kevinmaher.x14328981.happy.HomeActivity"
             android:label="@string/text_title_home" />
@@ -67,6 +67,11 @@
         <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
         <!-- </intent-filter> -->
         <!-- </activity> -->
+        <activity
+            android:name="com.kevinmaher.x14328981.happy.TabActivity"
+            android:label="@string/title_activity_tab"
+            android:theme="@style/AppTheme.NoActionBar" />
+
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
             android:authorities="com.kevinmaher.x14328981.happy.com.android.tools.ir.server.InstantRunContentProvider"

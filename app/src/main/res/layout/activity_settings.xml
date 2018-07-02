@@ -67,9 +67,31 @@
 
     <TextView
         android:id="@+id/text_version_number"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="204dp"
+        android:layout_marginEnd="80dp"
+        android:background="@android:drawable/ic_delete"
+        android:gravity="left|center_vertical|center"
+        android:padding="20dp" />
+
+    <TextView
+        android:id="@+id/text_version_number3"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/text_version_number"
+        android:layout_marginBottom="148dp"
+        android:background="@android:drawable/ic_menu_delete"
+        android:gravity="left|center_vertical|center"
+        android:padding="20dp" />
+
+    <TextView
+        android:id="@+id/text_version_number2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/switch_debugging"
         android:gravity="left|center_vertical|center"

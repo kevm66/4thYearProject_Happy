@@ -61,7 +61,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="151dp"
         android:background="@drawable/buttons_orange"
-        android:text="Record Mood"
+        android:text="Update Mood"
         android:textColor="@android:color/background_light" />
 
 </RelativeLayout>

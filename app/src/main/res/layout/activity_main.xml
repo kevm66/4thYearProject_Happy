@@ -4,7 +4,7 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/btn_help_websites"
+        android:id="@+id/btn_support_websites"
         android:layout_width="339dp"
         android:layout_height="@dimen/button_height"
         android:layout_alignParentLeft="false"
@@ -20,6 +20,17 @@
         android:text="@string/btn_login_main"
         android:textColor="@android:color/white"
         android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_main_tabs"
+        android:layout_width="310dp"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/buttons_grey"
+        android:text="Tabs"
+        android:textColor="@android:color/white" />
 
     <Button
         android:id="@+id/btn_main_nav"
@@ -50,11 +61,11 @@
         android:id="@+id/btn_home_map"
         android:layout_width="@dimen/button_width"
         android:layout_height="@dimen/button_height"
-        android:layout_alignEnd="@+id/btn_help_websites"
-        android:layout_alignLeft="@+id/btn_help_websites"
-        android:layout_alignRight="@+id/btn_help_websites"
-        android:layout_alignStart="@+id/btn_help_websites"
-        android:layout_alignTop="@+id/btn_help_websites"
+        android:layout_alignEnd="@+id/btn_support_websites"
+        android:layout_alignLeft="@+id/btn_support_websites"
+        android:layout_alignRight="@+id/btn_support_websites"
+        android:layout_alignStart="@+id/btn_support_websites"
+        android:layout_alignTop="@+id/btn_support_websites"
         android:layout_marginTop="@dimen/button_top_spacing"
         android:background="@drawable/buttons_orange"
         android:text="@string/btn_register_main"

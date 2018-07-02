@@ -15,12 +15,12 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        Button btnRecord = (Button) findViewById(R.id.btn_help_websites);
+        Button btnRecord = (Button) findViewById(R.id.btn_support_websites);
         Button btnLog = (Button) findViewById(R.id.btn_home_log);
         Button btnResults = (Button) findViewById(R.id.btn_home_results);
         Button btnMap = (Button) findViewById(R.id.btn_home_map);
         Button btnChat = (Button) findViewById(R.id.btn_home_chat);
-        Button btnHelp = (Button) findViewById(R.id.btn_home_help);
+        Button btnSupport = (Button) findViewById(R.id.btn_home_support);
 
         btnRecord.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,10 +57,10 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
-        btnHelp.setOnClickListener(new View.OnClickListener() {
+        btnSupport.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(HomeActivity.this, HelpActivity.class));
+                startActivity(new Intent(HomeActivity.this, SupportActivity.class));
             }
         });
     }
@@ -80,8 +80,8 @@ public class HomeActivity extends AppCompatActivity {
                 case R.id.menu_settings:
                     startActivity(new Intent(this, SettingsActivity.class));
                     return true;
-                case R.id.menu_help:
-                    startActivity(new Intent(this, HelpActivity.class));
+                case R.id.menu_support:
+                    startActivity(new Intent(this, SupportActivity.class));
                     return true;
                 default:
                     return super.onOptionsItemSelected(item);
