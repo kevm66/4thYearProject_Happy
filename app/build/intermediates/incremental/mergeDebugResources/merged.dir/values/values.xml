@@ -850,10 +850,13 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="switch_big_text">Sounds</string>
     <string name="switch_debugging">Debugging</string>
-    <string name="switch_reminders">Remind me to record my mood</string>
+    <string name="switch_reminders">Remind me to update my mood</string>
     <string name="switch_vibration">Vibration</string>
     <string name="text_chat_message_bot_1">Hello, how are you feeling today? :)</string>
     <string name="text_chat_message_user_1">Hi</string>
+    <string name="text_settings_account">Data</string>
+    <string name="text_settings_clear">Clear all moods from my log</string>
+    <string name="text_settings_delete">Delete my account</string>
     <string name="text_title_camera">Login</string>
     <string name="text_title_chat">Chat</string>
     <string name="text_title_feeling">How Others Are Feeling</string>

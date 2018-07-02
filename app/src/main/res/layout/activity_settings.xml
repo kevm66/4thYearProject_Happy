@@ -13,7 +13,8 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="25dp"
         android:padding="20dp"
-        android:text="@string/switch_reminders" />
+        android:text="@string/switch_reminders"
+        android:textStyle="bold" />
 
     <Switch
         android:id="@+id/switch_sounds"
@@ -39,11 +40,30 @@
         android:id="@+id/switch_debugging"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/switch_debugging6"
+        android:padding="20dp"
+        android:text="@string/text_settings_delete" />
+
+    <Switch
+        android:id="@+id/switch_debugging6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/switch_debugging2"
+        android:padding="20dp"
+        android:text="@string/text_settings_clear" />
+
+    <Switch
+        android:id="@+id/switch_debugging2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/switch_vibration"
         android:padding="20dp"
-        android:text="@string/switch_debugging" />
+        android:text="@string/text_settings_account"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/text_version_number"

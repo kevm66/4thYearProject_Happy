@@ -5,7 +5,7 @@
     <string name="btn_register_main">Register</string>
     <string name="btn_settings_main">Settings</string>
     <string name="btn_video_camera">Add Video from Camera</string>
-    <string name="switch_reminders">Remind me to record my mood</string>
+    <string name="switch_reminders">Remind me to update my mood</string>
     <string name="switch_big_text">Sounds</string>
     <string name="switch_vibration">Vibration</string>
     <string name="switch_debugging">Debugging</string>
@@ -53,5 +53,8 @@
     <string name="text_title_frag_1">Frag 1</string>
     <string name="text_title_frag_2">Frag 2</string>
     <string name="text_title_frag_3">Frag 3</string>
+    <string name="text_settings_delete">Delete my account</string>
+    <string name="text_settings_clear">Clear all moods from my log</string>
+    <string name="text_settings_account">Data</string>
 
 </resources>
