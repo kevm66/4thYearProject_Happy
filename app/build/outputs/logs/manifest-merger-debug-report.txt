@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:2:1-64:12
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:2:1-64:12
 MERGED from [com.android.support:design:27.1.1] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\d40e7e5eb4887ed62f0a261c0351e7c6\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\6136da807edb52f76eeea80f4e23d86c\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\f6fc70d483f03b04a2e3b20875a39aef\AndroidManifest.xml:2:1-11:12
@@ -21,131 +21,131 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\kevm6\.gradle\
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\f1703725dba7bc307ba11dfe6b88a04a\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1638d335eb5b3815790b75178f55d001\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1e1b1e6c07bb26ed0096afb7f7696891\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:2:1-64:12
 	package
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:3:5-45
-		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:3:5-45
+		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:2:1-64:12
-		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:2:1-64:12
+		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:2:1-64:12
-		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:2:1-64:12
+		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:5:5-62:19
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:5:5-62:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\f6fc70d483f03b04a2e3b20875a39aef\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\f6fc70d483f03b04a2e3b20875a39aef\AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:10:9-54
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:8:9-43
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:12:9-40
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:12:9-40
 	android:name
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:6:9-42
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:6:9-42
 activity#com.kevinmaher.x14328981.happy.ChatActivity
-ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:14:9-16:55
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:14:9-16:55
 	android:label
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:16:13-52
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:16:13-52
 	android:name
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:15:13-41
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:15:13-41
 activity#com.kevinmaher.x14328981.happy.Frag1Activity
-ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:17:9-19:57
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:17:9-19:57
 	android:label
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:19:13-54
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:19:13-54
 	android:name
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:18:13-42
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:18:13-42
 activity#com.kevinmaher.x14328981.happy.HelpActivity
-ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:20:9-22:55
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:20:9-22:55
 	android:label
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:22:13-52
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:22:13-52
 	android:name
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:21:13-41
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:21:13-41
 activity#com.kevinmaher.x14328981.happy.HomeActivity
-ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:23:9-25:55
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:23:9-25:55
 	android:label
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:25:13-52
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:25:13-52
 	android:name
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:24:13-41
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:24:13-41
 activity#com.kevinmaher.x14328981.happy.LogActivity
-ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:26:9-28:54
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:26:9-28:54
 	android:label
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:28:13-51
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:28:13-51
 	android:name
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:27:13-40
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:27:13-40
 activity#com.kevinmaher.x14328981.happy.LoginActivity
-ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:29:9-31:56
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:29:9-31:56
 	android:label
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:31:13-53
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:31:13-53
 	android:name
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:30:13-42
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:30:13-42
 activity#com.kevinmaher.x14328981.happy.MainActivity
-ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:32:9-37:20
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:32:9-37:20
 	android:name
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:32:19-47
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:32:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:33:13-36:29
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:33:13-36:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:34:17-69
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:34:17-69
 	android:name
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:34:25-66
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:34:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:35:17-77
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:35:17-77
 	android:name
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:35:27-74
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:35:27-74
 activity#com.kevinmaher.x14328981.happy.MapActivity
-ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:38:9-40:54
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:38:9-40:54
 	android:label
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:40:13-51
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:40:13-51
 	android:name
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:39:13-40
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:39:13-40
 activity#com.kevinmaher.x14328981.happy.NavActivity
-ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:41:9-43:54
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:41:9-43:54
 	android:label
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:43:13-51
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:43:13-51
 	android:name
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:42:13-40
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:42:13-40
 activity#com.kevinmaher.x14328981.happy.RecordActivity
-ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:44:9-46:57
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:44:9-46:57
 	android:label
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:46:13-54
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:46:13-54
 	android:name
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:45:13-43
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:45:13-43
 activity#com.kevinmaher.x14328981.happy.RegisterActivity
-ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:47:9-49:59
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:47:9-49:59
 	android:label
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:49:13-56
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:49:13-56
 	android:name
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:48:13-45
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:48:13-45
 activity#com.kevinmaher.x14328981.happy.ResultsActivity
-ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:50:9-52:58
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:50:9-52:58
 	android:label
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:52:13-55
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:52:13-55
 	android:name
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:51:13-44
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:51:13-44
 activity#com.kevinmaher.x14328981.happy.SettingsActivity
-ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:53:9-55:59
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:53:9-55:59
 	android:label
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:55:13-56
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:55:13-56
 	android:name
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml:54:13-45
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:54:13-45
 uses-sdk
-INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:design:27.1.1] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\d40e7e5eb4887ed62f0a261c0351e7c6\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:27.1.1] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\d40e7e5eb4887ed62f0a261c0351e7c6\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\6136da807edb52f76eeea80f4e23d86c\AndroidManifest.xml:20:5-44
@@ -180,13 +180,13 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\kevm6\.gradle\caches
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1638d335eb5b3815790b75178f55d001\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1e1b1e6c07bb26ed0096afb7f7696891\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1e1b1e6c07bb26ed0096afb7f7696891\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\Happy Master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml
