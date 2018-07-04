@@ -109,14 +109,14 @@
         android:text="13:00" />
 
     <Button
-        android:id="@+id/btn_results"
+        android:id="@+id/btn_log_update"
         android:layout_width="347dp"
         android:layout_height="@dimen/button_height"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="22dp"
         android:background="@drawable/buttons_orange"
-        android:text="@string/btn_results"
+        android:text="Update mood"
         android:textColor="@android:color/white" />
 
     <TextView
@@ -157,13 +157,10 @@
         android:id="@+id/text_title_login4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="54dp"
-        android:layout_marginStart="54dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="11dp"
-        android:text="How You Are Feeling:"
+        android:text="My Mood Log"
         android:textSize="@dimen/title_text_size"
         android:textStyle="bold" />
 

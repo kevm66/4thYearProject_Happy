@@ -1,7 +1,6 @@
 package com.kevinmaher.x14328981.happy;
 
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -15,20 +14,20 @@ public class LogActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_log);
 
-        Button btnResults = (Button) findViewById(R.id.btn_results);
+        Button btnLogUpdate = (Button) findViewById(R.id.btn_log_update);
         ImageButton btnFilter = (ImageButton) findViewById(R.id.btn_log_filter);
 
-        btnResults.setOnClickListener(new View.OnClickListener() {
+        btnLogUpdate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(LogActivity.this, ResultsActivity.class));
+                startActivity(new Intent(LogActivity.this, FeedActivity.class));
             }
         });
 
         btnFilter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(LogActivity.this, ResultsActivity.class));
+                startActivity(new Intent(LogActivity.this, FeedActivity.class));
             }
         });
     }

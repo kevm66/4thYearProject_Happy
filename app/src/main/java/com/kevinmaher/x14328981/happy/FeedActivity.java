@@ -11,7 +11,7 @@ import android.widget.ImageButton;
  * Created by x14328981 on 23/11/2017.
  */
 
-public class ResultsActivity extends AppCompatActivity {
+public class FeedActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,14 +24,14 @@ public class ResultsActivity extends AppCompatActivity {
         btnSeeMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ResultsActivity.this, MapActivity.class));
+                startActivity(new Intent(FeedActivity.this, MapActivity.class));
             }
         });
 
         btnFilter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(ResultsActivity.this, ResultsActivity.class));
+                startActivity(new Intent(FeedActivity.this, FeedActivity.class));
             }
         });
 

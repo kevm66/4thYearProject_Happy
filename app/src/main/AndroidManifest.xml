@@ -48,7 +48,7 @@
             android:name=".RegisterActivity"
             android:label="@string/text_title_register" />
         <activity
-            android:name=".ResultsActivity"
+            android:name=".FeedActivity"
             android:label="@string/text_title_feeling" />
         <activity
             android:name=".SettingsActivity"

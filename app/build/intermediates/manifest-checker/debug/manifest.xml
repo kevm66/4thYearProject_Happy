@@ -56,7 +56,7 @@
             android:name="com.kevinmaher.x14328981.happy.RegisterActivity"
             android:label="@string/text_title_register" />
         <activity
-            android:name="com.kevinmaher.x14328981.happy.ResultsActivity"
+            android:name="com.kevinmaher.x14328981.happy.FeedActivity"
             android:label="@string/text_title_feeling" />
         <activity
             android:name="com.kevinmaher.x14328981.happy.SettingsActivity"
