@@ -49,10 +49,10 @@ public class TabActivity extends AppCompatActivity {
         SectionPageAdapterActivity adapter = new SectionPageAdapterActivity((getSupportFragmentManager()));
         adapter.addFragment(new Tab1Frag(), "Log");
         adapter.addFragment(new Tab2Frag(), "Activity");
-        adapter.addFragment(new Tab3Frag(), "Map");
-        adapter.addFragment(new Tab4Frag(), "Chat");
-        adapter.addFragment(new Tab5Frag(), "Support");
-//        adapter.addFragment(new Tab6Frag(), "Support");
+        adapter.addFragment(new Tab3Frag(), "Chat");
+        adapter.addFragment(new Tab4Frag(), "Support");
+//        adapter.addFragment(new Tab5Frag(), "Support");
+////        adapter.addFragment(new Tab6Frag(), "Support");
         viewPager.setAdapter(adapter);
         }
 
