@@ -16,7 +16,7 @@ public class ResultsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_results);
+        setContentView(R.layout.activity_feed);
 
         Button btnSeeMap = (Button) findViewById(R.id.btn_see_map);
         ImageButton btnFilter = (ImageButton) findViewById(R.id.btn_results_filter);

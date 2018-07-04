@@ -24,17 +24,14 @@ public class NavActivity extends AppCompatActivity {
                         Fragment selectedFragment = null;
                         switch (item.getItemId()) {
                             case R.id.nav_home:
-                                selectedFragment = FragHomeActivity.newInstance();
+                                selectedFragment = NavFrag1Activity.newInstance();
                                 break;
                             case R.id.nav_activity:
-                                selectedFragment = FragActivityActivity.newInstance();
+                                selectedFragment = NavFrag2Activity.newInstance();
                                 break;
                             case R.id.nav_support:
-                                selectedFragment = FragSupportActivity.newInstance();
+                                selectedFragment = NavFrag3Activity.newInstance();
                                 break;
-//                            case R.id.nav_map:
-//                                selectedFragment = Frag3Activity.newInstance();
-//                                break;
                         }
                         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
                         transaction.replace(R.id.frame_layout, selectedFragment);
@@ -45,7 +42,7 @@ public class NavActivity extends AppCompatActivity {
 
         //Manually displaying the first fragment - one time only
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.replace(R.id.frame_layout, FragHomeActivity.newInstance());
+        transaction.replace(R.id.frame_layout, NavFrag1Activity.newInstance());
         transaction.commit();
 
         //Used to select an item programmatically

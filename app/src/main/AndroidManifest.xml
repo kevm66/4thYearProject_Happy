@@ -40,7 +40,7 @@
             android:label="@string/text_title_map" />
         <activity
             android:name=".NavActivity"
-            android:label="@string/text_title_nav" />
+            android:label="@string/app_name" />
         <activity
             android:name=".RecordActivity"
             android:label="@string/text_title_record" />
