@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.Checkable;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -18,6 +21,7 @@ import org.w3c.dom.Text;
 
 public class UpdateActivity extends AppCompatActivity {
 
+    public CharSequence mood;
     private boolean isButtonClicked = false;
 
     @Override
@@ -30,10 +34,13 @@ public class UpdateActivity extends AppCompatActivity {
         final Button btnSad = (Button) findViewById(R.id.btn_update_sad);
         final Button btnUpdate = (Button) findViewById(R.id.btn_update_update);
         final TextView textViewUpdate = (TextView) findViewById(R.id.textView_update_update);
-        final String mood;
+        final Switch switchUpdateLocation = (Switch) findViewById(R.id.switch_update_location);
+        final CheckBox checkBox_update_location =  (CheckBox) findViewById(R.id.checkBox_update_location);
 
         //make input box and submit button invisible to provide minimal experience
         btnUpdate.setVisibility(View.INVISIBLE);
+        checkBox_update_location.setVisibility(View.INVISIBLE);
+        switchUpdateLocation.setVisibility(View.INVISIBLE);
         textViewUpdate.setVisibility(View.INVISIBLE);
 
         btnHappy.setOnClickListener(new View.OnClickListener() {
@@ -45,6 +52,8 @@ public class UpdateActivity extends AppCompatActivity {
 
                 textViewUpdate.setVisibility(View.VISIBLE);
                 textViewUpdate.setHint("What made you feel happy?");
+                checkBox_update_location.setVisibility(View.VISIBLE);
+                switchUpdateLocation.setVisibility(View.VISIBLE);
             }
         });
 
@@ -57,6 +66,8 @@ public class UpdateActivity extends AppCompatActivity {
 
                 textViewUpdate.setVisibility(View.VISIBLE);
                 textViewUpdate.setHint("What made you feel indifferent?");
+                checkBox_update_location.setVisibility(View.VISIBLE);
+                switchUpdateLocation.setVisibility(View.VISIBLE);
             }
         });
 
@@ -70,17 +81,17 @@ public class UpdateActivity extends AppCompatActivity {
 
                 textViewUpdate.setVisibility(View.VISIBLE);
                 textViewUpdate.setHint("What made you feel sad?");
-
-                //                startActivity(new Intent(UpdateActivity.this, NavActivity.class));
+                checkBox_update_location.setVisibility(View.VISIBLE);
+                switchUpdateLocation.setVisibility(View.VISIBLE);
             }
         });
 
         btnUpdate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                mood = textViewUpdate.getText();
-//                Toast.makeText(getActivity(), "Testing button 3", Toast.LENGTH_SHORT).show();
-                startActivity(new Intent(UpdateActivity.this, NavActivity.class));
+                mood = textViewUpdate.getText();
+                Toast.makeText(UpdateActivity.this, mood, Toast.LENGTH_SHORT).show();
+//                startActivity(new Intent(UpdateActivity.this, NavActivity.class));
             }
         });
 

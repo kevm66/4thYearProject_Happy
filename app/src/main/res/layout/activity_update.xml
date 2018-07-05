@@ -38,12 +38,13 @@
         android:id="@+id/btn_update_update"
         android:layout_width="307dp"
         android:layout_height="@dimen/button_height"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="208dp"
+        android:layout_marginBottom="212dp"
         android:background="@drawable/buttons_orange"
         android:text="Update Mood"
-        android:textColor="@android:color/background_light" />
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/btn_update_indifferent"
@@ -68,6 +69,24 @@
         android:layout_alignEnd="@+id/textView_update_update"
         android:layout_alignTop="@+id/btn_update_happy"
         android:background="@drawable/ic_sad" />
+
+    <Switch
+        android:id="@+id/switch_update_location"
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView_update_update"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="201dp"
+        android:text="Include my location" />
+
+    <CheckBox
+        android:id="@+id/checkBox_update_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/switch_update_location"
+        android:layout_marginEnd="103dp" />
 
     <!--<Button-->
         <!--android:id="@+id/btn_update_sad_unselected"-->
