@@ -25,7 +25,7 @@ public class HomeActivity extends AppCompatActivity {
         btnRecord.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(HomeActivity.this, RecordActivity.class));
+                startActivity(new Intent(HomeActivity.this, UpdateActivity.class));
             }
         });
 

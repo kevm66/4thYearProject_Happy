@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_update_happy"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/ic_happy_green" />
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_update_happy_unselected"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="81dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignStart="@+id/editText3"-->
+        <!--android:layout_marginTop="36dp"-->
+        <!--android:background="@drawable/ic_happy_grey" />-->
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="142dp"
+        android:ems="10"
+        android:hint="What influenced how you feel?"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_record"
+        android:layout_width="307dp"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="208dp"
+        android:background="@drawable/buttons_orange"
+        android:text="Update Mood"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/btn_update_indifferent"
+        android:layout_width="wrap_content"
+        android:layout_height="82dp"
+        android:layout_alignTop="@+id/btn_update_happy"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_indifferent" />
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_update_indifferent_unselected"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="82dp"-->
+        <!--android:layout_alignTop="@+id/btn_update_happy"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:background="@drawable/ic_indifferent_grey" />-->
+
+    <Button
+        android:id="@+id/btn_update_sad"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_alignEnd="@+id/editText3"
+        android:layout_alignTop="@+id/btn_update_happy"
+        android:background="@drawable/ic_sad" />
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_update_sad_unselected"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="81dp"-->
+        <!--android:layout_alignEnd="@+id/editText3"-->
+        <!--android:layout_alignTop="@+id/btn_update_happy"-->
+        <!--android:background="@drawable/ic_sad_grey" />-->
+
+</RelativeLayout>

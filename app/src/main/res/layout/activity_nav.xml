@@ -23,7 +23,7 @@
         android:background="@android:color/background_light"
         app:itemIconTint="@color/nav_item_state_list"
         app:itemTextColor="@color/nav_item_state_list"
-        app:menu="@menu/navigation"/>
+        app:menu="@menu/nav"/>
 
 </RelativeLayout>
 

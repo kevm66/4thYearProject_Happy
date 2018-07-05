@@ -42,7 +42,7 @@
             android:name=".NavActivity"
             android:label="@string/app_name" />
         <activity
-            android:name=".RecordActivity"
+            android:name=".UpdateActivity"
             android:label="@string/text_title_record" />
         <activity
             android:name=".RegisterActivity"

@@ -50,7 +50,7 @@
             android:name="com.kevinmaher.x14328981.happy.NavActivity"
             android:label="@string/app_name" />
         <activity
-            android:name="com.kevinmaher.x14328981.happy.RecordActivity"
+            android:name="com.kevinmaher.x14328981.happy.UpdateActivity"
             android:label="@string/text_title_record" />
         <activity
             android:name="com.kevinmaher.x14328981.happy.RegisterActivity"

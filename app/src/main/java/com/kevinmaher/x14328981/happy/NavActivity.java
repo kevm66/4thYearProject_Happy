@@ -1,11 +1,13 @@
 package com.kevinmaher.x14328981.happy;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
 import android.view.MenuItem;
 
 public class NavActivity extends AppCompatActivity {
@@ -40,7 +42,7 @@ public class NavActivity extends AppCompatActivity {
                     }
                 });
 
-        //Manually displaying the first fragment - one time only
+        //Manually displaying the first fragment - one time only3
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.frame_layout, NavFrag1Activity.newInstance());
         transaction.commit();
@@ -49,5 +51,32 @@ public class NavActivity extends AppCompatActivity {
         //bottomNavigationView.getMenu().getItem(2).setChecked(true);
 
     }
+
+    //menu button
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_home, menu);
+        return true;
+    }
+
+    //menu button
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.menu_filter:
+                startActivity(new Intent(this, SettingsActivity.class));
+                return true;
+            case R.id.menu_settings:
+                startActivity(new Intent(this, SettingsActivity.class));
+                return true;
+            case R.id.menu_support:
+                startActivity(new Intent(this, SupportActivity.class));
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
 
 }

@@ -2,6 +2,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.kevinmaher.x14328981.happy.MainActivity">
+
+    <item
+        android:id="@+id/menu_filter"
+        android:icon="@drawable/ic_filter"
+        android:title="Filter"
+        app:showAsAction="ifRoom"/>
+
     <item
         android:id="@+id/menu_support"
         android:orderInCategory="90"
@@ -12,7 +19,11 @@
         android:orderInCategory="100"
         android:title="Settings"
         app:showAsAction="never" />
+
 </menu>
 
-    <!--show as 'settings' without menu-->
-    <!--app:showAsAction="always" />-->
+    <!--show as 'settings' without menu--><!--app:showAsAction="always" />-->
+
+    <!--app:srcCompat="@android:drawable/ic_menu_sort_by_size"-->
+
+    <!--android:icon="@android:drawable/ic_menu_sort_by_size"-->

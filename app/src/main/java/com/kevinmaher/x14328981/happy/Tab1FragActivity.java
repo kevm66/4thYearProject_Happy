@@ -1,5 +1,6 @@
 package com.kevinmaher.x14328981.happy;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -13,21 +14,24 @@ import android.widget.Toast;
 public class Tab1FragActivity extends Fragment {
     private static final String TAG ="Tab1Fragment";
 
-//    private Button btnTest1;
+    private Button btnLogUpdate;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.activity_log,container,false);
-//        btnTest1 = (Button) view.findViewById(R.id.btnTest1);
 
+        btnLogUpdate = (Button) view.findViewById(R.id.btn_log_update);
 
-//        btnTest1.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
+        btnLogUpdate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 //                Toast.makeText(getActivity(), "Testing button 1", Toast.LENGTH_SHORT).show();
-//            }
-//        });
+
+                Intent intent = new Intent(getActivity(), NavFrag1Activity.class);
+                startActivity(intent);
+            }
+        });
 
         return view;
     }

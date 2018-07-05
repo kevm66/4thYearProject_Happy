@@ -6,21 +6,20 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class NavFrag2Activity extends Fragment{
-   public static NavFrag2Activity newInstance(){
-       NavFrag2Activity fragment = new NavFrag2Activity();
-       return fragment;
-   }
+public class NavFrag2Activity extends Fragment {
+    public static NavFrag2Activity newInstance() {
+        NavFrag2Activity fragment = new NavFrag2Activity();
+        return fragment;
+    }
 
-   @Override
-    public void onCreate(Bundle savedInstanceState){
-       super.onCreate(savedInstanceState);
-   }
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
 
-   @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup containter,
-                             Bundle savedInstanceState){
-       return inflater.inflate(R.layout.activity_feed, containter, false);
-   }
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.activity_feed, container, false);
+    }
 
 }

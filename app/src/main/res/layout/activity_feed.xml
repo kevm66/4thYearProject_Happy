@@ -95,7 +95,7 @@
         android:layout_alignStart="@+id/text_title_login"
         android:layout_marginTop="160dp"
         android:background="@drawable/buttons_orange"
-        android:text="-_-"
+        android:text=":|"
         android:textColor="@android:color/white"
         android:textSize="18sp"
         android:textStyle="bold" />
