@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="81dp"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/editText3"
+        android:layout_alignStart="@+id/textView_update_update"
         android:layout_marginTop="36dp"
         android:background="@drawable/ic_happy_green" />
 
@@ -24,7 +24,7 @@
         <!--android:background="@drawable/ic_happy_grey" />-->
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/textView_update_update"
         android:layout_width="308dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -35,7 +35,7 @@
         android:inputType="textPersonName" />
 
     <Button
-        android:id="@+id/btn_record"
+        android:id="@+id/btn_update_update"
         android:layout_width="307dp"
         android:layout_height="@dimen/button_height"
         android:layout_alignParentTop="true"
@@ -65,7 +65,7 @@
         android:id="@+id/btn_update_sad"
         android:layout_width="wrap_content"
         android:layout_height="81dp"
-        android:layout_alignEnd="@+id/editText3"
+        android:layout_alignEnd="@+id/textView_update_update"
         android:layout_alignTop="@+id/btn_update_happy"
         android:background="@drawable/ic_sad" />
 

@@ -7,22 +7,22 @@
     format="10"
     ir-eligibility="COMPATIBLE"
     plugin-version="3.1.3"
-    timestamp="1530817237626"
+    timestamp="1530819417441"
     token="-7032002428725791358"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="216" />
+        duration="285" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="13" />
+        duration="47" />
     <task
         name="verifier"
-        duration="3" />
+        duration="15" />
 
     <artifact
         location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
@@ -74,8 +74,38 @@
     </build>
     <build
         build-mode="COLD"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1530817909800"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1530818015029"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1530817237626"
+        timestamp="1530819417441"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
