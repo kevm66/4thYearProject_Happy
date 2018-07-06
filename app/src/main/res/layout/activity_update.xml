@@ -32,7 +32,9 @@
         android:layout_marginTop="142dp"
         android:ems="10"
         android:hint="What influenced how you feel?"
-        android:inputType="textPersonName" />
+        android:backgroundTint="@android:color/holo_green_light"
+        android:inputType="textPersonName"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btn_update_update"
@@ -44,7 +46,7 @@
         android:background="@drawable/buttons_orange"
         android:text="Update Mood"
         android:textColor="@android:color/background_light"
-        android:textSize="30sp" />
+        android:textSize="@dimen/btn_text_size" />
 
     <Button
         android:id="@+id/btn_update_indifferent"

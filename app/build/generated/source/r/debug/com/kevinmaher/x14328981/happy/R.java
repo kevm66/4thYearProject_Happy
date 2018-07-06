@@ -3301,69 +3301,74 @@ public final class R {
     public static final int button_material_dark=0x7f050024;
     public static final int button_material_light=0x7f050025;
     public static final int colorAccent=0x7f050026;
-    public static final int colorPrimary=0x7f050027;
-    public static final int colorPrimaryDark=0x7f050028;
-    public static final int design_bottom_navigation_shadow_color=0x7f050029;
-    public static final int design_error=0x7f05002a;
-    public static final int design_fab_shadow_end_color=0x7f05002b;
-    public static final int design_fab_shadow_mid_color=0x7f05002c;
-    public static final int design_fab_shadow_start_color=0x7f05002d;
-    public static final int design_fab_stroke_end_inner_color=0x7f05002e;
-    public static final int design_fab_stroke_end_outer_color=0x7f05002f;
-    public static final int design_fab_stroke_top_inner_color=0x7f050030;
-    public static final int design_fab_stroke_top_outer_color=0x7f050031;
-    public static final int design_snackbar_background_color=0x7f050032;
-    public static final int design_tint_password_toggle=0x7f050033;
-    public static final int dim_foreground_disabled_material_dark=0x7f050034;
-    public static final int dim_foreground_disabled_material_light=0x7f050035;
-    public static final int dim_foreground_material_dark=0x7f050036;
-    public static final int dim_foreground_material_light=0x7f050037;
-    public static final int error_color_material=0x7f050038;
-    public static final int foreground_material_dark=0x7f050039;
-    public static final int foreground_material_light=0x7f05003a;
-    public static final int highlighted_text_material_dark=0x7f05003b;
-    public static final int highlighted_text_material_light=0x7f05003c;
-    public static final int ic_launcher_background=0x7f05003d;
-    public static final int material_blue_grey_800=0x7f05003e;
-    public static final int material_blue_grey_900=0x7f05003f;
-    public static final int material_blue_grey_950=0x7f050040;
-    public static final int material_deep_teal_200=0x7f050041;
-    public static final int material_deep_teal_500=0x7f050042;
-    public static final int material_grey_100=0x7f050043;
-    public static final int material_grey_300=0x7f050044;
-    public static final int material_grey_50=0x7f050045;
-    public static final int material_grey_600=0x7f050046;
-    public static final int material_grey_800=0x7f050047;
-    public static final int material_grey_850=0x7f050048;
-    public static final int material_grey_900=0x7f050049;
-    public static final int nav_item_state_list=0x7f05004a;
-    public static final int notification_action_color_filter=0x7f05004b;
-    public static final int notification_icon_bg_color=0x7f05004c;
-    public static final int notification_material_background_media_default_color=0x7f05004d;
-    public static final int primary_dark_material_dark=0x7f05004e;
-    public static final int primary_dark_material_light=0x7f05004f;
-    public static final int primary_material_dark=0x7f050050;
-    public static final int primary_material_light=0x7f050051;
-    public static final int primary_text_default_material_dark=0x7f050052;
-    public static final int primary_text_default_material_light=0x7f050053;
-    public static final int primary_text_disabled_material_dark=0x7f050054;
-    public static final int primary_text_disabled_material_light=0x7f050055;
-    public static final int ripple_material_dark=0x7f050056;
-    public static final int ripple_material_light=0x7f050057;
-    public static final int secondary_text_default_material_dark=0x7f050058;
-    public static final int secondary_text_default_material_light=0x7f050059;
-    public static final int secondary_text_disabled_material_dark=0x7f05005a;
-    public static final int secondary_text_disabled_material_light=0x7f05005b;
-    public static final int splash_screen_icon=0x7f05005c;
-    public static final int splash_screen_icon_background=0x7f05005d;
-    public static final int switch_thumb_disabled_material_dark=0x7f05005e;
-    public static final int switch_thumb_disabled_material_light=0x7f05005f;
-    public static final int switch_thumb_material_dark=0x7f050060;
-    public static final int switch_thumb_material_light=0x7f050061;
-    public static final int switch_thumb_normal_material_dark=0x7f050062;
-    public static final int switch_thumb_normal_material_light=0x7f050063;
-    public static final int tooltip_background_dark=0x7f050064;
-    public static final int tooltip_background_light=0x7f050065;
+    public static final int colorGreen=0x7f050027;
+    public static final int colorPrimary=0x7f050028;
+    public static final int colorPrimaryDark=0x7f050029;
+    public static final int colorRed=0x7f05002a;
+    public static final int design_bottom_navigation_shadow_color=0x7f05002b;
+    public static final int design_error=0x7f05002c;
+    public static final int design_fab_shadow_end_color=0x7f05002d;
+    public static final int design_fab_shadow_mid_color=0x7f05002e;
+    public static final int design_fab_shadow_start_color=0x7f05002f;
+    public static final int design_fab_stroke_end_inner_color=0x7f050030;
+    public static final int design_fab_stroke_end_outer_color=0x7f050031;
+    public static final int design_fab_stroke_top_inner_color=0x7f050032;
+    public static final int design_fab_stroke_top_outer_color=0x7f050033;
+    public static final int design_snackbar_background_color=0x7f050034;
+    public static final int design_tint_password_toggle=0x7f050035;
+    public static final int dim_foreground_disabled_material_dark=0x7f050036;
+    public static final int dim_foreground_disabled_material_light=0x7f050037;
+    public static final int dim_foreground_material_dark=0x7f050038;
+    public static final int dim_foreground_material_light=0x7f050039;
+    public static final int error_color_material=0x7f05003a;
+    public static final int foreground_material_dark=0x7f05003b;
+    public static final int foreground_material_light=0x7f05003c;
+    public static final int happy_color =0x7f05003d;
+    public static final int highlighted_text_material_dark=0x7f05003e;
+    public static final int highlighted_text_material_light=0x7f05003f;
+    public static final int ic_launcher_background=0x7f050040;
+    public static final int indifferent=0x7f050041;
+    public static final int material_blue_grey_800=0x7f050042;
+    public static final int material_blue_grey_900=0x7f050043;
+    public static final int material_blue_grey_950=0x7f050044;
+    public static final int material_deep_teal_200=0x7f050045;
+    public static final int material_deep_teal_500=0x7f050046;
+    public static final int material_grey_100=0x7f050047;
+    public static final int material_grey_300=0x7f050048;
+    public static final int material_grey_50=0x7f050049;
+    public static final int material_grey_600=0x7f05004a;
+    public static final int material_grey_800=0x7f05004b;
+    public static final int material_grey_850=0x7f05004c;
+    public static final int material_grey_900=0x7f05004d;
+    public static final int nav_item_state_list=0x7f05004e;
+    public static final int notification_action_color_filter=0x7f05004f;
+    public static final int notification_icon_bg_color=0x7f050050;
+    public static final int notification_material_background_media_default_color=0x7f050051;
+    public static final int primary_dark_material_dark=0x7f050052;
+    public static final int primary_dark_material_light=0x7f050053;
+    public static final int primary_material_dark=0x7f050054;
+    public static final int primary_material_light=0x7f050055;
+    public static final int primary_text_default_material_dark=0x7f050056;
+    public static final int primary_text_default_material_light=0x7f050057;
+    public static final int primary_text_disabled_material_dark=0x7f050058;
+    public static final int primary_text_disabled_material_light=0x7f050059;
+    public static final int ripple_material_dark=0x7f05005a;
+    public static final int ripple_material_light=0x7f05005b;
+    public static final int sad_color =0x7f05005c;
+    public static final int secondary_text_default_material_dark=0x7f05005d;
+    public static final int secondary_text_default_material_light=0x7f05005e;
+    public static final int secondary_text_disabled_material_dark=0x7f05005f;
+    public static final int secondary_text_disabled_material_light=0x7f050060;
+    public static final int splash_screen_icon=0x7f050061;
+    public static final int splash_screen_icon_background=0x7f050062;
+    public static final int switch_thumb_disabled_material_dark=0x7f050063;
+    public static final int switch_thumb_disabled_material_light=0x7f050064;
+    public static final int switch_thumb_material_dark=0x7f050065;
+    public static final int switch_thumb_material_light=0x7f050066;
+    public static final int switch_thumb_normal_material_dark=0x7f050067;
+    public static final int switch_thumb_normal_material_light=0x7f050068;
+    public static final int tooltip_background_dark=0x7f050069;
+    public static final int tooltip_background_light=0x7f05006a;
   }
   public static final class dimen {
     public static final int abc_action_bar_content_inset_material=0x7f060000;
@@ -3444,92 +3449,93 @@ public final class R {
     public static final int activity_horizontal_margin=0x7f06004b;
     public static final int activity_vertical_margin=0x7f06004c;
     public static final int appbar_padding_top=0x7f06004d;
-    public static final int button_height=0x7f06004e;
-    public static final int button_top_spacing=0x7f06004f;
-    public static final int button_width=0x7f060050;
-    public static final int compat_button_inset_horizontal_material=0x7f060051;
-    public static final int compat_button_inset_vertical_material=0x7f060052;
-    public static final int compat_button_padding_horizontal_material=0x7f060053;
-    public static final int compat_button_padding_vertical_material=0x7f060054;
-    public static final int compat_control_corner_material=0x7f060055;
-    public static final int design_appbar_elevation=0x7f060056;
-    public static final int design_bottom_navigation_active_item_max_width=0x7f060057;
-    public static final int design_bottom_navigation_active_text_size=0x7f060058;
-    public static final int design_bottom_navigation_elevation=0x7f060059;
-    public static final int design_bottom_navigation_height=0x7f06005a;
-    public static final int design_bottom_navigation_item_max_width=0x7f06005b;
-    public static final int design_bottom_navigation_item_min_width=0x7f06005c;
-    public static final int design_bottom_navigation_margin=0x7f06005d;
-    public static final int design_bottom_navigation_shadow_height=0x7f06005e;
-    public static final int design_bottom_navigation_text_size=0x7f06005f;
-    public static final int design_bottom_sheet_modal_elevation=0x7f060060;
-    public static final int design_bottom_sheet_peek_height_min=0x7f060061;
-    public static final int design_fab_border_width=0x7f060062;
-    public static final int design_fab_elevation=0x7f060063;
-    public static final int design_fab_image_size=0x7f060064;
-    public static final int design_fab_size_mini=0x7f060065;
-    public static final int design_fab_size_normal=0x7f060066;
-    public static final int design_fab_translation_z_pressed=0x7f060067;
-    public static final int design_navigation_elevation=0x7f060068;
-    public static final int design_navigation_icon_padding=0x7f060069;
-    public static final int design_navigation_icon_size=0x7f06006a;
-    public static final int design_navigation_max_width=0x7f06006b;
-    public static final int design_navigation_padding_bottom=0x7f06006c;
-    public static final int design_navigation_separator_vertical_padding=0x7f06006d;
-    public static final int design_snackbar_action_inline_max_width=0x7f06006e;
-    public static final int design_snackbar_background_corner_radius=0x7f06006f;
-    public static final int design_snackbar_elevation=0x7f060070;
-    public static final int design_snackbar_extra_spacing_horizontal=0x7f060071;
-    public static final int design_snackbar_max_width=0x7f060072;
-    public static final int design_snackbar_min_width=0x7f060073;
-    public static final int design_snackbar_padding_horizontal=0x7f060074;
-    public static final int design_snackbar_padding_vertical=0x7f060075;
-    public static final int design_snackbar_padding_vertical_2lines=0x7f060076;
-    public static final int design_snackbar_text_size=0x7f060077;
-    public static final int design_tab_max_width=0x7f060078;
-    public static final int design_tab_scrollable_min_width=0x7f060079;
-    public static final int design_tab_text_size=0x7f06007a;
-    public static final int design_tab_text_size_2line=0x7f06007b;
-    public static final int disabled_alpha_material_dark=0x7f06007c;
-    public static final int disabled_alpha_material_light=0x7f06007d;
-    public static final int fab_margin=0x7f06007e;
-    public static final int fastscroll_default_thickness=0x7f06007f;
-    public static final int fastscroll_margin=0x7f060080;
-    public static final int fastscroll_minimum_range=0x7f060081;
-    public static final int highlight_alpha_material_colored=0x7f060082;
-    public static final int highlight_alpha_material_dark=0x7f060083;
-    public static final int highlight_alpha_material_light=0x7f060084;
-    public static final int hint_alpha_material_dark=0x7f060085;
-    public static final int hint_alpha_material_light=0x7f060086;
-    public static final int hint_pressed_alpha_material_dark=0x7f060087;
-    public static final int hint_pressed_alpha_material_light=0x7f060088;
-    public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f060089;
-    public static final int item_touch_helper_swipe_escape_max_velocity=0x7f06008a;
-    public static final int item_touch_helper_swipe_escape_velocity=0x7f06008b;
-    public static final int notification_action_icon_size=0x7f06008c;
-    public static final int notification_action_text_size=0x7f06008d;
-    public static final int notification_big_circle_margin=0x7f06008e;
-    public static final int notification_content_margin_start=0x7f06008f;
-    public static final int notification_large_icon_height=0x7f060090;
-    public static final int notification_large_icon_width=0x7f060091;
-    public static final int notification_main_column_padding_top=0x7f060092;
-    public static final int notification_media_narrow_margin=0x7f060093;
-    public static final int notification_right_icon_size=0x7f060094;
-    public static final int notification_right_side_padding_top=0x7f060095;
-    public static final int notification_small_icon_background_padding=0x7f060096;
-    public static final int notification_small_icon_size_as_large=0x7f060097;
-    public static final int notification_subtext_size=0x7f060098;
-    public static final int notification_top_pad=0x7f060099;
-    public static final int notification_top_pad_large_text=0x7f06009a;
-    public static final int title_text_size=0x7f06009b;
-    public static final int tooltip_corner_radius=0x7f06009c;
-    public static final int tooltip_horizontal_padding=0x7f06009d;
-    public static final int tooltip_margin=0x7f06009e;
-    public static final int tooltip_precise_anchor_extra_offset=0x7f06009f;
-    public static final int tooltip_precise_anchor_threshold=0x7f0600a0;
-    public static final int tooltip_vertical_padding=0x7f0600a1;
-    public static final int tooltip_y_offset_non_touch=0x7f0600a2;
-    public static final int tooltip_y_offset_touch=0x7f0600a3;
+    public static final int btn_text_size=0x7f06004e;
+    public static final int button_height=0x7f06004f;
+    public static final int button_top_spacing=0x7f060050;
+    public static final int button_width=0x7f060051;
+    public static final int compat_button_inset_horizontal_material=0x7f060052;
+    public static final int compat_button_inset_vertical_material=0x7f060053;
+    public static final int compat_button_padding_horizontal_material=0x7f060054;
+    public static final int compat_button_padding_vertical_material=0x7f060055;
+    public static final int compat_control_corner_material=0x7f060056;
+    public static final int design_appbar_elevation=0x7f060057;
+    public static final int design_bottom_navigation_active_item_max_width=0x7f060058;
+    public static final int design_bottom_navigation_active_text_size=0x7f060059;
+    public static final int design_bottom_navigation_elevation=0x7f06005a;
+    public static final int design_bottom_navigation_height=0x7f06005b;
+    public static final int design_bottom_navigation_item_max_width=0x7f06005c;
+    public static final int design_bottom_navigation_item_min_width=0x7f06005d;
+    public static final int design_bottom_navigation_margin=0x7f06005e;
+    public static final int design_bottom_navigation_shadow_height=0x7f06005f;
+    public static final int design_bottom_navigation_text_size=0x7f060060;
+    public static final int design_bottom_sheet_modal_elevation=0x7f060061;
+    public static final int design_bottom_sheet_peek_height_min=0x7f060062;
+    public static final int design_fab_border_width=0x7f060063;
+    public static final int design_fab_elevation=0x7f060064;
+    public static final int design_fab_image_size=0x7f060065;
+    public static final int design_fab_size_mini=0x7f060066;
+    public static final int design_fab_size_normal=0x7f060067;
+    public static final int design_fab_translation_z_pressed=0x7f060068;
+    public static final int design_navigation_elevation=0x7f060069;
+    public static final int design_navigation_icon_padding=0x7f06006a;
+    public static final int design_navigation_icon_size=0x7f06006b;
+    public static final int design_navigation_max_width=0x7f06006c;
+    public static final int design_navigation_padding_bottom=0x7f06006d;
+    public static final int design_navigation_separator_vertical_padding=0x7f06006e;
+    public static final int design_snackbar_action_inline_max_width=0x7f06006f;
+    public static final int design_snackbar_background_corner_radius=0x7f060070;
+    public static final int design_snackbar_elevation=0x7f060071;
+    public static final int design_snackbar_extra_spacing_horizontal=0x7f060072;
+    public static final int design_snackbar_max_width=0x7f060073;
+    public static final int design_snackbar_min_width=0x7f060074;
+    public static final int design_snackbar_padding_horizontal=0x7f060075;
+    public static final int design_snackbar_padding_vertical=0x7f060076;
+    public static final int design_snackbar_padding_vertical_2lines=0x7f060077;
+    public static final int design_snackbar_text_size=0x7f060078;
+    public static final int design_tab_max_width=0x7f060079;
+    public static final int design_tab_scrollable_min_width=0x7f06007a;
+    public static final int design_tab_text_size=0x7f06007b;
+    public static final int design_tab_text_size_2line=0x7f06007c;
+    public static final int disabled_alpha_material_dark=0x7f06007d;
+    public static final int disabled_alpha_material_light=0x7f06007e;
+    public static final int fab_margin=0x7f06007f;
+    public static final int fastscroll_default_thickness=0x7f060080;
+    public static final int fastscroll_margin=0x7f060081;
+    public static final int fastscroll_minimum_range=0x7f060082;
+    public static final int highlight_alpha_material_colored=0x7f060083;
+    public static final int highlight_alpha_material_dark=0x7f060084;
+    public static final int highlight_alpha_material_light=0x7f060085;
+    public static final int hint_alpha_material_dark=0x7f060086;
+    public static final int hint_alpha_material_light=0x7f060087;
+    public static final int hint_pressed_alpha_material_dark=0x7f060088;
+    public static final int hint_pressed_alpha_material_light=0x7f060089;
+    public static final int item_touch_helper_max_drag_scroll_per_frame=0x7f06008a;
+    public static final int item_touch_helper_swipe_escape_max_velocity=0x7f06008b;
+    public static final int item_touch_helper_swipe_escape_velocity=0x7f06008c;
+    public static final int notification_action_icon_size=0x7f06008d;
+    public static final int notification_action_text_size=0x7f06008e;
+    public static final int notification_big_circle_margin=0x7f06008f;
+    public static final int notification_content_margin_start=0x7f060090;
+    public static final int notification_large_icon_height=0x7f060091;
+    public static final int notification_large_icon_width=0x7f060092;
+    public static final int notification_main_column_padding_top=0x7f060093;
+    public static final int notification_media_narrow_margin=0x7f060094;
+    public static final int notification_right_icon_size=0x7f060095;
+    public static final int notification_right_side_padding_top=0x7f060096;
+    public static final int notification_small_icon_background_padding=0x7f060097;
+    public static final int notification_small_icon_size_as_large=0x7f060098;
+    public static final int notification_subtext_size=0x7f060099;
+    public static final int notification_top_pad=0x7f06009a;
+    public static final int notification_top_pad_large_text=0x7f06009b;
+    public static final int title_text_size=0x7f06009c;
+    public static final int tooltip_corner_radius=0x7f06009d;
+    public static final int tooltip_horizontal_padding=0x7f06009e;
+    public static final int tooltip_margin=0x7f06009f;
+    public static final int tooltip_precise_anchor_extra_offset=0x7f0600a0;
+    public static final int tooltip_precise_anchor_threshold=0x7f0600a1;
+    public static final int tooltip_vertical_padding=0x7f0600a2;
+    public static final int tooltip_y_offset_non_touch=0x7f0600a3;
+    public static final int tooltip_y_offset_touch=0x7f0600a4;
   }
   public static final class drawable {
     public static final int abc_ab_share_pack_mtrl_alpha=0x7f070007;
@@ -4545,35 +4551,35 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.kevinmaher.x14328981.happy:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.kevinmaher.x14328981.happy:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.kevinmaher.x14328981.happy:backgroundStacked}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.kevinmaher.x14328981.happy:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.kevinmaher.x14328981.happy:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.kevinmaher.x14328981.happy:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.kevinmaher.x14328981.happy:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.kevinmaher.x14328981.happy:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.kevinmaher.x14328981.happy:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.kevinmaher.x14328981.happy:customNavigationLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.kevinmaher.x14328981.happy:displayOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.kevinmaher.x14328981.happy:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.kevinmaher.x14328981.happy:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.kevinmaher.x14328981.happy:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.kevinmaher.x14328981.happy:hideOnContentScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.kevinmaher.x14328981.happy:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.kevinmaher.x14328981.happy:homeLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.kevinmaher.x14328981.happy:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.kevinmaher.x14328981.happy:indeterminateProgressStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.kevinmaher.x14328981.happy:itemPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.kevinmaher.x14328981.happy:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.kevinmaher.x14328981.happy:navigationMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.kevinmaher.x14328981.happy:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.kevinmaher.x14328981.happy:progressBarPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.kevinmaher.x14328981.happy:progressBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.kevinmaher.x14328981.happy:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.kevinmaher.x14328981.happy:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.kevinmaher.x14328981.happy:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.kevinmaher.x14328981.happy:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_background com.kevinmaher.x14328981.happy_color:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.kevinmaher.x14328981.happy_color:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.kevinmaher.x14328981.happy_color:backgroundStacked}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.kevinmaher.x14328981.happy_color:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.kevinmaher.x14328981.happy_color:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.kevinmaher.x14328981.happy_color:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.kevinmaher.x14328981.happy_color:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.kevinmaher.x14328981.happy_color:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.kevinmaher.x14328981.happy_color:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.kevinmaher.x14328981.happy_color:customNavigationLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.kevinmaher.x14328981.happy_color:displayOptions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.kevinmaher.x14328981.happy_color:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.kevinmaher.x14328981.happy_color:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.kevinmaher.x14328981.happy_color:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.kevinmaher.x14328981.happy_color:hideOnContentScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.kevinmaher.x14328981.happy_color:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.kevinmaher.x14328981.happy_color:homeLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.kevinmaher.x14328981.happy_color:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.kevinmaher.x14328981.happy_color:indeterminateProgressStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.kevinmaher.x14328981.happy_color:itemPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_logo com.kevinmaher.x14328981.happy_color:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.kevinmaher.x14328981.happy_color:navigationMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.kevinmaher.x14328981.happy_color:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.kevinmaher.x14328981.happy_color:progressBarPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.kevinmaher.x14328981.happy_color:progressBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.kevinmaher.x14328981.happy_color:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.kevinmaher.x14328981.happy_color:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.kevinmaher.x14328981.happy_color:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.kevinmaher.x14328981.happy_color:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -4624,7 +4630,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:background
+     * @attr name com.kevinmaher.x14328981.happy_color:background
      */
     public static final int ActionBar_background=0;
     /**
@@ -4639,7 +4645,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:backgroundSplit
+     * @attr name com.kevinmaher.x14328981.happy_color:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
@@ -4654,7 +4660,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:backgroundStacked
+     * @attr name com.kevinmaher.x14328981.happy_color:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
@@ -4667,7 +4673,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:contentInsetEnd
+     * @attr name com.kevinmaher.x14328981.happy_color:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
@@ -4680,7 +4686,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:contentInsetEndWithActions
+     * @attr name com.kevinmaher.x14328981.happy_color:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
@@ -4693,7 +4699,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:contentInsetLeft
+     * @attr name com.kevinmaher.x14328981.happy_color:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
@@ -4706,7 +4712,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:contentInsetRight
+     * @attr name com.kevinmaher.x14328981.happy_color:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
@@ -4719,7 +4725,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:contentInsetStart
+     * @attr name com.kevinmaher.x14328981.happy_color:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
@@ -4732,7 +4738,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:contentInsetStartWithNavigation
+     * @attr name com.kevinmaher.x14328981.happy_color:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
@@ -4744,7 +4750,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:customNavigationLayout
+     * @attr name com.kevinmaher.x14328981.happy_color:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
@@ -4766,7 +4772,7 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:displayOptions
+     * @attr name com.kevinmaher.x14328981.happy_color:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
@@ -4778,7 +4784,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:divider
+     * @attr name com.kevinmaher.x14328981.happy_color:divider
      */
     public static final int ActionBar_divider=11;
     /**
@@ -4791,7 +4797,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:elevation
+     * @attr name com.kevinmaher.x14328981.happy_color:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
@@ -4804,7 +4810,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:height
+     * @attr name com.kevinmaher.x14328981.happy_color:height
      */
     public static final int ActionBar_height=13;
     /**
@@ -4814,7 +4820,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:hideOnContentScroll
+     * @attr name com.kevinmaher.x14328981.happy_color:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
@@ -4826,7 +4832,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:homeAsUpIndicator
+     * @attr name com.kevinmaher.x14328981.happy_color:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
@@ -4838,7 +4844,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:homeLayout
+     * @attr name com.kevinmaher.x14328981.happy_color:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
@@ -4850,7 +4856,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:icon
+     * @attr name com.kevinmaher.x14328981.happy_color:icon
      */
     public static final int ActionBar_icon=17;
     /**
@@ -4862,7 +4868,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:indeterminateProgressStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
@@ -4875,7 +4881,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:itemPadding
+     * @attr name com.kevinmaher.x14328981.happy_color:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
@@ -4887,7 +4893,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:logo
+     * @attr name com.kevinmaher.x14328981.happy_color:logo
      */
     public static final int ActionBar_logo=20;
     /**
@@ -4905,7 +4911,7 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:navigationMode
+     * @attr name com.kevinmaher.x14328981.happy_color:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
@@ -4917,7 +4923,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:popupTheme
+     * @attr name com.kevinmaher.x14328981.happy_color:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
@@ -4930,7 +4936,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:progressBarPadding
+     * @attr name com.kevinmaher.x14328981.happy_color:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
@@ -4942,7 +4948,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:progressBarStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
@@ -4952,7 +4958,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:subtitle
+     * @attr name com.kevinmaher.x14328981.happy_color:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
@@ -4964,7 +4970,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:subtitleTextStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
@@ -4974,7 +4980,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:title
+     * @attr name com.kevinmaher.x14328981.happy_color:title
      */
     public static final int ActionBar_title=27;
     /**
@@ -4986,7 +4992,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:titleTextStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -5068,12 +5074,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.kevinmaher.x14328981.happy:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.kevinmaher.x14328981.happy:backgroundSplit}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.kevinmaher.x14328981.happy:closeItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.kevinmaher.x14328981.happy:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.kevinmaher.x14328981.happy:subtitleTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.kevinmaher.x14328981.happy:titleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.kevinmaher.x14328981.happy_color:background}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.kevinmaher.x14328981.happy_color:backgroundSplit}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.kevinmaher.x14328981.happy_color:closeItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.kevinmaher.x14328981.happy_color:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.kevinmaher.x14328981.happy_color:subtitleTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.kevinmaher.x14328981.happy_color:titleTextStyle}</code></td><td></td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -5095,7 +5101,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:background
+     * @attr name com.kevinmaher.x14328981.happy_color:background
      */
     public static final int ActionMode_background=0;
     /**
@@ -5110,7 +5116,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:backgroundSplit
+     * @attr name com.kevinmaher.x14328981.happy_color:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
@@ -5122,7 +5128,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:closeItemLayout
+     * @attr name com.kevinmaher.x14328981.happy_color:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
@@ -5135,7 +5141,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:height
+     * @attr name com.kevinmaher.x14328981.happy_color:height
      */
     public static final int ActionMode_height=3;
     /**
@@ -5147,7 +5153,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:subtitleTextStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
@@ -5159,7 +5165,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:titleTextStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -5169,8 +5175,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.kevinmaher.x14328981.happy:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.kevinmaher.x14328981.happy:initialActivityCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.kevinmaher.x14328981.happy_color:expandActivityOverflowButtonDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.kevinmaher.x14328981.happy_color:initialActivityCount}</code></td><td></td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -5187,7 +5193,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:expandActivityOverflowButtonDrawable
+     * @attr name com.kevinmaher.x14328981.happy_color:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
@@ -5197,7 +5203,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:initialActivityCount
+     * @attr name com.kevinmaher.x14328981.happy_color:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -5208,13 +5214,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.kevinmaher.x14328981.happy:buttonIconDimen}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.kevinmaher.x14328981.happy:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.kevinmaher.x14328981.happy:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.kevinmaher.x14328981.happy:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.kevinmaher.x14328981.happy:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle com.kevinmaher.x14328981.happy:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.kevinmaher.x14328981.happy:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.kevinmaher.x14328981.happy_color:buttonIconDimen}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.kevinmaher.x14328981.happy_color:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.kevinmaher.x14328981.happy_color:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.kevinmaher.x14328981.happy_color:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.kevinmaher.x14328981.happy_color:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle com.kevinmaher.x14328981.happy_color:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.kevinmaher.x14328981.happy_color:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonIconDimen
@@ -5251,7 +5257,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:buttonIconDimen
+     * @attr name com.kevinmaher.x14328981.happy_color:buttonIconDimen
      */
     public static final int AlertDialog_buttonIconDimen=1;
     /**
@@ -5263,7 +5269,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:buttonPanelSideLayout
+     * @attr name com.kevinmaher.x14328981.happy_color:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=2;
     /**
@@ -5275,7 +5281,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:listItemLayout
+     * @attr name com.kevinmaher.x14328981.happy_color:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=3;
     /**
@@ -5287,7 +5293,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:listLayout
+     * @attr name com.kevinmaher.x14328981.happy_color:listLayout
      */
     public static final int AlertDialog_listLayout=4;
     /**
@@ -5299,7 +5305,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:multiChoiceItemLayout
+     * @attr name com.kevinmaher.x14328981.happy_color:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=5;
     /**
@@ -5309,7 +5315,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:showTitle
+     * @attr name com.kevinmaher.x14328981.happy_color:showTitle
      */
     public static final int AlertDialog_showTitle=6;
     /**
@@ -5321,7 +5327,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:singleChoiceItemLayout
+     * @attr name com.kevinmaher.x14328981.happy_color:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=7;
     /**
@@ -5334,8 +5340,8 @@ public final class R {
      * <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_touchscreenBlocksFocus android:touchscreenBlocksFocus}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_keyboardNavigationCluster android:keyboardNavigationCluster}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_elevation com.kevinmaher.x14328981.happy:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_expanded com.kevinmaher.x14328981.happy:expanded}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_elevation com.kevinmaher.x14328981.happy_color:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_expanded com.kevinmaher.x14328981.happy_color:expanded}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_android_background
      * @see #AppBarLayout_android_touchscreenBlocksFocus
@@ -5392,7 +5398,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:elevation
+     * @attr name com.kevinmaher.x14328981.happy_color:elevation
      */
     public static final int AppBarLayout_elevation=3;
     /**
@@ -5402,7 +5408,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:expanded
+     * @attr name com.kevinmaher.x14328981.happy_color:expanded
      */
     public static final int AppBarLayout_expanded=4;
     /**
@@ -5412,8 +5418,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed com.kevinmaher.x14328981.happy:state_collapsed}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible com.kevinmaher.x14328981.happy:state_collapsible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed com.kevinmaher.x14328981.happy_color:state_collapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible com.kevinmaher.x14328981.happy_color:state_collapsible}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayoutStates_state_collapsed
      * @see #AppBarLayoutStates_state_collapsible
@@ -5428,7 +5434,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:state_collapsed
+     * @attr name com.kevinmaher.x14328981.happy_color:state_collapsed
      */
     public static final int AppBarLayoutStates_state_collapsed=0;
     /**
@@ -5438,7 +5444,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:state_collapsible
+     * @attr name com.kevinmaher.x14328981.happy_color:state_collapsible
      */
     public static final int AppBarLayoutStates_state_collapsible=1;
     /**
@@ -5448,8 +5454,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags com.kevinmaher.x14328981.happy:layout_scrollFlags}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator com.kevinmaher.x14328981.happy:layout_scrollInterpolator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags com.kevinmaher.x14328981.happy_color:layout_scrollFlags}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator com.kevinmaher.x14328981.happy_color:layout_scrollInterpolator}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_Layout_layout_scrollFlags
      * @see #AppBarLayout_Layout_layout_scrollInterpolator
@@ -5474,7 +5480,7 @@ public final class R {
      * <tr><td>snap</td><td>10</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_scrollFlags
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_scrollFlags
      */
     public static final int AppBarLayout_Layout_layout_scrollFlags=0;
     /**
@@ -5486,7 +5492,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_scrollInterpolator
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_scrollInterpolator
      */
     public static final int AppBarLayout_Layout_layout_scrollInterpolator=1;
     /**
@@ -5497,9 +5503,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.kevinmaher.x14328981.happy:srcCompat}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint com.kevinmaher.x14328981.happy:tint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode com.kevinmaher.x14328981.happy:tintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.kevinmaher.x14328981.happy_color:srcCompat}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint com.kevinmaher.x14328981.happy_color:tint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode com.kevinmaher.x14328981.happy_color:tintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -5533,7 +5539,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:srcCompat
+     * @attr name com.kevinmaher.x14328981.happy_color:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
@@ -5544,7 +5550,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:tint
+     * @attr name com.kevinmaher.x14328981.happy_color:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
@@ -5565,7 +5571,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:tintMode
+     * @attr name com.kevinmaher.x14328981.happy_color:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -5576,9 +5582,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.kevinmaher.x14328981.happy:tickMark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.kevinmaher.x14328981.happy:tickMarkTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.kevinmaher.x14328981.happy:tickMarkTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.kevinmaher.x14328981.happy_color:tickMark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.kevinmaher.x14328981.happy_color:tickMarkTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.kevinmaher.x14328981.happy_color:tickMarkTintMode}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -5609,7 +5615,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:tickMark
+     * @attr name com.kevinmaher.x14328981.happy_color:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
@@ -5620,7 +5626,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:tickMarkTint
+     * @attr name com.kevinmaher.x14328981.happy_color:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
@@ -5641,7 +5647,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:tickMarkTintMode
+     * @attr name com.kevinmaher.x14328981.happy_color:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -5781,13 +5787,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.kevinmaher.x14328981.happy:autoSizeMaxTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.kevinmaher.x14328981.happy:autoSizeMinTextSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.kevinmaher.x14328981.happy:autoSizePresetSizes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.kevinmaher.x14328981.happy:autoSizeStepGranularity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.kevinmaher.x14328981.happy:autoSizeTextType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.kevinmaher.x14328981.happy:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.kevinmaher.x14328981.happy:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.kevinmaher.x14328981.happy_color:autoSizeMaxTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.kevinmaher.x14328981.happy_color:autoSizeMinTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.kevinmaher.x14328981.happy_color:autoSizePresetSizes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.kevinmaher.x14328981.happy_color:autoSizeStepGranularity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.kevinmaher.x14328981.happy_color:autoSizeTextType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.kevinmaher.x14328981.happy_color:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.kevinmaher.x14328981.happy_color:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -5824,7 +5830,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:autoSizeMaxTextSize
+     * @attr name com.kevinmaher.x14328981.happy_color:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
@@ -5837,7 +5843,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:autoSizeMinTextSize
+     * @attr name com.kevinmaher.x14328981.happy_color:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
@@ -5849,7 +5855,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:autoSizePresetSizes
+     * @attr name com.kevinmaher.x14328981.happy_color:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
@@ -5862,7 +5868,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:autoSizeStepGranularity
+     * @attr name com.kevinmaher.x14328981.happy_color:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
@@ -5879,7 +5885,7 @@ public final class R {
      * <tr><td>uniform</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:autoSizeTextType
+     * @attr name com.kevinmaher.x14328981.happy_color:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
@@ -5889,7 +5895,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:fontFamily
+     * @attr name com.kevinmaher.x14328981.happy_color:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=6;
     /**
@@ -5903,7 +5909,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:textAllCaps
+     * @attr name com.kevinmaher.x14328981.happy_color:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=7;
     /**
@@ -5915,124 +5921,124 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.kevinmaher.x14328981.happy:actionBarDivider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.kevinmaher.x14328981.happy:actionBarItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.kevinmaher.x14328981.happy:actionBarPopupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.kevinmaher.x14328981.happy:actionBarSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.kevinmaher.x14328981.happy:actionBarSplitStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.kevinmaher.x14328981.happy:actionBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.kevinmaher.x14328981.happy:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.kevinmaher.x14328981.happy:actionBarTabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.kevinmaher.x14328981.happy:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.kevinmaher.x14328981.happy:actionBarTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.kevinmaher.x14328981.happy:actionBarWidgetTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.kevinmaher.x14328981.happy:actionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.kevinmaher.x14328981.happy:actionDropDownStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.kevinmaher.x14328981.happy:actionMenuTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.kevinmaher.x14328981.happy:actionMenuTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.kevinmaher.x14328981.happy:actionModeBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.kevinmaher.x14328981.happy:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.kevinmaher.x14328981.happy:actionModeCloseDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.kevinmaher.x14328981.happy:actionModeCopyDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.kevinmaher.x14328981.happy:actionModeCutDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.kevinmaher.x14328981.happy:actionModeFindDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.kevinmaher.x14328981.happy:actionModePasteDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.kevinmaher.x14328981.happy:actionModePopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.kevinmaher.x14328981.happy:actionModeSelectAllDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.kevinmaher.x14328981.happy:actionModeShareDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.kevinmaher.x14328981.happy:actionModeSplitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.kevinmaher.x14328981.happy:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.kevinmaher.x14328981.happy:actionModeWebSearchDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.kevinmaher.x14328981.happy:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.kevinmaher.x14328981.happy:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.kevinmaher.x14328981.happy:activityChooserViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.kevinmaher.x14328981.happy:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.kevinmaher.x14328981.happy:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.kevinmaher.x14328981.happy:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.kevinmaher.x14328981.happy:alertDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.kevinmaher.x14328981.happy:autoCompleteTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.kevinmaher.x14328981.happy:borderlessButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.kevinmaher.x14328981.happy:buttonBarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.kevinmaher.x14328981.happy:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.kevinmaher.x14328981.happy:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.kevinmaher.x14328981.happy:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.kevinmaher.x14328981.happy:buttonBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.kevinmaher.x14328981.happy:buttonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.kevinmaher.x14328981.happy:buttonStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.kevinmaher.x14328981.happy:checkboxStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.kevinmaher.x14328981.happy:checkedTextViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.kevinmaher.x14328981.happy:colorAccent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.kevinmaher.x14328981.happy:colorBackgroundFloating}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.kevinmaher.x14328981.happy:colorButtonNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.kevinmaher.x14328981.happy:colorControlActivated}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.kevinmaher.x14328981.happy:colorControlHighlight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.kevinmaher.x14328981.happy:colorControlNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError com.kevinmaher.x14328981.happy:colorError}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.kevinmaher.x14328981.happy:colorPrimary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.kevinmaher.x14328981.happy:colorPrimaryDark}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.kevinmaher.x14328981.happy:colorSwitchThumbNormal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.kevinmaher.x14328981.happy:controlBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.kevinmaher.x14328981.happy:dialogPreferredPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.kevinmaher.x14328981.happy:dialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.kevinmaher.x14328981.happy:dividerHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.kevinmaher.x14328981.happy:dividerVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.kevinmaher.x14328981.happy:dropDownListViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.kevinmaher.x14328981.happy:dropdownListPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.kevinmaher.x14328981.happy:editTextBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.kevinmaher.x14328981.happy:editTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.kevinmaher.x14328981.happy:editTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.kevinmaher.x14328981.happy:homeAsUpIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.kevinmaher.x14328981.happy:imageButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.kevinmaher.x14328981.happy:listChoiceBackgroundIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.kevinmaher.x14328981.happy:listDividerAlertDialog}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.kevinmaher.x14328981.happy:listMenuViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.kevinmaher.x14328981.happy:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.kevinmaher.x14328981.happy:listPreferredItemHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.kevinmaher.x14328981.happy:listPreferredItemHeightLarge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.kevinmaher.x14328981.happy:listPreferredItemHeightSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.kevinmaher.x14328981.happy:listPreferredItemPaddingLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.kevinmaher.x14328981.happy:listPreferredItemPaddingRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.kevinmaher.x14328981.happy:panelBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.kevinmaher.x14328981.happy:panelMenuListTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.kevinmaher.x14328981.happy:panelMenuListWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.kevinmaher.x14328981.happy:popupMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.kevinmaher.x14328981.happy:popupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.kevinmaher.x14328981.happy:radioButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.kevinmaher.x14328981.happy:ratingBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.kevinmaher.x14328981.happy:ratingBarStyleIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.kevinmaher.x14328981.happy:ratingBarStyleSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.kevinmaher.x14328981.happy:searchViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.kevinmaher.x14328981.happy:seekBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.kevinmaher.x14328981.happy:selectableItemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.kevinmaher.x14328981.happy:selectableItemBackgroundBorderless}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.kevinmaher.x14328981.happy:spinnerDropDownItemStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.kevinmaher.x14328981.happy:spinnerStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.kevinmaher.x14328981.happy:switchStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.kevinmaher.x14328981.happy:textAppearanceLargePopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.kevinmaher.x14328981.happy:textAppearanceListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.kevinmaher.x14328981.happy:textAppearanceListItemSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.kevinmaher.x14328981.happy:textAppearanceListItemSmall}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.kevinmaher.x14328981.happy:textAppearancePopupMenuHeader}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.kevinmaher.x14328981.happy:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.kevinmaher.x14328981.happy:textAppearanceSearchResultTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.kevinmaher.x14328981.happy:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.kevinmaher.x14328981.happy:textColorAlertDialogListItem}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.kevinmaher.x14328981.happy:textColorSearchUrl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.kevinmaher.x14328981.happy:toolbarNavigationButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.kevinmaher.x14328981.happy:toolbarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.kevinmaher.x14328981.happy:tooltipForegroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.kevinmaher.x14328981.happy:tooltipFrameBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.kevinmaher.x14328981.happy:viewInflaterClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.kevinmaher.x14328981.happy:windowActionBar}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.kevinmaher.x14328981.happy:windowActionBarOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.kevinmaher.x14328981.happy:windowActionModeOverlay}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.kevinmaher.x14328981.happy:windowFixedHeightMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.kevinmaher.x14328981.happy:windowFixedHeightMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.kevinmaher.x14328981.happy:windowFixedWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.kevinmaher.x14328981.happy:windowFixedWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.kevinmaher.x14328981.happy:windowMinWidthMajor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.kevinmaher.x14328981.happy:windowMinWidthMinor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.kevinmaher.x14328981.happy:windowNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.kevinmaher.x14328981.happy_color:actionBarDivider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.kevinmaher.x14328981.happy_color:actionBarItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.kevinmaher.x14328981.happy_color:actionBarPopupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.kevinmaher.x14328981.happy_color:actionBarSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.kevinmaher.x14328981.happy_color:actionBarSplitStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.kevinmaher.x14328981.happy_color:actionBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.kevinmaher.x14328981.happy_color:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.kevinmaher.x14328981.happy_color:actionBarTabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.kevinmaher.x14328981.happy_color:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.kevinmaher.x14328981.happy_color:actionBarTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.kevinmaher.x14328981.happy_color:actionBarWidgetTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.kevinmaher.x14328981.happy_color:actionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.kevinmaher.x14328981.happy_color:actionDropDownStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.kevinmaher.x14328981.happy_color:actionMenuTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.kevinmaher.x14328981.happy_color:actionMenuTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.kevinmaher.x14328981.happy_color:actionModeBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.kevinmaher.x14328981.happy_color:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.kevinmaher.x14328981.happy_color:actionModeCloseDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.kevinmaher.x14328981.happy_color:actionModeCopyDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.kevinmaher.x14328981.happy_color:actionModeCutDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.kevinmaher.x14328981.happy_color:actionModeFindDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.kevinmaher.x14328981.happy_color:actionModePasteDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.kevinmaher.x14328981.happy_color:actionModePopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.kevinmaher.x14328981.happy_color:actionModeSelectAllDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.kevinmaher.x14328981.happy_color:actionModeShareDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.kevinmaher.x14328981.happy_color:actionModeSplitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.kevinmaher.x14328981.happy_color:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.kevinmaher.x14328981.happy_color:actionModeWebSearchDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.kevinmaher.x14328981.happy_color:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.kevinmaher.x14328981.happy_color:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.kevinmaher.x14328981.happy_color:activityChooserViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.kevinmaher.x14328981.happy_color:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.kevinmaher.x14328981.happy_color:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.kevinmaher.x14328981.happy_color:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.kevinmaher.x14328981.happy_color:alertDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.kevinmaher.x14328981.happy_color:autoCompleteTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.kevinmaher.x14328981.happy_color:borderlessButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.kevinmaher.x14328981.happy_color:buttonBarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.kevinmaher.x14328981.happy_color:buttonBarNegativeButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.kevinmaher.x14328981.happy_color:buttonBarNeutralButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.kevinmaher.x14328981.happy_color:buttonBarPositiveButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.kevinmaher.x14328981.happy_color:buttonBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.kevinmaher.x14328981.happy_color:buttonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.kevinmaher.x14328981.happy_color:buttonStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.kevinmaher.x14328981.happy_color:checkboxStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.kevinmaher.x14328981.happy_color:checkedTextViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.kevinmaher.x14328981.happy_color:colorAccent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.kevinmaher.x14328981.happy_color:colorBackgroundFloating}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.kevinmaher.x14328981.happy_color:colorButtonNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.kevinmaher.x14328981.happy_color:colorControlActivated}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.kevinmaher.x14328981.happy_color:colorControlHighlight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.kevinmaher.x14328981.happy_color:colorControlNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError com.kevinmaher.x14328981.happy_color:colorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.kevinmaher.x14328981.happy_color:colorPrimary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.kevinmaher.x14328981.happy_color:colorPrimaryDark}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.kevinmaher.x14328981.happy_color:colorSwitchThumbNormal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.kevinmaher.x14328981.happy_color:controlBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.kevinmaher.x14328981.happy_color:dialogPreferredPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.kevinmaher.x14328981.happy_color:dialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.kevinmaher.x14328981.happy_color:dividerHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.kevinmaher.x14328981.happy_color:dividerVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.kevinmaher.x14328981.happy_color:dropDownListViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.kevinmaher.x14328981.happy_color:dropdownListPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.kevinmaher.x14328981.happy_color:editTextBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.kevinmaher.x14328981.happy_color:editTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.kevinmaher.x14328981.happy_color:editTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.kevinmaher.x14328981.happy_color:homeAsUpIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.kevinmaher.x14328981.happy_color:imageButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.kevinmaher.x14328981.happy_color:listChoiceBackgroundIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.kevinmaher.x14328981.happy_color:listDividerAlertDialog}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.kevinmaher.x14328981.happy_color:listMenuViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.kevinmaher.x14328981.happy_color:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.kevinmaher.x14328981.happy_color:listPreferredItemHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.kevinmaher.x14328981.happy_color:listPreferredItemHeightLarge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.kevinmaher.x14328981.happy_color:listPreferredItemHeightSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.kevinmaher.x14328981.happy_color:listPreferredItemPaddingLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.kevinmaher.x14328981.happy_color:listPreferredItemPaddingRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.kevinmaher.x14328981.happy_color:panelBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.kevinmaher.x14328981.happy_color:panelMenuListTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.kevinmaher.x14328981.happy_color:panelMenuListWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.kevinmaher.x14328981.happy_color:popupMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.kevinmaher.x14328981.happy_color:popupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.kevinmaher.x14328981.happy_color:radioButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.kevinmaher.x14328981.happy_color:ratingBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.kevinmaher.x14328981.happy_color:ratingBarStyleIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.kevinmaher.x14328981.happy_color:ratingBarStyleSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.kevinmaher.x14328981.happy_color:searchViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.kevinmaher.x14328981.happy_color:seekBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.kevinmaher.x14328981.happy_color:selectableItemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.kevinmaher.x14328981.happy_color:selectableItemBackgroundBorderless}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.kevinmaher.x14328981.happy_color:spinnerDropDownItemStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.kevinmaher.x14328981.happy_color:spinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.kevinmaher.x14328981.happy_color:switchStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.kevinmaher.x14328981.happy_color:textAppearanceLargePopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.kevinmaher.x14328981.happy_color:textAppearanceListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.kevinmaher.x14328981.happy_color:textAppearanceListItemSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.kevinmaher.x14328981.happy_color:textAppearanceListItemSmall}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.kevinmaher.x14328981.happy_color:textAppearancePopupMenuHeader}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.kevinmaher.x14328981.happy_color:textAppearanceSearchResultSubtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.kevinmaher.x14328981.happy_color:textAppearanceSearchResultTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.kevinmaher.x14328981.happy_color:textAppearanceSmallPopupMenu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.kevinmaher.x14328981.happy_color:textColorAlertDialogListItem}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.kevinmaher.x14328981.happy_color:textColorSearchUrl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.kevinmaher.x14328981.happy_color:toolbarNavigationButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.kevinmaher.x14328981.happy_color:toolbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.kevinmaher.x14328981.happy_color:tooltipForegroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.kevinmaher.x14328981.happy_color:tooltipFrameBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.kevinmaher.x14328981.happy_color:viewInflaterClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.kevinmaher.x14328981.happy_color:windowActionBar}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.kevinmaher.x14328981.happy_color:windowActionBarOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.kevinmaher.x14328981.happy_color:windowActionModeOverlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.kevinmaher.x14328981.happy_color:windowFixedHeightMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.kevinmaher.x14328981.happy_color:windowFixedHeightMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.kevinmaher.x14328981.happy_color:windowFixedWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.kevinmaher.x14328981.happy_color:windowFixedWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.kevinmaher.x14328981.happy_color:windowMinWidthMajor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.kevinmaher.x14328981.happy_color:windowMinWidthMinor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.kevinmaher.x14328981.happy_color:windowNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -6218,7 +6224,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionBarDivider
+     * @attr name com.kevinmaher.x14328981.happy_color:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
@@ -6230,7 +6236,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionBarItemBackground
+     * @attr name com.kevinmaher.x14328981.happy_color:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
@@ -6242,7 +6248,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionBarPopupTheme
+     * @attr name com.kevinmaher.x14328981.happy_color:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
@@ -6263,7 +6269,7 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionBarSize
+     * @attr name com.kevinmaher.x14328981.happy_color:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
@@ -6275,7 +6281,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionBarSplitStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
@@ -6287,7 +6293,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionBarStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
@@ -6299,7 +6305,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionBarTabBarStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
@@ -6311,7 +6317,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionBarTabStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
@@ -6323,7 +6329,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionBarTabTextStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
@@ -6335,7 +6341,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionBarTheme
+     * @attr name com.kevinmaher.x14328981.happy_color:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
@@ -6347,7 +6353,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionBarWidgetTheme
+     * @attr name com.kevinmaher.x14328981.happy_color:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
@@ -6359,7 +6365,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionButtonStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
@@ -6371,7 +6377,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionDropDownStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
@@ -6383,7 +6389,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionMenuTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy_color:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
@@ -6398,7 +6404,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionMenuTextColor
+     * @attr name com.kevinmaher.x14328981.happy_color:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
@@ -6410,7 +6416,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionModeBackground
+     * @attr name com.kevinmaher.x14328981.happy_color:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
@@ -6422,7 +6428,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionModeCloseButtonStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
@@ -6434,7 +6440,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionModeCloseDrawable
+     * @attr name com.kevinmaher.x14328981.happy_color:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
@@ -6446,7 +6452,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionModeCopyDrawable
+     * @attr name com.kevinmaher.x14328981.happy_color:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
@@ -6458,7 +6464,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionModeCutDrawable
+     * @attr name com.kevinmaher.x14328981.happy_color:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
@@ -6470,7 +6476,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionModeFindDrawable
+     * @attr name com.kevinmaher.x14328981.happy_color:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
@@ -6482,7 +6488,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionModePasteDrawable
+     * @attr name com.kevinmaher.x14328981.happy_color:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
@@ -6494,7 +6500,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionModePopupWindowStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
@@ -6506,7 +6512,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionModeSelectAllDrawable
+     * @attr name com.kevinmaher.x14328981.happy_color:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
@@ -6518,7 +6524,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionModeShareDrawable
+     * @attr name com.kevinmaher.x14328981.happy_color:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
@@ -6530,7 +6536,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionModeSplitBackground
+     * @attr name com.kevinmaher.x14328981.happy_color:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
@@ -6542,7 +6548,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionModeStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
@@ -6554,7 +6560,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionModeWebSearchDrawable
+     * @attr name com.kevinmaher.x14328981.happy_color:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
@@ -6566,7 +6572,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionOverflowButtonStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
@@ -6578,7 +6584,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionOverflowMenuStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
@@ -6590,7 +6596,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:activityChooserViewStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
@@ -6602,7 +6608,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:alertDialogButtonGroupStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
@@ -6612,7 +6618,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:alertDialogCenterButtons
+     * @attr name com.kevinmaher.x14328981.happy_color:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
@@ -6624,7 +6630,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:alertDialogStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
@@ -6636,7 +6642,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:alertDialogTheme
+     * @attr name com.kevinmaher.x14328981.happy_color:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
@@ -6648,7 +6654,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:autoCompleteTextViewStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
@@ -6660,7 +6666,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:borderlessButtonStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
@@ -6672,7 +6678,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:buttonBarButtonStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
@@ -6684,7 +6690,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:buttonBarNegativeButtonStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
@@ -6696,7 +6702,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:buttonBarNeutralButtonStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
@@ -6708,7 +6714,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:buttonBarPositiveButtonStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
@@ -6720,7 +6726,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:buttonBarStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
@@ -6732,7 +6738,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:buttonStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
@@ -6744,7 +6750,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:buttonStyleSmall
+     * @attr name com.kevinmaher.x14328981.happy_color:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
@@ -6756,7 +6762,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:checkboxStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
@@ -6768,7 +6774,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:checkedTextViewStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
@@ -6779,7 +6785,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:colorAccent
+     * @attr name com.kevinmaher.x14328981.happy_color:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
@@ -6790,7 +6796,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:colorBackgroundFloating
+     * @attr name com.kevinmaher.x14328981.happy_color:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
@@ -6801,7 +6807,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:colorButtonNormal
+     * @attr name com.kevinmaher.x14328981.happy_color:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
@@ -6812,7 +6818,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:colorControlActivated
+     * @attr name com.kevinmaher.x14328981.happy_color:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
@@ -6823,7 +6829,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:colorControlHighlight
+     * @attr name com.kevinmaher.x14328981.happy_color:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
@@ -6834,7 +6840,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:colorControlNormal
+     * @attr name com.kevinmaher.x14328981.happy_color:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
@@ -6849,7 +6855,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:colorError
+     * @attr name com.kevinmaher.x14328981.happy_color:colorError
      */
     public static final int AppCompatTheme_colorError=54;
     /**
@@ -6860,7 +6866,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:colorPrimary
+     * @attr name com.kevinmaher.x14328981.happy_color:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
@@ -6871,7 +6877,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:colorPrimaryDark
+     * @attr name com.kevinmaher.x14328981.happy_color:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
@@ -6882,7 +6888,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:colorSwitchThumbNormal
+     * @attr name com.kevinmaher.x14328981.happy_color:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
@@ -6894,7 +6900,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:controlBackground
+     * @attr name com.kevinmaher.x14328981.happy_color:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
@@ -6907,7 +6913,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:dialogPreferredPadding
+     * @attr name com.kevinmaher.x14328981.happy_color:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=59;
     /**
@@ -6919,7 +6925,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:dialogTheme
+     * @attr name com.kevinmaher.x14328981.happy_color:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=60;
     /**
@@ -6931,7 +6937,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:dividerHorizontal
+     * @attr name com.kevinmaher.x14328981.happy_color:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=61;
     /**
@@ -6943,7 +6949,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:dividerVertical
+     * @attr name com.kevinmaher.x14328981.happy_color:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=62;
     /**
@@ -6955,7 +6961,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:dropDownListViewStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=63;
     /**
@@ -6968,7 +6974,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:dropdownListPreferredItemHeight
+     * @attr name com.kevinmaher.x14328981.happy_color:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=64;
     /**
@@ -6980,7 +6986,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:editTextBackground
+     * @attr name com.kevinmaher.x14328981.happy_color:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=65;
     /**
@@ -6995,7 +7001,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:editTextColor
+     * @attr name com.kevinmaher.x14328981.happy_color:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=66;
     /**
@@ -7007,7 +7013,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:editTextStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=67;
     /**
@@ -7019,7 +7025,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:homeAsUpIndicator
+     * @attr name com.kevinmaher.x14328981.happy_color:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=68;
     /**
@@ -7031,7 +7037,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:imageButtonStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=69;
     /**
@@ -7043,7 +7049,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:listChoiceBackgroundIndicator
+     * @attr name com.kevinmaher.x14328981.happy_color:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=70;
     /**
@@ -7055,7 +7061,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:listDividerAlertDialog
+     * @attr name com.kevinmaher.x14328981.happy_color:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=71;
     /**
@@ -7067,7 +7073,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:listMenuViewStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=72;
     /**
@@ -7079,7 +7085,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:listPopupWindowStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=73;
     /**
@@ -7092,7 +7098,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:listPreferredItemHeight
+     * @attr name com.kevinmaher.x14328981.happy_color:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=74;
     /**
@@ -7105,7 +7111,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:listPreferredItemHeightLarge
+     * @attr name com.kevinmaher.x14328981.happy_color:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=75;
     /**
@@ -7118,7 +7124,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:listPreferredItemHeightSmall
+     * @attr name com.kevinmaher.x14328981.happy_color:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=76;
     /**
@@ -7131,7 +7137,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:listPreferredItemPaddingLeft
+     * @attr name com.kevinmaher.x14328981.happy_color:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=77;
     /**
@@ -7144,7 +7150,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:listPreferredItemPaddingRight
+     * @attr name com.kevinmaher.x14328981.happy_color:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=78;
     /**
@@ -7156,7 +7162,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:panelBackground
+     * @attr name com.kevinmaher.x14328981.happy_color:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=79;
     /**
@@ -7168,7 +7174,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:panelMenuListTheme
+     * @attr name com.kevinmaher.x14328981.happy_color:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=80;
     /**
@@ -7181,7 +7187,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:panelMenuListWidth
+     * @attr name com.kevinmaher.x14328981.happy_color:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=81;
     /**
@@ -7193,7 +7199,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:popupMenuStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=82;
     /**
@@ -7205,7 +7211,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:popupWindowStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=83;
     /**
@@ -7217,7 +7223,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:radioButtonStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=84;
     /**
@@ -7229,7 +7235,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:ratingBarStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=85;
     /**
@@ -7241,7 +7247,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:ratingBarStyleIndicator
+     * @attr name com.kevinmaher.x14328981.happy_color:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=86;
     /**
@@ -7253,7 +7259,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:ratingBarStyleSmall
+     * @attr name com.kevinmaher.x14328981.happy_color:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=87;
     /**
@@ -7265,7 +7271,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:searchViewStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=88;
     /**
@@ -7277,7 +7283,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:seekBarStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=89;
     /**
@@ -7289,7 +7295,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:selectableItemBackground
+     * @attr name com.kevinmaher.x14328981.happy_color:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=90;
     /**
@@ -7301,7 +7307,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:selectableItemBackgroundBorderless
+     * @attr name com.kevinmaher.x14328981.happy_color:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=91;
     /**
@@ -7313,7 +7319,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:spinnerDropDownItemStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=92;
     /**
@@ -7325,7 +7331,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:spinnerStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=93;
     /**
@@ -7337,7 +7343,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:switchStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=94;
     /**
@@ -7349,7 +7355,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:textAppearanceLargePopupMenu
+     * @attr name com.kevinmaher.x14328981.happy_color:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=95;
     /**
@@ -7361,7 +7367,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:textAppearanceListItem
+     * @attr name com.kevinmaher.x14328981.happy_color:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=96;
     /**
@@ -7373,7 +7379,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:textAppearanceListItemSecondary
+     * @attr name com.kevinmaher.x14328981.happy_color:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=97;
     /**
@@ -7385,7 +7391,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:textAppearanceListItemSmall
+     * @attr name com.kevinmaher.x14328981.happy_color:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=98;
     /**
@@ -7397,7 +7403,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:textAppearancePopupMenuHeader
+     * @attr name com.kevinmaher.x14328981.happy_color:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=99;
     /**
@@ -7409,7 +7415,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:textAppearanceSearchResultSubtitle
+     * @attr name com.kevinmaher.x14328981.happy_color:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=100;
     /**
@@ -7421,7 +7427,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:textAppearanceSearchResultTitle
+     * @attr name com.kevinmaher.x14328981.happy_color:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=101;
     /**
@@ -7433,7 +7439,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:textAppearanceSmallPopupMenu
+     * @attr name com.kevinmaher.x14328981.happy_color:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=102;
     /**
@@ -7448,7 +7454,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:textColorAlertDialogListItem
+     * @attr name com.kevinmaher.x14328981.happy_color:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=103;
     /**
@@ -7463,7 +7469,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:textColorSearchUrl
+     * @attr name com.kevinmaher.x14328981.happy_color:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=104;
     /**
@@ -7475,7 +7481,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:toolbarNavigationButtonStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=105;
     /**
@@ -7487,7 +7493,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:toolbarStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=106;
     /**
@@ -7502,7 +7508,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:tooltipForegroundColor
+     * @attr name com.kevinmaher.x14328981.happy_color:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=107;
     /**
@@ -7514,7 +7520,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:tooltipFrameBackground
+     * @attr name com.kevinmaher.x14328981.happy_color:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=108;
     /**
@@ -7524,7 +7530,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:viewInflaterClass
+     * @attr name com.kevinmaher.x14328981.happy_color:viewInflaterClass
      */
     public static final int AppCompatTheme_viewInflaterClass=109;
     /**
@@ -7534,7 +7540,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:windowActionBar
+     * @attr name com.kevinmaher.x14328981.happy_color:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=110;
     /**
@@ -7544,7 +7550,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:windowActionBarOverlay
+     * @attr name com.kevinmaher.x14328981.happy_color:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=111;
     /**
@@ -7554,7 +7560,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:windowActionModeOverlay
+     * @attr name com.kevinmaher.x14328981.happy_color:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=112;
     /**
@@ -7571,7 +7577,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.kevinmaher.x14328981.happy:windowFixedHeightMajor
+     * @attr name com.kevinmaher.x14328981.happy_color:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=113;
     /**
@@ -7588,7 +7594,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.kevinmaher.x14328981.happy:windowFixedHeightMinor
+     * @attr name com.kevinmaher.x14328981.happy_color:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=114;
     /**
@@ -7605,7 +7611,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.kevinmaher.x14328981.happy:windowFixedWidthMajor
+     * @attr name com.kevinmaher.x14328981.happy_color:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=115;
     /**
@@ -7622,7 +7628,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.kevinmaher.x14328981.happy:windowFixedWidthMinor
+     * @attr name com.kevinmaher.x14328981.happy_color:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=116;
     /**
@@ -7639,7 +7645,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.kevinmaher.x14328981.happy:windowMinWidthMajor
+     * @attr name com.kevinmaher.x14328981.happy_color:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=117;
     /**
@@ -7656,7 +7662,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.kevinmaher.x14328981.happy:windowMinWidthMinor
+     * @attr name com.kevinmaher.x14328981.happy_color:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=118;
     /**
@@ -7666,7 +7672,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:windowNoTitle
+     * @attr name com.kevinmaher.x14328981.happy_color:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=119;
     /**
@@ -7676,11 +7682,11 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomNavigationView_elevation com.kevinmaher.x14328981.happy:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemBackground com.kevinmaher.x14328981.happy:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemIconTint com.kevinmaher.x14328981.happy:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextColor com.kevinmaher.x14328981.happy:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_menu com.kevinmaher.x14328981.happy:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_elevation com.kevinmaher.x14328981.happy_color:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemBackground com.kevinmaher.x14328981.happy_color:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemIconTint com.kevinmaher.x14328981.happy_color:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextColor com.kevinmaher.x14328981.happy_color:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_menu com.kevinmaher.x14328981.happy_color:menu}</code></td><td></td></tr>
      * </table>
      * @see #BottomNavigationView_elevation
      * @see #BottomNavigationView_itemBackground
@@ -7702,7 +7708,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:elevation
+     * @attr name com.kevinmaher.x14328981.happy_color:elevation
      */
     public static final int BottomNavigationView_elevation=0;
     /**
@@ -7714,7 +7720,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:itemBackground
+     * @attr name com.kevinmaher.x14328981.happy_color:itemBackground
      */
     public static final int BottomNavigationView_itemBackground=1;
     /**
@@ -7725,7 +7731,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:itemIconTint
+     * @attr name com.kevinmaher.x14328981.happy_color:itemIconTint
      */
     public static final int BottomNavigationView_itemIconTint=2;
     /**
@@ -7736,7 +7742,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:itemTextColor
+     * @attr name com.kevinmaher.x14328981.happy_color:itemTextColor
      */
     public static final int BottomNavigationView_itemTextColor=3;
     /**
@@ -7748,7 +7754,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:menu
+     * @attr name com.kevinmaher.x14328981.happy_color:menu
      */
     public static final int BottomNavigationView_menu=4;
     /**
@@ -7758,9 +7764,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable com.kevinmaher.x14328981.happy:behavior_hideable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight com.kevinmaher.x14328981.happy:behavior_peekHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed com.kevinmaher.x14328981.happy:behavior_skipCollapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable com.kevinmaher.x14328981.happy_color:behavior_hideable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight com.kevinmaher.x14328981.happy_color:behavior_peekHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed com.kevinmaher.x14328981.happy_color:behavior_skipCollapsed}</code></td><td></td></tr>
      * </table>
      * @see #BottomSheetBehavior_Layout_behavior_hideable
      * @see #BottomSheetBehavior_Layout_behavior_peekHeight
@@ -7776,7 +7782,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:behavior_hideable
+     * @attr name com.kevinmaher.x14328981.happy_color:behavior_hideable
      */
     public static final int BottomSheetBehavior_Layout_behavior_hideable=0;
     /**
@@ -7797,7 +7803,7 @@ public final class R {
      * <tr><td>auto</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:behavior_peekHeight
+     * @attr name com.kevinmaher.x14328981.happy_color:behavior_peekHeight
      */
     public static final int BottomSheetBehavior_Layout_behavior_peekHeight=1;
     /**
@@ -7807,7 +7813,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:behavior_skipCollapsed
+     * @attr name com.kevinmaher.x14328981.happy_color:behavior_skipCollapsed
      */
     public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed=2;
     /**
@@ -7817,7 +7823,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.kevinmaher.x14328981.happy:allowStacking}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.kevinmaher.x14328981.happy_color:allowStacking}</code></td><td></td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
      */
@@ -7831,7 +7837,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:allowStacking
+     * @attr name com.kevinmaher.x14328981.happy_color:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -7841,22 +7847,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.kevinmaher.x14328981.happy:collapsedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.kevinmaher.x14328981.happy:collapsedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.kevinmaher.x14328981.happy:contentScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.kevinmaher.x14328981.happy:expandedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.kevinmaher.x14328981.happy:expandedTitleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.kevinmaher.x14328981.happy:expandedTitleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.kevinmaher.x14328981.happy:expandedTitleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.kevinmaher.x14328981.happy:expandedTitleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.kevinmaher.x14328981.happy:expandedTitleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.kevinmaher.x14328981.happy:expandedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration com.kevinmaher.x14328981.happy:scrimAnimationDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger com.kevinmaher.x14328981.happy:scrimVisibleHeightTrigger}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.kevinmaher.x14328981.happy:statusBarScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_title com.kevinmaher.x14328981.happy:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.kevinmaher.x14328981.happy:titleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.kevinmaher.x14328981.happy:toolbarId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.kevinmaher.x14328981.happy_color:collapsedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.kevinmaher.x14328981.happy_color:collapsedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.kevinmaher.x14328981.happy_color:contentScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.kevinmaher.x14328981.happy_color:expandedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.kevinmaher.x14328981.happy_color:expandedTitleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.kevinmaher.x14328981.happy_color:expandedTitleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.kevinmaher.x14328981.happy_color:expandedTitleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.kevinmaher.x14328981.happy_color:expandedTitleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.kevinmaher.x14328981.happy_color:expandedTitleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.kevinmaher.x14328981.happy_color:expandedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration com.kevinmaher.x14328981.happy_color:scrimAnimationDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger com.kevinmaher.x14328981.happy_color:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.kevinmaher.x14328981.happy_color:statusBarScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_title com.kevinmaher.x14328981.happy_color:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.kevinmaher.x14328981.happy_color:titleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.kevinmaher.x14328981.happy_color:toolbarId}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_collapsedTitleGravity
      * @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -7903,7 +7909,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:collapsedTitleGravity
+     * @attr name com.kevinmaher.x14328981.happy_color:collapsedTitleGravity
      */
     public static final int CollapsingToolbarLayout_collapsedTitleGravity=0;
     /**
@@ -7915,7 +7921,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:collapsedTitleTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy_color:collapsedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance=1;
     /**
@@ -7926,7 +7932,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:contentScrim
+     * @attr name com.kevinmaher.x14328981.happy_color:contentScrim
      */
     public static final int CollapsingToolbarLayout_contentScrim=2;
     /**
@@ -7951,7 +7957,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:expandedTitleGravity
+     * @attr name com.kevinmaher.x14328981.happy_color:expandedTitleGravity
      */
     public static final int CollapsingToolbarLayout_expandedTitleGravity=3;
     /**
@@ -7964,7 +7970,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:expandedTitleMargin
+     * @attr name com.kevinmaher.x14328981.happy_color:expandedTitleMargin
      */
     public static final int CollapsingToolbarLayout_expandedTitleMargin=4;
     /**
@@ -7977,7 +7983,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:expandedTitleMarginBottom
+     * @attr name com.kevinmaher.x14328981.happy_color:expandedTitleMarginBottom
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginBottom=5;
     /**
@@ -7990,7 +7996,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:expandedTitleMarginEnd
+     * @attr name com.kevinmaher.x14328981.happy_color:expandedTitleMarginEnd
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginEnd=6;
     /**
@@ -8003,7 +8009,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:expandedTitleMarginStart
+     * @attr name com.kevinmaher.x14328981.happy_color:expandedTitleMarginStart
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginStart=7;
     /**
@@ -8016,7 +8022,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:expandedTitleMarginTop
+     * @attr name com.kevinmaher.x14328981.happy_color:expandedTitleMarginTop
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginTop=8;
     /**
@@ -8028,7 +8034,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:expandedTitleTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy_color:expandedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_expandedTitleTextAppearance=9;
     /**
@@ -8037,7 +8043,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:scrimAnimationDuration
+     * @attr name com.kevinmaher.x14328981.happy_color:scrimAnimationDuration
      */
     public static final int CollapsingToolbarLayout_scrimAnimationDuration=10;
     /**
@@ -8050,7 +8056,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:scrimVisibleHeightTrigger
+     * @attr name com.kevinmaher.x14328981.happy_color:scrimVisibleHeightTrigger
      */
     public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger=11;
     /**
@@ -8061,7 +8067,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:statusBarScrim
+     * @attr name com.kevinmaher.x14328981.happy_color:statusBarScrim
      */
     public static final int CollapsingToolbarLayout_statusBarScrim=12;
     /**
@@ -8071,7 +8077,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:title
+     * @attr name com.kevinmaher.x14328981.happy_color:title
      */
     public static final int CollapsingToolbarLayout_title=13;
     /**
@@ -8081,7 +8087,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:titleEnabled
+     * @attr name com.kevinmaher.x14328981.happy_color:titleEnabled
      */
     public static final int CollapsingToolbarLayout_titleEnabled=14;
     /**
@@ -8093,7 +8099,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:toolbarId
+     * @attr name com.kevinmaher.x14328981.happy_color:toolbarId
      */
     public static final int CollapsingToolbarLayout_toolbarId=15;
     /**
@@ -8103,8 +8109,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.kevinmaher.x14328981.happy:layout_collapseMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.kevinmaher.x14328981.happy:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.kevinmaher.x14328981.happy_color:layout_collapseMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.kevinmaher.x14328981.happy_color:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_Layout_layout_collapseMode
      * @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
@@ -8127,7 +8133,7 @@ public final class R {
      * <tr><td>pin</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_collapseMode
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_collapseMode
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseMode=0;
     /**
@@ -8136,7 +8142,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_collapseParallaxMultiplier
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_collapseParallaxMultiplier
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier=1;
     /**
@@ -8148,7 +8154,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.kevinmaher.x14328981.happy:alpha}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.kevinmaher.x14328981.happy_color:alpha}</code></td><td></td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -8183,7 +8189,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:alpha
+     * @attr name com.kevinmaher.x14328981.happy_color:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -8194,8 +8200,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.kevinmaher.x14328981.happy:buttonTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.kevinmaher.x14328981.happy:buttonTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.kevinmaher.x14328981.happy_color:buttonTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.kevinmaher.x14328981.happy_color:buttonTintMode}</code></td><td></td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -8224,7 +8230,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:buttonTint
+     * @attr name com.kevinmaher.x14328981.happy_color:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
@@ -8245,7 +8251,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:buttonTintMode
+     * @attr name com.kevinmaher.x14328981.happy_color:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -8260,61 +8266,61 @@ public final class R {
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets com.kevinmaher.x14328981.happy:barrierAllowsGoneWidgets}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection com.kevinmaher.x14328981.happy:barrierDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl com.kevinmaher.x14328981.happy:chainUseRtl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.kevinmaher.x14328981.happy:constraintSet}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids com.kevinmaher.x14328981.happy:constraint_referenced_ids}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight com.kevinmaher.x14328981.happy:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth com.kevinmaher.x14328981.happy:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.kevinmaher.x14328981.happy:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.kevinmaher.x14328981.happy:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.kevinmaher.x14328981.happy:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.kevinmaher.x14328981.happy:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.kevinmaher.x14328981.happy:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle com.kevinmaher.x14328981.happy:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle com.kevinmaher.x14328981.happy:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius com.kevinmaher.x14328981.happy:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.kevinmaher.x14328981.happy:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.kevinmaher.x14328981.happy:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.kevinmaher.x14328981.happy:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.kevinmaher.x14328981.happy:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.kevinmaher.x14328981.happy:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.kevinmaher.x14328981.happy:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.kevinmaher.x14328981.happy:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.kevinmaher.x14328981.happy:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.kevinmaher.x14328981.happy:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent com.kevinmaher.x14328981.happy:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.kevinmaher.x14328981.happy:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.kevinmaher.x14328981.happy:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.kevinmaher.x14328981.happy:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.kevinmaher.x14328981.happy:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.kevinmaher.x14328981.happy:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.kevinmaher.x14328981.happy:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.kevinmaher.x14328981.happy:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.kevinmaher.x14328981.happy:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.kevinmaher.x14328981.happy:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.kevinmaher.x14328981.happy:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.kevinmaher.x14328981.happy:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.kevinmaher.x14328981.happy:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.kevinmaher.x14328981.happy:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.kevinmaher.x14328981.happy:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.kevinmaher.x14328981.happy:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.kevinmaher.x14328981.happy:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.kevinmaher.x14328981.happy:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.kevinmaher.x14328981.happy:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.kevinmaher.x14328981.happy:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.kevinmaher.x14328981.happy:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent com.kevinmaher.x14328981.happy:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.kevinmaher.x14328981.happy:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.kevinmaher.x14328981.happy:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.kevinmaher.x14328981.happy:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.kevinmaher.x14328981.happy:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.kevinmaher.x14328981.happy:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.kevinmaher.x14328981.happy:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.kevinmaher.x14328981.happy:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.kevinmaher.x14328981.happy:layout_goneMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.kevinmaher.x14328981.happy:layout_optimizationLevel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets com.kevinmaher.x14328981.happy_color:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection com.kevinmaher.x14328981.happy_color:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl com.kevinmaher.x14328981.happy_color:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.kevinmaher.x14328981.happy_color:constraintSet}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids com.kevinmaher.x14328981.happy_color:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight com.kevinmaher.x14328981.happy_color:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth com.kevinmaher.x14328981.happy_color:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.kevinmaher.x14328981.happy_color:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.kevinmaher.x14328981.happy_color:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.kevinmaher.x14328981.happy_color:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.kevinmaher.x14328981.happy_color:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.kevinmaher.x14328981.happy_color:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle com.kevinmaher.x14328981.happy_color:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle com.kevinmaher.x14328981.happy_color:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius com.kevinmaher.x14328981.happy_color:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.kevinmaher.x14328981.happy_color:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.kevinmaher.x14328981.happy_color:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.kevinmaher.x14328981.happy_color:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.kevinmaher.x14328981.happy_color:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.kevinmaher.x14328981.happy_color:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.kevinmaher.x14328981.happy_color:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.kevinmaher.x14328981.happy_color:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.kevinmaher.x14328981.happy_color:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.kevinmaher.x14328981.happy_color:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent com.kevinmaher.x14328981.happy_color:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.kevinmaher.x14328981.happy_color:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.kevinmaher.x14328981.happy_color:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.kevinmaher.x14328981.happy_color:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.kevinmaher.x14328981.happy_color:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.kevinmaher.x14328981.happy_color:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.kevinmaher.x14328981.happy_color:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.kevinmaher.x14328981.happy_color:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.kevinmaher.x14328981.happy_color:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.kevinmaher.x14328981.happy_color:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.kevinmaher.x14328981.happy_color:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.kevinmaher.x14328981.happy_color:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.kevinmaher.x14328981.happy_color:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.kevinmaher.x14328981.happy_color:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.kevinmaher.x14328981.happy_color:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.kevinmaher.x14328981.happy_color:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.kevinmaher.x14328981.happy_color:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.kevinmaher.x14328981.happy_color:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.kevinmaher.x14328981.happy_color:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.kevinmaher.x14328981.happy_color:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.kevinmaher.x14328981.happy_color:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent com.kevinmaher.x14328981.happy_color:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.kevinmaher.x14328981.happy_color:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.kevinmaher.x14328981.happy_color:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.kevinmaher.x14328981.happy_color:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.kevinmaher.x14328981.happy_color:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.kevinmaher.x14328981.happy_color:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.kevinmaher.x14328981.happy_color:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.kevinmaher.x14328981.happy_color:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.kevinmaher.x14328981.happy_color:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.kevinmaher.x14328981.happy_color:layout_optimizationLevel}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_Layout_android_orientation
      * @see #ConstraintLayout_Layout_android_maxWidth
@@ -8470,7 +8476,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:barrierAllowsGoneWidgets
+     * @attr name com.kevinmaher.x14328981.happy_color:barrierAllowsGoneWidgets
      */
     public static final int ConstraintLayout_Layout_barrierAllowsGoneWidgets=5;
     /**
@@ -8491,7 +8497,7 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:barrierDirection
+     * @attr name com.kevinmaher.x14328981.happy_color:barrierDirection
      */
     public static final int ConstraintLayout_Layout_barrierDirection=6;
     /**
@@ -8501,7 +8507,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:chainUseRtl
+     * @attr name com.kevinmaher.x14328981.happy_color:chainUseRtl
      */
     public static final int ConstraintLayout_Layout_chainUseRtl=7;
     /**
@@ -8513,7 +8519,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:constraintSet
+     * @attr name com.kevinmaher.x14328981.happy_color:constraintSet
      */
     public static final int ConstraintLayout_Layout_constraintSet=8;
     /**
@@ -8523,7 +8529,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:constraint_referenced_ids
+     * @attr name com.kevinmaher.x14328981.happy_color:constraint_referenced_ids
      */
     public static final int ConstraintLayout_Layout_constraint_referenced_ids=9;
     /**
@@ -8533,7 +8539,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constrainedHeight
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constrainedHeight
      */
     public static final int ConstraintLayout_Layout_layout_constrainedHeight=10;
     /**
@@ -8543,7 +8549,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constrainedWidth
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constrainedWidth
      */
     public static final int ConstraintLayout_Layout_layout_constrainedWidth=11;
     /**
@@ -8552,7 +8558,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintBaseline_creator
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintBaseline_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=12;
     /**
@@ -8572,7 +8578,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintBaseline_toBaselineOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=13;
     /**
@@ -8581,7 +8587,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintBottom_creator
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintBottom_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=14;
     /**
@@ -8601,7 +8607,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintBottom_toBottomOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=15;
     /**
@@ -8621,7 +8627,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintBottom_toTopOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=16;
     /**
@@ -8633,7 +8639,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintCircle
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintCircle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircle=17;
     /**
@@ -8642,7 +8648,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintCircleAngle
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintCircleAngle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleAngle=18;
     /**
@@ -8655,7 +8661,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintCircleRadius
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintCircleRadius
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleRadius=19;
     /**
@@ -8665,7 +8671,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintDimensionRatio
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintDimensionRatio
      */
     public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=20;
     /**
@@ -8685,7 +8691,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintEnd_toEndOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=21;
     /**
@@ -8705,7 +8711,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintEnd_toStartOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=22;
     /**
@@ -8718,7 +8724,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintGuide_begin
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintGuide_begin
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=23;
     /**
@@ -8731,7 +8737,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintGuide_end
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintGuide_end
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_end=24;
     /**
@@ -8740,7 +8746,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintGuide_percent
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintGuide_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=25;
     /**
@@ -8758,7 +8764,7 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHeight_default
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintHeight_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_default=26;
     /**
@@ -8779,7 +8785,7 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHeight_max
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintHeight_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_max=27;
     /**
@@ -8800,7 +8806,7 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHeight_min
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintHeight_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_min=28;
     /**
@@ -8809,7 +8815,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHeight_percent
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintHeight_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_percent=29;
     /**
@@ -8818,7 +8824,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHorizontal_bias
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintHorizontal_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=30;
     /**
@@ -8836,7 +8842,7 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHorizontal_chainStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=31;
     /**
@@ -8845,7 +8851,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHorizontal_weight
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintHorizontal_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=32;
     /**
@@ -8854,7 +8860,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintLeft_creator
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintLeft_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=33;
     /**
@@ -8874,7 +8880,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintLeft_toLeftOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=34;
     /**
@@ -8894,7 +8900,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintLeft_toRightOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=35;
     /**
@@ -8903,7 +8909,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintRight_creator
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintRight_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_creator=36;
     /**
@@ -8923,7 +8929,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintRight_toLeftOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=37;
     /**
@@ -8943,7 +8949,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintRight_toRightOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintRight_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=38;
     /**
@@ -8963,7 +8969,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintStart_toEndOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintStart_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=39;
     /**
@@ -8983,7 +8989,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintStart_toStartOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintStart_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=40;
     /**
@@ -8992,7 +8998,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintTop_creator
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintTop_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_creator=41;
     /**
@@ -9012,7 +9018,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintTop_toBottomOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=42;
     /**
@@ -9032,7 +9038,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintTop_toTopOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintTop_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=43;
     /**
@@ -9041,7 +9047,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintVertical_bias
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintVertical_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=44;
     /**
@@ -9059,7 +9065,7 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintVertical_chainStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=45;
     /**
@@ -9068,7 +9074,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintVertical_weight
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintVertical_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=46;
     /**
@@ -9086,7 +9092,7 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintWidth_default
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintWidth_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_default=47;
     /**
@@ -9107,7 +9113,7 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintWidth_max
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintWidth_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_max=48;
     /**
@@ -9128,7 +9134,7 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintWidth_min
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintWidth_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_min=49;
     /**
@@ -9137,7 +9143,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintWidth_percent
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintWidth_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_percent=50;
     /**
@@ -9150,7 +9156,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_editor_absoluteX
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_editor_absoluteX
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteX=51;
     /**
@@ -9163,7 +9169,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_editor_absoluteY
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_editor_absoluteY
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteY=52;
     /**
@@ -9176,7 +9182,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginBottom
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_goneMarginBottom
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginBottom=53;
     /**
@@ -9189,7 +9195,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginEnd
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_goneMarginEnd
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginEnd=54;
     /**
@@ -9202,7 +9208,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginLeft
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_goneMarginLeft
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginLeft=55;
     /**
@@ -9215,7 +9221,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginRight
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_goneMarginRight
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginRight=56;
     /**
@@ -9228,7 +9234,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginStart
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_goneMarginStart
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginStart=57;
     /**
@@ -9241,7 +9247,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginTop
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_goneMarginTop
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginTop=58;
     /**
@@ -9262,7 +9268,7 @@ public final class R {
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_optimizationLevel
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_optimizationLevel
      */
     public static final int ConstraintLayout_Layout_layout_optimizationLevel=59;
     /**
@@ -9272,8 +9278,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_content com.kevinmaher.x14328981.happy:content}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility com.kevinmaher.x14328981.happy:emptyVisibility}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_content com.kevinmaher.x14328981.happy_color:content}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility com.kevinmaher.x14328981.happy_color:emptyVisibility}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_placeholder_content
      * @see #ConstraintLayout_placeholder_emptyVisibility
@@ -9290,7 +9296,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:content
+     * @attr name com.kevinmaher.x14328981.happy_color:content
      */
     public static final int ConstraintLayout_placeholder_content=0;
     /**
@@ -9307,7 +9313,7 @@ public final class R {
      * <tr><td>invisible</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:emptyVisibility
+     * @attr name com.kevinmaher.x14328981.happy_color:emptyVisibility
      */
     public static final int ConstraintLayout_placeholder_emptyVisibility=1;
     /**
@@ -9340,55 +9346,55 @@ public final class R {
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.kevinmaher.x14328981.happy:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.kevinmaher.x14328981.happy:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.kevinmaher.x14328981.happy:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.kevinmaher.x14328981.happy:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.kevinmaher.x14328981.happy:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.kevinmaher.x14328981.happy:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.kevinmaher.x14328981.happy:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle com.kevinmaher.x14328981.happy:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle com.kevinmaher.x14328981.happy:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius com.kevinmaher.x14328981.happy:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.kevinmaher.x14328981.happy:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.kevinmaher.x14328981.happy:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.kevinmaher.x14328981.happy:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.kevinmaher.x14328981.happy:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.kevinmaher.x14328981.happy:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.kevinmaher.x14328981.happy:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.kevinmaher.x14328981.happy:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.kevinmaher.x14328981.happy:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.kevinmaher.x14328981.happy:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent com.kevinmaher.x14328981.happy:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.kevinmaher.x14328981.happy:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.kevinmaher.x14328981.happy:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.kevinmaher.x14328981.happy:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.kevinmaher.x14328981.happy:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.kevinmaher.x14328981.happy:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.kevinmaher.x14328981.happy:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.kevinmaher.x14328981.happy:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.kevinmaher.x14328981.happy:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.kevinmaher.x14328981.happy:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.kevinmaher.x14328981.happy:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.kevinmaher.x14328981.happy:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.kevinmaher.x14328981.happy:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.kevinmaher.x14328981.happy:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.kevinmaher.x14328981.happy:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.kevinmaher.x14328981.happy:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.kevinmaher.x14328981.happy:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.kevinmaher.x14328981.happy:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.kevinmaher.x14328981.happy:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.kevinmaher.x14328981.happy:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.kevinmaher.x14328981.happy:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent com.kevinmaher.x14328981.happy:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.kevinmaher.x14328981.happy:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.kevinmaher.x14328981.happy:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.kevinmaher.x14328981.happy:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.kevinmaher.x14328981.happy:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.kevinmaher.x14328981.happy:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.kevinmaher.x14328981.happy:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.kevinmaher.x14328981.happy:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.kevinmaher.x14328981.happy:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.kevinmaher.x14328981.happy_color:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.kevinmaher.x14328981.happy_color:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.kevinmaher.x14328981.happy_color:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.kevinmaher.x14328981.happy_color:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.kevinmaher.x14328981.happy_color:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.kevinmaher.x14328981.happy_color:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.kevinmaher.x14328981.happy_color:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle com.kevinmaher.x14328981.happy_color:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle com.kevinmaher.x14328981.happy_color:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius com.kevinmaher.x14328981.happy_color:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.kevinmaher.x14328981.happy_color:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.kevinmaher.x14328981.happy_color:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.kevinmaher.x14328981.happy_color:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.kevinmaher.x14328981.happy_color:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.kevinmaher.x14328981.happy_color:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.kevinmaher.x14328981.happy_color:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.kevinmaher.x14328981.happy_color:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.kevinmaher.x14328981.happy_color:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.kevinmaher.x14328981.happy_color:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent com.kevinmaher.x14328981.happy_color:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.kevinmaher.x14328981.happy_color:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.kevinmaher.x14328981.happy_color:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.kevinmaher.x14328981.happy_color:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.kevinmaher.x14328981.happy_color:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.kevinmaher.x14328981.happy_color:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.kevinmaher.x14328981.happy_color:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.kevinmaher.x14328981.happy_color:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.kevinmaher.x14328981.happy_color:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.kevinmaher.x14328981.happy_color:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.kevinmaher.x14328981.happy_color:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.kevinmaher.x14328981.happy_color:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.kevinmaher.x14328981.happy_color:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.kevinmaher.x14328981.happy_color:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.kevinmaher.x14328981.happy_color:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.kevinmaher.x14328981.happy_color:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.kevinmaher.x14328981.happy_color:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.kevinmaher.x14328981.happy_color:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.kevinmaher.x14328981.happy_color:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.kevinmaher.x14328981.happy_color:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.kevinmaher.x14328981.happy_color:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent com.kevinmaher.x14328981.happy_color:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.kevinmaher.x14328981.happy_color:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.kevinmaher.x14328981.happy_color:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.kevinmaher.x14328981.happy_color:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.kevinmaher.x14328981.happy_color:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.kevinmaher.x14328981.happy_color:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.kevinmaher.x14328981.happy_color:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.kevinmaher.x14328981.happy_color:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.kevinmaher.x14328981.happy_color:layout_goneMarginTop}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintSet_android_orientation
      * @see #ConstraintSet_android_id
@@ -9793,7 +9799,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constrainedHeight
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constrainedHeight
      */
     public static final int ConstraintSet_layout_constrainedHeight=23;
     /**
@@ -9803,7 +9809,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constrainedWidth
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constrainedWidth
      */
     public static final int ConstraintSet_layout_constrainedWidth=24;
     /**
@@ -9812,7 +9818,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintBaseline_creator
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintBaseline_creator
      */
     public static final int ConstraintSet_layout_constraintBaseline_creator=25;
     /**
@@ -9832,7 +9838,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintBaseline_toBaselineOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=26;
     /**
@@ -9841,7 +9847,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintBottom_creator
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintBottom_creator
      */
     public static final int ConstraintSet_layout_constraintBottom_creator=27;
     /**
@@ -9861,7 +9867,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintBottom_toBottomOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toBottomOf=28;
     /**
@@ -9881,7 +9887,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintBottom_toTopOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toTopOf=29;
     /**
@@ -9893,7 +9899,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintCircle
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintCircle
      */
     public static final int ConstraintSet_layout_constraintCircle=30;
     /**
@@ -9902,7 +9908,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintCircleAngle
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintCircleAngle
      */
     public static final int ConstraintSet_layout_constraintCircleAngle=31;
     /**
@@ -9915,7 +9921,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintCircleRadius
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintCircleRadius
      */
     public static final int ConstraintSet_layout_constraintCircleRadius=32;
     /**
@@ -9925,7 +9931,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintDimensionRatio
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintDimensionRatio
      */
     public static final int ConstraintSet_layout_constraintDimensionRatio=33;
     /**
@@ -9945,7 +9951,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintEnd_toEndOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toEndOf=34;
     /**
@@ -9965,7 +9971,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintEnd_toStartOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toStartOf=35;
     /**
@@ -9978,7 +9984,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintGuide_begin
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintGuide_begin
      */
     public static final int ConstraintSet_layout_constraintGuide_begin=36;
     /**
@@ -9991,7 +9997,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintGuide_end
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintGuide_end
      */
     public static final int ConstraintSet_layout_constraintGuide_end=37;
     /**
@@ -10000,7 +10006,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintGuide_percent
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintGuide_percent
      */
     public static final int ConstraintSet_layout_constraintGuide_percent=38;
     /**
@@ -10018,7 +10024,7 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHeight_default
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintHeight_default
      */
     public static final int ConstraintSet_layout_constraintHeight_default=39;
     /**
@@ -10039,7 +10045,7 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHeight_max
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintHeight_max
      */
     public static final int ConstraintSet_layout_constraintHeight_max=40;
     /**
@@ -10060,7 +10066,7 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHeight_min
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintHeight_min
      */
     public static final int ConstraintSet_layout_constraintHeight_min=41;
     /**
@@ -10069,7 +10075,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHeight_percent
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintHeight_percent
      */
     public static final int ConstraintSet_layout_constraintHeight_percent=42;
     /**
@@ -10078,7 +10084,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHorizontal_bias
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintHorizontal_bias
      */
     public static final int ConstraintSet_layout_constraintHorizontal_bias=43;
     /**
@@ -10096,7 +10102,7 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHorizontal_chainStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=44;
     /**
@@ -10105,7 +10111,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintHorizontal_weight
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintHorizontal_weight
      */
     public static final int ConstraintSet_layout_constraintHorizontal_weight=45;
     /**
@@ -10114,7 +10120,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintLeft_creator
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintLeft_creator
      */
     public static final int ConstraintSet_layout_constraintLeft_creator=46;
     /**
@@ -10134,7 +10140,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintLeft_toLeftOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toLeftOf=47;
     /**
@@ -10154,7 +10160,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintLeft_toRightOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toRightOf=48;
     /**
@@ -10163,7 +10169,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintRight_creator
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintRight_creator
      */
     public static final int ConstraintSet_layout_constraintRight_creator=49;
     /**
@@ -10183,7 +10189,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintRight_toLeftOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintRight_toLeftOf=50;
     /**
@@ -10203,7 +10209,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintRight_toRightOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintRight_toRightOf
      */
     public static final int ConstraintSet_layout_constraintRight_toRightOf=51;
     /**
@@ -10223,7 +10229,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintStart_toEndOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintStart_toEndOf
      */
     public static final int ConstraintSet_layout_constraintStart_toEndOf=52;
     /**
@@ -10243,7 +10249,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintStart_toStartOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintStart_toStartOf
      */
     public static final int ConstraintSet_layout_constraintStart_toStartOf=53;
     /**
@@ -10252,7 +10258,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintTop_creator
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintTop_creator
      */
     public static final int ConstraintSet_layout_constraintTop_creator=54;
     /**
@@ -10272,7 +10278,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintTop_toBottomOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintTop_toBottomOf=55;
     /**
@@ -10292,7 +10298,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintTop_toTopOf
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintTop_toTopOf
      */
     public static final int ConstraintSet_layout_constraintTop_toTopOf=56;
     /**
@@ -10301,7 +10307,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintVertical_bias
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintVertical_bias
      */
     public static final int ConstraintSet_layout_constraintVertical_bias=57;
     /**
@@ -10319,7 +10325,7 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintVertical_chainStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintSet_layout_constraintVertical_chainStyle=58;
     /**
@@ -10328,7 +10334,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintVertical_weight
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintVertical_weight
      */
     public static final int ConstraintSet_layout_constraintVertical_weight=59;
     /**
@@ -10346,7 +10352,7 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintWidth_default
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintWidth_default
      */
     public static final int ConstraintSet_layout_constraintWidth_default=60;
     /**
@@ -10367,7 +10373,7 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintWidth_max
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintWidth_max
      */
     public static final int ConstraintSet_layout_constraintWidth_max=61;
     /**
@@ -10388,7 +10394,7 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintWidth_min
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintWidth_min
      */
     public static final int ConstraintSet_layout_constraintWidth_min=62;
     /**
@@ -10397,7 +10403,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_constraintWidth_percent
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_constraintWidth_percent
      */
     public static final int ConstraintSet_layout_constraintWidth_percent=63;
     /**
@@ -10410,7 +10416,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_editor_absoluteX
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_editor_absoluteX
      */
     public static final int ConstraintSet_layout_editor_absoluteX=64;
     /**
@@ -10423,7 +10429,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_editor_absoluteY
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_editor_absoluteY
      */
     public static final int ConstraintSet_layout_editor_absoluteY=65;
     /**
@@ -10436,7 +10442,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginBottom
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_goneMarginBottom
      */
     public static final int ConstraintSet_layout_goneMarginBottom=66;
     /**
@@ -10449,7 +10455,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginEnd
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_goneMarginEnd
      */
     public static final int ConstraintSet_layout_goneMarginEnd=67;
     /**
@@ -10462,7 +10468,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginLeft
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_goneMarginLeft
      */
     public static final int ConstraintSet_layout_goneMarginLeft=68;
     /**
@@ -10475,7 +10481,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginRight
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_goneMarginRight
      */
     public static final int ConstraintSet_layout_goneMarginRight=69;
     /**
@@ -10488,7 +10494,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginStart
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_goneMarginStart
      */
     public static final int ConstraintSet_layout_goneMarginStart=70;
     /**
@@ -10501,7 +10507,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_goneMarginTop
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_goneMarginTop
      */
     public static final int ConstraintSet_layout_goneMarginTop=71;
     /**
@@ -10511,8 +10517,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines com.kevinmaher.x14328981.happy:keylines}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.kevinmaher.x14328981.happy:statusBarBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_keylines com.kevinmaher.x14328981.happy_color:keylines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.kevinmaher.x14328981.happy_color:statusBarBackground}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
@@ -10529,7 +10535,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:keylines
+     * @attr name com.kevinmaher.x14328981.happy_color:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
@@ -10544,7 +10550,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:statusBarBackground
+     * @attr name com.kevinmaher.x14328981.happy_color:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -10555,12 +10561,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.kevinmaher.x14328981.happy:layout_anchor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.kevinmaher.x14328981.happy:layout_anchorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.kevinmaher.x14328981.happy:layout_behavior}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.kevinmaher.x14328981.happy:layout_dodgeInsetEdges}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.kevinmaher.x14328981.happy:layout_insetEdge}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.kevinmaher.x14328981.happy:layout_keyline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.kevinmaher.x14328981.happy_color:layout_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.kevinmaher.x14328981.happy_color:layout_anchorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.kevinmaher.x14328981.happy_color:layout_behavior}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.kevinmaher.x14328981.happy_color:layout_dodgeInsetEdges}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.kevinmaher.x14328981.happy_color:layout_insetEdge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.kevinmaher.x14328981.happy_color:layout_keyline}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -10612,7 +10618,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_anchor
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
@@ -10641,7 +10647,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_anchorGravity
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
@@ -10651,7 +10657,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_behavior
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
@@ -10674,7 +10680,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_dodgeInsetEdges
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
@@ -10696,7 +10702,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_insetEdge
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
@@ -10705,7 +10711,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout_keyline
+     * @attr name com.kevinmaher.x14328981.happy_color:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
@@ -10715,9 +10721,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.kevinmaher.x14328981.happy:bottomSheetDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.kevinmaher.x14328981.happy:bottomSheetStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DesignTheme_textColorError com.kevinmaher.x14328981.happy:textColorError}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.kevinmaher.x14328981.happy_color:bottomSheetDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.kevinmaher.x14328981.happy_color:bottomSheetStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_textColorError com.kevinmaher.x14328981.happy_color:textColorError}</code></td><td></td></tr>
      * </table>
      * @see #DesignTheme_bottomSheetDialogTheme
      * @see #DesignTheme_bottomSheetStyle
@@ -10735,7 +10741,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:bottomSheetDialogTheme
+     * @attr name com.kevinmaher.x14328981.happy_color:bottomSheetDialogTheme
      */
     public static final int DesignTheme_bottomSheetDialogTheme=0;
     /**
@@ -10747,7 +10753,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:bottomSheetStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:bottomSheetStyle
      */
     public static final int DesignTheme_bottomSheetStyle=1;
     /**
@@ -10762,7 +10768,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:textColorError
+     * @attr name com.kevinmaher.x14328981.happy_color:textColorError
      */
     public static final int DesignTheme_textColorError=2;
     /**
@@ -10772,14 +10778,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.kevinmaher.x14328981.happy:arrowHeadLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.kevinmaher.x14328981.happy:arrowShaftLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.kevinmaher.x14328981.happy:barLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.kevinmaher.x14328981.happy:color}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.kevinmaher.x14328981.happy:drawableSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.kevinmaher.x14328981.happy:gapBetweenBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.kevinmaher.x14328981.happy:spinBars}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.kevinmaher.x14328981.happy:thickness}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.kevinmaher.x14328981.happy_color:arrowHeadLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.kevinmaher.x14328981.happy_color:arrowShaftLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.kevinmaher.x14328981.happy_color:barLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.kevinmaher.x14328981.happy_color:color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.kevinmaher.x14328981.happy_color:drawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.kevinmaher.x14328981.happy_color:gapBetweenBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.kevinmaher.x14328981.happy_color:spinBars}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.kevinmaher.x14328981.happy_color:thickness}</code></td><td></td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -10804,7 +10810,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:arrowHeadLength
+     * @attr name com.kevinmaher.x14328981.happy_color:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
@@ -10817,7 +10823,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:arrowShaftLength
+     * @attr name com.kevinmaher.x14328981.happy_color:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
@@ -10830,7 +10836,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:barLength
+     * @attr name com.kevinmaher.x14328981.happy_color:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
@@ -10841,7 +10847,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:color
+     * @attr name com.kevinmaher.x14328981.happy_color:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
@@ -10854,7 +10860,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:drawableSize
+     * @attr name com.kevinmaher.x14328981.happy_color:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
@@ -10867,7 +10873,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:gapBetweenBars
+     * @attr name com.kevinmaher.x14328981.happy_color:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
@@ -10877,7 +10883,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:spinBars
+     * @attr name com.kevinmaher.x14328981.happy_color:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
@@ -10890,7 +10896,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:thickness
+     * @attr name com.kevinmaher.x14328981.happy_color:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -10900,15 +10906,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.kevinmaher.x14328981.happy:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.kevinmaher.x14328981.happy:backgroundTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_borderWidth com.kevinmaher.x14328981.happy:borderWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_elevation com.kevinmaher.x14328981.happy:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabCustomSize com.kevinmaher.x14328981.happy:fabCustomSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabSize com.kevinmaher.x14328981.happy:fabSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.kevinmaher.x14328981.happy:pressedTranslationZ}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_rippleColor com.kevinmaher.x14328981.happy:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.kevinmaher.x14328981.happy:useCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.kevinmaher.x14328981.happy_color:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.kevinmaher.x14328981.happy_color:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_borderWidth com.kevinmaher.x14328981.happy_color:borderWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_elevation com.kevinmaher.x14328981.happy_color:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabCustomSize com.kevinmaher.x14328981.happy_color:fabCustomSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabSize com.kevinmaher.x14328981.happy_color:fabSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.kevinmaher.x14328981.happy_color:pressedTranslationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_rippleColor com.kevinmaher.x14328981.happy_color:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.kevinmaher.x14328981.happy_color:useCompatPadding}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_backgroundTint
      * @see #FloatingActionButton_backgroundTintMode
@@ -10933,7 +10939,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:backgroundTint
+     * @attr name com.kevinmaher.x14328981.happy_color:backgroundTint
      */
     public static final int FloatingActionButton_backgroundTint=0;
     /**
@@ -10954,7 +10960,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:backgroundTintMode
+     * @attr name com.kevinmaher.x14328981.happy_color:backgroundTintMode
      */
     public static final int FloatingActionButton_backgroundTintMode=1;
     /**
@@ -10967,7 +10973,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:borderWidth
+     * @attr name com.kevinmaher.x14328981.happy_color:borderWidth
      */
     public static final int FloatingActionButton_borderWidth=2;
     /**
@@ -10980,7 +10986,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:elevation
+     * @attr name com.kevinmaher.x14328981.happy_color:elevation
      */
     public static final int FloatingActionButton_elevation=3;
     /**
@@ -10993,7 +10999,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:fabCustomSize
+     * @attr name com.kevinmaher.x14328981.happy_color:fabCustomSize
      */
     public static final int FloatingActionButton_fabCustomSize=4;
     /**
@@ -11011,7 +11017,7 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:fabSize
+     * @attr name com.kevinmaher.x14328981.happy_color:fabSize
      */
     public static final int FloatingActionButton_fabSize=5;
     /**
@@ -11024,7 +11030,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:pressedTranslationZ
+     * @attr name com.kevinmaher.x14328981.happy_color:pressedTranslationZ
      */
     public static final int FloatingActionButton_pressedTranslationZ=6;
     /**
@@ -11035,7 +11041,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:rippleColor
+     * @attr name com.kevinmaher.x14328981.happy_color:rippleColor
      */
     public static final int FloatingActionButton_rippleColor=7;
     /**
@@ -11045,7 +11051,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:useCompatPadding
+     * @attr name com.kevinmaher.x14328981.happy_color:useCompatPadding
      */
     public static final int FloatingActionButton_useCompatPadding=8;
     /**
@@ -11055,7 +11061,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.kevinmaher.x14328981.happy:behavior_autoHide}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.kevinmaher.x14328981.happy_color:behavior_autoHide}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
      */
@@ -11069,7 +11075,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:behavior_autoHide
+     * @attr name com.kevinmaher.x14328981.happy_color:behavior_autoHide
      */
     public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide=0;
     /**
@@ -11079,12 +11085,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.kevinmaher.x14328981.happy:fontProviderAuthority}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.kevinmaher.x14328981.happy:fontProviderCerts}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.kevinmaher.x14328981.happy:fontProviderFetchStrategy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.kevinmaher.x14328981.happy:fontProviderFetchTimeout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.kevinmaher.x14328981.happy:fontProviderPackage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.kevinmaher.x14328981.happy:fontProviderQuery}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.kevinmaher.x14328981.happy_color:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.kevinmaher.x14328981.happy_color:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.kevinmaher.x14328981.happy_color:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.kevinmaher.x14328981.happy_color:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.kevinmaher.x14328981.happy_color:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.kevinmaher.x14328981.happy_color:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -11104,7 +11110,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:fontProviderAuthority
+     * @attr name com.kevinmaher.x14328981.happy_color:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
@@ -11116,7 +11122,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:fontProviderCerts
+     * @attr name com.kevinmaher.x14328981.happy_color:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
@@ -11133,7 +11139,7 @@ public final class R {
      * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:fontProviderFetchStrategy
+     * @attr name com.kevinmaher.x14328981.happy_color:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
@@ -11150,7 +11156,7 @@ public final class R {
      * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:fontProviderFetchTimeout
+     * @attr name com.kevinmaher.x14328981.happy_color:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
@@ -11160,7 +11166,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:fontProviderPackage
+     * @attr name com.kevinmaher.x14328981.happy_color:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
@@ -11170,7 +11176,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:fontProviderQuery
+     * @attr name com.kevinmaher.x14328981.happy_color:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -11183,9 +11189,9 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_font android:font}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontWeight android:fontWeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.kevinmaher.x14328981.happy:font}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.kevinmaher.x14328981.happy:fontStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.kevinmaher.x14328981.happy:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.kevinmaher.x14328981.happy_color:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.kevinmaher.x14328981.happy_color:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.kevinmaher.x14328981.happy_color:fontWeight}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -11245,7 +11251,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:font
+     * @attr name com.kevinmaher.x14328981.happy_color:font
      */
     public static final int FontFamilyFont_font=3;
     /**
@@ -11262,7 +11268,7 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:fontStyle
+     * @attr name com.kevinmaher.x14328981.happy_color:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=4;
     /**
@@ -11271,7 +11277,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:fontWeight
+     * @attr name com.kevinmaher.x14328981.happy_color:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=5;
     /**
@@ -11283,7 +11289,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.kevinmaher.x14328981.happy:foregroundInsidePadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.kevinmaher.x14328981.happy_color:foregroundInsidePadding}</code></td><td></td></tr>
      * </table>
      * @see #ForegroundLinearLayout_android_foreground
      * @see #ForegroundLinearLayout_android_foregroundGravity
@@ -11341,7 +11347,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:foregroundInsidePadding
+     * @attr name com.kevinmaher.x14328981.happy_color:foregroundInsidePadding
      */
     public static final int ForegroundLinearLayout_foregroundInsidePadding=2;
     /**
@@ -11387,10 +11393,10 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.kevinmaher.x14328981.happy:divider}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.kevinmaher.x14328981.happy:dividerPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.kevinmaher.x14328981.happy:measureWithLargestChild}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.kevinmaher.x14328981.happy:showDividers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.kevinmaher.x14328981.happy_color:divider}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.kevinmaher.x14328981.happy_color:dividerPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.kevinmaher.x14328981.happy_color:measureWithLargestChild}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.kevinmaher.x14328981.happy_color:showDividers}</code></td><td></td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -11490,7 +11496,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:divider
+     * @attr name com.kevinmaher.x14328981.happy_color:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
@@ -11503,7 +11509,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:dividerPadding
+     * @attr name com.kevinmaher.x14328981.happy_color:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
@@ -11513,7 +11519,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:measureWithLargestChild
+     * @attr name com.kevinmaher.x14328981.happy_color:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
@@ -11532,7 +11538,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:showDividers
+     * @attr name com.kevinmaher.x14328981.happy_color:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -11804,16 +11810,16 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.kevinmaher.x14328981.happy:actionLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.kevinmaher.x14328981.happy:actionProviderClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.kevinmaher.x14328981.happy:actionViewClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.kevinmaher.x14328981.happy:alphabeticModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription com.kevinmaher.x14328981.happy:contentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint com.kevinmaher.x14328981.happy:iconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode com.kevinmaher.x14328981.happy:iconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers com.kevinmaher.x14328981.happy:numericModifiers}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.kevinmaher.x14328981.happy:showAsAction}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText com.kevinmaher.x14328981.happy:tooltipText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionLayout com.kevinmaher.x14328981.happy_color:actionLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.kevinmaher.x14328981.happy_color:actionProviderClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.kevinmaher.x14328981.happy_color:actionViewClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.kevinmaher.x14328981.happy_color:alphabeticModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription com.kevinmaher.x14328981.happy_color:contentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint com.kevinmaher.x14328981.happy_color:iconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode com.kevinmaher.x14328981.happy_color:iconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers com.kevinmaher.x14328981.happy_color:numericModifiers}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.kevinmaher.x14328981.happy_color:showAsAction}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText com.kevinmaher.x14328981.happy_color:tooltipText}</code></td><td></td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -11998,7 +12004,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionLayout
+     * @attr name com.kevinmaher.x14328981.happy_color:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
@@ -12008,7 +12014,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionProviderClass
+     * @attr name com.kevinmaher.x14328981.happy_color:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
@@ -12018,7 +12024,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:actionViewClass
+     * @attr name com.kevinmaher.x14328981.happy_color:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
@@ -12039,7 +12045,7 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:alphabeticModifiers
+     * @attr name com.kevinmaher.x14328981.happy_color:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
@@ -12049,7 +12055,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:contentDescription
+     * @attr name com.kevinmaher.x14328981.happy_color:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
@@ -12060,7 +12066,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:iconTint
+     * @attr name com.kevinmaher.x14328981.happy_color:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
@@ -12081,7 +12087,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:iconTintMode
+     * @attr name com.kevinmaher.x14328981.happy_color:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
@@ -12102,7 +12108,7 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:numericModifiers
+     * @attr name com.kevinmaher.x14328981.happy_color:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
@@ -12122,7 +12128,7 @@ public final class R {
      * <tr><td>withText</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:showAsAction
+     * @attr name com.kevinmaher.x14328981.happy_color:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
@@ -12132,7 +12138,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:tooltipText
+     * @attr name com.kevinmaher.x14328981.happy_color:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -12149,8 +12155,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.kevinmaher.x14328981.happy:preserveIconSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.kevinmaher.x14328981.happy:subMenuArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.kevinmaher.x14328981.happy_color:preserveIconSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.kevinmaher.x14328981.happy_color:subMenuArrow}</code></td><td></td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -12261,7 +12267,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:preserveIconSpacing
+     * @attr name com.kevinmaher.x14328981.happy_color:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
@@ -12273,7 +12279,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:subMenuArrow
+     * @attr name com.kevinmaher.x14328981.happy_color:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -12286,13 +12292,13 @@ public final class R {
      * <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_elevation com.kevinmaher.x14328981.happy:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_headerLayout com.kevinmaher.x14328981.happy:headerLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemBackground com.kevinmaher.x14328981.happy:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemIconTint com.kevinmaher.x14328981.happy:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextAppearance com.kevinmaher.x14328981.happy:itemTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextColor com.kevinmaher.x14328981.happy:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_menu com.kevinmaher.x14328981.happy:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_elevation com.kevinmaher.x14328981.happy_color:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_headerLayout com.kevinmaher.x14328981.happy_color:headerLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemBackground com.kevinmaher.x14328981.happy_color:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemIconTint com.kevinmaher.x14328981.happy_color:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextAppearance com.kevinmaher.x14328981.happy_color:itemTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextColor com.kevinmaher.x14328981.happy_color:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_menu com.kevinmaher.x14328981.happy_color:menu}</code></td><td></td></tr>
      * </table>
      * @see #NavigationView_android_background
      * @see #NavigationView_android_fitsSystemWindows
@@ -12358,7 +12364,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:elevation
+     * @attr name com.kevinmaher.x14328981.happy_color:elevation
      */
     public static final int NavigationView_elevation=3;
     /**
@@ -12370,7 +12376,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:headerLayout
+     * @attr name com.kevinmaher.x14328981.happy_color:headerLayout
      */
     public static final int NavigationView_headerLayout=4;
     /**
@@ -12382,7 +12388,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:itemBackground
+     * @attr name com.kevinmaher.x14328981.happy_color:itemBackground
      */
     public static final int NavigationView_itemBackground=5;
     /**
@@ -12393,7 +12399,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:itemIconTint
+     * @attr name com.kevinmaher.x14328981.happy_color:itemIconTint
      */
     public static final int NavigationView_itemIconTint=6;
     /**
@@ -12405,7 +12411,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:itemTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy_color:itemTextAppearance
      */
     public static final int NavigationView_itemTextAppearance=7;
     /**
@@ -12416,7 +12422,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:itemTextColor
+     * @attr name com.kevinmaher.x14328981.happy_color:itemTextColor
      */
     public static final int NavigationView_itemTextColor=8;
     /**
@@ -12428,7 +12434,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:menu
+     * @attr name com.kevinmaher.x14328981.happy_color:menu
      */
     public static final int NavigationView_menu=9;
     /**
@@ -12440,7 +12446,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.kevinmaher.x14328981.happy:overlapAnchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.kevinmaher.x14328981.happy_color:overlapAnchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -12483,7 +12489,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:overlapAnchor
+     * @attr name com.kevinmaher.x14328981.happy_color:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -12493,7 +12499,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.kevinmaher.x14328981.happy:state_above_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.kevinmaher.x14328981.happy_color:state_above_anchor}</code></td><td></td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
@@ -12507,7 +12513,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:state_above_anchor
+     * @attr name com.kevinmaher.x14328981.happy_color:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -12517,8 +12523,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.kevinmaher.x14328981.happy:paddingBottomNoButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.kevinmaher.x14328981.happy:paddingTopNoTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.kevinmaher.x14328981.happy_color:paddingBottomNoButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.kevinmaher.x14328981.happy_color:paddingTopNoTitle}</code></td><td></td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
@@ -12536,7 +12542,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:paddingBottomNoButtons
+     * @attr name com.kevinmaher.x14328981.happy_color:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
@@ -12549,7 +12555,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:paddingTopNoTitle
+     * @attr name com.kevinmaher.x14328981.happy_color:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -12561,15 +12567,15 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled com.kevinmaher.x14328981.happy:fastScrollEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable com.kevinmaher.x14328981.happy:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable com.kevinmaher.x14328981.happy:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable com.kevinmaher.x14328981.happy:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable com.kevinmaher.x14328981.happy:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_layoutManager com.kevinmaher.x14328981.happy:layoutManager}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_reverseLayout com.kevinmaher.x14328981.happy:reverseLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_spanCount com.kevinmaher.x14328981.happy:spanCount}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.kevinmaher.x14328981.happy:stackFromEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled com.kevinmaher.x14328981.happy_color:fastScrollEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable com.kevinmaher.x14328981.happy_color:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable com.kevinmaher.x14328981.happy_color:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable com.kevinmaher.x14328981.happy_color:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable com.kevinmaher.x14328981.happy_color:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_layoutManager com.kevinmaher.x14328981.happy_color:layoutManager}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_reverseLayout com.kevinmaher.x14328981.happy_color:reverseLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_spanCount com.kevinmaher.x14328981.happy_color:spanCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.kevinmaher.x14328981.happy_color:stackFromEnd}</code></td><td></td></tr>
      * </table>
      * @see #RecyclerView_android_orientation
      * @see #RecyclerView_android_descendantFocusability
@@ -12630,7 +12636,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:fastScrollEnabled
+     * @attr name com.kevinmaher.x14328981.happy_color:fastScrollEnabled
      */
     public static final int RecyclerView_fastScrollEnabled=2;
     /**
@@ -12642,7 +12648,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:fastScrollHorizontalThumbDrawable
+     * @attr name com.kevinmaher.x14328981.happy_color:fastScrollHorizontalThumbDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalThumbDrawable=3;
     /**
@@ -12654,7 +12660,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:fastScrollHorizontalTrackDrawable
+     * @attr name com.kevinmaher.x14328981.happy_color:fastScrollHorizontalTrackDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalTrackDrawable=4;
     /**
@@ -12666,7 +12672,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:fastScrollVerticalThumbDrawable
+     * @attr name com.kevinmaher.x14328981.happy_color:fastScrollVerticalThumbDrawable
      */
     public static final int RecyclerView_fastScrollVerticalThumbDrawable=5;
     /**
@@ -12678,7 +12684,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:fastScrollVerticalTrackDrawable
+     * @attr name com.kevinmaher.x14328981.happy_color:fastScrollVerticalTrackDrawable
      */
     public static final int RecyclerView_fastScrollVerticalTrackDrawable=6;
     /**
@@ -12688,7 +12694,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:layoutManager
+     * @attr name com.kevinmaher.x14328981.happy_color:layoutManager
      */
     public static final int RecyclerView_layoutManager=7;
     /**
@@ -12698,7 +12704,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:reverseLayout
+     * @attr name com.kevinmaher.x14328981.happy_color:reverseLayout
      */
     public static final int RecyclerView_reverseLayout=8;
     /**
@@ -12707,7 +12713,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:spanCount
+     * @attr name com.kevinmaher.x14328981.happy_color:spanCount
      */
     public static final int RecyclerView_spanCount=9;
     /**
@@ -12717,7 +12723,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:stackFromEnd
+     * @attr name com.kevinmaher.x14328981.happy_color:stackFromEnd
      */
     public static final int RecyclerView_stackFromEnd=10;
     /**
@@ -12727,7 +12733,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.kevinmaher.x14328981.happy:insetForeground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.kevinmaher.x14328981.happy_color:insetForeground}</code></td><td></td></tr>
      * </table>
      * @see #ScrimInsetsFrameLayout_insetForeground
      */
@@ -12746,7 +12752,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:insetForeground
+     * @attr name com.kevinmaher.x14328981.happy_color:insetForeground
      */
     public static final int ScrimInsetsFrameLayout_insetForeground=0;
     /**
@@ -12756,7 +12762,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop com.kevinmaher.x14328981.happy:behavior_overlapTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop com.kevinmaher.x14328981.happy_color:behavior_overlapTop}</code></td><td></td></tr>
      * </table>
      * @see #ScrollingViewBehavior_Layout_behavior_overlapTop
      */
@@ -12773,7 +12779,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:behavior_overlapTop
+     * @attr name com.kevinmaher.x14328981.happy_color:behavior_overlapTop
      */
     public static final int ScrollingViewBehavior_Layout_behavior_overlapTop=0;
     /**
@@ -12787,19 +12793,19 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.kevinmaher.x14328981.happy:closeIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.kevinmaher.x14328981.happy:commitIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.kevinmaher.x14328981.happy:defaultQueryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.kevinmaher.x14328981.happy:goIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.kevinmaher.x14328981.happy:iconifiedByDefault}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.kevinmaher.x14328981.happy:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.kevinmaher.x14328981.happy:queryBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.kevinmaher.x14328981.happy:queryHint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.kevinmaher.x14328981.happy:searchHintIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.kevinmaher.x14328981.happy:searchIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.kevinmaher.x14328981.happy:submitBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.kevinmaher.x14328981.happy:suggestionRowLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.kevinmaher.x14328981.happy:voiceIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_closeIcon com.kevinmaher.x14328981.happy_color:closeIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.kevinmaher.x14328981.happy_color:commitIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.kevinmaher.x14328981.happy_color:defaultQueryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.kevinmaher.x14328981.happy_color:goIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.kevinmaher.x14328981.happy_color:iconifiedByDefault}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.kevinmaher.x14328981.happy_color:layout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.kevinmaher.x14328981.happy_color:queryBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.kevinmaher.x14328981.happy_color:queryHint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.kevinmaher.x14328981.happy_color:searchHintIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.kevinmaher.x14328981.happy_color:searchIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.kevinmaher.x14328981.happy_color:submitBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.kevinmaher.x14328981.happy_color:suggestionRowLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.kevinmaher.x14328981.happy_color:voiceIcon}</code></td><td></td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -12945,7 +12951,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:closeIcon
+     * @attr name com.kevinmaher.x14328981.happy_color:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
@@ -12957,7 +12963,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:commitIcon
+     * @attr name com.kevinmaher.x14328981.happy_color:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
@@ -12967,7 +12973,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:defaultQueryHint
+     * @attr name com.kevinmaher.x14328981.happy_color:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
@@ -12979,7 +12985,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:goIcon
+     * @attr name com.kevinmaher.x14328981.happy_color:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
@@ -12989,7 +12995,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:iconifiedByDefault
+     * @attr name com.kevinmaher.x14328981.happy_color:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
@@ -13001,7 +13007,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:layout
+     * @attr name com.kevinmaher.x14328981.happy_color:layout
      */
     public static final int SearchView_layout=9;
     /**
@@ -13013,7 +13019,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:queryBackground
+     * @attr name com.kevinmaher.x14328981.happy_color:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
@@ -13023,7 +13029,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:queryHint
+     * @attr name com.kevinmaher.x14328981.happy_color:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
@@ -13035,7 +13041,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:searchHintIcon
+     * @attr name com.kevinmaher.x14328981.happy_color:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
@@ -13047,7 +13053,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:searchIcon
+     * @attr name com.kevinmaher.x14328981.happy_color:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
@@ -13059,7 +13065,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:submitBackground
+     * @attr name com.kevinmaher.x14328981.happy_color:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
@@ -13071,7 +13077,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:suggestionRowLayout
+     * @attr name com.kevinmaher.x14328981.happy_color:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
@@ -13083,7 +13089,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:voiceIcon
+     * @attr name com.kevinmaher.x14328981.happy_color:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -13094,8 +13100,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_elevation com.kevinmaher.x14328981.happy:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.kevinmaher.x14328981.happy:maxActionInlineWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_elevation com.kevinmaher.x14328981.happy_color:elevation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.kevinmaher.x14328981.happy_color:maxActionInlineWidth}</code></td><td></td></tr>
      * </table>
      * @see #SnackbarLayout_android_maxWidth
      * @see #SnackbarLayout_elevation
@@ -13127,7 +13133,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:elevation
+     * @attr name com.kevinmaher.x14328981.happy_color:elevation
      */
     public static final int SnackbarLayout_elevation=1;
     /**
@@ -13140,7 +13146,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:maxActionInlineWidth
+     * @attr name com.kevinmaher.x14328981.happy_color:maxActionInlineWidth
      */
     public static final int SnackbarLayout_maxActionInlineWidth=2;
     /**
@@ -13154,7 +13160,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.kevinmaher.x14328981.happy:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Spinner_popupTheme com.kevinmaher.x14328981.happy_color:popupTheme}</code></td><td></td></tr>
      * </table>
      * @see #Spinner_android_entries
      * @see #Spinner_android_popupBackground
@@ -13237,7 +13243,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:popupTheme
+     * @attr name com.kevinmaher.x14328981.happy_color:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -13250,17 +13256,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.kevinmaher.x14328981.happy:showText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.kevinmaher.x14328981.happy:splitTrack}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.kevinmaher.x14328981.happy:switchMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.kevinmaher.x14328981.happy:switchPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.kevinmaher.x14328981.happy:switchTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.kevinmaher.x14328981.happy:thumbTextPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.kevinmaher.x14328981.happy:thumbTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.kevinmaher.x14328981.happy:thumbTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.kevinmaher.x14328981.happy:track}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.kevinmaher.x14328981.happy:trackTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.kevinmaher.x14328981.happy:trackTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.kevinmaher.x14328981.happy_color:showText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.kevinmaher.x14328981.happy_color:splitTrack}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.kevinmaher.x14328981.happy_color:switchMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.kevinmaher.x14328981.happy_color:switchPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.kevinmaher.x14328981.happy_color:switchTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.kevinmaher.x14328981.happy_color:thumbTextPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.kevinmaher.x14328981.happy_color:thumbTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.kevinmaher.x14328981.happy_color:thumbTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.kevinmaher.x14328981.happy_color:track}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.kevinmaher.x14328981.happy_color:trackTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.kevinmaher.x14328981.happy_color:trackTintMode}</code></td><td></td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -13322,7 +13328,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:showText
+     * @attr name com.kevinmaher.x14328981.happy_color:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
@@ -13332,7 +13338,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:splitTrack
+     * @attr name com.kevinmaher.x14328981.happy_color:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
@@ -13345,7 +13351,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:switchMinWidth
+     * @attr name com.kevinmaher.x14328981.happy_color:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
@@ -13358,7 +13364,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:switchPadding
+     * @attr name com.kevinmaher.x14328981.happy_color:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
@@ -13370,7 +13376,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:switchTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy_color:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
@@ -13383,7 +13389,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:thumbTextPadding
+     * @attr name com.kevinmaher.x14328981.happy_color:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
@@ -13394,7 +13400,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:thumbTint
+     * @attr name com.kevinmaher.x14328981.happy_color:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
@@ -13415,7 +13421,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:thumbTintMode
+     * @attr name com.kevinmaher.x14328981.happy_color:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
@@ -13427,7 +13433,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:track
+     * @attr name com.kevinmaher.x14328981.happy_color:track
      */
     public static final int SwitchCompat_track=11;
     /**
@@ -13438,7 +13444,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:trackTint
+     * @attr name com.kevinmaher.x14328981.happy_color:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
@@ -13459,7 +13465,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:trackTintMode
+     * @attr name com.kevinmaher.x14328981.happy_color:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -13521,22 +13527,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #TabLayout_tabBackground com.kevinmaher.x14328981.happy:tabBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabContentStart com.kevinmaher.x14328981.happy:tabContentStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabGravity com.kevinmaher.x14328981.happy:tabGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorColor com.kevinmaher.x14328981.happy:tabIndicatorColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.kevinmaher.x14328981.happy:tabIndicatorHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMaxWidth com.kevinmaher.x14328981.happy:tabMaxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMinWidth com.kevinmaher.x14328981.happy:tabMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMode com.kevinmaher.x14328981.happy:tabMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPadding com.kevinmaher.x14328981.happy:tabPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingBottom com.kevinmaher.x14328981.happy:tabPaddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingEnd com.kevinmaher.x14328981.happy:tabPaddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingStart com.kevinmaher.x14328981.happy:tabPaddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingTop com.kevinmaher.x14328981.happy:tabPaddingTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.kevinmaher.x14328981.happy:tabSelectedTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextAppearance com.kevinmaher.x14328981.happy:tabTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextColor com.kevinmaher.x14328981.happy:tabTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabBackground com.kevinmaher.x14328981.happy_color:tabBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabContentStart com.kevinmaher.x14328981.happy_color:tabContentStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabGravity com.kevinmaher.x14328981.happy_color:tabGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorColor com.kevinmaher.x14328981.happy_color:tabIndicatorColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.kevinmaher.x14328981.happy_color:tabIndicatorHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMaxWidth com.kevinmaher.x14328981.happy_color:tabMaxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMinWidth com.kevinmaher.x14328981.happy_color:tabMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMode com.kevinmaher.x14328981.happy_color:tabMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPadding com.kevinmaher.x14328981.happy_color:tabPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingBottom com.kevinmaher.x14328981.happy_color:tabPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingEnd com.kevinmaher.x14328981.happy_color:tabPaddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingStart com.kevinmaher.x14328981.happy_color:tabPaddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingTop com.kevinmaher.x14328981.happy_color:tabPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.kevinmaher.x14328981.happy_color:tabSelectedTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextAppearance com.kevinmaher.x14328981.happy_color:tabTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextColor com.kevinmaher.x14328981.happy_color:tabTextColor}</code></td><td></td></tr>
      * </table>
      * @see #TabLayout_tabBackground
      * @see #TabLayout_tabContentStart
@@ -13570,7 +13576,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:tabBackground
+     * @attr name com.kevinmaher.x14328981.happy_color:tabBackground
      */
     public static final int TabLayout_tabBackground=0;
     /**
@@ -13583,7 +13589,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:tabContentStart
+     * @attr name com.kevinmaher.x14328981.happy_color:tabContentStart
      */
     public static final int TabLayout_tabContentStart=1;
     /**
@@ -13600,7 +13606,7 @@ public final class R {
      * <tr><td>fill</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:tabGravity
+     * @attr name com.kevinmaher.x14328981.happy_color:tabGravity
      */
     public static final int TabLayout_tabGravity=2;
     /**
@@ -13611,7 +13617,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:tabIndicatorColor
+     * @attr name com.kevinmaher.x14328981.happy_color:tabIndicatorColor
      */
     public static final int TabLayout_tabIndicatorColor=3;
     /**
@@ -13624,7 +13630,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:tabIndicatorHeight
+     * @attr name com.kevinmaher.x14328981.happy_color:tabIndicatorHeight
      */
     public static final int TabLayout_tabIndicatorHeight=4;
     /**
@@ -13637,7 +13643,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:tabMaxWidth
+     * @attr name com.kevinmaher.x14328981.happy_color:tabMaxWidth
      */
     public static final int TabLayout_tabMaxWidth=5;
     /**
@@ -13650,7 +13656,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:tabMinWidth
+     * @attr name com.kevinmaher.x14328981.happy_color:tabMinWidth
      */
     public static final int TabLayout_tabMinWidth=6;
     /**
@@ -13667,7 +13673,7 @@ public final class R {
      * <tr><td>scrollable</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:tabMode
+     * @attr name com.kevinmaher.x14328981.happy_color:tabMode
      */
     public static final int TabLayout_tabMode=7;
     /**
@@ -13680,7 +13686,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:tabPadding
+     * @attr name com.kevinmaher.x14328981.happy_color:tabPadding
      */
     public static final int TabLayout_tabPadding=8;
     /**
@@ -13693,7 +13699,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:tabPaddingBottom
+     * @attr name com.kevinmaher.x14328981.happy_color:tabPaddingBottom
      */
     public static final int TabLayout_tabPaddingBottom=9;
     /**
@@ -13706,7 +13712,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:tabPaddingEnd
+     * @attr name com.kevinmaher.x14328981.happy_color:tabPaddingEnd
      */
     public static final int TabLayout_tabPaddingEnd=10;
     /**
@@ -13719,7 +13725,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:tabPaddingStart
+     * @attr name com.kevinmaher.x14328981.happy_color:tabPaddingStart
      */
     public static final int TabLayout_tabPaddingStart=11;
     /**
@@ -13732,7 +13738,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:tabPaddingTop
+     * @attr name com.kevinmaher.x14328981.happy_color:tabPaddingTop
      */
     public static final int TabLayout_tabPaddingTop=12;
     /**
@@ -13743,7 +13749,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:tabSelectedTextColor
+     * @attr name com.kevinmaher.x14328981.happy_color:tabSelectedTextColor
      */
     public static final int TabLayout_tabSelectedTextColor=13;
     /**
@@ -13755,7 +13761,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:tabTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy_color:tabTextAppearance
      */
     public static final int TabLayout_tabTextAppearance=14;
     /**
@@ -13766,7 +13772,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:tabTextColor
+     * @attr name com.kevinmaher.x14328981.happy_color:tabTextColor
      */
     public static final int TabLayout_tabTextColor=15;
     /**
@@ -13787,8 +13793,8 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily com.kevinmaher.x14328981.happy:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.kevinmaher.x14328981.happy:textAllCaps}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily com.kevinmaher.x14328981.happy_color:fontFamily}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.kevinmaher.x14328981.happy_color:textAllCaps}</code></td><td></td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -13960,7 +13966,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:fontFamily
+     * @attr name com.kevinmaher.x14328981.happy_color:fontFamily
      */
     public static final int TextAppearance_fontFamily=11;
     /**
@@ -13974,7 +13980,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:textAllCaps
+     * @attr name com.kevinmaher.x14328981.happy_color:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=12;
     /**
@@ -13986,20 +13992,20 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterEnabled com.kevinmaher.x14328981.happy:counterEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterMaxLength com.kevinmaher.x14328981.happy:counterMaxLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.kevinmaher.x14328981.happy:counterOverflowTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.kevinmaher.x14328981.happy:counterTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorEnabled com.kevinmaher.x14328981.happy:errorEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.kevinmaher.x14328981.happy:errorTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.kevinmaher.x14328981.happy:hintAnimationEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintEnabled com.kevinmaher.x14328981.happy:hintEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.kevinmaher.x14328981.happy:hintTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription com.kevinmaher.x14328981.happy:passwordToggleContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable com.kevinmaher.x14328981.happy:passwordToggleDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled com.kevinmaher.x14328981.happy:passwordToggleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint com.kevinmaher.x14328981.happy:passwordToggleTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode com.kevinmaher.x14328981.happy:passwordToggleTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterEnabled com.kevinmaher.x14328981.happy_color:counterEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterMaxLength com.kevinmaher.x14328981.happy_color:counterMaxLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.kevinmaher.x14328981.happy_color:counterOverflowTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.kevinmaher.x14328981.happy_color:counterTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorEnabled com.kevinmaher.x14328981.happy_color:errorEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.kevinmaher.x14328981.happy_color:errorTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.kevinmaher.x14328981.happy_color:hintAnimationEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintEnabled com.kevinmaher.x14328981.happy_color:hintEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.kevinmaher.x14328981.happy_color:hintTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription com.kevinmaher.x14328981.happy_color:passwordToggleContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable com.kevinmaher.x14328981.happy_color:passwordToggleDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled com.kevinmaher.x14328981.happy_color:passwordToggleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint com.kevinmaher.x14328981.happy_color:passwordToggleTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode com.kevinmaher.x14328981.happy_color:passwordToggleTintMode}</code></td><td></td></tr>
      * </table>
      * @see #TextInputLayout_android_textColorHint
      * @see #TextInputLayout_android_hint
@@ -14056,7 +14062,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:counterEnabled
+     * @attr name com.kevinmaher.x14328981.happy_color:counterEnabled
      */
     public static final int TextInputLayout_counterEnabled=2;
     /**
@@ -14065,7 +14071,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:counterMaxLength
+     * @attr name com.kevinmaher.x14328981.happy_color:counterMaxLength
      */
     public static final int TextInputLayout_counterMaxLength=3;
     /**
@@ -14077,7 +14083,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:counterOverflowTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy_color:counterOverflowTextAppearance
      */
     public static final int TextInputLayout_counterOverflowTextAppearance=4;
     /**
@@ -14089,7 +14095,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:counterTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy_color:counterTextAppearance
      */
     public static final int TextInputLayout_counterTextAppearance=5;
     /**
@@ -14099,7 +14105,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:errorEnabled
+     * @attr name com.kevinmaher.x14328981.happy_color:errorEnabled
      */
     public static final int TextInputLayout_errorEnabled=6;
     /**
@@ -14111,7 +14117,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:errorTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy_color:errorTextAppearance
      */
     public static final int TextInputLayout_errorTextAppearance=7;
     /**
@@ -14121,7 +14127,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:hintAnimationEnabled
+     * @attr name com.kevinmaher.x14328981.happy_color:hintAnimationEnabled
      */
     public static final int TextInputLayout_hintAnimationEnabled=8;
     /**
@@ -14131,7 +14137,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:hintEnabled
+     * @attr name com.kevinmaher.x14328981.happy_color:hintEnabled
      */
     public static final int TextInputLayout_hintEnabled=9;
     /**
@@ -14143,7 +14149,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:hintTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy_color:hintTextAppearance
      */
     public static final int TextInputLayout_hintTextAppearance=10;
     /**
@@ -14153,7 +14159,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:passwordToggleContentDescription
+     * @attr name com.kevinmaher.x14328981.happy_color:passwordToggleContentDescription
      */
     public static final int TextInputLayout_passwordToggleContentDescription=11;
     /**
@@ -14165,7 +14171,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:passwordToggleDrawable
+     * @attr name com.kevinmaher.x14328981.happy_color:passwordToggleDrawable
      */
     public static final int TextInputLayout_passwordToggleDrawable=12;
     /**
@@ -14175,7 +14181,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:passwordToggleEnabled
+     * @attr name com.kevinmaher.x14328981.happy_color:passwordToggleEnabled
      */
     public static final int TextInputLayout_passwordToggleEnabled=13;
     /**
@@ -14186,7 +14192,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:passwordToggleTint
+     * @attr name com.kevinmaher.x14328981.happy_color:passwordToggleTint
      */
     public static final int TextInputLayout_passwordToggleTint=14;
     /**
@@ -14206,7 +14212,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:passwordToggleTintMode
+     * @attr name com.kevinmaher.x14328981.happy_color:passwordToggleTintMode
      */
     public static final int TextInputLayout_passwordToggleTintMode=15;
     /**
@@ -14218,33 +14224,33 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.kevinmaher.x14328981.happy:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.kevinmaher.x14328981.happy:collapseContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.kevinmaher.x14328981.happy:collapseIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.kevinmaher.x14328981.happy:contentInsetEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.kevinmaher.x14328981.happy:contentInsetEndWithActions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.kevinmaher.x14328981.happy:contentInsetLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.kevinmaher.x14328981.happy:contentInsetRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.kevinmaher.x14328981.happy:contentInsetStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.kevinmaher.x14328981.happy:contentInsetStartWithNavigation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.kevinmaher.x14328981.happy:logo}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.kevinmaher.x14328981.happy:logoDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.kevinmaher.x14328981.happy:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.kevinmaher.x14328981.happy:navigationContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.kevinmaher.x14328981.happy:navigationIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.kevinmaher.x14328981.happy:popupTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.kevinmaher.x14328981.happy:subtitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.kevinmaher.x14328981.happy:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.kevinmaher.x14328981.happy:subtitleTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.kevinmaher.x14328981.happy:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.kevinmaher.x14328981.happy:titleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.kevinmaher.x14328981.happy:titleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.kevinmaher.x14328981.happy:titleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.kevinmaher.x14328981.happy:titleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.kevinmaher.x14328981.happy:titleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.kevinmaher.x14328981.happy:titleMargins}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.kevinmaher.x14328981.happy:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.kevinmaher.x14328981.happy:titleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.kevinmaher.x14328981.happy_color:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.kevinmaher.x14328981.happy_color:collapseContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.kevinmaher.x14328981.happy_color:collapseIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.kevinmaher.x14328981.happy_color:contentInsetEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.kevinmaher.x14328981.happy_color:contentInsetEndWithActions}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.kevinmaher.x14328981.happy_color:contentInsetLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.kevinmaher.x14328981.happy_color:contentInsetRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.kevinmaher.x14328981.happy_color:contentInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.kevinmaher.x14328981.happy_color:contentInsetStartWithNavigation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logo com.kevinmaher.x14328981.happy_color:logo}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.kevinmaher.x14328981.happy_color:logoDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.kevinmaher.x14328981.happy_color:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.kevinmaher.x14328981.happy_color:navigationContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.kevinmaher.x14328981.happy_color:navigationIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_popupTheme com.kevinmaher.x14328981.happy_color:popupTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitle com.kevinmaher.x14328981.happy_color:subtitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.kevinmaher.x14328981.happy_color:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.kevinmaher.x14328981.happy_color:subtitleTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.kevinmaher.x14328981.happy_color:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.kevinmaher.x14328981.happy_color:titleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.kevinmaher.x14328981.happy_color:titleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.kevinmaher.x14328981.happy_color:titleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.kevinmaher.x14328981.happy_color:titleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.kevinmaher.x14328981.happy_color:titleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.kevinmaher.x14328981.happy_color:titleMargins}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.kevinmaher.x14328981.happy_color:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.kevinmaher.x14328981.happy_color:titleTextColor}</code></td><td></td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -14342,7 +14348,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:buttonGravity
+     * @attr name com.kevinmaher.x14328981.happy_color:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
@@ -14352,7 +14358,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:collapseContentDescription
+     * @attr name com.kevinmaher.x14328981.happy_color:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
@@ -14364,7 +14370,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:collapseIcon
+     * @attr name com.kevinmaher.x14328981.happy_color:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
@@ -14377,7 +14383,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:contentInsetEnd
+     * @attr name com.kevinmaher.x14328981.happy_color:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
@@ -14390,7 +14396,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:contentInsetEndWithActions
+     * @attr name com.kevinmaher.x14328981.happy_color:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
@@ -14403,7 +14409,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:contentInsetLeft
+     * @attr name com.kevinmaher.x14328981.happy_color:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
@@ -14416,7 +14422,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:contentInsetRight
+     * @attr name com.kevinmaher.x14328981.happy_color:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
@@ -14429,7 +14435,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:contentInsetStart
+     * @attr name com.kevinmaher.x14328981.happy_color:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
@@ -14442,7 +14448,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:contentInsetStartWithNavigation
+     * @attr name com.kevinmaher.x14328981.happy_color:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
@@ -14454,7 +14460,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:logo
+     * @attr name com.kevinmaher.x14328981.happy_color:logo
      */
     public static final int Toolbar_logo=11;
     /**
@@ -14464,7 +14470,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:logoDescription
+     * @attr name com.kevinmaher.x14328981.happy_color:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
@@ -14477,7 +14483,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:maxButtonHeight
+     * @attr name com.kevinmaher.x14328981.happy_color:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
@@ -14487,7 +14493,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:navigationContentDescription
+     * @attr name com.kevinmaher.x14328981.happy_color:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
@@ -14499,7 +14505,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:navigationIcon
+     * @attr name com.kevinmaher.x14328981.happy_color:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
@@ -14511,7 +14517,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:popupTheme
+     * @attr name com.kevinmaher.x14328981.happy_color:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
@@ -14521,7 +14527,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:subtitle
+     * @attr name com.kevinmaher.x14328981.happy_color:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
@@ -14533,7 +14539,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:subtitleTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy_color:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
@@ -14544,7 +14550,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:subtitleTextColor
+     * @attr name com.kevinmaher.x14328981.happy_color:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
@@ -14554,7 +14560,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.kevinmaher.x14328981.happy:title
+     * @attr name com.kevinmaher.x14328981.happy_color:title
      */
     public static final int Toolbar_title=20;
     /**
@@ -14567,7 +14573,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:titleMargin
+     * @attr name com.kevinmaher.x14328981.happy_color:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
@@ -14580,7 +14586,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:titleMarginBottom
+     * @attr name com.kevinmaher.x14328981.happy_color:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
@@ -14593,7 +14599,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:titleMarginEnd
+     * @attr name com.kevinmaher.x14328981.happy_color:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
@@ -14606,7 +14612,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:titleMarginStart
+     * @attr name com.kevinmaher.x14328981.happy_color:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
@@ -14619,7 +14625,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:titleMarginTop
+     * @attr name com.kevinmaher.x14328981.happy_color:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
@@ -14632,7 +14638,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:titleMargins
+     * @attr name com.kevinmaher.x14328981.happy_color:titleMargins
      */
     public static final int Toolbar_titleMargins=26;
     /**
@@ -14644,7 +14650,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:titleTextAppearance
+     * @attr name com.kevinmaher.x14328981.happy_color:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
@@ -14655,7 +14661,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:titleTextColor
+     * @attr name com.kevinmaher.x14328981.happy_color:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -14667,9 +14673,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.kevinmaher.x14328981.happy:paddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.kevinmaher.x14328981.happy:paddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_theme com.kevinmaher.x14328981.happy:theme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.kevinmaher.x14328981.happy_color:paddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.kevinmaher.x14328981.happy_color:paddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #View_theme com.kevinmaher.x14328981.happy_color:theme}</code></td><td></td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -14721,7 +14727,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:paddingEnd
+     * @attr name com.kevinmaher.x14328981.happy_color:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
@@ -14734,7 +14740,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.kevinmaher.x14328981.happy:paddingStart
+     * @attr name com.kevinmaher.x14328981.happy_color:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
@@ -14746,7 +14752,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:theme
+     * @attr name com.kevinmaher.x14328981.happy_color:theme
      */
     public static final int View_theme=4;
     /**
@@ -14757,8 +14763,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.kevinmaher.x14328981.happy:backgroundTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.kevinmaher.x14328981.happy:backgroundTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.kevinmaher.x14328981.happy_color:backgroundTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.kevinmaher.x14328981.happy_color:backgroundTintMode}</code></td><td></td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -14790,7 +14796,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.kevinmaher.x14328981.happy:backgroundTint
+     * @attr name com.kevinmaher.x14328981.happy_color:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
@@ -14811,7 +14817,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.kevinmaher.x14328981.happy:backgroundTintMode
+     * @attr name com.kevinmaher.x14328981.happy_color:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**

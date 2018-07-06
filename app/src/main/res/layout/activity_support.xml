@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!--tools:context="com.kevinmaher.x14328981.happy.Frag1Activity"-->
+    <!--tools:context="com.kevinmaher.x14328981.happy_color.Frag1Activity"-->
 
     <Button
         android:id="@+id/btn_support_websites"

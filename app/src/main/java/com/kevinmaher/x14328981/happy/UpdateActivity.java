@@ -1,18 +1,15 @@
 package com.kevinmaher.x14328981.happy;
 
-import android.content.Intent;
-import android.graphics.drawable.Drawable;
+import android.content.Context;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.Checkable;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import org.w3c.dom.Text;
 
 /**
  * Created by x14328981 on 23/11/2017.
@@ -23,6 +20,7 @@ public class UpdateActivity extends AppCompatActivity {
 
     public CharSequence mood;
     private boolean isButtonClicked = false;
+    Context context = this;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,9 +49,15 @@ public class UpdateActivity extends AppCompatActivity {
                 btnSad.setBackgroundResource(R.drawable.ic_sad_grey);
 
                 textViewUpdate.setVisibility(View.VISIBLE);
-                textViewUpdate.setHint("What made you feel happy?");
+                textViewUpdate.setTextColor(Color.parseColor("#669900"));
+                textViewUpdate.setBackgroundTintList(context.getResources().getColorStateList(R.color.happy_color));
+                textViewUpdate.setHint("What made you feel happy_color?");
                 checkBox_update_location.setVisibility(View.VISIBLE);
                 switchUpdateLocation.setVisibility(View.VISIBLE);
+
+
+
+//                switchUpdateLocation.setTextColor(Color.parseColor("#f669900"));
             }
         });
 
@@ -65,6 +69,8 @@ public class UpdateActivity extends AppCompatActivity {
                 btnSad.setBackgroundResource(R.drawable.ic_sad_grey);
 
                 textViewUpdate.setVisibility(View.VISIBLE);
+                textViewUpdate.setTextColor(Color.parseColor("#ff9800"));
+                textViewUpdate.setBackgroundTintList(context.getResources().getColorStateList(R.color.indifferent));
                 textViewUpdate.setHint("What made you feel indifferent?");
                 checkBox_update_location.setVisibility(View.VISIBLE);
                 switchUpdateLocation.setVisibility(View.VISIBLE);
@@ -80,7 +86,9 @@ public class UpdateActivity extends AppCompatActivity {
                 btnSad.setBackgroundResource(R.drawable.ic_sad);
 
                 textViewUpdate.setVisibility(View.VISIBLE);
-                textViewUpdate.setHint("What made you feel sad?");
+                textViewUpdate.setTextColor(Color.parseColor("#ffff4444"));
+                textViewUpdate.setBackgroundTintList(context.getResources().getColorStateList(R.color.sad_color));
+                textViewUpdate.setHint("What made you feel sad_color?");
                 checkBox_update_location.setVisibility(View.VISIBLE);
                 switchUpdateLocation.setVisibility(View.VISIBLE);
             }
