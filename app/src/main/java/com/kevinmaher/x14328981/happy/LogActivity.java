@@ -15,7 +15,7 @@ public class LogActivity extends AppCompatActivity {
         setContentView(R.layout.activity_log);
 
         Button btnLogUpdate = (Button) findViewById(R.id.btn_log_update);
-        ImageButton btnFilter = (ImageButton) findViewById(R.id.btn_log_filter);
+//        ImageButton btnFilter = (ImageButton) findViewById(R.id.btn_log_filter);
 
         btnLogUpdate.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -24,12 +24,12 @@ public class LogActivity extends AppCompatActivity {
             }
         });
 
-        btnFilter.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(LogActivity.this, FeedActivity.class));
-            }
-        });
+//        btnFilter.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(new Intent(LogActivity.this, FeedActivity.class));
+//            }
+//        });
     }
 
 }

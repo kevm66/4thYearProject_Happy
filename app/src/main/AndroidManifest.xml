@@ -17,10 +17,10 @@
         <!-- android:name=".Frag1Activity" -->
         <!-- android:label="@string/text_title_frag_1" /> -->
         <activity
-            android:name=".SupportActivity"
-            android:label="@string/text_support_title" />
-        <activity
             android:name=".HomeActivity"
+            android:label="@string/text_title_home" />
+        <activity
+            android:name=".InsightsActivity"
             android:label="@string/text_title_home" />
         <activity
             android:name=".LogActivity"
@@ -53,6 +53,9 @@
         <activity
             android:name=".SettingsActivity"
             android:label="@string/text_title_settings" />
+        <activity
+            android:name=".SupportActivity"
+            android:label="@string/text_support_title" />
         <!-- <activity android:name=".SplashScreenActivity" android:theme="@style/SplashTheme"> -->
         <!-- <intent-filter> -->
         <!-- <action android:name="android.intent.action.MAIN" /> -->

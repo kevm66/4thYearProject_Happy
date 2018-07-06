@@ -35,6 +35,7 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="text_title_home">Home</string>
+    <string name="text_title_insights">Insights</string>
     <string name="text_title_log">My Mood Log</string>
     <string name="btn_support_websites">Websites</string>
     <string name="btn_support_phone">Phone Numbers</string>
