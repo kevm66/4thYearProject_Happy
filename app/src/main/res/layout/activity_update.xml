@@ -35,6 +35,25 @@
         android:inputType="textPersonName"
         android:textStyle="bold" />
 
+    <!--widget to make the hint text float to the top-->
+    <!--<android.support.design.widget.TextInputLayout-->
+        <!--android:id="@+id/textInput_update_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/textView_update_update"-->
+            <!--android:layout_width="308dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginTop="142dp"-->
+            <!--android:ems="10"-->
+            <!--android:hint="What influenced how you feel?"-->
+            <!--android:inputType="textPersonName"-->
+            <!--android:textStyle="bold" />-->
+    <!--</android.support.design.widget.TextInputLayout>-->
+
     <Button
         android:id="@+id/btn_update_update"
         android:layout_width="307dp"

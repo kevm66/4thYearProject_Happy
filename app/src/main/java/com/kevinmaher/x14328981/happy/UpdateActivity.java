@@ -3,6 +3,9 @@ package com.kevinmaher.x14328981.happy;
 import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.design.widget.TextInputEditText;
+import android.support.design.widget.TextInputLayout;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -15,6 +18,14 @@ import android.widget.Toast;
  * Created by x14328981 on 23/11/2017.
  * Header: How are you feeling?
  */
+
+//below method is depreciated
+//textViewUpdate.setBackgroundTintList(context.getResources().getColorStateList(R.color.indifferent_color));
+
+//not depreciated
+//textViewUpdate.setTextColor(Color.parseColor("#669900"));
+
+
 
 public class UpdateActivity extends AppCompatActivity {
 
@@ -37,11 +48,12 @@ public class UpdateActivity extends AppCompatActivity {
         final TextView textViewUpdate = (TextView) findViewById(R.id.textView_update_update);
         final Switch switchUpdateLocation = (Switch) findViewById(R.id.switch_update_location);
 
+
         //make input box and submit button invisible to provide minimal experience
         btnUpdate.setVisibility(View.INVISIBLE);
         btnUpdateLocationInfo.setVisibility(View.INVISIBLE);
-        switchUpdateLocation.setVisibility(View.INVISIBLE);
         textViewUpdate.setVisibility(View.INVISIBLE);
+        switchUpdateLocation.setVisibility(View.INVISIBLE);
 
         btnHappy.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,15 +63,16 @@ public class UpdateActivity extends AppCompatActivity {
                 btnSad.setBackgroundResource(R.drawable.ic_sad_grey);
 
                 textViewUpdate.setVisibility(View.VISIBLE);
-                textViewUpdate.setTextColor(Color.parseColor("#669900"));
-                textViewUpdate.setBackgroundTintList(context.getResources().getColorStateList(R.color.happy_color));
+//                textViewUpdate.setTextColor(Color.parseColor("#669900"));
+                textViewUpdate.setTextColor(ContextCompat.getColorStateList(context, R.color.happy_color));
+
+//                textViewUpdate.setBackgroundTintList(context.getResources().getColorStateList(R.color.happy_color));
+                textViewUpdate.setBackgroundTintList(ContextCompat.getColorStateList(context, R.color.happy_color));
+
                 textViewUpdate.setHint("What made you feel happy?");
                 btnUpdateLocationInfo.setVisibility(View.VISIBLE);
                 switchUpdateLocation.setVisibility(View.VISIBLE);
-
-
-//                switchUpdateLocation.setTextColor(Color.parseColor("#f669900"));
-            }
+                }
         });
 
         btnIndifferent.setOnClickListener(new View.OnClickListener() {
@@ -70,8 +83,13 @@ public class UpdateActivity extends AppCompatActivity {
                 btnSad.setBackgroundResource(R.drawable.ic_sad_grey);
 
                 textViewUpdate.setVisibility(View.VISIBLE);
-                textViewUpdate.setTextColor(Color.parseColor("#ff9800"));
-                textViewUpdate.setBackgroundTintList(context.getResources().getColorStateList(R.color.indifferent_color));
+//                textViewUpdate.setTextColor(Color.parseColor("#ff9800"));
+                textViewUpdate.setTextColor(ContextCompat.getColorStateList(context, R.color.indifferent_color));
+
+//                textViewUpdate.setBackgroundTintList(context.getResources().getColorStateList(R.color.indifferent_color));
+                textViewUpdate.setBackgroundTintList(ContextCompat.getColorStateList(context, R.color.indifferent_color));
+
+
                 textViewUpdate.setHint("What made you feel indifferent?");
                 btnUpdateLocationInfo.setVisibility(View.VISIBLE);
                 switchUpdateLocation.setVisibility(View.VISIBLE);
@@ -87,11 +105,24 @@ public class UpdateActivity extends AppCompatActivity {
                 btnSad.setBackgroundResource(R.drawable.ic_sad);
 
                 textViewUpdate.setVisibility(View.VISIBLE);
-                textViewUpdate.setTextColor(Color.parseColor("#ffff4444"));
-                textViewUpdate.setBackgroundTintList(context.getResources().getColorStateList(R.color.sad_color));
+
+//                all below methods work
+//                textViewUpdate.setTextColor(Color.parseColor("#ffff4444")); //works
+//                textViewUpdate.setTextColor(context.getResources().getColorStateList(R.color.sad_color)); //works
+//                textViewUpdate.setTextColor(context.getResources().getColor(R.color.sad_color)); //works
+//                textViewUpdate.setTextColor(getResources().getColor(R.color.sad_color)); //works
+//                textViewUpdate.setTextColor(ContextCompat.getColor(context, R.color.sad_color)); //works
+//                textViewUpdate.setTextColor(ContextCompat.getColorStateList(context, R.color.sad_color)); //works
+                textViewUpdate.setTextColor(ContextCompat.getColorStateList(context, R.color.sad_color));
+
+//                textViewUpdate.setBackgroundTintList(context.getResources().getColorStateList(R.color.sad_color)); //works
+                textViewUpdate.setBackgroundTintList(ContextCompat.getColorStateList(context, R.color.sad_color));
                 textViewUpdate.setHint("What made you feel sad?");
                 btnUpdateLocationInfo.setVisibility(View.VISIBLE);
                 switchUpdateLocation.setVisibility(View.VISIBLE);
+
+//                switchUpdateLocation.setTextColor(Color.parseColor("#f669900"));
+
             }
         });
 
