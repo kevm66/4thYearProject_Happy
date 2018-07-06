@@ -32,7 +32,6 @@
         android:layout_marginTop="142dp"
         android:ems="10"
         android:hint="What influenced how you feel?"
-        android:backgroundTint="@android:color/holo_green_light"
         android:inputType="textPersonName"
         android:textStyle="bold" />
 
@@ -74,21 +73,21 @@
 
     <Switch
         android:id="@+id/switch_update_location"
-        android:layout_width="301dp"
+        android:layout_width="268dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/textView_update_update"
-        android:layout_marginStart="6dp"
+        android:layout_marginStart="39dp"
         android:layout_marginTop="201dp"
         android:text="Include my location" />
 
-    <CheckBox
-        android:id="@+id/checkBox_update_location"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
+    <Button
+        android:id="@+id/btn_update_location_info"
+        android:layout_width="25dp"
+        android:layout_height="24dp"
+        android:layout_alignStart="@+id/btn_update_happy"
         android:layout_alignTop="@+id/switch_update_location"
-        android:layout_marginEnd="103dp" />
+        android:background="@drawable/ic_info" />
 
     <!--<Button-->
         <!--android:id="@+id/btn_update_sad_unselected"-->

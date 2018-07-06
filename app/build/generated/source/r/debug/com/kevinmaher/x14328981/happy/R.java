@@ -3323,11 +3323,11 @@ public final class R {
     public static final int error_color_material=0x7f05003a;
     public static final int foreground_material_dark=0x7f05003b;
     public static final int foreground_material_light=0x7f05003c;
-    public static final int happy_color =0x7f05003d;
+    public static final int happy_color=0x7f05003d;
     public static final int highlighted_text_material_dark=0x7f05003e;
     public static final int highlighted_text_material_light=0x7f05003f;
     public static final int ic_launcher_background=0x7f050040;
-    public static final int indifferent=0x7f050041;
+    public static final int indifferent_color=0x7f050041;
     public static final int material_blue_grey_800=0x7f050042;
     public static final int material_blue_grey_900=0x7f050043;
     public static final int material_blue_grey_950=0x7f050044;
@@ -3354,7 +3354,7 @@ public final class R {
     public static final int primary_text_disabled_material_light=0x7f050059;
     public static final int ripple_material_dark=0x7f05005a;
     public static final int ripple_material_light=0x7f05005b;
-    public static final int sad_color =0x7f05005c;
+    public static final int sad_color=0x7f05005c;
     public static final int secondary_text_default_material_dark=0x7f05005d;
     public static final int secondary_text_default_material_light=0x7f05005e;
     public static final int secondary_text_disabled_material_dark=0x7f05005f;
@@ -3645,32 +3645,33 @@ public final class R {
     public static final int ic_home_black_24dp=0x7f07006f;
     public static final int ic_indifferent=0x7f070070;
     public static final int ic_indifferent_grey=0x7f070071;
-    public static final int ic_launcher_background=0x7f070072;
-    public static final int ic_launcher_foreground=0x7f070073;
-    public static final int ic_list=0x7f070074;
-    public static final int ic_notifications_black_24dp=0x7f070075;
-    public static final int ic_people=0x7f070076;
-    public static final int ic_person=0x7f070077;
-    public static final int ic_sad=0x7f070078;
-    public static final int ic_sad_grey=0x7f070079;
-    public static final int map_background=0x7f07007a;
-    public static final int navigation_empty_icon=0x7f07007b;
-    public static final int notification_action_background=0x7f07007c;
-    public static final int notification_bg=0x7f07007d;
-    public static final int notification_bg_low=0x7f07007e;
-    public static final int notification_bg_low_normal=0x7f07007f;
-    public static final int notification_bg_low_pressed=0x7f070080;
-    public static final int notification_bg_normal=0x7f070081;
-    public static final int notification_bg_normal_pressed=0x7f070082;
-    public static final int notification_icon_background=0x7f070083;
-    public static final int notification_template_icon_bg=0x7f070084;
-    public static final int notification_template_icon_low_bg=0x7f070085;
-    public static final int notification_tile_bg=0x7f070086;
-    public static final int notify_panel_notification_icon_bg=0x7f070087;
-    public static final int splash_background=0x7f070088;
-    public static final int splash_screen_icon=0x7f070089;
-    public static final int tooltip_frame_dark=0x7f07008a;
-    public static final int tooltip_frame_light=0x7f07008b;
+    public static final int ic_info=0x7f070072;
+    public static final int ic_launcher_background=0x7f070073;
+    public static final int ic_launcher_foreground=0x7f070074;
+    public static final int ic_list=0x7f070075;
+    public static final int ic_notifications_black_24dp=0x7f070076;
+    public static final int ic_people=0x7f070077;
+    public static final int ic_person=0x7f070078;
+    public static final int ic_sad=0x7f070079;
+    public static final int ic_sad_grey=0x7f07007a;
+    public static final int map_background=0x7f07007b;
+    public static final int navigation_empty_icon=0x7f07007c;
+    public static final int notification_action_background=0x7f07007d;
+    public static final int notification_bg=0x7f07007e;
+    public static final int notification_bg_low=0x7f07007f;
+    public static final int notification_bg_low_normal=0x7f070080;
+    public static final int notification_bg_low_pressed=0x7f070081;
+    public static final int notification_bg_normal=0x7f070082;
+    public static final int notification_bg_normal_pressed=0x7f070083;
+    public static final int notification_icon_background=0x7f070084;
+    public static final int notification_template_icon_bg=0x7f070085;
+    public static final int notification_template_icon_low_bg=0x7f070086;
+    public static final int notification_tile_bg=0x7f070087;
+    public static final int notify_panel_notification_icon_bg=0x7f070088;
+    public static final int splash_background=0x7f070089;
+    public static final int splash_screen_icon=0x7f07008a;
+    public static final int tooltip_frame_dark=0x7f07008b;
+    public static final int tooltip_frame_light=0x7f07008c;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
@@ -3741,15 +3742,15 @@ public final class R {
     public static final int btn_support_websites=0x7f080041;
     public static final int btn_update_happy=0x7f080042;
     public static final int btn_update_indifferent=0x7f080043;
-    public static final int btn_update_sad=0x7f080044;
-    public static final int btn_update_update=0x7f080045;
-    public static final int buttonPanel=0x7f080046;
-    public static final int cancel_action=0x7f080047;
-    public static final int center=0x7f080048;
-    public static final int center_horizontal=0x7f080049;
-    public static final int center_vertical=0x7f08004a;
-    public static final int chains=0x7f08004b;
-    public static final int checkBox_update_location=0x7f08004c;
+    public static final int btn_update_location_info=0x7f080044;
+    public static final int btn_update_sad=0x7f080045;
+    public static final int btn_update_update=0x7f080046;
+    public static final int buttonPanel=0x7f080047;
+    public static final int cancel_action=0x7f080048;
+    public static final int center=0x7f080049;
+    public static final int center_horizontal=0x7f08004a;
+    public static final int center_vertical=0x7f08004b;
+    public static final int chains=0x7f08004c;
     public static final int checkbox=0x7f08004d;
     public static final int chronometer=0x7f08004e;
     public static final int clip_horizontal=0x7f08004f;
@@ -4622,7 +4623,7 @@ public final class R {
         0x7f030180
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#background}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4634,7 +4635,7 @@ public final class R {
      */
     public static final int ActionBar_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4649,7 +4650,7 @@ public final class R {
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#backgroundStacked}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#backgroundStacked}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4664,7 +4665,7 @@ public final class R {
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4677,7 +4678,7 @@ public final class R {
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4690,7 +4691,7 @@ public final class R {
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4703,7 +4704,7 @@ public final class R {
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4716,7 +4717,7 @@ public final class R {
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4729,7 +4730,7 @@ public final class R {
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4742,7 +4743,7 @@ public final class R {
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#customNavigationLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#customNavigationLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4754,7 +4755,7 @@ public final class R {
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#displayOptions}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#displayOptions}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -4776,7 +4777,7 @@ public final class R {
      */
     public static final int ActionBar_displayOptions=10;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#divider}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4788,7 +4789,7 @@ public final class R {
      */
     public static final int ActionBar_divider=11;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#elevation}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4801,7 +4802,7 @@ public final class R {
      */
     public static final int ActionBar_elevation=12;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#height}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4814,7 +4815,7 @@ public final class R {
      */
     public static final int ActionBar_height=13;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#hideOnContentScroll}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#hideOnContentScroll}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -4824,7 +4825,7 @@ public final class R {
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4836,7 +4837,7 @@ public final class R {
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#homeLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#homeLayout}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4848,7 +4849,7 @@ public final class R {
      */
     public static final int ActionBar_homeLayout=16;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#icon}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#icon}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4860,7 +4861,7 @@ public final class R {
      */
     public static final int ActionBar_icon=17;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#indeterminateProgressStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#indeterminateProgressStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4872,7 +4873,7 @@ public final class R {
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#itemPadding}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#itemPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4885,7 +4886,7 @@ public final class R {
      */
     public static final int ActionBar_itemPadding=19;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#logo}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4897,7 +4898,7 @@ public final class R {
      */
     public static final int ActionBar_logo=20;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#navigationMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#navigationMode}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -4915,7 +4916,7 @@ public final class R {
      */
     public static final int ActionBar_navigationMode=21;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#popupTheme}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4927,7 +4928,7 @@ public final class R {
      */
     public static final int ActionBar_popupTheme=22;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#progressBarPadding}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#progressBarPadding}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4940,7 +4941,7 @@ public final class R {
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#progressBarStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#progressBarStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4952,7 +4953,7 @@ public final class R {
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#subtitle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -4962,7 +4963,7 @@ public final class R {
      */
     public static final int ActionBar_subtitle=25;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -4974,7 +4975,7 @@ public final class R {
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#title}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -4984,7 +4985,7 @@ public final class R {
      */
     public static final int ActionBar_title=27;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5093,7 +5094,7 @@ public final class R {
         0x7f03014a, 0x7f030180
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#background}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#background}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5105,7 +5106,7 @@ public final class R {
      */
     public static final int ActionMode_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#backgroundSplit}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#backgroundSplit}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5120,7 +5121,7 @@ public final class R {
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#closeItemLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#closeItemLayout}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5132,7 +5133,7 @@ public final class R {
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#height}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#height}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5145,7 +5146,7 @@ public final class R {
      */
     public static final int ActionMode_height=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#subtitleTextStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#subtitleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5157,7 +5158,7 @@ public final class R {
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#titleTextStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#titleTextStyle}
      * attribute's value can be found in the {@link #ActionMode} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5185,7 +5186,7 @@ public final class R {
         0x7f030088, 0x7f0300b3
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#expandActivityOverflowButtonDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#expandActivityOverflowButtonDrawable}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5197,7 +5198,7 @@ public final class R {
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#initialActivityCount}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#initialActivityCount}
      * attribute's value can be found in the {@link #ActivityChooserView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -5248,7 +5249,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonIconDimen}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#buttonIconDimen}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5261,7 +5262,7 @@ public final class R {
      */
     public static final int AlertDialog_buttonIconDimen=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5273,7 +5274,7 @@ public final class R {
      */
     public static final int AlertDialog_buttonPanelSideLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5285,7 +5286,7 @@ public final class R {
      */
     public static final int AlertDialog_listItemLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5297,7 +5298,7 @@ public final class R {
      */
     public static final int AlertDialog_listLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5309,7 +5310,7 @@ public final class R {
      */
     public static final int AlertDialog_multiChoiceItemLayout=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -5319,7 +5320,7 @@ public final class R {
      */
     public static final int AlertDialog_showTitle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5389,7 +5390,7 @@ public final class R {
      */
     public static final int AppBarLayout_android_keyboardNavigationCluster=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#elevation}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5402,7 +5403,7 @@ public final class R {
      */
     public static final int AppBarLayout_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#expanded}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#expanded}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -5428,7 +5429,7 @@ public final class R {
         0x7f030141, 0x7f030142
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#state_collapsed}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#state_collapsed}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -5438,7 +5439,7 @@ public final class R {
      */
     public static final int AppBarLayoutStates_state_collapsed=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#state_collapsible}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#state_collapsible}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -5464,7 +5465,7 @@ public final class R {
         0x7f0300f8, 0x7f0300f9
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_scrollFlags}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_scrollFlags}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -5484,7 +5485,7 @@ public final class R {
      */
     public static final int AppBarLayout_Layout_layout_scrollFlags=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_scrollInterpolator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_scrollInterpolator}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5531,7 +5532,7 @@ public final class R {
      */
     public static final int AppCompatImageView_android_src=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#srcCompat}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#srcCompat}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5543,7 +5544,7 @@ public final class R {
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tint}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -5554,7 +5555,7 @@ public final class R {
      */
     public static final int AppCompatImageView_tint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tintMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tintMode}
      * attribute's value can be found in the {@link #AppCompatImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5607,7 +5608,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_android_thumb=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tickMark}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tickMark}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5619,7 +5620,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tickMarkTint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tickMarkTint}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -5630,7 +5631,7 @@ public final class R {
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tickMarkTintMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tickMarkTintMode}
      * attribute's value can be found in the {@link #AppCompatSeekBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5821,7 +5822,7 @@ public final class R {
      */
     public static final int AppCompatTextView_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#autoSizeMaxTextSize}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#autoSizeMaxTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5834,7 +5835,7 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#autoSizeMinTextSize}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#autoSizeMinTextSize}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5847,7 +5848,7 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#autoSizePresetSizes}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#autoSizePresetSizes}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -5859,7 +5860,7 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#autoSizeStepGranularity}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#autoSizeStepGranularity}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5872,7 +5873,7 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#autoSizeTextType}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#autoSizeTextType}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -5889,7 +5890,7 @@ public final class R {
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#fontFamily}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -5899,7 +5900,7 @@ public final class R {
      */
     public static final int AppCompatTextView_fontFamily=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #AppCompatTextView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6216,7 +6217,7 @@ public final class R {
      */
     public static final int AppCompatTheme_android_windowAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionBarDivider}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionBarDivider}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6228,7 +6229,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionBarItemBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionBarItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6240,7 +6241,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionBarPopupTheme}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionBarPopupTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6252,7 +6253,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionBarSize}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionBarSize}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6273,7 +6274,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionBarSplitStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionBarSplitStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6285,7 +6286,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionBarStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6297,7 +6298,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6309,7 +6310,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionBarTabStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionBarTabStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6321,7 +6322,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6333,7 +6334,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionBarTheme}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionBarTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6345,7 +6346,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionBarWidgetTheme}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionBarWidgetTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6357,7 +6358,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6369,7 +6370,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionDropDownStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionDropDownStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6381,7 +6382,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionMenuTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionMenuTextAppearance}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6393,7 +6394,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionMenuTextColor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionMenuTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6408,7 +6409,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModeBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionModeBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6420,7 +6421,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6432,7 +6433,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModeCloseDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionModeCloseDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6444,7 +6445,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModeCopyDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionModeCopyDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6456,7 +6457,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModeCutDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionModeCutDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6468,7 +6469,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModeFindDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionModeFindDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6480,7 +6481,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModePasteDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionModePasteDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6492,7 +6493,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModePopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionModePopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6504,7 +6505,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModeSelectAllDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionModeSelectAllDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6516,7 +6517,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModeShareDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionModeShareDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6528,7 +6529,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModeSplitBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionModeSplitBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6540,7 +6541,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6552,7 +6553,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionModeWebSearchDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionModeWebSearchDrawable}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6564,7 +6565,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6576,7 +6577,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6588,7 +6589,7 @@ public final class R {
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#activityChooserViewStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#activityChooserViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6600,7 +6601,7 @@ public final class R {
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6612,7 +6613,7 @@ public final class R {
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -6622,7 +6623,7 @@ public final class R {
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6634,7 +6635,7 @@ public final class R {
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#alertDialogTheme}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#alertDialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6646,7 +6647,7 @@ public final class R {
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#autoCompleteTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#autoCompleteTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6658,7 +6659,7 @@ public final class R {
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#borderlessButtonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#borderlessButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6670,7 +6671,7 @@ public final class R {
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonBarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#buttonBarButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6682,7 +6683,7 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonBarNegativeButtonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#buttonBarNegativeButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6694,7 +6695,7 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonBarNeutralButtonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#buttonBarNeutralButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6706,7 +6707,7 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonBarPositiveButtonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#buttonBarPositiveButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6718,7 +6719,7 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonBarStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#buttonBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6730,7 +6731,7 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#buttonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6742,7 +6743,7 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonStyleSmall}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#buttonStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6754,7 +6755,7 @@ public final class R {
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#checkboxStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#checkboxStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6766,7 +6767,7 @@ public final class R {
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#checkedTextViewStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#checkedTextViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6778,7 +6779,7 @@ public final class R {
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#colorAccent}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#colorAccent}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -6789,7 +6790,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#colorBackgroundFloating}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#colorBackgroundFloating}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -6800,7 +6801,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#colorButtonNormal}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#colorButtonNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -6811,7 +6812,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#colorControlActivated}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#colorControlActivated}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -6822,7 +6823,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#colorControlHighlight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#colorControlHighlight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -6833,7 +6834,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#colorControlNormal}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#colorControlNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -6844,7 +6845,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#colorError}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#colorError}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6859,7 +6860,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorError=54;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#colorPrimary}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#colorPrimary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -6870,7 +6871,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#colorPrimaryDark}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#colorPrimaryDark}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -6881,7 +6882,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#colorSwitchThumbNormal}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#colorSwitchThumbNormal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -6892,7 +6893,7 @@ public final class R {
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#controlBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#controlBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6904,7 +6905,7 @@ public final class R {
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#dialogPreferredPadding}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#dialogPreferredPadding}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6917,7 +6918,7 @@ public final class R {
      */
     public static final int AppCompatTheme_dialogPreferredPadding=59;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#dialogTheme}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#dialogTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6929,7 +6930,7 @@ public final class R {
      */
     public static final int AppCompatTheme_dialogTheme=60;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#dividerHorizontal}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#dividerHorizontal}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6941,7 +6942,7 @@ public final class R {
      */
     public static final int AppCompatTheme_dividerHorizontal=61;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#dividerVertical}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#dividerVertical}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6953,7 +6954,7 @@ public final class R {
      */
     public static final int AppCompatTheme_dividerVertical=62;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#dropDownListViewStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#dropDownListViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6965,7 +6966,7 @@ public final class R {
      */
     public static final int AppCompatTheme_dropDownListViewStyle=63;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#dropdownListPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#dropdownListPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6978,7 +6979,7 @@ public final class R {
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=64;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#editTextBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#editTextBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6990,7 +6991,7 @@ public final class R {
      */
     public static final int AppCompatTheme_editTextBackground=65;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#editTextColor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#editTextColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7005,7 +7006,7 @@ public final class R {
      */
     public static final int AppCompatTheme_editTextColor=66;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#editTextStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#editTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7017,7 +7018,7 @@ public final class R {
      */
     public static final int AppCompatTheme_editTextStyle=67;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#homeAsUpIndicator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#homeAsUpIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7029,7 +7030,7 @@ public final class R {
      */
     public static final int AppCompatTheme_homeAsUpIndicator=68;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#imageButtonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#imageButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7041,7 +7042,7 @@ public final class R {
      */
     public static final int AppCompatTheme_imageButtonStyle=69;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#listChoiceBackgroundIndicator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#listChoiceBackgroundIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7053,7 +7054,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=70;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#listDividerAlertDialog}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#listDividerAlertDialog}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7065,7 +7066,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listDividerAlertDialog=71;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#listMenuViewStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#listMenuViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7077,7 +7078,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listMenuViewStyle=72;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7089,7 +7090,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listPopupWindowStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#listPreferredItemHeight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#listPreferredItemHeight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7102,7 +7103,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemHeight=74;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#listPreferredItemHeightLarge}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#listPreferredItemHeightLarge}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7115,7 +7116,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=75;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#listPreferredItemHeightSmall}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#listPreferredItemHeightSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7128,7 +7129,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=76;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#listPreferredItemPaddingLeft}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#listPreferredItemPaddingLeft}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7141,7 +7142,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=77;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#listPreferredItemPaddingRight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#listPreferredItemPaddingRight}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7154,7 +7155,7 @@ public final class R {
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=78;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#panelBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#panelBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7166,7 +7167,7 @@ public final class R {
      */
     public static final int AppCompatTheme_panelBackground=79;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#panelMenuListTheme}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#panelMenuListTheme}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7178,7 +7179,7 @@ public final class R {
      */
     public static final int AppCompatTheme_panelMenuListTheme=80;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#panelMenuListWidth}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#panelMenuListWidth}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7191,7 +7192,7 @@ public final class R {
      */
     public static final int AppCompatTheme_panelMenuListWidth=81;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#popupMenuStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#popupMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7203,7 +7204,7 @@ public final class R {
      */
     public static final int AppCompatTheme_popupMenuStyle=82;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#popupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#popupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7215,7 +7216,7 @@ public final class R {
      */
     public static final int AppCompatTheme_popupWindowStyle=83;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#radioButtonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#radioButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7227,7 +7228,7 @@ public final class R {
      */
     public static final int AppCompatTheme_radioButtonStyle=84;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#ratingBarStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#ratingBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7239,7 +7240,7 @@ public final class R {
      */
     public static final int AppCompatTheme_ratingBarStyle=85;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#ratingBarStyleIndicator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#ratingBarStyleIndicator}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7251,7 +7252,7 @@ public final class R {
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=86;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#ratingBarStyleSmall}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#ratingBarStyleSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7263,7 +7264,7 @@ public final class R {
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=87;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#searchViewStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#searchViewStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7275,7 +7276,7 @@ public final class R {
      */
     public static final int AppCompatTheme_searchViewStyle=88;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#seekBarStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#seekBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7287,7 +7288,7 @@ public final class R {
      */
     public static final int AppCompatTheme_seekBarStyle=89;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#selectableItemBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#selectableItemBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7299,7 +7300,7 @@ public final class R {
      */
     public static final int AppCompatTheme_selectableItemBackground=90;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#selectableItemBackgroundBorderless}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#selectableItemBackgroundBorderless}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7311,7 +7312,7 @@ public final class R {
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=91;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#spinnerDropDownItemStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#spinnerDropDownItemStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7323,7 +7324,7 @@ public final class R {
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=92;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#spinnerStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#spinnerStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7335,7 +7336,7 @@ public final class R {
      */
     public static final int AppCompatTheme_spinnerStyle=93;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#switchStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#switchStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7347,7 +7348,7 @@ public final class R {
      */
     public static final int AppCompatTheme_switchStyle=94;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textAppearanceLargePopupMenu}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#textAppearanceLargePopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7359,7 +7360,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=95;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textAppearanceListItem}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#textAppearanceListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7371,7 +7372,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceListItem=96;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textAppearanceListItemSecondary}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#textAppearanceListItemSecondary}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7383,7 +7384,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=97;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textAppearanceListItemSmall}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#textAppearanceListItemSmall}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7395,7 +7396,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=98;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textAppearancePopupMenuHeader}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#textAppearancePopupMenuHeader}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7407,7 +7408,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=99;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textAppearanceSearchResultSubtitle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#textAppearanceSearchResultSubtitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7419,7 +7420,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=100;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textAppearanceSearchResultTitle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#textAppearanceSearchResultTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7431,7 +7432,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=101;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textAppearanceSmallPopupMenu}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#textAppearanceSmallPopupMenu}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7443,7 +7444,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=102;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textColorAlertDialogListItem}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#textColorAlertDialogListItem}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7458,7 +7459,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=103;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textColorSearchUrl}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#textColorSearchUrl}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7473,7 +7474,7 @@ public final class R {
      */
     public static final int AppCompatTheme_textColorSearchUrl=104;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#toolbarNavigationButtonStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#toolbarNavigationButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7485,7 +7486,7 @@ public final class R {
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=105;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#toolbarStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#toolbarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7497,7 +7498,7 @@ public final class R {
      */
     public static final int AppCompatTheme_toolbarStyle=106;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tooltipForegroundColor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tooltipForegroundColor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7512,7 +7513,7 @@ public final class R {
      */
     public static final int AppCompatTheme_tooltipForegroundColor=107;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tooltipFrameBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tooltipFrameBackground}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7524,7 +7525,7 @@ public final class R {
      */
     public static final int AppCompatTheme_tooltipFrameBackground=108;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#viewInflaterClass}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#viewInflaterClass}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -7534,7 +7535,7 @@ public final class R {
      */
     public static final int AppCompatTheme_viewInflaterClass=109;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#windowActionBar}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#windowActionBar}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -7544,7 +7545,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowActionBar=110;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#windowActionBarOverlay}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#windowActionBarOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -7554,7 +7555,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowActionBarOverlay=111;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#windowActionModeOverlay}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#windowActionModeOverlay}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -7564,7 +7565,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowActionModeOverlay=112;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#windowFixedHeightMajor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#windowFixedHeightMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7581,7 +7582,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=113;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#windowFixedHeightMinor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#windowFixedHeightMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7598,7 +7599,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=114;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#windowFixedWidthMajor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#windowFixedWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7615,7 +7616,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=115;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#windowFixedWidthMinor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#windowFixedWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7632,7 +7633,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=116;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#windowMinWidthMajor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#windowMinWidthMajor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7649,7 +7650,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowMinWidthMajor=117;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#windowMinWidthMinor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#windowMinWidthMinor}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7666,7 +7667,7 @@ public final class R {
      */
     public static final int AppCompatTheme_windowMinWidthMinor=118;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#windowNoTitle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#windowNoTitle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -7699,7 +7700,7 @@ public final class R {
         0x7f03010a
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#elevation}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7712,7 +7713,7 @@ public final class R {
      */
     public static final int BottomNavigationView_elevation=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#itemBackground}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7724,7 +7725,7 @@ public final class R {
      */
     public static final int BottomNavigationView_itemBackground=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -7735,7 +7736,7 @@ public final class R {
      */
     public static final int BottomNavigationView_itemIconTint=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -7746,7 +7747,7 @@ public final class R {
      */
     public static final int BottomNavigationView_itemTextColor=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#menu}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#menu}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7776,7 +7777,7 @@ public final class R {
         0x7f03003a, 0x7f03003c, 0x7f03003d
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#behavior_hideable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#behavior_hideable}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -7786,7 +7787,7 @@ public final class R {
      */
     public static final int BottomSheetBehavior_Layout_behavior_hideable=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#behavior_peekHeight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#behavior_peekHeight}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7807,7 +7808,7 @@ public final class R {
      */
     public static final int BottomSheetBehavior_Layout_behavior_peekHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#behavior_skipCollapsed}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#behavior_skipCollapsed}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -7831,7 +7832,7 @@ public final class R {
         0x7f030026
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#allowStacking}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#allowStacking}
      * attribute's value can be found in the {@link #ButtonBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -7888,7 +7889,7 @@ public final class R {
         0x7f030144, 0x7f030176, 0x7f030177, 0x7f030181
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#collapsedTitleGravity}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#collapsedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7913,7 +7914,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_collapsedTitleGravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#collapsedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#collapsedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7925,7 +7926,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentScrim}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#contentScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -7936,7 +7937,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_contentScrim=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#expandedTitleGravity}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#expandedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7961,7 +7962,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_expandedTitleGravity=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#expandedTitleMargin}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#expandedTitleMargin}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7974,7 +7975,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_expandedTitleMargin=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#expandedTitleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#expandedTitleMarginBottom}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -7987,7 +7988,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginBottom=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#expandedTitleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#expandedTitleMarginEnd}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8000,7 +8001,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginEnd=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#expandedTitleMarginStart}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#expandedTitleMarginStart}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8013,7 +8014,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#expandedTitleMarginTop}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#expandedTitleMarginTop}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8026,7 +8027,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginTop=8;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#expandedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#expandedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8038,7 +8039,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_expandedTitleTextAppearance=9;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#scrimAnimationDuration}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#scrimAnimationDuration}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -8047,7 +8048,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_scrimAnimationDuration=10;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#scrimVisibleHeightTrigger}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#scrimVisibleHeightTrigger}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8060,7 +8061,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger=11;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#statusBarScrim}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#statusBarScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8071,7 +8072,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_statusBarScrim=12;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#title}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -8081,7 +8082,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_title=13;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#titleEnabled}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#titleEnabled}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -8091,7 +8092,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_titleEnabled=14;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#toolbarId}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#toolbarId}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8119,7 +8120,7 @@ public final class R {
         0x7f0300c1, 0x7f0300c2
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_collapseMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_collapseMode}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8137,7 +8138,7 @@ public final class R {
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseMode=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_collapseParallaxMultiplier}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_collapseParallaxMultiplier}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -8184,7 +8185,7 @@ public final class R {
      */
     public static final int ColorStateListItem_android_alpha=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#alpha}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#alpha}
      * attribute's value can be found in the {@link #ColorStateListItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -8223,7 +8224,7 @@ public final class R {
      */
     public static final int CompoundButton_android_button=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonTint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#buttonTint}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -8234,7 +8235,7 @@ public final class R {
      */
     public static final int CompoundButton_buttonTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonTintMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#buttonTintMode}
      * attribute's value can be found in the {@link #CompoundButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8470,7 +8471,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_android_minHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#barrierAllowsGoneWidgets}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -8480,7 +8481,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_barrierAllowsGoneWidgets=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#barrierDirection}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#barrierDirection}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8501,7 +8502,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_barrierDirection=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#chainUseRtl}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -8511,7 +8512,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_chainUseRtl=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#constraintSet}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#constraintSet}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8523,7 +8524,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_constraintSet=8;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#constraint_referenced_ids}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -8533,7 +8534,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_constraint_referenced_ids=9;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -8543,7 +8544,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constrainedHeight=10;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -8553,7 +8554,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constrainedWidth=11;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -8562,7 +8563,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=12;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8582,7 +8583,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=13;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -8591,7 +8592,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=14;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8611,7 +8612,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=15;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8631,7 +8632,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=16;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8643,7 +8644,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -8652,7 +8653,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleAngle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8665,7 +8666,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleRadius=19;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -8675,7 +8676,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=20;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8695,7 +8696,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=21;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8715,7 +8716,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=22;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8728,7 +8729,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=23;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8741,7 +8742,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_end=24;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -8750,7 +8751,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=25;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8768,7 +8769,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_default=26;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8789,7 +8790,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_max=27;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8810,7 +8811,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_min=28;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -8819,7 +8820,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_percent=29;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -8828,7 +8829,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=30;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -8846,7 +8847,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -8855,7 +8856,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=32;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -8864,7 +8865,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=33;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8884,7 +8885,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8904,7 +8905,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=35;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -8913,7 +8914,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_creator=36;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8933,7 +8934,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=37;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8953,7 +8954,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=38;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8973,7 +8974,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=39;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8993,7 +8994,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=40;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -9002,7 +9003,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_creator=41;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9022,7 +9023,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=42;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9042,7 +9043,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=43;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -9051,7 +9052,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=44;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9069,7 +9070,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=45;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -9078,7 +9079,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=46;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9096,7 +9097,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_default=47;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9117,7 +9118,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_max=48;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9138,7 +9139,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_min=49;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -9147,7 +9148,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_percent=50;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9160,7 +9161,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteX=51;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9173,7 +9174,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteY=52;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9186,7 +9187,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginBottom=53;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9199,7 +9200,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginEnd=54;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9212,7 +9213,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginLeft=55;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9225,7 +9226,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginRight=56;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9238,7 +9239,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginStart=57;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9251,7 +9252,7 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginTop=58;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_optimizationLevel}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_optimizationLevel}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -9288,7 +9289,7 @@ public final class R {
         0x7f030065, 0x7f030085
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#content}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#content}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9300,7 +9301,7 @@ public final class R {
      */
     public static final int ConstraintLayout_placeholder_content=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#emptyVisibility}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#emptyVisibility}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9793,7 +9794,7 @@ public final class R {
      */
     public static final int ConstraintSet_android_elevation=22;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -9803,7 +9804,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constrainedHeight=23;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -9813,7 +9814,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constrainedWidth=24;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -9822,7 +9823,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintBaseline_creator=25;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9842,7 +9843,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=26;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -9851,7 +9852,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintBottom_creator=27;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9871,7 +9872,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintBottom_toBottomOf=28;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9891,7 +9892,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintBottom_toTopOf=29;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9903,7 +9904,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintCircle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -9912,7 +9913,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintCircleAngle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9925,7 +9926,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintCircleRadius=32;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -9935,7 +9936,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintDimensionRatio=33;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9955,7 +9956,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintEnd_toEndOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9975,7 +9976,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintEnd_toStartOf=35;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9988,7 +9989,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintGuide_begin=36;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10001,7 +10002,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintGuide_end=37;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -10010,7 +10011,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintGuide_percent=38;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10028,7 +10029,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintHeight_default=39;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10049,7 +10050,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintHeight_max=40;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10070,7 +10071,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintHeight_min=41;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -10079,7 +10080,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintHeight_percent=42;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -10088,7 +10089,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintHorizontal_bias=43;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10106,7 +10107,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=44;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -10115,7 +10116,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintHorizontal_weight=45;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -10124,7 +10125,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintLeft_creator=46;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10144,7 +10145,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintLeft_toLeftOf=47;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10164,7 +10165,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintLeft_toRightOf=48;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -10173,7 +10174,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintRight_creator=49;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10193,7 +10194,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintRight_toLeftOf=50;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10213,7 +10214,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintRight_toRightOf=51;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10233,7 +10234,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintStart_toEndOf=52;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10253,7 +10254,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintStart_toStartOf=53;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -10262,7 +10263,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintTop_creator=54;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10282,7 +10283,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintTop_toBottomOf=55;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10302,7 +10303,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintTop_toTopOf=56;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -10311,7 +10312,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintVertical_bias=57;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10329,7 +10330,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintVertical_chainStyle=58;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -10338,7 +10339,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintVertical_weight=59;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10356,7 +10357,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintWidth_default=60;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10377,7 +10378,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintWidth_max=61;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10398,7 +10399,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintWidth_min=62;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
@@ -10407,7 +10408,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_constraintWidth_percent=63;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10420,7 +10421,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_editor_absoluteX=64;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10433,7 +10434,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_editor_absoluteY=65;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10446,7 +10447,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_goneMarginBottom=66;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10459,7 +10460,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_goneMarginEnd=67;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10472,7 +10473,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_goneMarginLeft=68;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10485,7 +10486,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_goneMarginRight=69;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10498,7 +10499,7 @@ public final class R {
      */
     public static final int ConstraintSet_layout_goneMarginStart=70;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10527,7 +10528,7 @@ public final class R {
         0x7f0300bb, 0x7f030143
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#keylines}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#keylines}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10539,7 +10540,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#statusBarBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#statusBarBackground}
      * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10610,7 +10611,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_anchor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_anchor}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10622,7 +10623,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_anchorGravity}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_anchorGravity}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10651,7 +10652,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_behavior}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_behavior}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -10661,7 +10662,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_dodgeInsetEdges}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_dodgeInsetEdges}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10684,7 +10685,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_insetEdge}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_insetEdge}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10706,7 +10707,7 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout_keyline}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout_keyline}
      * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -10733,7 +10734,7 @@ public final class R {
         0x7f030040, 0x7f030041, 0x7f03016a
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#bottomSheetDialogTheme}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#bottomSheetDialogTheme}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10745,7 +10746,7 @@ public final class R {
      */
     public static final int DesignTheme_bottomSheetDialogTheme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#bottomSheetStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#bottomSheetStyle}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10757,7 +10758,7 @@ public final class R {
      */
     public static final int DesignTheme_bottomSheetStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textColorError}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#textColorError}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10801,7 +10802,7 @@ public final class R {
         0x7f03007d, 0x7f0300a3, 0x7f03013a, 0x7f03016d
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#arrowHeadLength}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#arrowHeadLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10814,7 +10815,7 @@ public final class R {
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#arrowShaftLength}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#arrowShaftLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10827,7 +10828,7 @@ public final class R {
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#barLength}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#barLength}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10840,7 +10841,7 @@ public final class R {
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#color}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#color}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -10851,7 +10852,7 @@ public final class R {
      */
     public static final int DrawerArrowToggle_color=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#drawableSize}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#drawableSize}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10864,7 +10865,7 @@ public final class R {
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#gapBetweenBars}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#gapBetweenBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10877,7 +10878,7 @@ public final class R {
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#spinBars}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#spinBars}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -10887,7 +10888,7 @@ public final class R {
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#thickness}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#thickness}
      * attribute's value can be found in the {@link #DrawerArrowToggle} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10932,7 +10933,7 @@ public final class R {
         0x7f03018a
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -10943,7 +10944,7 @@ public final class R {
      */
     public static final int FloatingActionButton_backgroundTint=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -10964,7 +10965,7 @@ public final class R {
      */
     public static final int FloatingActionButton_backgroundTintMode=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#borderWidth}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#borderWidth}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10977,7 +10978,7 @@ public final class R {
      */
     public static final int FloatingActionButton_borderWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#elevation}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10990,7 +10991,7 @@ public final class R {
      */
     public static final int FloatingActionButton_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fabCustomSize}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#fabCustomSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11003,7 +11004,7 @@ public final class R {
      */
     public static final int FloatingActionButton_fabCustomSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fabSize}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#fabSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11021,7 +11022,7 @@ public final class R {
      */
     public static final int FloatingActionButton_fabSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#pressedTranslationZ}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#pressedTranslationZ}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11034,7 +11035,7 @@ public final class R {
      */
     public static final int FloatingActionButton_pressedTranslationZ=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#rippleColor}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -11045,7 +11046,7 @@ public final class R {
      */
     public static final int FloatingActionButton_rippleColor=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#useCompatPadding}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#useCompatPadding}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -11069,7 +11070,7 @@ public final class R {
         0x7f030039
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#behavior_autoHide}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#behavior_autoHide}
      * attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -11104,7 +11105,7 @@ public final class R {
         0x7f03009e, 0x7f03009f
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fontProviderAuthority}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#fontProviderAuthority}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -11114,7 +11115,7 @@ public final class R {
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fontProviderCerts}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#fontProviderCerts}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11126,7 +11127,7 @@ public final class R {
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fontProviderFetchStrategy}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#fontProviderFetchStrategy}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11143,7 +11144,7 @@ public final class R {
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fontProviderFetchTimeout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#fontProviderFetchTimeout}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -11160,7 +11161,7 @@ public final class R {
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fontProviderPackage}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#fontProviderPackage}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -11170,7 +11171,7 @@ public final class R {
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fontProviderQuery}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#fontProviderQuery}
      * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -11243,7 +11244,7 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontStyle=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#font}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#font}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11255,7 +11256,7 @@ public final class R {
      */
     public static final int FontFamilyFont_font=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fontStyle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#fontStyle}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11272,7 +11273,7 @@ public final class R {
      */
     public static final int FontFamilyFont_fontStyle=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fontWeight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#fontWeight}
      * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -11341,7 +11342,7 @@ public final class R {
      */
     public static final int ForegroundLinearLayout_android_foregroundGravity=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#foregroundInsidePadding}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#foregroundInsidePadding}
      * attribute's value can be found in the {@link #ForegroundLinearLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -11488,7 +11489,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_android_weightSum=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#divider}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#divider}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11500,7 +11501,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#dividerPadding}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#dividerPadding}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11513,7 +11514,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#measureWithLargestChild}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#measureWithLargestChild}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -11523,7 +11524,7 @@ public final class R {
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#showDividers}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#showDividers}
      * attribute's value can be found in the {@link #LinearLayoutCompat} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -11996,7 +11997,7 @@ public final class R {
      */
     public static final int MenuItem_android_onClick=12;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionLayout}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12008,7 +12009,7 @@ public final class R {
      */
     public static final int MenuItem_actionLayout=13;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionProviderClass}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionProviderClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -12018,7 +12019,7 @@ public final class R {
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#actionViewClass}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#actionViewClass}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -12028,7 +12029,7 @@ public final class R {
      */
     public static final int MenuItem_actionViewClass=15;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#alphabeticModifiers}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#alphabeticModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -12049,7 +12050,7 @@ public final class R {
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentDescription}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#contentDescription}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -12059,7 +12060,7 @@ public final class R {
      */
     public static final int MenuItem_contentDescription=17;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#iconTint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#iconTint}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -12070,7 +12071,7 @@ public final class R {
      */
     public static final int MenuItem_iconTint=18;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#iconTintMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#iconTintMode}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12091,7 +12092,7 @@ public final class R {
      */
     public static final int MenuItem_iconTintMode=19;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#numericModifiers}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#numericModifiers}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -12112,7 +12113,7 @@ public final class R {
      */
     public static final int MenuItem_numericModifiers=20;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#showAsAction}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#showAsAction}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -12132,7 +12133,7 @@ public final class R {
      */
     public static final int MenuItem_showAsAction=21;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tooltipText}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tooltipText}
      * attribute's value can be found in the {@link #MenuItem} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -12261,7 +12262,7 @@ public final class R {
      */
     public static final int MenuView_android_itemIconDisabledAlpha=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#preserveIconSpacing}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#preserveIconSpacing}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -12271,7 +12272,7 @@ public final class R {
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#subMenuArrow}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#subMenuArrow}
      * attribute's value can be found in the {@link #MenuView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12355,7 +12356,7 @@ public final class R {
      */
     public static final int NavigationView_android_maxWidth=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#elevation}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12368,7 +12369,7 @@ public final class R {
      */
     public static final int NavigationView_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#headerLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#headerLayout}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12380,7 +12381,7 @@ public final class R {
      */
     public static final int NavigationView_headerLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#itemBackground}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12392,7 +12393,7 @@ public final class R {
      */
     public static final int NavigationView_itemBackground=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -12403,7 +12404,7 @@ public final class R {
      */
     public static final int NavigationView_itemIconTint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#itemTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#itemTextAppearance}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12415,7 +12416,7 @@ public final class R {
      */
     public static final int NavigationView_itemTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -12426,7 +12427,7 @@ public final class R {
      */
     public static final int NavigationView_itemTextColor=8;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#menu}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#menu}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12483,7 +12484,7 @@ public final class R {
      */
     public static final int PopupWindow_android_popupAnimationStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#overlapAnchor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#overlapAnchor}
      * attribute's value can be found in the {@link #PopupWindow} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -12507,7 +12508,7 @@ public final class R {
         0x7f030140
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#state_above_anchor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#state_above_anchor}
      * attribute's value can be found in the {@link #PopupWindowBackgroundState} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -12533,7 +12534,7 @@ public final class R {
         0x7f030111, 0x7f030114
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#paddingBottomNoButtons}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#paddingBottomNoButtons}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12546,7 +12547,7 @@ public final class R {
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#paddingTopNoTitle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#paddingTopNoTitle}
      * attribute's value can be found in the {@link #RecycleListView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12630,7 +12631,7 @@ public final class R {
      */
     public static final int RecyclerView_android_descendantFocusability=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fastScrollEnabled}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#fastScrollEnabled}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -12640,7 +12641,7 @@ public final class R {
      */
     public static final int RecyclerView_fastScrollEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fastScrollHorizontalThumbDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#fastScrollHorizontalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12652,7 +12653,7 @@ public final class R {
      */
     public static final int RecyclerView_fastScrollHorizontalThumbDrawable=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fastScrollHorizontalTrackDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#fastScrollHorizontalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12664,7 +12665,7 @@ public final class R {
      */
     public static final int RecyclerView_fastScrollHorizontalTrackDrawable=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fastScrollVerticalThumbDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#fastScrollVerticalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12676,7 +12677,7 @@ public final class R {
      */
     public static final int RecyclerView_fastScrollVerticalThumbDrawable=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fastScrollVerticalTrackDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#fastScrollVerticalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12688,7 +12689,7 @@ public final class R {
      */
     public static final int RecyclerView_fastScrollVerticalTrackDrawable=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layoutManager}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layoutManager}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -12698,7 +12699,7 @@ public final class R {
      */
     public static final int RecyclerView_layoutManager=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#reverseLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#reverseLayout}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -12708,7 +12709,7 @@ public final class R {
      */
     public static final int RecyclerView_reverseLayout=8;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#spanCount}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#spanCount}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -12717,7 +12718,7 @@ public final class R {
      */
     public static final int RecyclerView_spanCount=9;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#stackFromEnd}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#stackFromEnd}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -12741,7 +12742,7 @@ public final class R {
         0x7f0300b4
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#insetForeground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#insetForeground}
      * attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12770,7 +12771,7 @@ public final class R {
         0x7f03003b
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#behavior_overlapTop}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#behavior_overlapTop}
      * attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12943,7 +12944,7 @@ public final class R {
      */
     public static final int SearchView_android_imeOptions=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#closeIcon}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#closeIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12955,7 +12956,7 @@ public final class R {
      */
     public static final int SearchView_closeIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#commitIcon}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#commitIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12967,7 +12968,7 @@ public final class R {
      */
     public static final int SearchView_commitIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#defaultQueryHint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#defaultQueryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -12977,7 +12978,7 @@ public final class R {
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#goIcon}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#goIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12989,7 +12990,7 @@ public final class R {
      */
     public static final int SearchView_goIcon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#iconifiedByDefault}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#iconifiedByDefault}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -12999,7 +13000,7 @@ public final class R {
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#layout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#layout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13011,7 +13012,7 @@ public final class R {
      */
     public static final int SearchView_layout=9;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#queryBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#queryBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13023,7 +13024,7 @@ public final class R {
      */
     public static final int SearchView_queryBackground=10;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#queryHint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#queryHint}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -13033,7 +13034,7 @@ public final class R {
      */
     public static final int SearchView_queryHint=11;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#searchHintIcon}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#searchHintIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13045,7 +13046,7 @@ public final class R {
      */
     public static final int SearchView_searchHintIcon=12;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#searchIcon}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#searchIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13057,7 +13058,7 @@ public final class R {
      */
     public static final int SearchView_searchIcon=13;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#submitBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#submitBackground}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13069,7 +13070,7 @@ public final class R {
      */
     public static final int SearchView_submitBackground=14;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#suggestionRowLayout}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#suggestionRowLayout}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13081,7 +13082,7 @@ public final class R {
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#voiceIcon}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#voiceIcon}
      * attribute's value can be found in the {@link #SearchView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13124,7 +13125,7 @@ public final class R {
      */
     public static final int SnackbarLayout_android_maxWidth=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#elevation}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#elevation}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13137,7 +13138,7 @@ public final class R {
      */
     public static final int SnackbarLayout_elevation=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#maxActionInlineWidth}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#maxActionInlineWidth}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13235,7 +13236,7 @@ public final class R {
      */
     public static final int Spinner_android_dropDownWidth=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Spinner} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13322,7 +13323,7 @@ public final class R {
      */
     public static final int SwitchCompat_android_thumb=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#showText}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#showText}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -13332,7 +13333,7 @@ public final class R {
      */
     public static final int SwitchCompat_showText=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#splitTrack}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#splitTrack}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -13342,7 +13343,7 @@ public final class R {
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#switchMinWidth}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#switchMinWidth}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13355,7 +13356,7 @@ public final class R {
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#switchPadding}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#switchPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13368,7 +13369,7 @@ public final class R {
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#switchTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#switchTextAppearance}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13380,7 +13381,7 @@ public final class R {
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#thumbTextPadding}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#thumbTextPadding}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13393,7 +13394,7 @@ public final class R {
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#thumbTint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#thumbTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -13404,7 +13405,7 @@ public final class R {
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#thumbTintMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#thumbTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13425,7 +13426,7 @@ public final class R {
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#track}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#track}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13437,7 +13438,7 @@ public final class R {
      */
     public static final int SwitchCompat_track=11;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#trackTint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#trackTint}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -13448,7 +13449,7 @@ public final class R {
      */
     public static final int SwitchCompat_trackTint=12;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#trackTintMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#trackTintMode}
      * attribute's value can be found in the {@link #SwitchCompat} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13568,7 +13569,7 @@ public final class R {
         0x7f03015c, 0x7f03015d, 0x7f03015e, 0x7f03015f
       };
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabBackground}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tabBackground}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13580,7 +13581,7 @@ public final class R {
      */
     public static final int TabLayout_tabBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabContentStart}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tabContentStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13593,7 +13594,7 @@ public final class R {
      */
     public static final int TabLayout_tabContentStart=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabGravity}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tabGravity}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13610,7 +13611,7 @@ public final class R {
      */
     public static final int TabLayout_tabGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabIndicatorColor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tabIndicatorColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -13621,7 +13622,7 @@ public final class R {
      */
     public static final int TabLayout_tabIndicatorColor=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabIndicatorHeight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tabIndicatorHeight}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13634,7 +13635,7 @@ public final class R {
      */
     public static final int TabLayout_tabIndicatorHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabMaxWidth}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tabMaxWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13647,7 +13648,7 @@ public final class R {
      */
     public static final int TabLayout_tabMaxWidth=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabMinWidth}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tabMinWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13660,7 +13661,7 @@ public final class R {
      */
     public static final int TabLayout_tabMinWidth=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tabMode}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13677,7 +13678,7 @@ public final class R {
      */
     public static final int TabLayout_tabMode=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabPadding}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tabPadding}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13690,7 +13691,7 @@ public final class R {
      */
     public static final int TabLayout_tabPadding=8;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabPaddingBottom}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tabPaddingBottom}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13703,7 +13704,7 @@ public final class R {
      */
     public static final int TabLayout_tabPaddingBottom=9;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabPaddingEnd}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tabPaddingEnd}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13716,7 +13717,7 @@ public final class R {
      */
     public static final int TabLayout_tabPaddingEnd=10;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabPaddingStart}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tabPaddingStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13729,7 +13730,7 @@ public final class R {
      */
     public static final int TabLayout_tabPaddingStart=11;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabPaddingTop}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tabPaddingTop}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13742,7 +13743,7 @@ public final class R {
      */
     public static final int TabLayout_tabPaddingTop=12;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabSelectedTextColor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tabSelectedTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -13753,7 +13754,7 @@ public final class R {
      */
     public static final int TabLayout_tabSelectedTextColor=13;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tabTextAppearance}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13765,7 +13766,7 @@ public final class R {
      */
     public static final int TabLayout_tabTextAppearance=14;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#tabTextColor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#tabTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -13960,7 +13961,7 @@ public final class R {
      */
     public static final int TextAppearance_android_fontFamily=10;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#fontFamily}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#fontFamily}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -13970,7 +13971,7 @@ public final class R {
      */
     public static final int TextAppearance_fontFamily=11;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#textAllCaps}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#textAllCaps}
      * attribute's value can be found in the {@link #TextAppearance} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14056,7 +14057,7 @@ public final class R {
      */
     public static final int TextInputLayout_android_hint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#counterEnabled}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#counterEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -14066,7 +14067,7 @@ public final class R {
      */
     public static final int TextInputLayout_counterEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#counterMaxLength}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#counterMaxLength}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
@@ -14075,7 +14076,7 @@ public final class R {
      */
     public static final int TextInputLayout_counterMaxLength=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#counterOverflowTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#counterOverflowTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14087,7 +14088,7 @@ public final class R {
      */
     public static final int TextInputLayout_counterOverflowTextAppearance=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#counterTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#counterTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14099,7 +14100,7 @@ public final class R {
      */
     public static final int TextInputLayout_counterTextAppearance=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#errorEnabled}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#errorEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -14109,7 +14110,7 @@ public final class R {
      */
     public static final int TextInputLayout_errorEnabled=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#errorTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#errorTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14121,7 +14122,7 @@ public final class R {
      */
     public static final int TextInputLayout_errorTextAppearance=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#hintAnimationEnabled}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#hintAnimationEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -14131,7 +14132,7 @@ public final class R {
      */
     public static final int TextInputLayout_hintAnimationEnabled=8;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#hintEnabled}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#hintEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -14141,7 +14142,7 @@ public final class R {
      */
     public static final int TextInputLayout_hintEnabled=9;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#hintTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#hintTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14153,7 +14154,7 @@ public final class R {
      */
     public static final int TextInputLayout_hintTextAppearance=10;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#passwordToggleContentDescription}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#passwordToggleContentDescription}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -14163,7 +14164,7 @@ public final class R {
      */
     public static final int TextInputLayout_passwordToggleContentDescription=11;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#passwordToggleDrawable}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#passwordToggleDrawable}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14175,7 +14176,7 @@ public final class R {
      */
     public static final int TextInputLayout_passwordToggleDrawable=12;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#passwordToggleEnabled}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#passwordToggleEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
@@ -14185,7 +14186,7 @@ public final class R {
      */
     public static final int TextInputLayout_passwordToggleEnabled=13;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#passwordToggleTint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#passwordToggleTint}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -14196,7 +14197,7 @@ public final class R {
      */
     public static final int TextInputLayout_passwordToggleTint=14;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#passwordToggleTintMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#passwordToggleTintMode}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14335,7 +14336,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -14352,7 +14353,7 @@ public final class R {
      */
     public static final int Toolbar_buttonGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#collapseContentDescription}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#collapseContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -14362,7 +14363,7 @@ public final class R {
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#collapseIcon}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#collapseIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14374,7 +14375,7 @@ public final class R {
      */
     public static final int Toolbar_collapseIcon=4;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetEnd}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#contentInsetEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14387,7 +14388,7 @@ public final class R {
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetEndWithActions}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#contentInsetEndWithActions}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14400,7 +14401,7 @@ public final class R {
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetLeft}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#contentInsetLeft}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14413,7 +14414,7 @@ public final class R {
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetRight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#contentInsetRight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14426,7 +14427,7 @@ public final class R {
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetStart}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#contentInsetStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14439,7 +14440,7 @@ public final class R {
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#contentInsetStartWithNavigation}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#contentInsetStartWithNavigation}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14452,7 +14453,7 @@ public final class R {
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#logo}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#logo}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14464,7 +14465,7 @@ public final class R {
      */
     public static final int Toolbar_logo=11;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#logoDescription}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#logoDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -14474,7 +14475,7 @@ public final class R {
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14487,7 +14488,7 @@ public final class R {
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#navigationContentDescription}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#navigationContentDescription}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -14497,7 +14498,7 @@ public final class R {
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#navigationIcon}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#navigationIcon}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14509,7 +14510,7 @@ public final class R {
      */
     public static final int Toolbar_navigationIcon=15;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#popupTheme}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#popupTheme}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14521,7 +14522,7 @@ public final class R {
      */
     public static final int Toolbar_popupTheme=16;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#subtitle}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#subtitle}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -14531,7 +14532,7 @@ public final class R {
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14543,7 +14544,7 @@ public final class R {
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#subtitleTextColor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#subtitleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -14554,7 +14555,7 @@ public final class R {
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
@@ -14564,7 +14565,7 @@ public final class R {
      */
     public static final int Toolbar_title=20;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#titleMargin}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#titleMargin}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14577,7 +14578,7 @@ public final class R {
      */
     public static final int Toolbar_titleMargin=21;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#titleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#titleMarginBottom}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14590,7 +14591,7 @@ public final class R {
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#titleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#titleMarginEnd}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14603,7 +14604,7 @@ public final class R {
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#titleMarginStart}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#titleMarginStart}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14616,7 +14617,7 @@ public final class R {
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#titleMarginTop}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#titleMarginTop}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14629,7 +14630,7 @@ public final class R {
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#titleMargins}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#titleMargins}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14642,7 +14643,7 @@ public final class R {
      */
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14654,7 +14655,7 @@ public final class R {
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#titleTextColor}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#titleTextColor}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -14718,7 +14719,7 @@ public final class R {
      */
     public static final int View_android_focusable=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#paddingEnd}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#paddingEnd}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14731,7 +14732,7 @@ public final class R {
      */
     public static final int View_paddingEnd=2;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#paddingStart}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#paddingStart}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14744,7 +14745,7 @@ public final class R {
      */
     public static final int View_paddingStart=3;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#theme}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#theme}
      * attribute's value can be found in the {@link #View} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14789,7 +14790,7 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_android_background=0;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#backgroundTint}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#backgroundTint}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
@@ -14800,7 +14801,7 @@ public final class R {
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy.R.attr#backgroundTintMode}
+     * <p>This symbol is the offset where the {@link com.kevinmaher.x14328981.happy_color.R.attr#backgroundTintMode}
      * attribute's value can be found in the {@link #ViewBackgroundHelper} array.
      *
      * <p>Must be one of the following constant values.</p>

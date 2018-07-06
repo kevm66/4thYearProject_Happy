@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kevinmaher.x14328981.happy"
+    package="com.kevinmaher.x14328981.happy_color"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -74,7 +74,7 @@
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
-            android:authorities="com.kevinmaher.x14328981.happy.com.android.tools.ir.server.InstantRunContentProvider"
+            android:authorities="com.kevinmaher.x14328981.happy_color.com.android.tools.ir.server.InstantRunContentProvider"
             android:multiprocess="true" />
     </application>
 

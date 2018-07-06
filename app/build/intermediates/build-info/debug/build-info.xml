@@ -2,50 +2,36 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="27"
-    build-mode="HOT_WARM"
+    build-mode="COLD"
     density="xxhdpi"
     format="10"
+    ir-eligibility="CLASS_ADDED"
     plugin-version="3.1.3"
-    timestamp="1530887078301"
+    timestamp="1530889151721"
     token="-7032002428725791358"
-    verifier="COMPATIBLE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="355" />
+        duration="426" />
     <task
         name="instant-run-dex"
-        duration="80" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="58" />
+        duration="71" />
     <task
         name="verifier"
-        duration="16" />
+        duration="26" />
 
     <artifact
-        location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1530887028516"
+        timestamp="1530888473585"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
         <artifact
             location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
@@ -53,31 +39,47 @@
             location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
-        build-mode="HOT_WARM"
-        timestamp="1530887078301"
-        verifier="COMPATIBLE" >
+        build-mode="COLD"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1530889151721"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
+            location="C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

@@ -19,6 +19,8 @@ import android.widget.Toast;
 public class UpdateActivity extends AppCompatActivity {
 
     public CharSequence mood;
+    public CharSequence locationInfo = "Location info: About";
+    public CharSequence location = "Location set: Leixlip";
     private boolean isButtonClicked = false;
     Context context = this;
 
@@ -31,13 +33,13 @@ public class UpdateActivity extends AppCompatActivity {
         final Button btnIndifferent = (Button) findViewById(R.id.btn_update_indifferent);
         final Button btnSad = (Button) findViewById(R.id.btn_update_sad);
         final Button btnUpdate = (Button) findViewById(R.id.btn_update_update);
+        final Button btnUpdateLocationInfo = (Button) findViewById(R.id.btn_update_location_info);
         final TextView textViewUpdate = (TextView) findViewById(R.id.textView_update_update);
         final Switch switchUpdateLocation = (Switch) findViewById(R.id.switch_update_location);
-        final CheckBox checkBox_update_location =  (CheckBox) findViewById(R.id.checkBox_update_location);
 
         //make input box and submit button invisible to provide minimal experience
         btnUpdate.setVisibility(View.INVISIBLE);
-        checkBox_update_location.setVisibility(View.INVISIBLE);
+        btnUpdateLocationInfo.setVisibility(View.INVISIBLE);
         switchUpdateLocation.setVisibility(View.INVISIBLE);
         textViewUpdate.setVisibility(View.INVISIBLE);
 
@@ -51,10 +53,9 @@ public class UpdateActivity extends AppCompatActivity {
                 textViewUpdate.setVisibility(View.VISIBLE);
                 textViewUpdate.setTextColor(Color.parseColor("#669900"));
                 textViewUpdate.setBackgroundTintList(context.getResources().getColorStateList(R.color.happy_color));
-                textViewUpdate.setHint("What made you feel happy_color?");
-                checkBox_update_location.setVisibility(View.VISIBLE);
+                textViewUpdate.setHint("What made you feel happy?");
+                btnUpdateLocationInfo.setVisibility(View.VISIBLE);
                 switchUpdateLocation.setVisibility(View.VISIBLE);
-
 
 
 //                switchUpdateLocation.setTextColor(Color.parseColor("#f669900"));
@@ -70,9 +71,9 @@ public class UpdateActivity extends AppCompatActivity {
 
                 textViewUpdate.setVisibility(View.VISIBLE);
                 textViewUpdate.setTextColor(Color.parseColor("#ff9800"));
-                textViewUpdate.setBackgroundTintList(context.getResources().getColorStateList(R.color.indifferent));
+                textViewUpdate.setBackgroundTintList(context.getResources().getColorStateList(R.color.indifferent_color));
                 textViewUpdate.setHint("What made you feel indifferent?");
-                checkBox_update_location.setVisibility(View.VISIBLE);
+                btnUpdateLocationInfo.setVisibility(View.VISIBLE);
                 switchUpdateLocation.setVisibility(View.VISIBLE);
             }
         });
@@ -88,8 +89,8 @@ public class UpdateActivity extends AppCompatActivity {
                 textViewUpdate.setVisibility(View.VISIBLE);
                 textViewUpdate.setTextColor(Color.parseColor("#ffff4444"));
                 textViewUpdate.setBackgroundTintList(context.getResources().getColorStateList(R.color.sad_color));
-                textViewUpdate.setHint("What made you feel sad_color?");
-                checkBox_update_location.setVisibility(View.VISIBLE);
+                textViewUpdate.setHint("What made you feel sad?");
+                btnUpdateLocationInfo.setVisibility(View.VISIBLE);
                 switchUpdateLocation.setVisibility(View.VISIBLE);
             }
         });
@@ -103,6 +104,21 @@ public class UpdateActivity extends AppCompatActivity {
             }
         });
 
+        btnUpdateLocationInfo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mood = textViewUpdate.getText();
+                Toast.makeText(UpdateActivity.this, locationInfo, Toast.LENGTH_SHORT).show();
+//                startActivity(new Intent(UpdateActivity.this, NavActivity.class));
+            }
+        });
+
+        switchUpdateLocation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(UpdateActivity.this, location, Toast.LENGTH_SHORT).show();
+            }
+        });
 
         textViewUpdate.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -69,7 +69,7 @@ public final class R {
     public static final class id {
         public static final int barrier = 0x7f080023;
         public static final int bottom = 0x7f080026;
-        public static final int chains = 0x7f08004b;
+        public static final int chains = 0x7f08004c;
         public static final int dimensions = 0x7f08005e;
         public static final int direct = 0x7f08005f;
         public static final int end = 0x7f080066;
