@@ -5,9 +5,15 @@
     <color name="colorAccent">#ff9800</color>
     <color name="colorGreen">#669900</color>
     <color name="colorRed">#ffff4444</color>
+    <color name="white">#FFFFFF</color>
+
+    <!--faces-->
+    <color name="happy">#669900</color>
+    <color name="indifferent">#ff9800</color>
+    <color name="sad">#ffff4444</color>
+    <color name="grey">#757575</color>
+
 </resources>
 
-<!--<color name="white">#FFFFFF</color>-->
 <!--<color name="white_trans">#99FFFFFF</color>-->
-
 <!--<color name="colorAccent">#ffc267</color>-->

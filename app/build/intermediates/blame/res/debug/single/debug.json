@@ -576,10 +576,6 @@
         "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6136da807edb52f76eeea80f4e23d86c\\res\\layout\\abc_tooltip.xml"
     },
     {
-        "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\master\\4thYearProject_Happy\\app\\build\\intermediates\\res\\merged\\debug\\color_sad_color.xml.flat",
-        "source": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\master\\4thYearProject_Happy\\app\\src\\main\\res\\color\\sad_color.xml"
-    },
-    {
         "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\master\\4thYearProject_Happy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6136da807edb52f76eeea80f4e23d86c\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
@@ -636,10 +632,6 @@
         "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6136da807edb52f76eeea80f4e23d86c\\res\\anim\\abc_tooltip_exit.xml"
     },
     {
-        "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\master\\4thYearProject_Happy\\app\\build\\intermediates\\res\\merged\\debug\\color_happy_color.xml.flat",
-        "source": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\master\\4thYearProject_Happy\\app\\src\\main\\res\\color\\happy_color.xml"
-    },
-    {
         "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\master\\4thYearProject_Happy\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sad_grey.xml.flat",
         "source": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\master\\4thYearProject_Happy\\app\\src\\main\\res\\drawable\\ic_sad_grey.xml"
     },
@@ -658,10 +650,6 @@
     {
         "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\master\\4thYearProject_Happy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\1ebd38fddadf2de859b046530943464a\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
-    },
-    {
-        "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\master\\4thYearProject_Happy\\app\\build\\intermediates\\res\\merged\\debug\\color_indifferent_color.xml.flat",
-        "source": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\master\\4thYearProject_Happy\\app\\src\\main\\res\\color\\indifferent_color.xml"
     },
     {
         "merged": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\master\\4thYearProject_Happy\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
