@@ -21,16 +21,20 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="@android:color/background_light"
-        app:itemIconTint="@color/nav_item_state_list"
-        app:itemTextColor="@color/nav_item_state_list"
-        app:menu="@menu/nav"/>
+        app:itemIconTint="@color/item_state_list_nav"
+        app:itemTextColor="@color/item_state_list_nav"
+        app:menu="@menu/menu_nav"/>
 
 </RelativeLayout>
 
+<!--can add to the widget section above-->
+    <!--android:layout_gravity="start"-->
+
+
     <!--Working-->
     <!--android:background="@color/colorPrimary"-->
-    <!--app:itemIconTint="@color/nav_item_state_list"-->
-    <!--app:itemTextColor="@color/nav_item_state_list"-->
+    <!--app:itemIconTint="@color/item_state_list_nav"-->
+    <!--app:itemTextColor="@color/item_state_list_nav"-->
 
     <!--removed last line of FrameLayout-->
     <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
@@ -40,8 +44,8 @@
     <!--app:itemIconTint="@android:color/darker_gray"-->
     <!--app:itemTextColor="@android:color/darker_gray"-->
 
-    <!--app:itemIconTint="@color/nav_item_state_list"-->
-    <!--app:itemTextColor="@color/nav_item_state_list"-->
+    <!--app:itemIconTint="@color/item_state_list_nav"-->
+    <!--app:itemTextColor="@color/item_state_list_nav"-->
 
     <!--app:itemBackground="@color/colorPrimary"-->
     <!--app:itemIconTint="@android:color/white"-->

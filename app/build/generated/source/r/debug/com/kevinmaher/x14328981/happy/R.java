@@ -3324,11 +3324,11 @@ public final class R {
     public static final int foreground_material_dark=0x7f05003b;
     public static final int foreground_material_light=0x7f05003c;
     public static final int grey=0x7f05003d;
-    public static final int happy_color=0x7f05003e;
+    public static final int happy=0x7f05003e;
     public static final int highlighted_text_material_dark=0x7f05003f;
     public static final int highlighted_text_material_light=0x7f050040;
     public static final int ic_launcher_background=0x7f050041;
-    public static final int indifferent_color=0x7f050042;
+    public static final int indifferent=0x7f050042;
     public static final int material_blue_grey_800=0x7f050043;
     public static final int material_blue_grey_900=0x7f050044;
     public static final int material_blue_grey_950=0x7f050045;
@@ -3341,7 +3341,7 @@ public final class R {
     public static final int material_grey_800=0x7f05004c;
     public static final int material_grey_850=0x7f05004d;
     public static final int material_grey_900=0x7f05004e;
-    public static final int nav_item_state_list=0x7f05004f;
+    public static final int item_state_list_nav =0x7f05004f;
     public static final int notification_action_color_filter=0x7f050050;
     public static final int notification_icon_bg_color=0x7f050051;
     public static final int notification_material_background_media_default_color=0x7f050052;
@@ -3355,7 +3355,7 @@ public final class R {
     public static final int primary_text_disabled_material_light=0x7f05005a;
     public static final int ripple_material_dark=0x7f05005b;
     public static final int ripple_material_light=0x7f05005c;
-    public static final int sad_color=0x7f05005d;
+    public static final int sad=0x7f05005d;
     public static final int secondary_text_default_material_dark=0x7f05005e;
     public static final int secondary_text_default_material_light=0x7f05005f;
     public static final int secondary_text_disabled_material_dark=0x7f050060;
@@ -3370,6 +3370,7 @@ public final class R {
     public static final int switch_thumb_normal_material_light=0x7f050069;
     public static final int tooltip_background_dark=0x7f05006a;
     public static final int tooltip_background_light=0x7f05006b;
+    public static final int white=0x7f05006c;
   }
   public static final class dimen {
     public static final int abc_action_bar_content_inset_material=0x7f060000;
@@ -4046,7 +4047,7 @@ public final class R {
   public static final class menu {
     public static final int menu_home=0x7f0b0000;
     public static final int menu_tab=0x7f0b0001;
-    public static final int nav=0x7f0b0002;
+    public static final int menu_nav =0x7f0b0002;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f0c0000;

@@ -488,11 +488,11 @@ int color error_color_material 0x7f05003a
 int color foreground_material_dark 0x7f05003b
 int color foreground_material_light 0x7f05003c
 int color grey 0x7f05003d
-int color happy_color 0x7f05003e
+int color happy 0x7f05003e
 int color highlighted_text_material_dark 0x7f05003f
 int color highlighted_text_material_light 0x7f050040
 int color ic_launcher_background 0x7f050041
-int color indifferent_color 0x7f050042
+int color indifferent 0x7f050042
 int color material_blue_grey_800 0x7f050043
 int color material_blue_grey_900 0x7f050044
 int color material_blue_grey_950 0x7f050045
@@ -519,7 +519,7 @@ int color primary_text_disabled_material_dark 0x7f050059
 int color primary_text_disabled_material_light 0x7f05005a
 int color ripple_material_dark 0x7f05005b
 int color ripple_material_light 0x7f05005c
-int color sad_color 0x7f05005d
+int color sad 0x7f05005d
 int color secondary_text_default_material_dark 0x7f05005e
 int color secondary_text_default_material_light 0x7f05005f
 int color secondary_text_disabled_material_dark 0x7f050060
@@ -534,6 +534,7 @@ int color switch_thumb_normal_material_dark 0x7f050068
 int color switch_thumb_normal_material_light 0x7f050069
 int color tooltip_background_dark 0x7f05006a
 int color tooltip_background_light 0x7f05006b
+int color white 0x7f05006c
 int dimen abc_action_bar_content_inset_material 0x7f060000
 int dimen abc_action_bar_content_inset_with_nav 0x7f060001
 int dimen abc_action_bar_default_height_material 0x7f060002

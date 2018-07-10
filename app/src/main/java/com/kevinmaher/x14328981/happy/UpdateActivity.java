@@ -63,10 +63,8 @@ public class UpdateActivity extends AppCompatActivity {
                 btnSad.setBackgroundResource(R.drawable.ic_sad_grey);
 
                 textViewUpdate.setVisibility(View.VISIBLE);
-//                textViewUpdate.setTextColor(Color.parseColor("#669900"));
                 textViewUpdate.setTextColor(ContextCompat.getColorStateList(context, R.color.happy));
-
-//                textViewUpdate.setBackgroundTintList(context.getResources().getColorStateList(R.color.happy));
+                //set colour of textbox underline
                 textViewUpdate.setBackgroundTintList(ContextCompat.getColorStateList(context, R.color.happy));
 
                 textViewUpdate.setHint("What made you feel happy?");
@@ -83,12 +81,8 @@ public class UpdateActivity extends AppCompatActivity {
                 btnSad.setBackgroundResource(R.drawable.ic_sad_grey);
 
                 textViewUpdate.setVisibility(View.VISIBLE);
-//                textViewUpdate.setTextColor(Color.parseColor("#ff9800"));
                 textViewUpdate.setTextColor(ContextCompat.getColorStateList(context, R.color.indifferent));
-
-//                textViewUpdate.setBackgroundTintList(context.getResources().getColorStateList(R.color.indifferent));
                 textViewUpdate.setBackgroundTintList(ContextCompat.getColorStateList(context, R.color.indifferent));
-
 
                 textViewUpdate.setHint("What made you feel indifferent?");
                 btnUpdateLocationInfo.setVisibility(View.VISIBLE);
@@ -105,8 +99,8 @@ public class UpdateActivity extends AppCompatActivity {
                 btnSad.setBackgroundResource(R.drawable.ic_sad);
 
                 textViewUpdate.setVisibility(View.VISIBLE);
-
 //                all below methods work
+//                textViewUpdate.setBackgroundTintList(context.getResources().getColorStateList(R.color.happy));
 //                textViewUpdate.setTextColor(Color.parseColor("#ffff4444")); //works
 //                textViewUpdate.setTextColor(context.getResources().getColorStateList(R.color.sad)); //works
 //                textViewUpdate.setTextColor(context.getResources().getColor(R.color.sad)); //works
@@ -114,9 +108,9 @@ public class UpdateActivity extends AppCompatActivity {
 //                textViewUpdate.setTextColor(ContextCompat.getColor(context, R.color.sad)); //works
 //                textViewUpdate.setTextColor(ContextCompat.getColorStateList(context, R.color.sad)); //works
                 textViewUpdate.setTextColor(ContextCompat.getColorStateList(context, R.color.sad));
-
 //                textViewUpdate.setBackgroundTintList(context.getResources().getColorStateList(R.color.sad)); //works
                 textViewUpdate.setBackgroundTintList(ContextCompat.getColorStateList(context, R.color.sad));
+
                 textViewUpdate.setHint("What made you feel sad?");
                 btnUpdateLocationInfo.setVisibility(View.VISIBLE);
                 switchUpdateLocation.setVisibility(View.VISIBLE);

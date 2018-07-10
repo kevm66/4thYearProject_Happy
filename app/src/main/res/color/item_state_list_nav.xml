@@ -4,9 +4,11 @@
           <!--android:state_pressed="true"/>-->
     <item android:color="@color/colorPrimary"
           android:state_checked="true"/>
-    <item android:color="#757575"
+    <item android:color="@color/grey"
           android:state_checked="false"/>
     <item android:color="@android:color/background_dark"/>
 </selector>
+
+<!--last item in list above is the default-->
 
     <!--@android:color/darker_gray-->
