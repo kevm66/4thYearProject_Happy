@@ -1,7 +1,6 @@
 package com.kevinmaher.x14328981.happy;
 
 import android.content.Intent;
-import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;

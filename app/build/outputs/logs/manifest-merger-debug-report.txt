@@ -69,9 +69,9 @@ ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearPro
 	android:name
 		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:20:13-41
 activity#com.kevinmaher.x14328981.happy.InsightsActivity
-ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:22:9-24:55
+ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:22:9-24:59
 	android:label
-		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:24:13-52
+		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:24:13-56
 	android:name
 		ADDED from C:\Users\kevm6\Google Drive\NCI\H Drive\SP X\1 Code\master\4thYearProject_Happy\app\src\main\AndroidManifest.xml:23:13-45
 activity#com.kevinmaher.x14328981.happy.LogActivity

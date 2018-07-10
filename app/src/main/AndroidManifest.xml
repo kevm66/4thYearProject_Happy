@@ -21,7 +21,7 @@
             android:label="@string/text_title_home" />
         <activity
             android:name=".InsightsActivity"
-            android:label="@string/text_title_home" />
+            android:label="@string/text_title_insights" />
         <activity
             android:name=".LogActivity"
             android:label="@string/text_title_log" />

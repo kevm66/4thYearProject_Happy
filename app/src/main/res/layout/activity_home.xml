@@ -3,22 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <Button
-        android:id="@+id/btn_happy4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:layout_alignParentTop="true"
-
-        android:layout_alignStart="@+id/btn_home_map"
-        android:layout_marginTop="27dp"
-        android:background="@drawable/buttons_green"
-        android:text=":)"
-        android:textColor="@android:color/white"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+    android:layout_height="match_parent"
+    tools:context="com.kevinmaher.x14328981.happy.HomeActivity">
 
     <Button
         android:id="@+id/btn_home_support"

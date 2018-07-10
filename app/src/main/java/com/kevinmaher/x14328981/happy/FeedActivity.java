@@ -19,7 +19,7 @@ public class FeedActivity extends AppCompatActivity {
         setContentView(R.layout.activity_feed);
 
         Button btnSeeMap = (Button) findViewById(R.id.btn_see_map);
-        ImageButton btnFilter = (ImageButton) findViewById(R.id.btn_results_filter);
+//        ImageButton btnFilter = (ImageButton) findViewById(R.id.btn_results_filter);
 
         btnSeeMap.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,12 +28,12 @@ public class FeedActivity extends AppCompatActivity {
             }
         });
 
-        btnFilter.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(FeedActivity.this, FeedActivity.class));
-            }
-        });
+//        btnFilter.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(new Intent(FeedActivity.this, FeedActivity.class));
+//            }
+//        });
 
     }
 }

@@ -851,6 +851,7 @@
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="nav_activity">Activity</string>
     <string name="nav_home">Home</string>
+    <string name="nav_insights">Insights</string>
     <string name="nav_map">Map</string>
     <string name="nav_record">Record</string>
     <string name="nav_support">Support</string>
