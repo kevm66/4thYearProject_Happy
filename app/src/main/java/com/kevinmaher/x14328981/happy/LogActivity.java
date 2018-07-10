@@ -11,7 +11,7 @@ public class LogActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_log);
+        setContentView(R.layout.fragment_log);
 
         Button btnLogUpdate = (Button) findViewById(R.id.btn_log_update);
 //        ImageButton btnFilter = (ImageButton) findViewById(R.id.btn_log_filter);

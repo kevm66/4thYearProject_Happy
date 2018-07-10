@@ -15,7 +15,7 @@ public class NavActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nav);
+        setContentView(R.layout.item_nav);
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.navigation);
 
         bottomNavigationView.setOnNavigationItemSelectedListener
@@ -25,13 +25,13 @@ public class NavActivity extends AppCompatActivity {
                         Fragment selectedFragment = null;
                         switch (item.getItemId()) {
                             case R.id.nav_home:
-                                selectedFragment = NavFrag1Activity.newInstance();
+                                selectedFragment = NavFragment1.newInstance();
                                 break;
                             case R.id.nav_activity:
-                                selectedFragment = NavFrag2Activity.newInstance();
+                                selectedFragment = NavFragment2.newInstance();
                                 break;
                             case R.id.nav_support:
-                                selectedFragment = NavFrag3Activity.newInstance();
+                                selectedFragment = NavFragment3.newInstance();
                                 break;
                         }
                         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
@@ -43,7 +43,7 @@ public class NavActivity extends AppCompatActivity {
 
         //Manually displaying the first fragment - one time only3
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.replace(R.id.frame_layout, NavFrag1Activity.newInstance());
+        transaction.replace(R.id.frame_layout, NavFragment1.newInstance());
         transaction.commit();
 
         //Used to select an item programmatically
@@ -55,7 +55,7 @@ public class NavActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_more, menu);
+        getMenuInflater().inflate(R.menu.more, menu);
         return true;
     }
 

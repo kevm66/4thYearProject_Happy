@@ -13,7 +13,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/textView_update_update"
         android:layout_marginTop="36dp"
-        android:background="@drawable/ic_happy_green" />
+        android:background="@drawable/btn_face_happy_selected" />
 
     <!--<Button-->
         <!--android:id="@+id/btn_update_happy_unselected"-->
@@ -22,7 +22,7 @@
         <!--android:layout_alignParentTop="true"-->
         <!--android:layout_alignStart="@+id/editText3"-->
         <!--android:layout_marginTop="36dp"-->
-        <!--android:background="@drawable/ic_happy_grey" />-->
+        <!--android:background="@drawable/btn_face_happy_unselected" />-->
 
     <EditText
         android:id="@+id/textView_update_update"
@@ -62,7 +62,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="212dp"
-        android:background="@drawable/buttons_orange"
+        android:background="@drawable/btn_rounding_orange"
         android:text="Update Mood"
         android:textColor="@android:color/background_light"
         android:textSize="@dimen/btn_text_size" />
@@ -73,7 +73,7 @@
         android:layout_height="82dp"
         android:layout_alignTop="@+id/btn_update_happy"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/ic_indifferent" />
+        android:background="@drawable/btn_face_indifferent_selected" />
 
     <!--<Button-->
         <!--android:id="@+id/btn_update_indifferent_unselected"-->
@@ -81,7 +81,7 @@
         <!--android:layout_height="82dp"-->
         <!--android:layout_alignTop="@+id/btn_update_happy"-->
         <!--android:layout_centerHorizontal="true"-->
-        <!--android:background="@drawable/ic_indifferent_grey" />-->
+        <!--android:background="@drawable/btn_face_indifferent_unselected" />-->
 
     <Button
         android:id="@+id/btn_update_sad"
@@ -89,7 +89,7 @@
         android:layout_height="81dp"
         android:layout_alignEnd="@+id/textView_update_update"
         android:layout_alignTop="@+id/btn_update_happy"
-        android:background="@drawable/ic_sad" />
+        android:background="@drawable/btn_face_sad_selected" />
 
     <Switch
         android:id="@+id/switch_update_location"
@@ -115,6 +115,6 @@
         <!--android:layout_height="81dp"-->
         <!--android:layout_alignEnd="@+id/editText3"-->
         <!--android:layout_alignTop="@+id/btn_update_happy"-->
-        <!--android:background="@drawable/ic_sad_grey" />-->
+        <!--android:background="@drawable/btn_face_sad_unselected" />-->
 
 </RelativeLayout>

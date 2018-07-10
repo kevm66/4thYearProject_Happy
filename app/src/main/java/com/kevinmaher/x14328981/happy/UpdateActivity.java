@@ -54,9 +54,9 @@ public class UpdateActivity extends AppCompatActivity {
         btnHappy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                btnHappy.setBackgroundResource(R.drawable.ic_happy_green);
-                btnIndifferent.setBackgroundResource(R.drawable.ic_indifferent_grey);
-                btnSad.setBackgroundResource(R.drawable.ic_sad_grey);
+                btnHappy.setBackgroundResource(R.drawable.btn_face_happy_selected);
+                btnIndifferent.setBackgroundResource(R.drawable.btn_face_indifferent_unselected);
+                btnSad.setBackgroundResource(R.drawable.btn_face_sad_unselected);
 
                 textViewUpdate.setVisibility(View.VISIBLE);
                 textViewUpdate.setTextColor(ContextCompat.getColorStateList(context, R.color.happy));
@@ -72,9 +72,9 @@ public class UpdateActivity extends AppCompatActivity {
         btnIndifferent.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                btnHappy.setBackgroundResource(R.drawable.ic_happy_grey);
-                btnIndifferent.setBackgroundResource(R.drawable.ic_indifferent);
-                btnSad.setBackgroundResource(R.drawable.ic_sad_grey);
+                btnHappy.setBackgroundResource(R.drawable.btn_face_happy_unselected);
+                btnIndifferent.setBackgroundResource(R.drawable.btn_face_indifferent_selected);
+                btnSad.setBackgroundResource(R.drawable.btn_face_sad_unselected);
 
                 textViewUpdate.setVisibility(View.VISIBLE);
                 textViewUpdate.setTextColor(ContextCompat.getColorStateList(context, R.color.indifferent));
@@ -90,9 +90,9 @@ public class UpdateActivity extends AppCompatActivity {
         btnSad.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                btnHappy.setBackgroundResource(R.drawable.ic_happy_grey);
-                btnIndifferent.setBackgroundResource(R.drawable.ic_indifferent_grey);
-                btnSad.setBackgroundResource(R.drawable.ic_sad);
+                btnHappy.setBackgroundResource(R.drawable.btn_face_happy_unselected);
+                btnIndifferent.setBackgroundResource(R.drawable.btn_face_indifferent_unselected);
+                btnSad.setBackgroundResource(R.drawable.btn_face_sad_selected);
 
                 textViewUpdate.setVisibility(View.VISIBLE);
 //                all below methods work
@@ -160,10 +160,10 @@ public class UpdateActivity extends AppCompatActivity {
 //        btnSadUnselected.setVisibility(View.INVISIBLE);
 
 //method 2
-//        btnHappy.setBackgroundResource(R.drawable.ic_happy_grey);
+//        btnHappy.setBackgroundResource(R.drawable.btn_face_happy_unselected);
 
 //method 3
 //          if (view.getId() == R.id.btn_update_sad) {
 //                  isButtonClicked = !isButtonClicked; // toggle the boolean flag
-//                  view.setBackgroundResource(isButtonClicked ? R.drawable.ic_sad : R.drawable.ic_sad_grey);
+//                  view.setBackgroundResource(isButtonClicked ? R.drawable.btn_face_sad_selected : R.drawable.btn_face_sad_unselected);
 //                  }

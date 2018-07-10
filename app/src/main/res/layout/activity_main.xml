@@ -19,8 +19,8 @@
         android:layout_marginRight="30dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="30dp"
-        android:background="@drawable/buttons_orange"
-        android:text="@string/btn_login_main"
+        android:background="@drawable/btn_rounding_orange"
+        android:text="@string/btn_main_login"
         android:textColor="@android:color/white"
         android:textSize="14sp" />
 
@@ -31,7 +31,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="68dp"
-        android:background="@drawable/buttons_grey"
+        android:background="@drawable/btn_rounding_grey"
         android:text="Tabs"
         android:textColor="@android:color/white" />
 
@@ -42,7 +42,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="140dp"
-        android:background="@drawable/buttons_grey"
+        android:background="@drawable/btn_rounding_grey"
         android:text="Nav"
         android:textColor="@android:color/white" />
 
@@ -56,7 +56,7 @@
         android:layout_alignStart="@+id/btn_home_map"
         android:layout_below="@+id/btn_home_map"
         android:layout_marginTop="19dp"
-        android:background="@drawable/buttons_grey"
+        android:background="@drawable/btn_rounding_grey"
         android:text="Settings"
         android:textColor="@android:color/white" />
 
@@ -70,7 +70,7 @@
         android:layout_alignStart="@+id/btn_support_websites"
         android:layout_alignTop="@+id/btn_support_websites"
         android:layout_marginTop="@dimen/button_top_spacing"
-        android:background="@drawable/buttons_orange"
+        android:background="@drawable/btn_rounding_orange"
         android:text="@string/btn_register_main"
         android:textColor="@android:color/white"
         android:textSize="14sp" />

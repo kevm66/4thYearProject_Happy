@@ -13,7 +13,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="17dp"
-        android:background="@drawable/buttons_orange"
+        android:background="@drawable/btn_rounding_orange"
         android:text="@string/btn_support"
         android:textColor="@android:color/white"
         android:textSize="14sp" />
@@ -25,8 +25,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="87dp"
-        android:background="@drawable/buttons_orange"
-        android:text="@string/btn_chat"
+        android:background="@drawable/btn_rounding_orange"
+        android:text="@string/btn_home_chat"
         android:textColor="@android:color/white"
         android:textSize="14sp" />
 
@@ -37,7 +37,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="87dp"
-        android:background="@drawable/buttons_orange"
+        android:background="@drawable/btn_rounding_orange"
         android:text="@string/btn_record_main"
         android:textColor="@android:color/white"
         android:textSize="14sp" />
@@ -49,8 +49,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="155dp"
-        android:background="@drawable/buttons_orange"
-        android:text="@string/btn_mood_map"
+        android:background="@drawable/btn_rounding_orange"
+        android:text="@string/btn_home_mood_map"
         android:textColor="@android:color/white"
         android:textSize="14sp" />
 
@@ -59,8 +59,8 @@
         android:layout_width="323dp"
         android:layout_height="@dimen/button_height"
         android:layout_centerInParent="true"
-        android:background="@drawable/buttons_orange"
-        android:text="@string/btn_others"
+        android:background="@drawable/btn_rounding_orange"
+        android:text="@string/btn_home_feed"
         android:textColor="@android:color/white"
         android:textSize="14sp" />
 
@@ -74,8 +74,8 @@
         android:layout_alignStart="@+id/btn_support_websites"
         android:layout_alignTop="@+id/btn_support_websites"
         android:layout_marginTop="@dimen/button_top_spacing"
-        android:background="@drawable/buttons_orange"
-        android:text="@string/btn_mood_log"
+        android:background="@drawable/btn_rounding_orange"
+        android:text="@string/btn_home_log"
         android:textColor="@android:color/white"
         android:textSize="14sp" />
 

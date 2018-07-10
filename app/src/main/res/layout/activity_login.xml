@@ -14,7 +14,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="23dp"
-        android:background="@drawable/buttons_grey"
+        android:background="@drawable/btn_rounding_grey"
         android:text="Go to registration"
         android:textColor="@android:color/white" />
 
@@ -36,7 +36,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="201dp"
-        android:background="@drawable/buttons_orange"
+        android:background="@drawable/btn_rounding_orange"
         android:text="Login"
         android:textColor="@android:color/white" />
 

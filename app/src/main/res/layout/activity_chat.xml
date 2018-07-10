@@ -13,7 +13,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="18dp"
         android:layout_marginTop="75dp"
-        android:background="@drawable/buttons_orange"
+        android:background="@drawable/btn_rounding_orange"
         android:text="@string/text_chat_message_bot_1"
         android:textColor="@android:color/white" />
 
@@ -24,7 +24,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="22dp"
-        android:background="@drawable/buttons_orange"
+        android:background="@drawable/btn_rounding_orange"
         android:text="@string/btn_chat_send"
         android:textColor="@android:color/white"
         android:textSize="14sp" />
@@ -37,7 +37,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="102dp"
         android:ems="10"
-        android:hint="@string/btn_chatbox_hint"
+        android:hint="@string/btn_chat_chatbox_hint"
         android:inputType="textPersonName" />
 
     <TextView
@@ -48,7 +48,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginEnd="14dp"
         android:layout_marginTop="22dp"
-        android:background="@drawable/buttons_white"
+        android:background="@drawable/btn_rounding_white"
         android:text="@string/text_chat_message_user_1"
         android:textColor="@android:color/background_dark" />
 

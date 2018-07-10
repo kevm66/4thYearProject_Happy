@@ -13,7 +13,7 @@ public class SupportActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_support);
+        setContentView(R.layout.fragment_support);
 
         Button btnWebsites = (Button) findViewById(R.id.btn_support_websites);
         Button btnPhone = (Button) findViewById(R.id.btn_support_phone);
@@ -38,7 +38,7 @@ public class SupportActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_more, menu);
+        getMenuInflater().inflate(R.menu.more, menu);
         return true;
     }
 

@@ -10,17 +10,17 @@ public class TabActivity extends AppCompatActivity {
 
     private static final String TAG = "TabActivity";
 
-    private SectionPageAdapterActivity mSectionsPageAdapter;
+    private SectionPageAdapter mSectionsPageAdapter;
 
     private ViewPager mViewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tab);
+        setContentView(R.layout.item_tab);
         Log.d(TAG,"onCreate: Starting");
 
-        mSectionsPageAdapter = new SectionPageAdapterActivity(getSupportFragmentManager());
+        mSectionsPageAdapter = new SectionPageAdapter(getSupportFragmentManager());
 
         //set up the viewPage with the sections adapter
         mViewPager = (ViewPager) findViewById(R.id.container);
@@ -32,11 +32,11 @@ public class TabActivity extends AppCompatActivity {
     }
 
     private void setupViewPager(ViewPager viewPager){
-        SectionPageAdapterActivity adapter = new SectionPageAdapterActivity((getSupportFragmentManager()));
-        adapter.addFragment(new Tab1FragActivity(), "Log");
-        adapter.addFragment(new Tab2FragActivity(), "Activity");
-        adapter.addFragment(new Tab3FragActivity(), "Chat");
-        adapter.addFragment(new Tab4FragActivity(), "Support");
+        SectionPageAdapter adapter = new SectionPageAdapter((getSupportFragmentManager()));
+        adapter.addFragment(new TabFragment1(), "Log");
+        adapter.addFragment(new TabFragment2(), "Activity");
+        adapter.addFragment(new TabFragment3(), "Chat");
+        adapter.addFragment(new TabFragment4(), "Support");
 //        adapter.addFragment(new Tab5Frag(), "Support");
 ////        adapter.addFragment(new Tab6Frag(), "Support");
         viewPager.setAdapter(adapter);
