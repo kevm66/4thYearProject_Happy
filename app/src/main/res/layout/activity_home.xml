@@ -14,7 +14,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="17dp"
         android:background="@drawable/btn_rounding_orange"
-        android:text="@string/btn_support"
+        android:text="@string/btn_home_support"
         android:textColor="@android:color/white"
         android:textSize="14sp" />
 
@@ -38,7 +38,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="87dp"
         android:background="@drawable/btn_rounding_orange"
-        android:text="@string/btn_record_main"
+        android:text="@string/btn_main_update"
         android:textColor="@android:color/white"
         android:textSize="14sp" />
 

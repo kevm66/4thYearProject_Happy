@@ -12,22 +12,22 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".ChatActivity"
-            android:label="@string/text_title_chat" />
+            android:label="@string/text_chat_title" />
         <!-- <activity -->
         <!-- android:name=".Frag1Activity" -->
         <!-- android:label="@string/text_title_frag_1" /> -->
         <activity
             android:name=".HomeActivity"
-            android:label="@string/text_title_home" />
+            android:label="@string/text_home_title" />
         <activity
             android:name=".InsightsActivity"
-            android:label="@string/text_title_insights" />
+            android:label="@string/text_insights_title" />
         <activity
             android:name=".LogActivity"
-            android:label="@string/text_title_log" />
+            android:label="@string/text_log_title" />
         <activity
             android:name=".LoginActivity"
-            android:label="@string/text_title_login" />
+            android:label="@string/text_login_title" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,22 +37,22 @@
         </activity>
         <activity
             android:name=".MapActivity"
-            android:label="@string/text_title_map" />
+            android:label="@string/text_map_title" />
         <activity
             android:name=".NavActivity"
             android:label="@string/app_name" />
         <activity
             android:name=".UpdateActivity"
-            android:label="@string/text_title_record" />
+            android:label="@string/text_log_heading" />
         <activity
             android:name=".RegisterActivity"
-            android:label="@string/text_title_register" />
+            android:label="@string/text_register_title" />
         <activity
             android:name=".FeedActivity"
-            android:label="@string/text_title_feeling" />
+            android:label="@string/text_activity_title" />
         <activity
             android:name=".SettingsActivity"
-            android:label="@string/text_title_settings" />
+            android:label="@string/text_settings_title" />
         <activity
             android:name=".SupportActivity"
             android:label="@string/text_support_title" />
@@ -64,7 +64,7 @@
         <!-- </activity> -->
         <activity
             android:name=".TabActivity"
-            android:label="@string/title_activity_tab"
+            android:label="@string/text_title_tab_activity"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

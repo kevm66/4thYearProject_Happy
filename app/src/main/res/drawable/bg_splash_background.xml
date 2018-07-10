@@ -5,7 +5,7 @@
 
     <item>
         <bitmap android:src="@mipmap/ic_splash_screen_icon"
-            android:gravity="center" android:text="@string/text_title_main"/>
+            android:gravity="center" android:text="@string/text_main_title"/>
 
     </item>
 

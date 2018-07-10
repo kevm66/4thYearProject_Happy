@@ -4,17 +4,17 @@
     <item
         android:id="@+id/nav_home"
         android:icon="@drawable/ic_nav_face_happy_white"
-        android:title="@string/nav_home" />
+        android:title="@string/btn_nav_home" />
 
     <item
         android:id="@+id/nav_activity"
         android:icon="@drawable/ic_nav_feed"
-        android:title="@string/nav_insights" />
+        android:title="@string/btn_nav_insights" />
 
     <item
         android:id="@+id/nav_support"
         android:icon="@drawable/ic_nav_help"
-        android:title="@string/nav_support" />
+        android:title="@string/btn_nav_support" />
 
 
     <!--<item-->
