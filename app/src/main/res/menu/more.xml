@@ -4,25 +4,25 @@
     tools:context="com.kevinmaher.x14328981.happy.MainActivity">
 
     <item
-        android:id="@+id/menu_filter"
+        android:id="@+id/menu_more_filter"
         android:icon="@drawable/ic_menu_filter"
-        android:title="Filter"
+        android:title="@string/menu_more_filter"
         app:showAsAction="always" />
 
     <item
-        android:id="@+id/menu_support"
+        android:id="@+id/menu_more_support"
         android:orderInCategory="80"
-        android:title="About"
+        android:title="@string/menu_more_support"
         app:showAsAction="never" />
     <item
-        android:id="@+id/menu_insights"
+        android:id="@+id/menu_more_insights"
         android:orderInCategory="90"
-        android:title="Insights"
+        android:title="@string/menu_more_insights"
         app:showAsAction="never" />
     <item
-        android:id="@+id/menu_settings"
+        android:id="@+id/menu_more_settings"
         android:orderInCategory="100"
-        android:title="Settings"
+        android:title="@string/menu_more_settings"
         app:showAsAction="never" />
 
 </menu>

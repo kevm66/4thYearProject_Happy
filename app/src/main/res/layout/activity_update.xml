@@ -32,7 +32,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="142dp"
         android:ems="10"
-        android:hint="What influenced how you feel?"
+        android:hint="@string/text_input_update_update_hint"
         android:inputType="textPersonName"
         android:textStyle="bold" />
 
@@ -58,12 +58,12 @@
     <Button
         android:id="@+id/btn_update_update"
         android:layout_width="307dp"
-        android:layout_height="@dimen/button_height"
+        android:layout_height="@dimen/btn_height"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="212dp"
         android:background="@drawable/btn_rounding_orange"
-        android:text="Update Mood"
+        android:text="@string/btn_update_update"
         android:textColor="@android:color/background_light"
         android:textSize="@dimen/btn_text_size" />
 
@@ -92,21 +92,21 @@
         android:background="@drawable/btn_face_sad_selected" />
 
     <Switch
-        android:id="@+id/switch_update_location"
+        android:id="@+id/switch_update_update_location"
         android:layout_width="268dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/textView_update_update"
         android:layout_marginStart="39dp"
         android:layout_marginTop="201dp"
-        android:text="Include my location" />
+        android:text="@string/switch_update_update_location_text" />
 
     <Button
         android:id="@+id/btn_update_location_info"
         android:layout_width="25dp"
         android:layout_height="24dp"
         android:layout_alignStart="@+id/btn_update_happy"
-        android:layout_alignTop="@+id/switch_update_location"
+        android:layout_alignTop="@+id/switch_update_update_location"
         android:background="@drawable/ic_info" />
 
     <!--<Button-->

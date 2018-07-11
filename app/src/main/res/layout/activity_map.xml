@@ -7,11 +7,11 @@
     tools:context="com.kevinmaher.x14328981.happy.MapActivity">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/image_map"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:contentDescription="@string/text_map_title"
         app:srcCompat="@mipmap/map" />
 </RelativeLayout>

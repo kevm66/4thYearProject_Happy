@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Log.e("myTag","WARN");
 
         Button btnMainLogin = (Button)findViewById(R.id.btn_support_websites);
-        Button btnMainRegister = (Button)findViewById(R.id.btn_home_map);
+        Button btnMainRegister = (Button)findViewById(R.id.btn_main_register);
         Button btnSettings = (Button)findViewById(R.id.btn_main_settings);
         Button btnNav = (Button)findViewById(R.id.btn_main_nav);
         Button btnMainTabs = (Button)findViewById(R.id.btn_main_tabs);

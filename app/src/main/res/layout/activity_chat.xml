@@ -20,7 +20,7 @@
     <Button
         android:id="@+id/btn_chat_send"
         android:layout_width="329dp"
-        android:layout_height="@dimen/button_height"
+        android:layout_height="@dimen/btn_height"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="22dp"
@@ -30,14 +30,14 @@
         android:textSize="14sp" />
 
     <EditText
-        android:id="@+id/btn_chat_chatbox"
+        android:id="@+id/text_input_chat_chatbox"
         android:layout_width="328dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="102dp"
         android:ems="10"
-        android:hint="@string/btn_chat_chatbox_hint"
+        android:hint="@string/text_input_chat_chatbox_hint"
         android:inputType="textPersonName" />
 
     <TextView

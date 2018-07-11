@@ -15,9 +15,8 @@ public class TabFragment1 extends Fragment {
 
     private Button btnLogUpdate;
 
-    @Nullable
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_log,container,false);
 
         btnLogUpdate = (Button) view.findViewById(R.id.btn_log_update);

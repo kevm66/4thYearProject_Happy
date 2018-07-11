@@ -17,7 +17,7 @@ public class FeedActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_feed);
 
-        Button btnSeeMap = (Button) findViewById(R.id.btn_see_map);
+        Button btnSeeMap = (Button) findViewById(R.id.btn_feed_map);
 //        ImageButton btnFilter = (ImageButton) findViewById(R.id.btn_results_filter);
 
         btnSeeMap.setOnClickListener(new View.OnClickListener() {

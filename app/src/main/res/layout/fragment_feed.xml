@@ -10,26 +10,25 @@
     <!--reformat the design below to include  android:layout_alignEnd tags-->
 
     <Button
-        android:id="@+id/btn_see_map"
+        android:id="@+id/btn_feed_map"
         android:layout_width="347dp"
-        android:layout_height="@dimen/button_height"
+        android:layout_height="@dimen/btn_height"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="22dp"
         android:background="@drawable/btn_rounding_orange"
-        android:text="@string/btn_activity_map"
+        android:text="@string/btn_feed_map"
         android:textColor="@android:color/white" />
 
     <TextView
-        android:id="@+id/text_title_login"
+        android:id="@+id/feed_text_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="45dp"
-        android:layout_marginTop="18dp"
-        android:text="How Others Are Feeling"
-        android:textSize="@dimen/title_text_size"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="@string/text_feed_title"
+        android:textSize="@dimen/text_title_size"
         android:textStyle="bold" />
 
 </RelativeLayout>

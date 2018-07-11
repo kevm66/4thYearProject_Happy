@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.kevinmaher.x14328981.happy.LogActivity">
 
     <!--reformat the design below to include  android:layout_alignEnd tags-->
@@ -100,12 +99,12 @@
     <Button
         android:id="@+id/btn_log_update"
         android:layout_width="347dp"
-        android:layout_height="@dimen/button_height"
+        android:layout_height="@dimen/btn_height"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="22dp"
         android:background="@drawable/btn_rounding_orange"
-        android:text="Update mood"
+        android:text="@string/btn_log_update"
         android:textColor="@android:color/white" />
 
     <TextView
@@ -170,15 +169,9 @@
         android:id="@+id/btn_happy2"
         android:layout_width="76dp"
         android:layout_height="67dp"
-        android:layout_alignParentLeft="true"
-
         android:layout_alignParentStart="true"
-
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="28dp"
-
         android:layout_marginStart="28dp"
-
         android:layout_marginTop="58dp"
         android:background="@drawable/btn_face_happy_selected"
         android:textColor="@android:color/white"
@@ -191,9 +184,7 @@
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/btn_happy2"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
         android:layout_marginEnd="33dp"
-        android:layout_marginRight="33dp"
         android:text="Good Presentation"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="18sp"

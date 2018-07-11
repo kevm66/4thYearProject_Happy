@@ -15,14 +15,14 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        Button btnRecord = (Button) findViewById(R.id.btn_support_websites);
+        Button btnUpdate = (Button) findViewById(R.id.btn_support_websites);
         Button btnLog = (Button) findViewById(R.id.btn_home_log);
-        Button btnResults = (Button) findViewById(R.id.btn_home_results);
-        Button btnMap = (Button) findViewById(R.id.btn_home_map);
+        Button btnResults = (Button) findViewById(R.id.btn_home_feed);
+        Button btnMap = (Button) findViewById(R.id.btn_main_register);
         Button btnChat = (Button) findViewById(R.id.btn_home_chat);
         Button btnSupport = (Button) findViewById(R.id.btn_home_support);
 
-        btnRecord.setOnClickListener(new View.OnClickListener() {
+        btnUpdate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(HomeActivity.this, UpdateActivity.class));

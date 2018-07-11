@@ -7,7 +7,7 @@
     tools:context="com.kevinmaher.x14328981.happy.SettingsActivity">
 
     <Switch
-        android:id="@+id/switch_reminders"
+        android:id="@+id/switch_settings_reminders"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -18,56 +18,56 @@
         android:textStyle="bold" />
 
     <Switch
-        android:id="@+id/switch_sounds"
+        android:id="@+id/switch_settings_sounds"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/switch_reminders"
+        android:layout_below="@+id/switch_settings_reminders"
         android:padding="20dp"
         android:text="@string/switch_settings_sounds" />
 
     <Switch
-        android:id="@+id/switch_vibration"
+        android:id="@+id/switch_settings_vibration"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/switch_sounds"
+        android:layout_below="@+id/switch_settings_sounds"
         android:padding="20dp"
         android:text="@string/switch_settings_vibration" />
 
     <Switch
-        android:id="@+id/switch_debugging"
+        android:id="@+id/switch_settings_delete"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/switch_debugging6"
+        android:layout_below="@+id/switch_settings_clear"
         android:padding="20dp"
-        android:text="@string/text_settings_delete" />
+        android:text="@string/switch_settings_delete" />
 
     <Switch
-        android:id="@+id/switch_debugging6"
+        android:id="@+id/switch_settings_clear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/switch_debugging2"
+        android:layout_below="@+id/switch_settings_data"
         android:padding="20dp"
-        android:text="@string/text_settings_clear" />
+        android:text="@string/switch_settings_clear" />
 
     <Switch
-        android:id="@+id/switch_debugging2"
+        android:id="@+id/switch_settings_data"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/switch_vibration"
+        android:layout_below="@+id/switch_settings_vibration"
         android:padding="20dp"
-        android:text="@string/text_settings_account"
+        android:text="@string/switch_settings_data"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/text_version_number"
+        android:id="@+id/btn_settings_delete_x"
         android:layout_width="wrap_content"
         android:layout_height="33dp"
         android:layout_alignParentBottom="true"
@@ -79,22 +79,22 @@
         android:padding="20dp" />
 
     <TextView
-        android:id="@+id/text_version_number3"
+        android:id="@+id/btn_settings_delete_bin"
         android:layout_width="wrap_content"
         android:layout_height="33dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/text_version_number"
+        android:layout_alignStart="@+id/btn_settings_delete_x"
         android:layout_marginBottom="148dp"
         android:background="@android:drawable/ic_menu_delete"
         android:gravity="left|center_vertical|center"
         android:padding="20dp" />
 
     <TextView
-        android:id="@+id/text_version_number2"
+        android:id="@+id/text_settings_version_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/switch_debugging"
+        android:layout_below="@+id/switch_settings_delete"
         android:gravity="left|center_vertical|center"
         android:padding="20dp"
         android:text="@string/text_settings_version_number" />

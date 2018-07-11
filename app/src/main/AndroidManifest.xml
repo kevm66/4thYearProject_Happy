@@ -49,7 +49,7 @@
             android:label="@string/text_register_title" />
         <activity
             android:name=".FeedActivity"
-            android:label="@string/text_activity_title" />
+            android:label="@string/text_feed_title" />
         <activity
             android:name=".SettingsActivity"
             android:label="@string/text_settings_title" />
@@ -65,7 +65,7 @@
         <activity
             android:name=".TabActivity"
             android:label="@string/text_title_tab_activity"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>

@@ -9,7 +9,7 @@
     <Button
         android:id="@+id/btn_home_support"
         android:layout_width="323dp"
-        android:layout_height="@dimen/button_height"
+        android:layout_height="@dimen/btn_height"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="17dp"
@@ -21,7 +21,7 @@
     <Button
         android:id="@+id/btn_home_chat"
         android:layout_width="323dp"
-        android:layout_height="@dimen/button_height"
+        android:layout_height="@dimen/btn_height"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="87dp"
@@ -33,31 +33,31 @@
     <Button
         android:id="@+id/btn_support_websites"
         android:layout_width="339dp"
-        android:layout_height="@dimen/button_height"
+        android:layout_height="@dimen/btn_height"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="87dp"
         android:background="@drawable/btn_rounding_orange"
-        android:text="@string/btn_main_update"
+        android:text="@string/btn_home_update"
         android:textColor="@android:color/white"
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_home_map"
+        android:id="@+id/btn_main_register"
         android:layout_width="323dp"
-        android:layout_height="@dimen/button_height"
+        android:layout_height="@dimen/btn_height"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="155dp"
         android:background="@drawable/btn_rounding_orange"
-        android:text="@string/btn_home_mood_map"
+        android:text="@string/btn_home_map"
         android:textColor="@android:color/white"
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_home_results"
+        android:id="@+id/btn_home_feed"
         android:layout_width="323dp"
-        android:layout_height="@dimen/button_height"
+        android:layout_height="@dimen/btn_height"
         android:layout_centerInParent="true"
         android:background="@drawable/btn_rounding_orange"
         android:text="@string/btn_home_feed"
@@ -66,14 +66,12 @@
 
     <Button
         android:id="@+id/btn_home_log"
-        android:layout_width="@dimen/button_width"
-        android:layout_height="@dimen/button_height"
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="@dimen/btn_height"
         android:layout_alignEnd="@+id/btn_support_websites"
-        android:layout_alignLeft="@+id/btn_support_websites"
-        android:layout_alignRight="@+id/btn_support_websites"
         android:layout_alignStart="@+id/btn_support_websites"
         android:layout_alignTop="@+id/btn_support_websites"
-        android:layout_marginTop="@dimen/button_top_spacing"
+        android:layout_marginTop="@dimen/btn_top_spacing"
         android:background="@drawable/btn_rounding_orange"
         android:text="@string/btn_home_log"
         android:textColor="@android:color/white"

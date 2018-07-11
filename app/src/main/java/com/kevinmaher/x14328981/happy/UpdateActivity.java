@@ -42,7 +42,7 @@ public class UpdateActivity extends AppCompatActivity {
         final Button btnUpdate = (Button) findViewById(R.id.btn_update_update);
         final Button btnUpdateLocationInfo = (Button) findViewById(R.id.btn_update_location_info);
         final TextView textViewUpdate = (TextView) findViewById(R.id.textView_update_update);
-        final Switch switchUpdateLocation = (Switch) findViewById(R.id.switch_update_location);
+        final Switch switchUpdateLocation = (Switch) findViewById(R.id.switch_update_update_location);
 
 
         //make input box and submit button invisible to provide minimal experience
