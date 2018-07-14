@@ -24,13 +24,13 @@ public class NavActivity extends AppCompatActivity {
                     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                         Fragment selectedFragment = null;
                         switch (item.getItemId()) {
-                            case R.id.nav_home:
+                            case R.id.menu_nav_home:
                                 selectedFragment = NavFragment1.newInstance();
                                 break;
-                            case R.id.nav_activity:
+                            case R.id.menu_nav_insights:
                                 selectedFragment = NavFragment2.newInstance();
                                 break;
-                            case R.id.nav_support:
+                            case R.id.menu_nav_support:
                                 selectedFragment = NavFragment3.newInstance();
                                 break;
                         }
@@ -63,16 +63,24 @@ public class NavActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.menu_filter:
+            case R.id.menu_more_filter:
                 startActivity(new Intent(this, SettingsActivity.class));
                 return true;
-            case R.id.menu_insights:
+            case R.id.menu_more_insights:
                 startActivity(new Intent(this, InsightsActivity.class));
                 return true;
-            case R.id.menu_settings:
+            case R.id.menu_more_feedback:
+                Intent Email = new Intent(Intent.ACTION_SEND);
+                Email.setType("text/email");
+                Email.putExtra(Intent.EXTRA_EMAIL, new String[] { "kevm66@gmail.com" });
+                Email.putExtra(Intent.EXTRA_SUBJECT, "Happy - Feedback");
+//                Email.putExtra(Intent.EXTRA_TEXT, "Dear ...," + "");
+                startActivity(Intent.createChooser(Email, "Send Feedback:"));
+                return true;
+            case R.id.menu_more_settings:
                 startActivity(new Intent(this, SettingsActivity.class));
                 return true;
-            case R.id.menu_support:
+            case R.id.menu_more_support:
                 startActivity(new Intent(this, SupportActivity.class));
                 return true;
             default:

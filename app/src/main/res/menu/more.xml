@@ -10,6 +10,11 @@
         app:showAsAction="always" />
 
     <item
+        android:id="@+id/menu_more_feedback"
+        android:orderInCategory="70"
+        android:title="@string/menu_more_feedback"
+        app:showAsAction="never" />
+    <item
         android:id="@+id/menu_more_support"
         android:orderInCategory="80"
         android:title="@string/menu_more_support"

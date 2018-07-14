@@ -69,4 +69,5 @@
     <string name="text_tab_2">Tab 2</string>
     <string name="text_tab_3">Tab 3</string>
     <string name="text_title_tab_activity">TabActivity</string>
+    <string name="menu_more_feedback">Feedback</string>
 </resources>

@@ -46,7 +46,7 @@ public class SupportActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.menu_settings:
+            case R.id.menu_more_settings:
                 startActivity(new Intent(this, SettingsActivity.class));
                 return true;
             default:
