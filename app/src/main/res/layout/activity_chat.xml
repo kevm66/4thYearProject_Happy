@@ -25,7 +25,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="22dp"
         android:background="@drawable/btn_rounding_orange"
-        android:text="@string/btn_chat_send"
+        android:text="@string/activity_chat_btn_send"
         android:textColor="@android:color/white"
         android:textSize="14sp" />
 

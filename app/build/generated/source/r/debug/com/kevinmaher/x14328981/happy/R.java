@@ -4078,7 +4078,7 @@ public final class R {
     public static final int app_name=0x7f0d001d;
     public static final int appbar_scrolling_view_behavior=0x7f0d001e;
     public static final int bottom_sheet_behavior=0x7f0d001f;
-    public static final int btn_chat_send=0x7f0d0020;
+    public static final int activity_chat_btn_send =0x7f0d0020;
     public static final int btn_feed_map=0x7f0d0021;
     public static final int btn_home_chat=0x7f0d0022;
     public static final int btn_home_feed=0x7f0d0023;

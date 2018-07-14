@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Happy</string>
 
-    <string name="btn_chat_send">Send</string>
+    <string name="activity_chat_btn_send">Send</string>
     <string name="btn_feed_map">Mood Map</string>
     <string name="btn_home_chat">Chat</string>
     <string name="btn_home_feed">Activity Log</string>
