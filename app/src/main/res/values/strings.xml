@@ -32,6 +32,7 @@
     <string name="menu_more_support">About</string>
     <string name="menu_nav_home">Home</string>
     <string name="menu_nav_insights">Insights</string>
+    <string name="menu_more_log_out">Log Out</string>
     <string name="menu_nav_support">Support</string>
     <string name="menu_tab_settings">Settings</string>
 
@@ -70,4 +71,9 @@
     <string name="text_tab_3">Tab 3</string>
     <string name="text_title_tab_activity">TabActivity</string>
     <string name="menu_more_feedback">Feedback</string>
+    <string name="text_settings_log_out">Log out</string>
+    <string name="text_setting_title_account">Account</string>
+    <string name="text_setting_title_notifications">Notifications</string>
+    <string name="text_settings_clear">Clear all moods from my account</string>
+    <string name="text_settings_delete">Delete my account</string>
 </resources>

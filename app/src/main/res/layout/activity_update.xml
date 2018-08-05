@@ -10,9 +10,9 @@
         android:id="@+id/btn_update_happy"
         android:layout_width="wrap_content"
         android:layout_height="81dp"
+        android:layout_alignEnd="@+id/textView_update_update"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/textView_update_update"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="40dp"
         android:background="@drawable/btn_face_happy_selected" />
 
     <!--<Button-->
@@ -87,7 +87,7 @@
         android:id="@+id/btn_update_sad"
         android:layout_width="wrap_content"
         android:layout_height="81dp"
-        android:layout_alignEnd="@+id/textView_update_update"
+        android:layout_alignStart="@+id/textView_update_update"
         android:layout_alignTop="@+id/btn_update_happy"
         android:background="@drawable/btn_face_sad_selected" />
 

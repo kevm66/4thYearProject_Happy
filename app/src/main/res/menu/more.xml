@@ -29,6 +29,12 @@
         android:orderInCategory="100"
         android:title="@string/menu_more_settings"
         app:showAsAction="never" />
+    <!--Log out is in menu for testing and should be moved to settings screen-->
+    <item
+        android:id="@+id/menu_more_log_out"
+        android:orderInCategory="101"
+        android:title="@string/menu_more_log_out"
+        app:showAsAction="never" />
 
 </menu>
 
