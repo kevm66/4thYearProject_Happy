@@ -78,4 +78,5 @@
     <string name="text_settings_delete">Delete my account</string>
     <string name="switch_update_update_visibility">Visible to others</string>
     <string name="text_update_preview">Preview</string>
+    <string name="switch_update_update_username">Show my username</string>
 </resources>

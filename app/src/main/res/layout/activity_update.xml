@@ -25,6 +25,15 @@
         android:hint="Location" />
 
     <TextView
+        android:id="@+id/textView_update_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_update_mood_location"
+        android:layout_marginTop="-113dp"
+        android:layout_toStartOf="@+id/btn_update_visibility"
+        android:hint="Username" />
+
+    <TextView
         android:id="@+id/textView_update_mood_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -144,7 +153,9 @@
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/textView_update_mood_location"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="208dp"
+        android:layout_marginTop="202dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
         android:text="@string/switch_update_update_location_text" />
 
     <Switch
@@ -152,13 +163,25 @@
         android:layout_width="268dp"
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/textView_update_mood_location"
-        android:layout_centerVertical="true"
+        android:layout_below="@+id/switch_update_update_location"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
         android:text="@string/switch_update_update_visibility" />
+
+    <Switch
+        android:id="@+id/switch_update_update_username"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView_update_mood_location"
+        android:layout_below="@+id/switch_update_update_visibility"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/switch_update_update_username" />
 
     <Button
         android:id="@+id/btn_update_location_info"
         android:layout_width="25dp"
-        android:layout_height="24dp"
+        android:layout_height="25dp"
         android:layout_alignStart="@+id/btn_update_face"
         android:layout_alignTop="@+id/switch_update_update_location"
         android:background="@drawable/ic_info" />
@@ -167,8 +190,17 @@
         android:id="@+id/btn_update_visibility_info"
         android:layout_width="25dp"
         android:layout_height="24dp"
+        android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/btn_update_face"
-        android:layout_centerVertical="true"
+        android:layout_marginTop="231dp"
+        android:background="@drawable/ic_info" />
+
+    <Button
+        android:id="@+id/btn_update_username_info"
+        android:layout_width="25dp"
+        android:layout_height="24dp"
+        android:layout_above="@+id/text_update_preview"
+        android:layout_alignStart="@+id/btn_update_face"
         android:background="@drawable/ic_info" />
 
     <Button

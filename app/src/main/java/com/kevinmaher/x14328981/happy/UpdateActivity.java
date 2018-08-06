@@ -40,18 +40,23 @@ public class UpdateActivity extends AppCompatActivity {
     public CharSequence locationInfo = "Location info: About";
     public CharSequence location = "Leixlip";
     public CharSequence visibilityInfo = "Visibility info: About";
+    public CharSequence username = "Panda123";
+    public CharSequence usernameInfo = "Username info: About";
     private boolean isButtonClicked = false;
     Context context = this;
 
     private Button btnHappy;
     private Button btnIndifferent;
     private Button btnSad;
-    private Button btnUpdate;
+
+    private TextView textViewUpdate;
     private Button btnUpdateLocationInfo;
     private Button btnUpdateVisibilityInfo;
-    private TextView textViewUpdate;
+    private Button btnUpdateUsernameInfo;
+
     private Switch switchUpdateLocation;
     private Switch switchUpdateVisibility;
+    private Switch switchUpdateUsername;
 
     private TextView textPreview;
     private Button btnFace;
@@ -59,7 +64,9 @@ public class UpdateActivity extends AppCompatActivity {
     private TextView textViewMoodDate;
     private TextView textViewMoodTime;
     private TextView textViewMoodLocation;
+    private TextView textViewMoodUsername;
     private Button btnUpdateVisibility;
+    private Button btnUpdate;
 
     private int DEFAULT_MSG_LENGTH_LIMIT = 20;
 //        final int DEFAULT_DATE_LENGTH_LIMIT = 29;
@@ -73,12 +80,15 @@ public class UpdateActivity extends AppCompatActivity {
         btnHappy = (Button) findViewById(R.id.btn_update_happy);
         btnIndifferent = (Button) findViewById(R.id.btn_update_indifferent);
         btnSad = (Button) findViewById(R.id.btn_update_sad);
-        btnUpdate = (Button) findViewById(R.id.btn_update_update);
+
+        textViewUpdate = (TextView) findViewById(R.id.textView_update_update);
         btnUpdateLocationInfo = (Button) findViewById(R.id.btn_update_location_info);
         btnUpdateVisibilityInfo = (Button) findViewById(R.id.btn_update_visibility_info);
-        textViewUpdate = (TextView) findViewById(R.id.textView_update_update);
+        btnUpdateUsernameInfo = (Button) findViewById(R.id.btn_update_username_info);
+
         switchUpdateLocation = (Switch) findViewById(R.id.switch_update_update_location);
         switchUpdateVisibility = (Switch) findViewById(R.id.switch_update_update_visibility);
+        switchUpdateUsername = (Switch) findViewById(R.id.switch_update_update_username);
 
         textPreview = (TextView) findViewById(R.id.text_update_preview);
         btnFace = (Button) findViewById(R.id.btn_update_face);
@@ -86,23 +96,29 @@ public class UpdateActivity extends AppCompatActivity {
         textViewMoodDate = (TextView) findViewById(R.id.textView_update_mood_date);
         textViewMoodTime = (TextView) findViewById(R.id.textView_update_mood_time);
         textViewMoodLocation = (TextView) findViewById(R.id.textView_update_mood_location);
+        textViewMoodUsername = (TextView) findViewById(R.id.textView_update_username);
         btnUpdateVisibility = (Button) findViewById(R.id.btn_update_visibility);
+        btnUpdate = (Button) findViewById(R.id.btn_update_update);
 
         //make components invisible to provide minimal experience
-        textPreview.setVisibility(View.INVISIBLE);
         textViewUpdate.setVisibility(View.INVISIBLE);
         btnUpdateLocationInfo.setVisibility(View.INVISIBLE);
-        switchUpdateLocation.setVisibility(View.INVISIBLE);
         btnUpdateVisibilityInfo.setVisibility(View.INVISIBLE);
-        switchUpdateVisibility.setVisibility(View.INVISIBLE);
-        btnUpdate.setVisibility(View.INVISIBLE);
+        btnUpdateUsernameInfo.setVisibility(View.INVISIBLE);
 
+        switchUpdateLocation.setVisibility(View.INVISIBLE);
+        switchUpdateVisibility.setVisibility(View.INVISIBLE);
+        switchUpdateUsername.setVisibility(View.INVISIBLE);
+
+        textPreview.setVisibility(View.INVISIBLE);
         btnFace.setVisibility(View.INVISIBLE);
         textViewMoodTitle.setVisibility(View.INVISIBLE);
         textViewMoodDate.setVisibility(View.INVISIBLE);
         textViewMoodTime.setVisibility(View.INVISIBLE);
-        textViewMoodLocation.setVisibility(View.GONE);
+        textViewMoodLocation.setVisibility(View.INVISIBLE);
+        textViewMoodUsername.setVisibility(View.INVISIBLE);
         btnUpdateVisibility.setVisibility(View.INVISIBLE);
+        btnUpdate.setVisibility(View.INVISIBLE);
 
         //make everything CAPS AND force textfield character limit
 //        textViewUpdate.setFilters(new InputFilter[] {new InputFilter.AllCaps(), new InputFilter.LengthFilter(DEFAULT_MSG_LENGTH_LIMIT)});
@@ -188,14 +204,7 @@ public class UpdateActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(UpdateActivity.this, locationInfo, Toast.LENGTH_SHORT).show();
-//                startActivity(new Intent(UpdateActivity.this, NavActivity.class));
-            }
-        });
-
-        switchUpdateLocation.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(UpdateActivity.this, location, Toast.LENGTH_SHORT).show();
+//                TODO startActivity(new Intent(UpdateActivity.this, NavActivity.class));
             }
         });
 
@@ -203,7 +212,15 @@ public class UpdateActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(UpdateActivity.this, visibilityInfo, Toast.LENGTH_SHORT).show();
-//                startActivity(new Intent(UpdateActivity.this, NavActivity.class));
+//                TODO startActivity(new Intent(UpdateActivity.this, NavActivity.class));
+            }
+        });
+
+        btnUpdateUsernameInfo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(UpdateActivity.this, usernameInfo, Toast.LENGTH_SHORT).show();
+//                TODO startActivity(new Intent(UpdateActivity.this, NavActivity.class));
             }
         });
 
@@ -212,8 +229,13 @@ public class UpdateActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
                     textViewMoodLocation.setText(location);
-                    textViewMoodLocation.setVisibility(View.VISIBLE);
-                } else {
+                    btnUpdateVisibilityInfo.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            Toast.makeText(UpdateActivity.this, visibilityInfo, Toast.LENGTH_SHORT).show();
+//                startActivity(new Intent(UpdateActivity.this, NavActivity.class));
+                        }
+                    });                } else {
                     textViewMoodLocation.setText(" ");
                     textViewMoodLocation.setVisibility(View.INVISIBLE);
                 }
@@ -228,7 +250,18 @@ public class UpdateActivity extends AppCompatActivity {
                 } else {
                     btnUpdateVisibility.setBackgroundResource(R.drawable.ic_person_outline_black);
                     btnUpdateVisibility.setVisibility(View.VISIBLE);
+                }
+            }
+        });
 
+        switchUpdateUsername.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    textViewMoodUsername.setText(username);
+                    textViewMoodUsername.setVisibility(View.VISIBLE);
+                } else {
+                    textViewMoodUsername.setText(" ");
+                    textViewMoodUsername.setVisibility(View.INVISIBLE);
                 }
             }
         });
@@ -301,6 +334,8 @@ public class UpdateActivity extends AppCompatActivity {
         switchUpdateLocation.setVisibility(View.VISIBLE);
         btnUpdateVisibilityInfo.setVisibility(View.VISIBLE);
         switchUpdateVisibility.setVisibility(View.VISIBLE);
+        btnUpdateUsernameInfo.setVisibility(View.VISIBLE);
+        switchUpdateUsername.setVisibility(View.VISIBLE);
 
         textPreview.setVisibility(View.VISIBLE);
         btnFace.setVisibility(View.VISIBLE);
@@ -308,6 +343,7 @@ public class UpdateActivity extends AppCompatActivity {
 //        textViewMoodDate.setVisibility(View.VISIBLE);
         textViewMoodTime.setVisibility(View.VISIBLE);
         textViewMoodLocation.setVisibility(View.VISIBLE);
+        textViewMoodUsername.setVisibility(View.VISIBLE);
         btnUpdateVisibility.setVisibility(View.VISIBLE);
     }
 
