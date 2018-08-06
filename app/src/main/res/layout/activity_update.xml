@@ -1,10 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_below="@+id/textView_update_mood_title"
     tools:context="com.kevinmaher.x14328981.happy.UpdateActivity">
+
+    <Button
+        android:id="@+id/btn_update_face"
+        android:layout_width="wrap_content"
+        android:layout_height="82dp"
+        android:layout_alignStart="@+id/textView_update_update"
+        android:layout_alignTop="@+id/textView_update_mood_title"
+        android:background="@drawable/btn_face_happy_unselected" />
+
+    <TextView
+        android:id="@+id/textView_update_mood_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView_update_mood_title"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="113dp"
+        android:hint="Location" />
+
+    <TextView
+        android:id="@+id/textView_update_mood_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView_update_mood_location"
+        android:layout_below="@+id/textView_update_mood_title"
+        android:layout_marginTop="-153dp"
+        android:hint="Time" />
+
+    <TextView
+        android:id="@+id/textView_update_mood_date"
+        android:layout_width="43dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView_update_mood_location"
+        android:layout_below="@+id/textView_update_mood_title"
+        android:hint="Date" />
+
+    <TextView
+        android:id="@+id/textView_update_mood_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_update_happy"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        android:text="Mood Influencer"
+        android:textColor="@color/grey"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btn_update_happy"
@@ -16,13 +63,13 @@
         android:background="@drawable/btn_face_happy_selected" />
 
     <!--<Button-->
-        <!--android:id="@+id/btn_update_happy_unselected"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="81dp"-->
-        <!--android:layout_alignParentTop="true"-->
-        <!--android:layout_alignStart="@+id/editText3"-->
-        <!--android:layout_marginTop="36dp"-->
-        <!--android:background="@drawable/btn_face_happy_unselected" />-->
+    <!--android:id="@+id/btn_update_happy_unselected"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="81dp"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_alignStart="@+id/editText3"-->
+    <!--android:layout_marginTop="36dp"-->
+    <!--android:background="@drawable/btn_face_happy_unselected" />-->
 
     <EditText
         android:id="@+id/textView_update_update"
@@ -38,21 +85,21 @@
 
     <!--widget to make the hint text float to the top-->
     <!--<android.support.design.widget.TextInputLayout-->
-        <!--android:id="@+id/textInput_update_layout"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content">-->
+    <!--android:id="@+id/textInput_update_layout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
 
-        <!--<EditText-->
-            <!--android:id="@+id/textView_update_update"-->
-            <!--android:layout_width="308dp"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_alignParentTop="true"-->
-            <!--android:layout_centerHorizontal="true"-->
-            <!--android:layout_marginTop="142dp"-->
-            <!--android:ems="10"-->
-            <!--android:hint="What influenced how you feel?"-->
-            <!--android:inputType="textPersonName"-->
-            <!--android:textStyle="bold" />-->
+    <!--<EditText-->
+    <!--android:id="@+id/textView_update_update"-->
+    <!--android:layout_width="308dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginTop="142dp"-->
+    <!--android:ems="10"-->
+    <!--android:hint="What influenced how you feel?"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:textStyle="bold" />-->
     <!--</android.support.design.widget.TextInputLayout>-->
 
     <Button
@@ -61,7 +108,7 @@
         android:layout_height="@dimen/btn_height"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="212dp"
+        android:layout_marginBottom="22dp"
         android:background="@drawable/btn_rounding_orange"
         android:text="@string/btn_update_update"
         android:textColor="@android:color/background_light"
@@ -76,12 +123,12 @@
         android:background="@drawable/btn_face_indifferent_selected" />
 
     <!--<Button-->
-        <!--android:id="@+id/btn_update_indifferent_unselected"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="82dp"-->
-        <!--android:layout_alignTop="@+id/btn_update_happy"-->
-        <!--android:layout_centerHorizontal="true"-->
-        <!--android:background="@drawable/btn_face_indifferent_unselected" />-->
+    <!--android:id="@+id/btn_update_indifferent_unselected"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="82dp"-->
+    <!--android:layout_alignTop="@+id/btn_update_happy"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:background="@drawable/btn_face_indifferent_unselected" />-->
 
     <Button
         android:id="@+id/btn_update_sad"
@@ -95,26 +142,61 @@
         android:id="@+id/switch_update_update_location"
         android:layout_width="268dp"
         android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView_update_mood_location"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/textView_update_update"
-        android:layout_marginStart="39dp"
-        android:layout_marginTop="201dp"
+        android:layout_marginTop="208dp"
         android:text="@string/switch_update_update_location_text" />
+
+    <Switch
+        android:id="@+id/switch_update_update_visibility"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView_update_mood_location"
+        android:layout_centerVertical="true"
+        android:text="@string/switch_update_update_visibility" />
 
     <Button
         android:id="@+id/btn_update_location_info"
         android:layout_width="25dp"
         android:layout_height="24dp"
-        android:layout_alignStart="@+id/btn_update_happy"
+        android:layout_alignStart="@+id/btn_update_face"
         android:layout_alignTop="@+id/switch_update_update_location"
         android:background="@drawable/ic_info" />
 
+    <Button
+        android:id="@+id/btn_update_visibility_info"
+        android:layout_width="25dp"
+        android:layout_height="24dp"
+        android:layout_alignStart="@+id/btn_update_face"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_info" />
+
+    <Button
+        android:id="@+id/btn_update_visibility"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignEnd="@+id/textView_update_mood_location"
+        android:layout_below="@+id/textView_update_mood_location"
+        android:layout_marginTop="-113dp"
+        android:background="@drawable/ic_person_outline_black" />
+
+    <TextView
+        android:id="@+id/text_update_preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="189dp"
+        android:text="@string/text_update_preview"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
     <!--<Button-->
-        <!--android:id="@+id/btn_update_sad_unselected"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="81dp"-->
-        <!--android:layout_alignEnd="@+id/editText3"-->
-        <!--android:layout_alignTop="@+id/btn_update_happy"-->
-        <!--android:background="@drawable/btn_face_sad_unselected" />-->
+    <!--android:id="@+id/btn_update_sad_unselected"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="81dp"-->
+    <!--android:layout_alignEnd="@+id/editText3"-->
+    <!--android:layout_alignTop="@+id/btn_update_happy"-->
+    <!--android:background="@drawable/btn_face_sad_unselected" />-->
 
 </RelativeLayout>

@@ -57,7 +57,7 @@
     <string name="text_input_register_password_2_hint">Confirm password</string>
     <string name="text_input_update_update_hint">What influenced how you feel?</string>
     <string name="text_insights_title">Insights</string>
-    <string name="text_log_heading">How Are You Feeling?</string>
+    <string name="text_log_heading">How Do You Feel?</string>
     <string name="text_log_title">My Mood Log</string>
     <string name="text_login_title">Login</string>
     <string name="text_main_title">Welcome</string>
@@ -76,4 +76,6 @@
     <string name="text_setting_title_notifications">Notifications</string>
     <string name="text_settings_clear">Clear all moods from my account</string>
     <string name="text_settings_delete">Delete my account</string>
+    <string name="switch_update_update_visibility">Visible to others</string>
+    <string name="text_update_preview">Preview</string>
 </resources>

@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.kevinmaher.x14328981.happy">
 
+    <!--<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />-->
+
     <application
         android:name=".SplashScreenDelay"
         android:allowBackup="true"
