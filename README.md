@@ -14,7 +14,9 @@ Planned Feature List:
 - Chat with users or bots
 - Support links
 
+Source code:
+- is available to clone/download from: https://github.com/kevm66/4thYearProject_Happy/
 
 Instructions to view:
-- Download the files
-- Build and run in Android Studio
+- Download the source code files
+- Clean, build and run the source code files in Android Studio
