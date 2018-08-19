@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\kevm6\\Google Drive\\NCI\\H Drive\\SP X\\1 Code\\master\\4thYearProject_Happy\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-it\\values-it.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\6136da807edb52f76eeea80f4e23d86c\\res\\values-it\\values-it.xml",
+                    "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\67e96ae57d42c3595e9df403681be555\\res\\values-it\\values-it.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\1ebd38fddadf2de859b046530943464a\\res\\values-it\\values-it.xml",
+                    "source": "C:\\Users\\kevm6\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\850c39038da11e0f0798606c8e5880cb\\res\\values-it\\values-it.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

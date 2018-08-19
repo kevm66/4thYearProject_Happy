@@ -3,6 +3,7 @@ package com.kevinmaher.x14328981.happy;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
@@ -229,13 +230,15 @@ public class UpdateActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
                     textViewMoodLocation.setText(location);
-                    btnUpdateVisibilityInfo.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            Toast.makeText(UpdateActivity.this, visibilityInfo, Toast.LENGTH_SHORT).show();
-//                startActivity(new Intent(UpdateActivity.this, NavActivity.class));
-                        }
-                    });                } else {
+                    textViewMoodLocation.setVisibility(View.VISIBLE);
+//                    btnUpdateVisibilityInfo.setOnClickListener(new View.OnClickListener() {
+//                        @Override
+//                        public void onClick(View view) {
+//                            Toast.makeText(UpdateActivity.this, visibilityInfo, Toast.LENGTH_SHORT).show();
+//                        }
+//                        //                startActivity(new Intent(UpdateActivity.this, NavActivity.class));
+//                    });
+                } else {
                     textViewMoodLocation.setText(" ");
                     textViewMoodLocation.setVisibility(View.INVISIBLE);
                 }
@@ -283,10 +286,15 @@ public class UpdateActivity extends AppCompatActivity {
                 if (mood.length() <= 0) {
                     Toast.makeText(UpdateActivity.this, "Please enter your mood", Toast.LENGTH_SHORT).show();
                 } else {
-                    Toast.makeText(UpdateActivity.this, mood, Toast.LENGTH_SHORT).show();
+                    textViewMoodTitle.setText(mood);
+                    Toast.makeText(UpdateActivity.this, "Mood updated successfully", Toast.LENGTH_SHORT).show();
 //                startActivity(new Intent(UpdateActivity.this, NavActivity.class));
 
-                    textViewMoodTitle.setText(mood);
+                    //TODO refresh data (via recycler view)
+//                    notifyDataSetChanged();
+
+                    //TODO Snackbar
+//                    Snackbar.make("Mood updated successfully", Snackbar.LENGTH_SHORT).show();
                 }
             }
         });
