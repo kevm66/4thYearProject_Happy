@@ -10,7 +10,6 @@ Planned Feature List:
 - Mood log
 - Activity feed
 - Mood insights
-- Mood map
 - Chat with users or bots
 - Support links
 
