@@ -66,9 +66,6 @@ public class NavActivity extends AppCompatActivity {
             case R.id.menu_more_filter:
                 startActivity(new Intent(this, SettingsActivity.class));
                 return true;
-            case R.id.menu_more_insights:
-                startActivity(new Intent(this, InsightsActivity.class));
-                return true;
             case R.id.menu_more_feedback:
                 Intent Email = new Intent(Intent.ACTION_SEND);
                 Email.setType("text/email");

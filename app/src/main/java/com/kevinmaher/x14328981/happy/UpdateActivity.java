@@ -1,25 +1,20 @@
 package com.kevinmaher.x14328981.happy;
 
 import android.content.Context;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.support.design.widget.Snackbar;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.text.Editable;
 import android.text.InputFilter;
 import android.text.InputType;
-import android.text.TextWatcher;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.CompoundButton;
-import android.widget.ImageView;
+import android.widget.EditText;
 import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
@@ -29,20 +24,20 @@ import java.util.Calendar;
  */
 
 //below method is depreciated
-//textViewUpdate.setBackgroundTintList(context.getResources().getColorStateList(R.color.indifferent));
+//editTextUpdate.setBackgroundTintList(context.getResources().getColorStateList(R.color.indifferent));
 
 //not depreciated
-//textViewUpdate.setTextColor(Color.parseColor("#669900"));
+//editTextUpdate.setTextColor(Color.parseColor("#669900"));
 
 
 public class UpdateActivity extends AppCompatActivity {
 
-    public CharSequence mood;
-    public CharSequence locationInfo = "Location info: About";
-    public CharSequence location = "Leixlip";
-    public CharSequence visibilityInfo = "Visibility info: About";
-    public CharSequence username = "Panda123";
-    public CharSequence usernameInfo = "Username info: About";
+    private CharSequence mood;
+    private CharSequence locationInfo = "Location info: About";
+    private CharSequence location = "Dublin";
+    private CharSequence visibilityInfo = "Visibility info: About";
+    private CharSequence username = "zebra53";
+    private CharSequence usernameInfo = "Username info: About";
     private boolean isButtonClicked = false;
     Context context = this;
 
@@ -50,7 +45,7 @@ public class UpdateActivity extends AppCompatActivity {
     private Button btnIndifferent;
     private Button btnSad;
 
-    private TextView textViewUpdate;
+    private EditText editTextUpdate;
     private Button btnUpdateLocationInfo;
     private Button btnUpdateVisibilityInfo;
     private Button btnUpdateUsernameInfo;
@@ -82,7 +77,7 @@ public class UpdateActivity extends AppCompatActivity {
         btnIndifferent = (Button) findViewById(R.id.btn_update_indifferent);
         btnSad = (Button) findViewById(R.id.btn_update_sad);
 
-        textViewUpdate = (TextView) findViewById(R.id.textView_update_update);
+        editTextUpdate = (EditText) findViewById(R.id.editText_update_update);
         btnUpdateLocationInfo = (Button) findViewById(R.id.btn_update_location_info);
         btnUpdateVisibilityInfo = (Button) findViewById(R.id.btn_update_visibility_info);
         btnUpdateUsernameInfo = (Button) findViewById(R.id.btn_update_username_info);
@@ -102,7 +97,7 @@ public class UpdateActivity extends AppCompatActivity {
         btnUpdate = (Button) findViewById(R.id.btn_update_update);
 
         //make components invisible to provide minimal experience
-        textViewUpdate.setVisibility(View.INVISIBLE);
+        editTextUpdate.setVisibility(View.INVISIBLE);
         btnUpdateLocationInfo.setVisibility(View.INVISIBLE);
         btnUpdateVisibilityInfo.setVisibility(View.INVISIBLE);
         btnUpdateUsernameInfo.setVisibility(View.INVISIBLE);
@@ -122,17 +117,17 @@ public class UpdateActivity extends AppCompatActivity {
         btnUpdate.setVisibility(View.INVISIBLE);
 
         //make everything CAPS AND force textfield character limit
-//        textViewUpdate.setFilters(new InputFilter[] {new InputFilter.AllCaps(), new InputFilter.LengthFilter(DEFAULT_MSG_LENGTH_LIMIT)});
+//        editTextUpdate.setFilters(new InputFilter[] {new InputFilter.AllCaps(), new InputFilter.LengthFilter(DEFAULT_MSG_LENGTH_LIMIT)});
 
         //force character limit
-        textViewUpdate.setFilters(new InputFilter[]{new InputFilter.LengthFilter(DEFAULT_MSG_LENGTH_LIMIT)});
+        editTextUpdate.setFilters(new InputFilter[]{new InputFilter.LengthFilter(DEFAULT_MSG_LENGTH_LIMIT)});
 //        textViewMoodDate.setFilters(new InputFilter[] {new InputFilter.LengthFilter(DEFAULT_DATE_LENGTH_LIMIT)});
 
         //make first letter caps
-        textViewUpdate.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_FLAG_CAP_SENTENCES);
+        editTextUpdate.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_FLAG_CAP_SENTENCES);
 
         //tick/ok hides keyboard
-        textViewUpdate.setImeOptions(EditorInfo.IME_ACTION_DONE);
+        editTextUpdate.setImeOptions(EditorInfo.IME_ACTION_DONE);
 
         btnHappy.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -141,11 +136,11 @@ public class UpdateActivity extends AppCompatActivity {
                 btnIndifferent.setBackgroundResource(R.drawable.btn_face_indifferent_unselected);
                 btnSad.setBackgroundResource(R.drawable.btn_face_sad_unselected);
 
-                textViewUpdate.setVisibility(View.VISIBLE);
-                textViewUpdate.setTextColor(ContextCompat.getColorStateList(context, R.color.happy));
+                editTextUpdate.setVisibility(View.VISIBLE);
+                editTextUpdate.setTextColor(ContextCompat.getColorStateList(context, R.color.happy));
                 //set colour of textbox underline
-                textViewUpdate.setBackgroundTintList(ContextCompat.getColorStateList(context, R.color.happy));
-                textViewUpdate.setHint("What made you feel happy?");
+                editTextUpdate.setBackgroundTintList(ContextCompat.getColorStateList(context, R.color.happy));
+                editTextUpdate.setHint("What made you feel happy?");
 
                 //update result section
                 btnFace.setBackgroundResource(R.drawable.btn_face_happy_selected);
@@ -161,10 +156,10 @@ public class UpdateActivity extends AppCompatActivity {
                 btnIndifferent.setBackgroundResource(R.drawable.btn_face_indifferent_selected);
                 btnSad.setBackgroundResource(R.drawable.btn_face_sad_unselected);
 
-                textViewUpdate.setVisibility(View.VISIBLE);
-                textViewUpdate.setTextColor(ContextCompat.getColorStateList(context, R.color.indifferent));
-                textViewUpdate.setBackgroundTintList(ContextCompat.getColorStateList(context, R.color.indifferent));
-                textViewUpdate.setHint("What made you feel indifferent?");
+                editTextUpdate.setVisibility(View.VISIBLE);
+                editTextUpdate.setTextColor(ContextCompat.getColorStateList(context, R.color.indifferent));
+                editTextUpdate.setBackgroundTintList(ContextCompat.getColorStateList(context, R.color.indifferent));
+                editTextUpdate.setHint("What made you feel indifferent?");
 
                 //update result section
                 btnFace.setBackgroundResource(R.drawable.btn_face_indifferent_selected);
@@ -181,10 +176,10 @@ public class UpdateActivity extends AppCompatActivity {
                 btnIndifferent.setBackgroundResource(R.drawable.btn_face_indifferent_unselected);
                 btnSad.setBackgroundResource(R.drawable.btn_face_sad_selected);
 
-                textViewUpdate.setVisibility(View.VISIBLE);
-                textViewUpdate.setTextColor(ContextCompat.getColorStateList(context, R.color.sad));
-                textViewUpdate.setBackgroundTintList(ContextCompat.getColorStateList(context, R.color.sad));
-                textViewUpdate.setHint("What made you feel sad?");
+                editTextUpdate.setVisibility(View.VISIBLE);
+                editTextUpdate.setTextColor(ContextCompat.getColorStateList(context, R.color.sad));
+                editTextUpdate.setBackgroundTintList(ContextCompat.getColorStateList(context, R.color.sad));
+                editTextUpdate.setHint("What made you feel sad?");
 
                 //update result section
                 btnFace.setBackgroundResource(R.drawable.btn_face_sad_selected);
@@ -194,7 +189,7 @@ public class UpdateActivity extends AppCompatActivity {
         });
 
 
-        textViewUpdate.setOnClickListener(new View.OnClickListener() {
+        editTextUpdate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 btnUpdate.setVisibility(View.VISIBLE);
@@ -272,7 +267,7 @@ public class UpdateActivity extends AppCompatActivity {
         btnUpdate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mood = textViewUpdate.getText();
+                mood = editTextUpdate.getText();
 
 //                String test = "Kevin";
 //                if (test == "Kevin"){
@@ -319,14 +314,14 @@ public class UpdateActivity extends AppCompatActivity {
     {
         super.onBackPressed();
         //exit confirmation dialog
-        mood = textViewUpdate.getText();
+        mood = editTextUpdate.getText();
         if (mood.length() > 0) {
             Toast.makeText(UpdateActivity.this, "Are you sure you want to exit?", Toast.LENGTH_SHORT).show();
         }
     }
 
     public void checkTextEntered(){
-        mood = textViewUpdate.getText();
+        mood = editTextUpdate.getText();
         if (mood.length() > 0) {
             btnUpdate.setVisibility(View.VISIBLE);
         }

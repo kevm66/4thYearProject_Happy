@@ -20,11 +20,6 @@
         android:title="@string/menu_more_support"
         app:showAsAction="never" />
     <item
-        android:id="@+id/menu_more_insights"
-        android:orderInCategory="90"
-        android:title="@string/menu_more_insights"
-        app:showAsAction="never" />
-    <item
         android:id="@+id/menu_more_settings"
         android:orderInCategory="100"
         android:title="@string/menu_more_settings"

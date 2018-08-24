@@ -9,7 +9,7 @@
 
     <Button
         android:id="@+id/btn_support_websites"
-        android:layout_width="339dp"
+        android:layout_width="319dp"
         android:layout_height="@dimen/btn_height"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
@@ -21,11 +21,11 @@
 
     <Button
         android:id="@+id/btn_support_about"
-        android:layout_width="353dp"
+        android:layout_width="317dp"
         android:layout_height="@dimen/btn_height"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="187dp"
+        android:layout_marginBottom="195dp"
         android:background="@drawable/btn_rounding_orange"
         android:text="@string/btn_support_about"
         android:textColor="@android:color/white"
@@ -33,7 +33,7 @@
 
     <Button
         android:id="@+id/btn_support_apps"
-        android:layout_width="353dp"
+        android:layout_width="320dp"
         android:layout_height="@dimen/btn_height"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"

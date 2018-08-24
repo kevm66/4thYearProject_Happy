@@ -15,17 +15,17 @@ public class FeedActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_feed);
+        setContentView(R.layout.fragment_insights);
 
-        Button btnSeeMap = (Button) findViewById(R.id.btn_feed_map);
+//        Button btnSeeMap = (Button) findViewById(R.id.btn_feed_map);
 //        ImageButton btnFilter = (ImageButton) findViewById(R.id.btn_results_filter);
-
-        btnSeeMap.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(FeedActivity.this, MapActivity.class));
-            }
-        });
+//
+//        btnSeeMap.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(new Intent(FeedActivity.this, MapActivity.class));
+//            }
+//        });
 
 //        btnFilter.setOnClickListener(new View.OnClickListener() {
 //            @Override

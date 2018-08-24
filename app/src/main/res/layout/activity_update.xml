@@ -11,7 +11,7 @@
         android:id="@+id/btn_update_face"
         android:layout_width="wrap_content"
         android:layout_height="82dp"
-        android:layout_alignStart="@+id/textView_update_update"
+        android:layout_alignStart="@+id/editText_update_update"
         android:layout_alignTop="@+id/textView_update_mood_title"
         android:background="@drawable/btn_face_happy_unselected" />
 
@@ -66,7 +66,7 @@
         android:id="@+id/btn_update_happy"
         android:layout_width="wrap_content"
         android:layout_height="81dp"
-        android:layout_alignEnd="@+id/textView_update_update"
+        android:layout_alignEnd="@+id/editText_update_update"
         android:layout_alignParentTop="true"
         android:layout_marginTop="40dp"
         android:background="@drawable/btn_face_happy_selected" />
@@ -81,7 +81,7 @@
     <!--android:background="@drawable/btn_face_happy_unselected" />-->
 
     <EditText
-        android:id="@+id/textView_update_update"
+        android:id="@+id/editText_update_update"
         android:layout_width="308dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -143,7 +143,7 @@
         android:id="@+id/btn_update_sad"
         android:layout_width="wrap_content"
         android:layout_height="81dp"
-        android:layout_alignStart="@+id/textView_update_update"
+        android:layout_alignStart="@+id/editText_update_update"
         android:layout_alignTop="@+id/btn_update_happy"
         android:background="@drawable/btn_face_sad_selected" />
 
@@ -182,25 +182,24 @@
         android:id="@+id/btn_update_location_info"
         android:layout_width="25dp"
         android:layout_height="25dp"
+        android:layout_alignBottom="@+id/switch_update_update_location"
         android:layout_alignStart="@+id/btn_update_face"
-        android:layout_alignTop="@+id/switch_update_update_location"
         android:background="@drawable/ic_info" />
 
     <Button
         android:id="@+id/btn_update_visibility_info"
         android:layout_width="25dp"
         android:layout_height="24dp"
-        android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/btn_update_face"
-        android:layout_marginTop="231dp"
+        android:layout_centerVertical="true"
         android:background="@drawable/ic_info" />
 
     <Button
         android:id="@+id/btn_update_username_info"
         android:layout_width="25dp"
         android:layout_height="24dp"
-        android:layout_above="@+id/text_update_preview"
         android:layout_alignStart="@+id/btn_update_face"
+        android:layout_below="@+id/btn_update_visibility_info"
         android:background="@drawable/ic_info" />
 
     <Button

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kevinmaher.x14328981.happy.FeedActivity">
+
+    <!--reformat the design below to include  android:layout_alignEnd tags-->
+
+    <TextView
+        android:id="@+id/textView_update_mood_title11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_update_happy5"
+        android:layout_alignEnd="@+id/textView_update_mood_title2"
+        android:text="Crashed my car"
+        android:textColor="@color/colorRed"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_update_mood_title9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView_update_mood_title2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="115dp"
+        android:text="Feeling depressed"
+        android:textColor="@color/colorRed"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_update_mood_title10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView_update_mood_title2"
+        android:layout_alignTop="@+id/btn_update_happy5"
+        android:text="Failed an exam"
+        android:textColor="@color/colorRed"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_update_mood_title8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView_update_mood_title2"
+        android:layout_below="@+id/textView_update_mood_title3"
+        android:text="Long day"
+        android:textColor="@color/indifferent"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_update_mood_title7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_update_happy6"
+        android:layout_alignEnd="@+id/textView_update_mood_title2"
+        android:text="Went for a jog"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_update_mood_title5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btn_update_happy2"
+        android:layout_marginEnd="28dp"
+        android:text="Went for a jog"
+        android:textColor="@color/colorGreen"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_update_happy6"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btn_update_happy2"
+        android:layout_marginTop="178dp"
+        android:background="@drawable/btn_face_indifferent_selected" />
+
+    <Button
+        android:id="@+id/btn_update_happy5"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btn_update_happy2"
+        android:layout_marginBottom="107dp"
+        android:background="@drawable/btn_face_sad_selected" />
+
+    <Button
+        android:id="@+id/btn_update_happy3"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btn_face_happy_selected" />
+
+    <TextView
+        android:id="@+id/textView_update_mood_title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_update_happy2"
+        android:layout_alignEnd="@+id/textView_update_mood_title3"
+        android:text="Met with friends"
+        android:textColor="@color/colorGreen"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_update_mood_title4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_update_happy2"
+        android:layout_alignEnd="@+id/textView_update_mood_title3"
+        android:text="Passed my exams"
+        android:textColor="@color/colorGreen"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_update_mood_title3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginTop="188dp"
+        android:text="Missed the bus"
+        android:textColor="@color/indifferent"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_update_mood_title6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btn_update_happy2"
+        android:layout_marginEnd="28dp"
+        android:text="Went for a jog"
+        android:textColor="@color/colorGreen"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_update_happy2"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btn_face_happy_selected" />
+</RelativeLayout>
