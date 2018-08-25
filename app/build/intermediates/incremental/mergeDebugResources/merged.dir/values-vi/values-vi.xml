@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="fui_error_weak_password"> <item quantity="one">Mật khẩu không đủ mạnh. Sử dụng ít nhất %1$d ký tự, kết hợp chữ cái và số</item> <item quantity="other">Mật khẩu không đủ mạnh. Sử dụng ít nhất %1$d ký tự, kết hợp chữ cái và số</item> </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Điều hướng về trang chủ"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Điều hướng lên trên"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Thêm tùy chọn"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Xong"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Xem tất cả"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Chọn một ứng dụng"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"TẮT"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"BẬT"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Tìm kiếm…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Xóa truy vấn"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Tìm kiếm truy vấn"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Tìm kiếm"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Gửi truy vấn"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Tìm kiếm bằng giọng nói"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Chia sẻ với"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Chia sẻ với <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Thu gọn"</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Bật"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không hoạt động nếu bạn không bật dịch vụ của Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Bật dịch vụ của Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Cài đặt"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy nếu không có dịch vụ của Google Play. Thiết bị của bạn bị thiếu dịch vụ này."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Cài đặt dịch vụ của Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Phạm vi cung cấp các dịch vụ của Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Lỗi dịch vụ của Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> đang gặp sự cố với các dịch vụ của Google Play. Hãy thử lại."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy nếu không có các dịch vụ của Google Play. Thiết bị của bạn không hỗ trợ các dịch vụ này."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Cập nhật"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy trừ khi bạn cập nhật Dịch vụ của Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Cập nhật dịch vụ của Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy nếu không có dịch vụ của Google Play. Dịch vụ này hiện đang cập nhật."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Cần phiên bản mới của dịch vụ Google Play. Dịch vụ sẽ sớm tự động cập nhật."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Mở trên điện thoại"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Đăng nhập"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Đăng nhập bằng Google"</string>
+    <string name="fui_accessibility_logo">Biểu trưng ứng dụng</string>
+    <string name="fui_auto_verified">Đã tự động xác minh số điện thoại</string>
+    <string name="fui_button_text_save">Lưu</string>
+    <string name="fui_button_text_send">Gửi</string>
+    <string name="fui_confirm_recovery_body">Làm theo hướng dẫn gửi tới %1$s để khôi phục mật khẩu của bạn.</string>
+    <string name="fui_continue_phone_login">Tiếp tục</string>
+    <string name="fui_email_account_creation_error">Đăng ký tài khoản email không thành công</string>
+    <string name="fui_email_hint">Email</string>
+    <string name="fui_enter_confirmation_code">Nhập mã 6 chữ số mà chúng tôi đã gửi cho bạn</string>
+    <string name="fui_error_email_does_not_exist">Địa chỉ email đó không khớp với tài khoản hiện có</string>
+    <string name="fui_error_invalid_password">Sai mật khẩu.</string>
+    <string name="fui_error_quota_exceeded">Đã xảy ra sự cố khi xác minh số điện thoại của bạn</string>
+    <string name="fui_error_session_expired">Mã này không còn hợp lệ</string>
+    <string name="fui_error_too_many_attempts">Số điện thoại này đã được sử dụng quá nhiều lần</string>
+    <string name="fui_error_unknown">Đã xảy ra lỗi không xác định.</string>
+    <string name="fui_idp_name_facebook">Facebook</string>
+    <string name="fui_idp_name_github">GitHub</string>
+    <string name="fui_idp_name_google">Google</string>
+    <string name="fui_idp_name_twitter">Twitter</string>
+    <string name="fui_incorrect_code_dialog_body">Mã không chính xác. Hãy thử lại.</string>
+    <string name="fui_invalid_email_address">Địa chỉ email đó không đúng</string>
+    <string name="fui_invalid_phone_number">Nhập số điện thoại hợp lệ</string>
+    <string name="fui_missing_email_address">Nhập địa chỉ email của bạn để tiếp tục</string>
+    <string name="fui_name_hint">Họ và tên</string>
+    <string name="fui_next_default">Tiếp</string>
+    <string name="fui_password_hint">Mật khẩu</string>
+    <string name="fui_password_recovery_body">Xem hướng dẫn gửi tới email này có giải thích cách đặt lại mật khẩu của bạn.</string>
+    <string name="fui_phone_hint">Số điện thoại</string>
+    <string name="fui_privacy_policy">Chính sách bảo mật</string>
+    <string name="fui_progress_dialog_checking_accounts">Đang kiểm tra các tài khoản hiện có…</string>
+    <string name="fui_progress_dialog_loading">Đang tải…</string>
+    <string name="fui_progress_dialog_sending">Đang gửi…</string>
+    <string name="fui_progress_dialog_signing_in">Đang đăng nhập…</string>
+    <string name="fui_progress_dialog_signing_up">Đang đăng ký…</string>
+    <string name="fui_required_field">Bạn không được để trống trường này.</string>
+    <string name="fui_resend_code">Gửi lại mã</string>
+    <string name="fui_resend_code_in">Gửi lại mã sau 0:%02d</string>
+    <string name="fui_sign_in_default">Đăng nhập</string>
+    <string name="fui_sign_in_with_email">Đăng nhập bằng email</string>
+    <string name="fui_sign_in_with_facebook">Đăng nhập bằng Facebook</string>
+    <string name="fui_sign_in_with_github">Đăng nhập bằng GitHub</string>
+    <string name="fui_sign_in_with_google">Đăng nhập bằng Google</string>
+    <string name="fui_sign_in_with_phone">Đăng nhập bằng điện thoại</string>
+    <string name="fui_sign_in_with_phone_number">Đăng nhập bằng số điện thoại</string>
+    <string name="fui_sign_in_with_twitter">Đăng nhập bằng Twitter</string>
+    <string name="fui_sms_terms_of_service">Bằng cách nhấn vào “%1$s”, bạn có thể nhận được một tin nhắn SMS. Cước tin nhắn và dữ liệu có thể áp dụng.</string>
+    <string name="fui_sms_terms_of_service_and_privacy_policy_extended">Bằng cách nhấn vào “%1$s”, bạn cho biết rằng bạn chấp nhận %2$s và %3$s của chúng tôi. Bạn có thể nhận được một tin nhắn SMS. Cước tin nhắn và dữ liệu có thể áp dụng.</string>
+    <string name="fui_terms_of_service">Điều khoản dịch vụ</string>
+    <string name="fui_title_confirm_recover_password">Kiểm tra email của bạn</string>
+    <string name="fui_title_recover_password_activity">Khôi phục mật khẩu</string>
+    <string name="fui_title_register_email">Đăng ký</string>
+    <string name="fui_tos_and_pp">Bằng cách tiếp tục, bạn cho biết rằng bạn chấp nhận %1$s và %2$s của chúng tôi.</string>
+    <string name="fui_tos_and_pp_footer">%1$s \u00A0 \u00A0 %2$s</string>
+    <string name="fui_trouble_signing_in">Bạn gặp sự cố khi đăng nhập?</string>
+    <string name="fui_verify_phone_number">Xác minh số điện thoại</string>
+    <string name="fui_verify_phone_number_title">Nhập số điện thoại của bạn</string>
+    <string name="fui_verify_your_phone_title">Xác minh số điện thoại của bạn</string>
+    <string name="fui_verifying">Đang xác minh…</string>
+    <string name="fui_welcome_back_email_header">Chào mừng bạn quay trở lại!</string>
+    <string name="fui_welcome_back_idp_header">Bạn đã có tài khoản</string>
+    <string name="fui_welcome_back_idp_prompt">Bạn đã sử dụng %1$s. Đăng nhập bằng %2$s để tiếp tục.</string>
+    <string name="fui_welcome_back_password_prompt_body">Bạn đã sử dụng %1$s để đăng nhập. Hãy nhập mật khẩu của bạn cho tài khoản đó.</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Tìm kiếm"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

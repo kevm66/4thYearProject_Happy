@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="fui_error_weak_password"> <item quantity="one">Hindi masyadong malakas ang password. Gumamit ng %1$d character man lang at kumbinasyon ng mga titik at mga numero</item> <item quantity="other">Hindi masyadong malakas ang password. Gumamit ng %1$d na character man lang at kumbinasyon ng mga titik at mga numero</item> </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Mag-navigate patungo sa home"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Mag-navigate pataas"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Higit pang mga opsyon"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Tapos na"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Tingnan lahat"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Pumili ng isang app"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"I-OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"I-ON"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Maghanap…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"I-clear ang query"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Query sa paghahanap"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Maghanap"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Isumite ang query"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Paghahanap gamit ang boses"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Ibahagi sa/kay"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Ibahagi gamit ang <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"I-collapse"</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"I-enable"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Hindi gagana ang <ns1:g id="APP_NAME">%1$s</ns1:g> maliban kung ie-enable mo ang mga serbisyo ng Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"I-enable ang mga serbisyo ng Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"I-install"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"Hindi gagana ang <ns1:g id="APP_NAME">%1$s</ns1:g> nang wala ang mga serbisyo ng Google Play na wala sa iyong device."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Kunin ang mga serbisyo ng Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Availability ng serbisyo ng Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Error sa Mga Serbisyo ng Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Nagkakaproblema ang <ns1:g id="APP_NAME">%1$s</ns1:g> sa mga serbisyo ng Google Play. Pakisubukang muli."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"Hindi gagana ang <ns1:g id="APP_NAME">%1$s</ns1:g> nang wala ang mga serbisyo ng Google Play, na hindi nasusuportahan ng iyong device."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"I-update"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"Hindi gagana ang <ns1:g id="APP_NAME">%1$s</ns1:g> maliban kung i-a-update mo ang mga serbisyo ng Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"I-update ang mga serbisyo ng Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Hindi gagana ang <ns1:g id="APP_NAME">%1$s</ns1:g> nang wala ang mga serbisyo ng Google Play na kasalukuyang ina-update."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Kailangan ang bagong bersyon ng mga serbisyo ng Google Play. Mag-a-update itong mag-isa sa ilang sandali."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Buksan sa telepono"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Mag-sign in"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Mag-sign in sa Google"</string>
+    <string name="fui_accessibility_logo">Logo ng app</string>
+    <string name="fui_auto_verified">Awtomatikong na-verify ang numero ng telepono</string>
+    <string name="fui_button_text_save">I-save</string>
+    <string name="fui_button_text_send">Ipadala</string>
+    <string name="fui_confirm_recovery_body">Sundin ang mga tagubilin na ipinadala sa %1$s upang ma-recover ang iyong password.</string>
+    <string name="fui_continue_phone_login">Magpatuloy</string>
+    <string name="fui_email_account_creation_error">Hindi nagtagumpay ang pagpaparehistro ng email account</string>
+    <string name="fui_email_hint">Mag-email</string>
+    <string name="fui_enter_confirmation_code">Ilagay ang 6-digit na code na ipinadala namin sa</string>
+    <string name="fui_error_email_does_not_exist">Hindi tumutugma ang email address na iyon sa isang kasalukuyang account</string>
+    <string name="fui_error_invalid_password">Maling password.</string>
+    <string name="fui_error_quota_exceeded">Nagkaproblema sa pag-verify ng numero ng iyong telepono</string>
+    <string name="fui_error_session_expired">Wala nang bisa ang code na ito</string>
+    <string name="fui_error_too_many_attempts">Masyadong maraming beses nang nagamit ang numero ng teleponong ito</string>
+    <string name="fui_error_unknown">Nagkaroon ng hindi malamang error.</string>
+    <string name="fui_idp_name_facebook">Fecebook</string>
+    <string name="fui_idp_name_github">GitHub</string>
+    <string name="fui_idp_name_google">Google</string>
+    <string name="fui_idp_name_twitter">Twitter</string>
+    <string name="fui_incorrect_code_dialog_body">Maling code. Subukang muli.</string>
+    <string name="fui_invalid_email_address">Mali ang email address na iyon</string>
+    <string name="fui_invalid_phone_number">Maglagay ng wastong numero ng telepono</string>
+    <string name="fui_missing_email_address">Ilagay ang iyong email address upang magpatuloy</string>
+    <string name="fui_name_hint">Pangalan at apelyido</string>
+    <string name="fui_next_default">Susunod</string>
+    <string name="fui_password_hint">Password</string>
+    <string name="fui_password_recovery_body">Kumuha ng mga tagubilin na ipadala sa email na ito na magpapaliwanag kung paano  i-reset ang iyong password.</string>
+    <string name="fui_phone_hint">Numero ng Telepono</string>
+    <string name="fui_privacy_policy">Patakaran sa Privacy</string>
+    <string name="fui_progress_dialog_checking_accounts">Tinitingnan ang mga umiiral nang account…</string>
+    <string name="fui_progress_dialog_loading">Naglo-load…</string>
+    <string name="fui_progress_dialog_sending">Ipinapadala…</string>
+    <string name="fui_progress_dialog_signing_in">Nagsa-sign in…</string>
+    <string name="fui_progress_dialog_signing_up">Nagsa-sign up…</string>
+    <string name="fui_required_field">Hindi mo ito maaaring iwanan na walang laman.</string>
+    <string name="fui_resend_code">Ipadala Muli ang Code</string>
+    <string name="fui_resend_code_in">Ipadala muli ang code sa loob ng 0:%02d</string>
+    <string name="fui_sign_in_default">Mag-sign in</string>
+    <string name="fui_sign_in_with_email">Mag-sign in gamit ang email</string>
+    <string name="fui_sign_in_with_facebook">Mag-sign in sa Facebook</string>
+    <string name="fui_sign_in_with_github">Mag-sign in sa GitHub</string>
+    <string name="fui_sign_in_with_google">Mag-sign in sa Google</string>
+    <string name="fui_sign_in_with_phone">Mag-sign in gamit ang telepono</string>
+    <string name="fui_sign_in_with_phone_number">Mag-sign in gamit ang numero ng telepono</string>
+    <string name="fui_sign_in_with_twitter">Mag-sign in sa Twitter</string>
+    <string name="fui_sms_terms_of_service">Sa pag-tap sa “%1$s,“ maaaring magpadala ng SMS. Maaaring ipatupad ang mga rate ng pagmemensahe at data.</string>
+    <string name="fui_sms_terms_of_service_and_privacy_policy_extended">Sa pag-tap sa “%1$s”, ipinababatid mo na tinatanggap mo ang aming %2$s at %3$s. Maaaring magpadala ng SMS. Maaaring ipatupad ang mga rate ng pagmemensahe at data.</string>
+    <string name="fui_terms_of_service">Mga Tuntunin ng Serbisyo</string>
+    <string name="fui_title_confirm_recover_password">Suriin ang iyong email</string>
+    <string name="fui_title_recover_password_activity">I-recover ang password</string>
+    <string name="fui_title_register_email">Mag-sign up</string>
+    <string name="fui_tos_and_pp">Sa pagpapatuloy, ipinababatid mo na tinatanggap mo ang aming %1$s at %2$s.</string>
+    <string name="fui_tos_and_pp_footer">%1$s \u00A0 \u00A0 %2$s</string>
+    <string name="fui_trouble_signing_in">Nagkaproblema sa pag-sign in?</string>
+    <string name="fui_verify_phone_number">I-verify ang Numero ng Telepono</string>
+    <string name="fui_verify_phone_number_title">Ilagay ang numero ng iyong telepono</string>
+    <string name="fui_verify_your_phone_title">I-verify ang numero ng iyong telepono</string>
+    <string name="fui_verifying">Bine-verify…</string>
+    <string name="fui_welcome_back_email_header">Maligayang pagbabalik!</string>
+    <string name="fui_welcome_back_idp_header">Mayroon ka nang account</string>
+    <string name="fui_welcome_back_idp_prompt">Nagamit mo na ang %1$s.        Mag-sign in gamit ang %2$s upang magpatuloy.</string>
+    <string name="fui_welcome_back_password_prompt_body">Nagamit mo na ang %1$s        upang mag-sign in. Ilagay ang iyong password para sa account na iyon.</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Maghanap"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

@@ -5,69 +5,31 @@
     <!--<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />-->
 
     <application
-        android:name=".SplashScreenDelay"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"> <!-- AppTheme.Launcher for splash screen -->
+
         <activity
             android:name=".ChatActivity"
             android:label="@string/text_chat_title" />
         <!-- <activity -->
         <!-- android:name=".Frag1Activity" -->
         <!-- android:label="@string/text_title_frag_1" /> -->
-        <activity
-            android:name=".HomeActivity"
-            android:label="@string/text_home_title" />
-        <activity
-            android:name=".InsightsActivity"
-            android:label="@string/text_insights_title" />
-        <activity
-            android:name=".LogActivity"
-            android:label="@string/text_log_title" />
-        <activity
-            android:name=".LoginActivity"
-            android:label="@string/text_login_title" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".MapActivity"
-            android:label="@string/text_map_title" />
-        <activity
-            android:name=".NavActivity"
-            android:label="@string/app_name" />
-        <activity
             android:name=".UpdateActivity"
             android:label="@string/text_log_heading" />
         <activity
-            android:name=".RegisterActivity"
-            android:label="@string/text_register_title" />
-        <activity
-            android:name=".FeedActivity"
-            android:label="@string/text_feed_title" />
-        <activity
             android:name=".SettingsActivity"
             android:label="@string/text_settings_title" />
-        <activity
-            android:name=".SupportActivity"
-            android:label="@string/text_support_title" />
-        <!-- <activity android:name=".SplashScreenActivity" android:theme="@style/SplashTheme"> -->
-        <!-- <intent-filter> -->
-        <!-- <action android:name="android.intent.action.MAIN" /> -->
-        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-        <!-- </intent-filter> -->
-        <!-- </activity> -->
-        <activity
-            android:name=".TabActivity"
-            android:label="@string/text_title_tab_activity"
-            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>

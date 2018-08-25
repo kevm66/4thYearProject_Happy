@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="fui_error_weak_password"> <item quantity="one">پاس ورڈ کافی مضبوط نہیں ہے۔ کم از کم %1$d کریکٹر اور حروف و اعداد کا مرکب استعمال کریں</item> <item quantity="other">پاس ورڈ کافی مضبوط نہیں ہے۔ کم از کم %1$d کریکٹرز اور حروف و اعداد کا مرکب استعمال کریں</item> </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ہوم پر نیویگیٹ کریں"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"اوپر نیویگیٹ کریں"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"مزید اختیارات"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"ہو گیا"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"سبھی دیکھیں"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"ایک ایپ منتخب کریں"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"آف"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"آن"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"تلاش کریں…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"استفسار صاف کریں"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"استفسار تلاش کریں"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"تلاش کریں"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"استفسار جمع کرائیں"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"صوتی تلاش"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"اشتراک کریں مع"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> کے ساتھ اشتراک کریں"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"سکیڑیں"</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"فعال کریں"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"‏جب تک آپ Google Play سروسز فعال نہیں کر لیتے، <ns1:g id="APP_NAME">%1$s</ns1:g> کام نہیں کرے گی۔"</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"‏Google Play سروسز فعال کریں"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"انسٹال کریں"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"‏<ns1:g id="APP_NAME">%1$s</ns1:g> Google Play سروسز کے بغیر نہیں چلے گی، جو آپ کے آلہ سے غائب ہیں۔"</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"‏Google Play سروسز حاصل کریں"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"‏Google Play سروسز کی دستیابی"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"‏Google Play سروسز کی خرابی"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"‏<ns1:g id="APP_NAME">%1$s</ns1:g> کو Google Play سروسز کے ساتھ مسئلہ پیش آ رہا ہے۔ براہ کرم دوبارہ کوشش کریں۔"</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"‏<ns1:g id="APP_NAME">%1$s</ns1:g> Google Play سروسز کے بغیر نہیں چلے گی، جن کی آپ کا آلہ معاونت نہیں کرتا۔"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"اپ ڈیٹ کریں"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"‏جب تک آپ Google Play سروسز اپ ڈیٹ نہیں کر لیتے ہیں <ns1:g id="APP_NAME">%1$s</ns1:g> تب تک نہیں چلے گی۔"</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"‏Google Play سروسز اپ ڈیٹ کریں"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"‏<ns1:g id="APP_NAME">%1$s</ns1:g> Google Play سروسز کے بغیر نہیں چلے گی، جو فی الحال اپ ڈیٹ ہو رہی ہیں۔"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"‏Google Play سروسز کے نئے ورژن کی ضرورت ہے۔ یہ تھوڑی دیر میں خود ہی اپنے آپ کو اپ ڈیٹ کر لے گا۔"</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"فون پر کھولیں"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"سائن ان کریں"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"‏Google کے ساتھ سائن ان کریں"</string>
+    <string name="fui_accessibility_logo">ایپ لوگو</string>
+    <string name="fui_auto_verified">فون نمبر کی خودکار طور پر توثیق ہو گئی</string>
+    <string name="fui_button_text_save">محفوظ کریں</string>
+    <string name="fui_button_text_send">بھیجیں</string>
+    <string name="fui_confirm_recovery_body">اپنے پاس ورڈ کو بازیافت کرنے کے لیے %1$s پر بھیجی گئی ہدایات کی پیروی کریں۔</string>
+    <string name="fui_continue_phone_login">جاری رکھیں</string>
+    <string name="fui_email_account_creation_error">ای میل اکاؤنٹ کی رجسٹریشن نا کام رہی</string>
+    <string name="fui_email_hint">ای میل</string>
+    <string name="fui_enter_confirmation_code">ہماری جانب سے حسبِ ذیل کو بھیجا گیا 6 عدد کا کوڈ درج کریں</string>
+    <string name="fui_error_email_does_not_exist">یہ ای میل پتہ کسی موجودہ اکاؤنٹ کے مماثل نہیں ہے</string>
+    <string name="fui_error_invalid_password">غلط پاس ورڈ۔</string>
+    <string name="fui_error_quota_exceeded">آپ کے فون نمبر کی توثیق کرنے میں ایک مسئلہ تھا</string>
+    <string name="fui_error_session_expired">یہ کوڈ اب جائز نہیں رہا</string>
+    <string name="fui_error_too_many_attempts">یہ فون نمبر پہلے ہی کافی مرتبہ استعمال ہو چکا ہے</string>
+    <string name="fui_error_unknown">ایک نامعلوم خرابی پیش آ گئی۔</string>
+    <string name="fui_idp_name_facebook">Facebook</string>
+    <string name="fui_idp_name_github">Github</string>
+    <string name="fui_idp_name_google">Google</string>
+    <string name="fui_idp_name_twitter">Twitter</string>
+    <string name="fui_incorrect_code_dialog_body">غلط کوڈ۔ دوبارہ کوشش کریں۔</string>
+    <string name="fui_invalid_email_address">یہ ای میل پتہ غلط ہے</string>
+    <string name="fui_invalid_phone_number">براہ کرم ایک درست فون نمبر درج کریں</string>
+    <string name="fui_missing_email_address">جاری رکھنے کے لیے اپنا ای میل پتہ درج کریں</string>
+    <string name="fui_name_hint">پہلا اور آخری نام</string>
+    <string name="fui_next_default">اگلا</string>
+    <string name="fui_password_hint">پاس ورڈ</string>
+    <string name="fui_password_recovery_body">اس ای میل پر بھیجی گئی وہ ہدایات حاصل کریں جن میں اس بات کی وضاحت ہے کہ کیسے اپنا پاس ورڈ دوبارہ ترتیب دیں۔</string>
+    <string name="fui_phone_hint">فون نمبر</string>
+    <string name="fui_privacy_policy">رازداری کی پالیسی</string>
+    <string name="fui_progress_dialog_checking_accounts">موجودہ اکاؤنٹس چیک ہو رہے ہیں…</string>
+    <string name="fui_progress_dialog_loading">لوڈ ہو رہا ہے…</string>
+    <string name="fui_progress_dialog_sending">بھیجا جا رہا ہے…</string>
+    <string name="fui_progress_dialog_signing_in">سائن ان ہو رہا ہے…</string>
+    <string name="fui_progress_dialog_signing_up">سائن اپ ہو رہا ہے…</string>
+    <string name="fui_required_field">آپ اسے خالی نہیں چھوڑ سکتے۔</string>
+    <string name="fui_resend_code">کوڈ دوبارہ بھیجیں</string>
+    <string name="fui_resend_code_in">0:%02d میں دوبارہ کوڈ بھیجیں</string>
+    <string name="fui_sign_in_default">سائن ان کریں</string>
+    <string name="fui_sign_in_with_email">ای میل کے ساتھ سائن ان کریں</string>
+    <string name="fui_sign_in_with_facebook">Facebook کے ساتھ سائن ان کریں</string>
+    <string name="fui_sign_in_with_github">GitHub کے ساتھ سائن ان کریں</string>
+    <string name="fui_sign_in_with_google">Google کے ساتھ سائن ان کریں</string>
+    <string name="fui_sign_in_with_phone">فون کے ساتھ سائں ان کریں</string>
+    <string name="fui_sign_in_with_phone_number">فون نمبر کے ساتھ سائن ان کریں</string>
+    <string name="fui_sign_in_with_twitter">Twitter کے ساتھ سائن ان کریں</string>
+    <string name="fui_sms_terms_of_service">%1$s پر تھپتھپانے سے، ایک SMS بھیجا جا سکتا ہے۔ پیغام اور ڈیٹا کی شرحوں کا اطلاق ہو سکتا ہے۔</string>
+    <string name="fui_sms_terms_of_service_and_privacy_policy_extended">“%1$s” کو تھپتھپا کر، آپ نشاندہی کر رہے ہیں کہ آپ ہماری %2$s اور %3$s کو قبول کرتے ہیں۔ ایک SMS بھیجا جا سکتا ہے۔ پیغام اور ڈیٹا نرخ لاگو ہو سکتے ہیں۔</string>
+    <string name="fui_terms_of_service">سروس کی شرائط</string>
+    <string name="fui_title_confirm_recover_password">اپنا ای میل چیک کریں</string>
+    <string name="fui_title_recover_password_activity">پاس ورڈ بازیافت کریں</string>
+    <string name="fui_title_register_email">سائن اپ کریں</string>
+    <string name="fui_tos_and_pp">جاری رکھ کر، آپ نشاندہی کر رہے ہیں کہ آپ ہماری %1$s اور %2$s کو قبول کرتے ہیں۔</string>
+    <string name="fui_tos_and_pp_footer">%1$s \u00A0 \u00A0 %2$s</string>
+    <string name="fui_trouble_signing_in">سائن ان کرنے میں دشواری؟</string>
+    <string name="fui_verify_phone_number">فون نمبر کی توثیق کریں</string>
+    <string name="fui_verify_phone_number_title">اپنا فون نمبر درج کریں</string>
+    <string name="fui_verify_your_phone_title">اپنے فون نمبر کی توثیق کریں</string>
+    <string name="fui_verifying">توثیق ہو رہی ہے…</string>
+    <string name="fui_welcome_back_email_header">واپسی پر خوش آمدید!</string>
+    <string name="fui_welcome_back_idp_header">آپ کے پاس پہلے سے ہی ایک اکاؤنٹ موجود ہے</string>
+    <string name="fui_welcome_back_idp_prompt">آپ نے پہلے ہی %1$s استعمال کر لیا ہے۔ جاری رکھنے کے لیے %2$s کے ساتھ سائن ان کریں۔</string>
+    <string name="fui_welcome_back_password_prompt_body">آپ نے پہلے ہی %1$s استعمال کر لیا ہے سائن کرنے کے لیے۔ اس کاؤنٹ کے لیے اپنا پاس ورڈ درج کریں۔</string>
+    <string msgid="146198913615257606" name="search_menu_title">"تلاش"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"‎999+‎"</string>
+</resources>

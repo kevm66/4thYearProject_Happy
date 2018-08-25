@@ -200,7 +200,7 @@ public class UpdateActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(UpdateActivity.this, locationInfo, Toast.LENGTH_SHORT).show();
-//                TODO startActivity(new Intent(UpdateActivity.this, NavActivity.class));
+//                TODO startActivity(new Intent(UpdateActivity.this, MainActivity.class));
             }
         });
 
@@ -208,7 +208,7 @@ public class UpdateActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(UpdateActivity.this, visibilityInfo, Toast.LENGTH_SHORT).show();
-//                TODO startActivity(new Intent(UpdateActivity.this, NavActivity.class));
+//                TODO startActivity(new Intent(UpdateActivity.this, MainActivity.class));
             }
         });
 
@@ -216,7 +216,7 @@ public class UpdateActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(UpdateActivity.this, usernameInfo, Toast.LENGTH_SHORT).show();
-//                TODO startActivity(new Intent(UpdateActivity.this, NavActivity.class));
+//                TODO startActivity(new Intent(UpdateActivity.this, MainActivity.class));
             }
         });
 
@@ -231,7 +231,7 @@ public class UpdateActivity extends AppCompatActivity {
 //                        public void onClick(View view) {
 //                            Toast.makeText(UpdateActivity.this, visibilityInfo, Toast.LENGTH_SHORT).show();
 //                        }
-//                        //                startActivity(new Intent(UpdateActivity.this, NavActivity.class));
+//                        //                startActivity(new Intent(UpdateActivity.this, MainActivity.class));
 //                    });
                 } else {
                     textViewMoodLocation.setText(" ");
@@ -283,7 +283,7 @@ public class UpdateActivity extends AppCompatActivity {
                 } else {
                     textViewMoodTitle.setText(mood);
                     Toast.makeText(UpdateActivity.this, "Mood updated successfully", Toast.LENGTH_SHORT).show();
-//                startActivity(new Intent(UpdateActivity.this, NavActivity.class));
+//                startActivity(new Intent(UpdateActivity.this, MainActivity.class));
 
                     //TODO refresh data (via recycler view)
 //                    notifyDataSetChanged();

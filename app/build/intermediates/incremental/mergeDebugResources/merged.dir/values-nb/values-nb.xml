@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="fui_error_weak_password"> <item quantity="one">Passordet er ikke sterkt nok. Bruk minst %1$d tegn og en blanding av bokstaver og tall</item> <item quantity="other">Passordet er ikke sterkt nok. Bruk minst %1$d tegn og en blanding av bokstaver og tall</item> </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Gå til startsiden"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Gå opp"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Flere alternativer"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Ferdig"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Se alle"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Velg en app"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"AV"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"PÅ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Søk …"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Slett søket"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Søkeord"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Søk"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Utfør søket"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Talesøk"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Del med"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Del med <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Skjul"</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Slå på"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> fungerer ikke med mindre du slår på Google Play-tjenester."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Slå på Google Play-tjenester"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Installer"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan ikke kjøre uten Google Play-tjenester, som ikke er installert på enheten din."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Installer Google Play-tjenester"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Google Play Tjenester-tilgjengelighet"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play Tjenester-feil"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> har problemer med Google Play-tjenester. Prøv på nytt."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan ikke kjøre uten Google Play-tjenester, som ikke støttes av enheten din."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Oppdater"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kjører ikke med mindre du oppdaterer Google Play Tjenester."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Oppdater Google Play-tjenester"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kjører ikke uten Google Play-tjenester, som oppdateres akkurat nå."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Du må installere en ny versjon av Google Play-tjenester. Appen oppdateres automatisk om en kort stund."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Åpne på telefonen"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Logg på"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Logg på med Google"</string>
+    <string name="fui_accessibility_logo">App-logo</string>
+    <string name="fui_auto_verified">Telefonnummeret ble bekreftet automatisk</string>
+    <string name="fui_button_text_save">Lagre</string>
+    <string name="fui_button_text_send">Send</string>
+    <string name="fui_confirm_recovery_body">Følg veiledningen som er sendt til %1$s, for å gjenopprette passordet ditt.</string>
+    <string name="fui_continue_phone_login">Fortsett</string>
+    <string name="fui_email_account_creation_error">Kunne ikke registrere e-postkontoen</string>
+    <string name="fui_email_hint">E-post</string>
+    <string name="fui_enter_confirmation_code">Oppgi den 6-sifrede koden vi sendte til</string>
+    <string name="fui_error_email_does_not_exist">Denne e-postadressen samsvarer ikke med en eksisterende konto</string>
+    <string name="fui_error_invalid_password">Feil passord.</string>
+    <string name="fui_error_quota_exceeded">Kunne ikke bekrefte telefonnummeret ditt</string>
+    <string name="fui_error_session_expired">Denne koden er ikke lenger gyldig</string>
+    <string name="fui_error_too_many_attempts">Dette telefonnummeret er brukt for mange ganger</string>
+    <string name="fui_error_unknown">Det oppsto en ukjent feil.</string>
+    <string name="fui_idp_name_facebook">Facebook</string>
+    <string name="fui_idp_name_github">GitHub</string>
+    <string name="fui_idp_name_google">Google</string>
+    <string name="fui_idp_name_twitter">Twitter</string>
+    <string name="fui_incorrect_code_dialog_body">Feil kode. Prøv på nytt.</string>
+    <string name="fui_invalid_email_address">E-postadressen er ikke riktig</string>
+    <string name="fui_invalid_phone_number">Oppgi et gyldig telefonnummer</string>
+    <string name="fui_missing_email_address">Oppgi e-postadressen din for å fortsette</string>
+    <string name="fui_name_hint">Fornavn og etternavn</string>
+    <string name="fui_next_default">Neste</string>
+    <string name="fui_password_hint">Passord</string>
+    <string name="fui_password_recovery_body">Få instruksjoner sendt til denne e-postadressen for hvordan du tilbakestiller passordet ditt.</string>
+    <string name="fui_phone_hint">Telefonnummer</string>
+    <string name="fui_privacy_policy">Personvernregler</string>
+    <string name="fui_progress_dialog_checking_accounts">Ser etter eksisterende kontoer…</string>
+    <string name="fui_progress_dialog_loading">Laster inn…</string>
+    <string name="fui_progress_dialog_sending">Sender…</string>
+    <string name="fui_progress_dialog_signing_in">Logger på…</string>
+    <string name="fui_progress_dialog_signing_up">Registrerer…</string>
+    <string name="fui_required_field">Du må fylle ut dette feltet.</string>
+    <string name="fui_resend_code">Send koden på nytt</string>
+    <string name="fui_resend_code_in">Send koden på nytt om 0:%02d</string>
+    <string name="fui_sign_in_default">Logg på</string>
+    <string name="fui_sign_in_with_email">Logg på med e-postadresse</string>
+    <string name="fui_sign_in_with_facebook">Logg på med Facebook</string>
+    <string name="fui_sign_in_with_github">Logg på med GitHub</string>
+    <string name="fui_sign_in_with_google">Logg på med Google</string>
+    <string name="fui_sign_in_with_phone">Logg på med telefonnummeret ditt</string>
+    <string name="fui_sign_in_with_phone_number">Logg på med telefonnummer</string>
+    <string name="fui_sign_in_with_twitter">Logg på med Twitter</string>
+    <string name="fui_sms_terms_of_service">Når du trykker på «%1$s», kan det bli sendt en SMS. Kostnader for meldinger og datatrafikk kan påløpe.</string>
+    <string name="fui_sms_terms_of_service_and_privacy_policy_extended">Ved å trykke på «%1$s» godtar du %2$s og %3$s våre. Du kan bli tilsendt en SMS. Kostnader for meldinger og datatrafikk kan påløpe.</string>
+    <string name="fui_terms_of_service">vilkårene</string>
+    <string name="fui_title_confirm_recover_password">Sjekk e-posten din</string>
+    <string name="fui_title_recover_password_activity">Gjenopprett passordet</string>
+    <string name="fui_title_register_email">Registrering</string>
+    <string name="fui_tos_and_pp">Ved å fortsette godtar du %1$s og %2$s våre.</string>
+    <string name="fui_tos_and_pp_footer">%1$s \u00A0 \u00A0 %2$s</string>
+    <string name="fui_trouble_signing_in">Har du problemer med å logge på?</string>
+    <string name="fui_verify_phone_number">Bekreft telefonnummeret</string>
+    <string name="fui_verify_phone_number_title">Oppgi telefonnummeret ditt</string>
+    <string name="fui_verify_your_phone_title">Bekreft telefonnummeret ditt</string>
+    <string name="fui_verifying">Bekrefter…</string>
+    <string name="fui_welcome_back_email_header">Velkommen tilbake!</string>
+    <string name="fui_welcome_back_idp_header">Du har allerede en konto</string>
+    <string name="fui_welcome_back_idp_prompt">Du har allerede brukt %1$s. Logg på med %2$s for å fortsette.</string>
+    <string name="fui_welcome_back_password_prompt_body">Du har allerede brukt %1$s for å logge på. Angi passordet ditt for denne kontoen.</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Søk"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

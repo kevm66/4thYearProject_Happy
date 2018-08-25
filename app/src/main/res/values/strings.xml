@@ -4,7 +4,7 @@
 
     <string name="activity_chat_btn_send">Send</string>
     <string name="btn_feed_map">Mood Map</string>
-    <string name="btn_home_chat">Chat</string>
+    <string name="btn_support_chat">Chat</string>
     <string name="btn_home_feed">Activity Log</string>
     <string name="btn_home_log">My Log</string>
     <string name="btn_home_map">Mood Map</string>

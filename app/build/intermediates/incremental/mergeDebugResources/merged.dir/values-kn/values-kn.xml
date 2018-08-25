@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="fui_error_weak_password"> <item quantity="one">ಪಾಸ್‍‌ವರ್ಡ್‌ ಸಾಕಷ್ಟು ಪ್ರಬಲವಾಗಿಲ್ಲ. ಕನಿಷ್ಠ %1$d ಅಕ್ಷರಗಳಿರಲಿ ಹಾಗೂ ಅದರಲ್ಲಿ ಅಕ್ಷರಗಳು ಮತ್ತು ಸಂಖ್ಯೆಗಳ ಮಿಕ್ಸ್‌ ಬಳಸಿ</item> <item quantity="other">ಪಾಸ್‍‌ವರ್ಡ್‌ ಸಾಕಷ್ಟು ಪ್ರಬಲವಾಗಿಲ್ಲ. ಕನಿಷ್ಠ %1$d ಅಕ್ಷರಗಳಿರಲಿ ಹಾಗೂ ಅದರಲ್ಲಿ ಅಕ್ಷರಗಳು ಮತ್ತು ಸಂಖ್ಯೆಗಳ ಮಿಕ್ಸ್‌ ಬಳಸಿ</item> </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ಮುಖಪುಟವನ್ನು ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"ಮೇಲಕ್ಕೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡಿ"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"ಇನ್ನಷ್ಟು ಆಯ್ಕೆಗಳು"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"ಮುಗಿದಿದೆ"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"ಎಲ್ಲವನ್ನೂ ನೋಡಿ"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"ಒಂದು ಅಪ್ಲಿಕೇಶನ್ ಆಯ್ಕೆಮಾಡಿ"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ಆಫ್"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ಆನ್"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"ಹುಡುಕಿ…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"ಪ್ರಶ್ನೆಯನ್ನು ತೆರವುಗೊಳಿಸು"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"ಪ್ರಶ್ನೆಯನ್ನು ಹುಡುಕಿ"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"ಹುಡುಕಿ"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"ಪ್ರಶ್ನೆಯನ್ನು ಸಲ್ಲಿಸು"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"ಧ್ವನಿ ಹುಡುಕಾಟ"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"ಇವರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> ನೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಿ"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"ಸಂಕುಚಿಸು"</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"ಸಕ್ರಿಯಗೊಳಿಸು"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Google Play ಸೇವೆಗಳನ್ನು ನೀವು ಸಕ್ರಿಯಗೊಳಿಸದ ಹೊರತು <ns1:g id="APP_NAME">%1$s</ns1:g> ಕಾರ್ಯನಿರ್ವಹಿಸುವುದಿಲ್ಲ."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play ಸೇವೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"ನಿಮ್ಮ ಸಾಧನದಿಂದ ಕಾಣೆಯಾಗಿರುವ <ns1:g id="APP_NAME">%1$s</ns1:g>, Google Play ಸೇವೆಗಳಿಲ್ಲದೆ ರನ್ ಆಗುವುದಿಲ್ಲ."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play ಸೇವೆಗಳನ್ನು ಪಡೆಯಿರಿ"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Google Play ಸೇವೆಗಳ ಲಭ್ಯತೆ"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play ಸೇವೆಗಳ ದೋಷ"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Google Play ಸೇವೆಗಳಲ್ಲಿ <ns1:g id="APP_NAME">%1$s</ns1:g> ಸಮಸ್ಯೆಯನ್ನು ಹೊಂದಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"ನಿಮ್ಮ ಸಾಧನದ ಮೂಲಕ ಬೆಂಬಲಿಸದಿರುವ Google Play ಸೇವೆಗಳಿಲ್ಲದೆ <ns1:g id="APP_NAME">%1$s</ns1:g> ರನ್‌ ಆಗುವುದಿಲ್ಲ."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"ಅಪ್‌ಡೇಟ್‌ ಮಾಡು"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"ನೀವು Google Play ಸೇವೆಗಳನ್ನು ನವೀಕರಿಸದ ಹೊರತು <ns1:g id="APP_NAME">%1$s</ns1:g> ರನ್ ಆಗುವುದಿಲ್ಲ."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google ಪ್ಲೇ ಸೇವೆಗಳನ್ನು ಅಪ್‌ಡೇಟ್‌ ಮಾಡಿ"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Google Play ಸೇವೆಗಳಿಲ್ಲದೆ ಪ್ರಸ್ತುತ ಅಪ್‌ಡೇಟ್ ಆಗುತ್ತಿರುವ <ns1:g id="APP_NAME">%1$s</ns1:g> ರನ್ ಆಗುವುದಿಲ್ಲ."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play ಸೇವೆಗಳ ಹೊಸ ಆವೃತ್ತಿ ಅಗತ್ಯವಿದೆ. ಸದ್ಯದಲ್ಲೇ ಅದು ತಾನಾಗಿಯೇ ಅಪ್‌ಡೇಟ್ ಆಗುತ್ತದೆ."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"ಫೋನ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"ಸೈನ್ ಇನ್"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Google ಮೂಲಕ ಸೈನ್ ಇನ್ ಮಾಡಿ"</string>
+    <string name="fui_accessibility_logo">ಅಪ್ಲಿಕೇಶನ್‌ ಲೋಗೊ</string>
+    <string name="fui_auto_verified">ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪರಿಶೀಲಿಸಲಾಗಿದೆ</string>
+    <string name="fui_button_text_save">ಉಳಿಸಿ</string>
+    <string name="fui_button_text_send">ಕಳುಹಿಸಿ</string>
+    <string name="fui_confirm_recovery_body">ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ಮರುಪಡೆಯಲು %1$s ಗೆ ಕಳುಹಿಸಲಾದ ಸೂಚನೆಗಳನ್ನು ಅನುಸರಿಸಿ.</string>
+    <string name="fui_continue_phone_login">ಮುಂದುವರಿಸಿ</string>
+    <string name="fui_email_account_creation_error">ಇಮೇಲ್ ಖಾತೆ ನೋಂದಣಿ ಮಾಡುವಿಕೆಯು ವಿಫಲವಾಗಿದೆ</string>
+    <string name="fui_email_hint">ಇಮೇಲ್</string>
+    <string name="fui_enter_confirmation_code">ನಾವು ಕಳುಹಿಸಿರುವ 6 ಅಂಕಿಯ ಕೋಡ್‌ ನಮೂದಿಸಿ</string>
+    <string name="fui_error_email_does_not_exist">ಆ ಇಮೇಲ್‌ ವಿಳಾಸವು ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಖಾತೆಗೆ ಹೊಂದಾಣಿಕೆಯಾಗುವುದಿಲ್ಲ</string>
+    <string name="fui_error_invalid_password">ತಪ್ಪಾದ ಪಾಸ್‌ವರ್ಡ್.</string>
+    <string name="fui_error_quota_exceeded">ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ಪರಿಶೀಲಿಸುವಲ್ಲಿ ತೊಂದರೆ ಇದೆ</string>
+    <string name="fui_error_session_expired">ಈ ಕೋಡ್ ಇನ್ನು ಮುಂದೆ ಮಾನ್ಯವಾಗಿರುವುದಿಲ್ಲ</string>
+    <string name="fui_error_too_many_attempts">ಈ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ಈಗಾಗಲೇ ಹಲವಾರು ಬಾರಿ ಬಳಸಲಾಗಿದೆ</string>
+    <string name="fui_error_unknown">ಅಪರಿಚಿತ ದೋಷವೊಂದು ಸಂಭವಿಸಿದೆ.</string>
+    <string name="fui_idp_name_facebook">Facebook</string>
+    <string name="fui_idp_name_github">GitHub</string>
+    <string name="fui_idp_name_google">Google</string>
+    <string name="fui_idp_name_twitter">Twitter</string>
+    <string name="fui_incorrect_code_dialog_body">ಕೋಡ್ ತಪ್ಪಾಗಿದೆ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="fui_invalid_email_address">ಆ ಇಮೇಲ್ ವಿಳಾಸ ಸರಿಯಾಗಿಲ್ಲ</string>
+    <string name="fui_invalid_phone_number">ಮಾನ್ಯವಾದ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="fui_missing_email_address">ಮುಂದುವರಿಸಲು ನಿಮ್ಮ ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="fui_name_hint">ಮೊದಲ ಮತ್ತು ಕೊನೆಯ ಹೆಸರು</string>
+    <string name="fui_next_default">ಮುಂದೆ</string>
+    <string name="fui_password_hint">ಪಾಸ್‌ವರ್ಡ್</string>
+    <string name="fui_password_recovery_body">ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ಮರುಹೊಂದಿಸುವುದು ಹೇಗೆ ಎಂದು ತಿಳಿಸುವ ಸೂಚನೆಗಳನ್ನು ಈ ಇಮೇಲ್‌ ಮೂಲಕ ಪಡೆಯಿರಿ.</string>
+    <string name="fui_phone_hint">ಫೋನ್ ಸಂಖ್ಯೆ</string>
+    <string name="fui_privacy_policy">ಗೌಪ್ಯತಾ ನೀತಿ</string>
+    <string name="fui_progress_dialog_checking_accounts">ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಖಾತೆಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ…</string>
+    <string name="fui_progress_dialog_loading">ಲೋಡ್‌ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
+    <string name="fui_progress_dialog_sending">ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ…</string>
+    <string name="fui_progress_dialog_signing_in">ಸೈನ್ ಇನ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
+    <string name="fui_progress_dialog_signing_up">ಸೈನ್ ಅಪ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
+    <string name="fui_required_field">ನೀವು ಇದನ್ನು ಖಾಲಿ ಬಿಡುವಂತಿಲ್ಲ.</string>
+    <string name="fui_resend_code">ಕೋಡ್ ಪುನಃ ಕಳುಹಿಸಿ</string>
+    <string name="fui_resend_code_in">ಇಷ್ಟರ ಒಳಗೆ ಕೋಡ್ ಮತ್ತೆ ಕಳುಹಿಸಿ 0:%02d</string>
+    <string name="fui_sign_in_default">ಸೈನ್ ಇನ್‌</string>
+    <string name="fui_sign_in_with_email">ಇಮೇಲ್ ಜೊತೆ ಸೈನ್ ಇನ್ ಮಾಡಿ</string>
+    <string name="fui_sign_in_with_facebook">Facebook ಮೂಲಕ ಸೈನ್ ಇನ್ ಮಾಡಿ</string>
+    <string name="fui_sign_in_with_github">GitHub ಮೂಲಕ ಸೈನ್‌ ಇನ್‌ ಮಾಡಿ</string>
+    <string name="fui_sign_in_with_google">Google ಮೂಲಕ ಸೈನ್ ಇನ್ ಮಾಡಿ</string>
+    <string name="fui_sign_in_with_phone">ಫೋನ್‌ ಮೂಲಕ ಸೈನ್‌ ಇನ್‌ ಮಾಡಿ</string>
+    <string name="fui_sign_in_with_phone_number">ಫೋನ್‌ ಸಂಖ್ಯೆಯ ಮೂಲಕ ಸೈನ್‌ ಇನ್‌ ಮಾಡಿ</string>
+    <string name="fui_sign_in_with_twitter">Twitter ಮೂಲಕ ಸೈನ್ ಇನ್ ಮಾಡಿ</string>
+    <string name="fui_sms_terms_of_service">“%1$s” ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡುವ ಮೂಲಕ, ಎಸ್‌ಎಂಎಸ್‌ ಅನ್ನು ಕಳುಹಿಸಬಹುದಾಗಿದೆ. ಸಂದೇಶ ಮತ್ತು ಡೇಟಾ ದರಗಳು ಅನ್ವಯಿಸಬಹುದು.</string>
+    <string name="fui_sms_terms_of_service_and_privacy_policy_extended">“%1$s” ಅನ್ನು ಟ್ಯಾಪ್ ಮಾಡುವ ಮೂಲಕ, ನೀವು ನಮ್ಮ %2$s ಮತ್ತು %3$s ಸ್ವೀಕರಿಸುತ್ತೀರಿ ಎಂದು ನೀವು ಸೂಚಿಸುತ್ತಿರುವಿರಿ. ಎಸ್‌ಎಂಎಸ್‌ ಅನ್ನು ಕಳುಹಿಸಬಹುದಾಗಿದೆ. ಸಂದೇಶ ಮತ್ತು ಡೇಟಾ ದರಗಳು ಅನ್ವಯಿಸಬಹುದು.</string>
+    <string name="fui_terms_of_service">ಸೇವಾ ನಿಯಮಗಳು</string>
+    <string name="fui_title_confirm_recover_password">ನಿಮ್ಮ ಇಮೇಲ್‌ ಅನ್ನು ಪರಿಶೀಲಿಸಿ</string>
+    <string name="fui_title_recover_password_activity">ಪಾಸ್‌ವರ್ಡ್ ಹಿಂಪಡೆಯಿರಿ</string>
+    <string name="fui_title_register_email">ಸೈನ್ ಅಪ್</string>
+    <string name="fui_tos_and_pp">ಮುಂದುವರಿಸುವ ಮೂಲಕ, ನೀವು ನಮ್ಮ %1$s ಮತ್ತು %2$s ಸ್ವೀಕರಿಸುತ್ತೀರಿ ಎಂದು ನೀವು ಸೂಚಿಸುತ್ತಿರುವಿರಿ</string>
+    <string name="fui_tos_and_pp_footer">%1$s \u00A0 \u00A0 %2$s</string>
+    <string name="fui_trouble_signing_in">ಸೈನ್ ಇನ್ ಮಾಡುವಲ್ಲಿ ಸಮಸ್ಯೆ ಕಂಡುಬಂದಿದೆಯೇ?</string>
+    <string name="fui_verify_phone_number">ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ಪರಿಶೀಲಿಸಿ</string>
+    <string name="fui_verify_phone_number_title">ನಿಮ್ಮ ಫೋನ್‌ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="fui_verify_your_phone_title">ನಿಮ್ಮ ಪೋನ್‌ ಸಂಖ್ಯೆಯನ್ನು ಪರಿಶೀಲಿಸಿ</string>
+    <string name="fui_verifying">ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ…</string>
+    <string name="fui_welcome_back_email_header">ಮರಳಿ ಸುಸ್ವಾಗತ!</string>
+    <string name="fui_welcome_back_idp_header">ನೀವು ಈಗಾಗಲೇ ಖಾತೆಯನ್ನು ಹೊಂದಿರುವಿರಿ</string>
+    <string name="fui_welcome_back_idp_prompt">ನೀವು ಈಗಾಗಲೇ %1$s ಅನ್ನು ಬಳಸುತ್ತಿರುವಿರಿ. ಮುಂದುವರಿಸಲು %2$s ಜೊತೆ ಸೈನ್ ಇನ್ ಮಾಡಿ.</string>
+    <string name="fui_welcome_back_password_prompt_body">ನೀವು ಈಗಾಗಲೇ ಸೈನ್ ಇನ್ ಮಾಡಲು %1$sನ್ನು ಬಳಸಿದ್ದೀರಿ. ಆ ಖಾತೆಗೆ ಸೈನ್ ಇನ್ ಆಗಲು ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ನಮೂದಿಸಿ.</string>
+    <string msgid="146198913615257606" name="search_menu_title">"ಹುಡುಕಿ"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

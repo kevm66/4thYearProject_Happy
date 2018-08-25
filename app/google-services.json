@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1078500879230",
+    "firebase_url": "https://happy-app-nci.firebaseio.com",
+    "project_id": "happy-app-nci",
+    "storage_bucket": "happy-app-nci.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078500879230:android:36bf630cbf0dfde7",
+        "android_client_info": {
+          "package_name": "com.kevinmaher.x14328981.happy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078500879230-7q7sbq2glahtibp8d5pk7in5gpd4oj7s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kevinmaher.x14328981.happy",
+            "certificate_hash": "e4f3e80e0633ec69cb421d64d16d092ce1b3ac0b"
+          }
+        },
+        {
+          "client_id": "1078500879230-04apcbgqp0ec71mhq41qa4jlfok3h8vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7UKMY7wo1u2hrOFUftf9-IUBDC5pCUOw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078500879230-04apcbgqp0ec71mhq41qa4jlfok3h8vc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

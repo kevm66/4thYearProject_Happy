@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="fui_error_weak_password"> <item quantity="one">கடவுச்சொல் வலுவானதாக இல்லை. குறைந்தது %1$d எழுத்துக்குறியும், எழுத்துகளும் எண்களும் கலந்த கலவையும் இருக்க வேண்டும்</item> <item quantity="other">கடவுச்சொல் வலுவானதாக இல்லை. குறைந்தது %1$d எழுத்துக்குறிகளும், எழுத்துகளும் எண்களும் கலந்த கலவையும் இருக்க வேண்டும்</item> </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"முகப்பிற்கு வழிசெலுத்து"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"மேலே வழிசெலுத்து"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"மேலும் விருப்பங்கள்"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"முடிந்தது"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"எல்லாம் காட்டு"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"பயன்பாட்டைத் தேர்வுசெய்க"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ஆஃப்"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ஆன்"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"தேடு..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"வினவலை அழி"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"தேடல் வினவல்"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"தேடு"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"வினவலைச் சமர்ப்பி"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"குரல் தேடல்"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"இதனுடன் பகிர்"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> மூலம் பகிர்"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"சுருக்கு"</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"இயக்கு"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Google Play சேவைகளை இயக்கினால் மட்டுமே, <ns1:g id="APP_NAME">%1$s</ns1:g> செயல்படும்."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play சேவைகளை இயக்கவும்"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"நிறுவு"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"Google Play சேவைகள் இருந்தால் மட்டுமே, <ns1:g id="APP_NAME">%1$s</ns1:g> இயங்கும். அவை உங்கள் சாதனத்தில் இல்லை."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play சேவைகளைப் பெறவும்"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"கிடைக்கும் Google Play சேவைகள்"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play சேவைகள் பிழை"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Google Play சேவைகளில் சிக்கல் ஏற்பட்டதால், <ns1:g id="APP_NAME">%1$s</ns1:g> பயன்பாட்டை அணுக முடியவில்லை. மீண்டும் முயலவும்."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"Google Play சேவைகள் இருந்தால் மட்டுமே <ns1:g id="APP_NAME">%1$s</ns1:g> பயன்பாடு இயங்கும். ஆனால், உங்கள் சாதனத்தில் அவை ஆதரிக்கப்படவில்லை."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"புதுப்பி"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"Google Play சேவைகளை இயக்கினால் மட்டுமே, <ns1:g id="APP_NAME">%1$s</ns1:g> செயல்படும்."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play சேவைகளைப் புதுப்பிக்கவும்"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"தற்போது புதுப்பிக்கப்படும், Google Play சேவைகள் இருந்தால் மட்டுமே, <ns1:g id="APP_NAME">%1$s</ns1:g> செயல்படும்."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play சேவைகளின் புதிய பதிப்பு தேவை. அது விரைவில் தானாகவே புதுப்பிக்கப்படும்."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"மொபைலில் திற"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"உள்நுழைக"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Google மூலம் உள்நுழைக"</string>
+    <string name="fui_accessibility_logo">பயன்பாட்டு லோகோ</string>
+    <string name="fui_auto_verified">ஃபோன் எண் தானாகவே சரிபார்க்கப்பட்டது</string>
+    <string name="fui_button_text_save">சேமி</string>
+    <string name="fui_button_text_send">அனுப்பு</string>
+    <string name="fui_confirm_recovery_body">கடவுச்சொல்லை மீட்டெடுக்க, %1$sக்கு அனுப்பிய வழிமுறைகளைப் பின்பற்றவும்.</string>
+    <string name="fui_continue_phone_login">தொடர்க</string>
+    <string name="fui_email_account_creation_error">மின்னஞ்சல் கணக்கைப் பதிவு செய்ய முடியவில்லை</string>
+    <string name="fui_email_hint">மின்னஞ்சல்</string>
+    <string name="fui_enter_confirmation_code">இந்த எண்ணுக்கு நாங்கள் அனுப்பிய 6 இலக்கக் குறியீட்டை உள்ளிடவும்:</string>
+    <string name="fui_error_email_does_not_exist">மின்னஞ்சல் முகவரி தற்போதைய கணக்குடன் பொருந்தவில்லை</string>
+    <string name="fui_error_invalid_password">தவறான கடவுச்சொல்.</string>
+    <string name="fui_error_quota_exceeded">உங்கள் ஃபோன் எண்ணைச் சரிபார்ப்பதில் சிக்கல் ஏற்பட்டது</string>
+    <string name="fui_error_session_expired">இந்தக் குறியீடு இனி செல்லுபடியாகாது</string>
+    <string name="fui_error_too_many_attempts">இந்த ஃபோன் எண் பலமுறை பயன்படுத்தப்பட்டுள்ளது</string>
+    <string name="fui_error_unknown">அறியப்படாத பிழை ஏற்பட்டது.</string>
+    <string name="fui_idp_name_facebook">Facebook</string>
+    <string name="fui_idp_name_github">Github</string>
+    <string name="fui_idp_name_google">Google</string>
+    <string name="fui_idp_name_twitter">Twitter</string>
+    <string name="fui_incorrect_code_dialog_body">தவறான குறியீடு. மீண்டும் முயலவும்.</string>
+    <string name="fui_invalid_email_address">மின்னஞ்சல் முகவரி தவறாக உள்ளது</string>
+    <string name="fui_invalid_phone_number">சரியான ஃபோன் எண்ணை உள்ளிடவும்</string>
+    <string name="fui_missing_email_address">தொடர, மின்னஞ்சல் முகவரியை உள்ளிடவும்</string>
+    <string name="fui_name_hint">பெயரின் முற்பகுதி மற்றும் பிற்பகுதி</string>
+    <string name="fui_next_default">அடுத்து</string>
+    <string name="fui_password_hint">கடவுச்சொல்</string>
+    <string name="fui_password_recovery_body">கடவுச்சொல்லை மீட்டமைப்பது தொடர்பான வழிமுறைகளை இந்த மின்னஞ்சலில் பார்க்கவும்.</string>
+    <string name="fui_phone_hint">ஃபோன் எண்</string>
+    <string name="fui_privacy_policy">தனியுரிமைக் கொள்கை</string>
+    <string name="fui_progress_dialog_checking_accounts">ஏற்கனவே உள்ள கணக்குகளைச் சரிபார்க்கிறது…</string>
+    <string name="fui_progress_dialog_loading">ஏற்றுகிறது…</string>
+    <string name="fui_progress_dialog_sending">அனுப்புகிறது…</string>
+    <string name="fui_progress_dialog_signing_in">உள்நுழைகிறீர்கள்…</string>
+    <string name="fui_progress_dialog_signing_up">பதிவு செய்கிறது…</string>
+    <string name="fui_required_field">இதை காலியாக விடக்கூடாது.</string>
+    <string name="fui_resend_code">குறியீட்டை மீண்டும் அனுப்பு</string>
+    <string name="fui_resend_code_in">குறியீட்டை 0:%02d நேரத்தில் மீண்டும் அனுப்பவும்</string>
+    <string name="fui_sign_in_default">உள்நுழைக</string>
+    <string name="fui_sign_in_with_email">மின்னஞ்சல் மூலம் உள்நுழைக</string>
+    <string name="fui_sign_in_with_facebook">Facebook மூலம் உள்நுழைக</string>
+    <string name="fui_sign_in_with_github">GitHub பயன்படுத்தி உள்நுழைக</string>
+    <string name="fui_sign_in_with_google">Google மூலம் உள்நுழைக</string>
+    <string name="fui_sign_in_with_phone">ஃபோன் எண் மூலம் உள்நுழைக</string>
+    <string name="fui_sign_in_with_phone_number">ஃபோன் எண் மூலம் உள்நுழையவும்</string>
+    <string name="fui_sign_in_with_twitter">Twitter மூலம் உள்நுழைக</string>
+    <string name="fui_sms_terms_of_service">“%1$s” என்பதைத் தட்டுவதன் மூலம், SMS அனுப்பப்படலாம். செய்தி மற்றும் தரவுக் கட்டணங்கள் விதிக்கப்படலாம்.</string>
+    <string name="fui_sms_terms_of_service_and_privacy_policy_extended">“%1$s” என்பதைத் தட்டுவதன் மூலம், எங்கள் %2$s மற்றும் %3$sஐ ஏற்பதாகக் குறிப்பிடுகிறீர்கள். SMS அனுப்பப்படலாம். செய்தி மற்றும் தரவுக் கட்டணங்கள் விதிக்கப்படலாம்.</string>
+    <string name="fui_terms_of_service">சேவை விதிமுறைகள்</string>
+    <string name="fui_title_confirm_recover_password">உங்கள் மின்னஞ்சலைப் பார்க்கவும்</string>
+    <string name="fui_title_recover_password_activity">கடவுச்சொல்லை மீட்டெடு</string>
+    <string name="fui_title_register_email">பதிவு செய்க</string>
+    <string name="fui_tos_and_pp">தொடர்வதன் மூலம், எங்கள் %1$s மற்றும் %2$sஐ ஏற்பதாகக் குறிப்பிடுகிறீர்கள்.</string>
+    <string name="fui_tos_and_pp_footer">%1$s \u00A0 \u00A0 %2$s</string>
+    <string name="fui_trouble_signing_in">உள்நுழைவதில் சிக்கலா?</string>
+    <string name="fui_verify_phone_number">ஃபோன் எண்ணைச் சரிபார்</string>
+    <string name="fui_verify_phone_number_title">ஃபோன் எண்ணை உள்ளிடவும்</string>
+    <string name="fui_verify_your_phone_title">ஃபோன் எண்ணைச் சரிபார்</string>
+    <string name="fui_verifying">சரிபார்க்கிறது…</string>
+    <string name="fui_welcome_back_email_header">மீண்டும் வரவேற்கிறோம்!</string>
+    <string name="fui_welcome_back_idp_header">ஏற்கனவே உங்களிடம் கணக்கு உள்ளது</string>
+    <string name="fui_welcome_back_idp_prompt">ஏற்கனவே %1$sஐப் பயன்படுத்தியுள்ளீர்கள். தொடர, %2$s மூலம் உள்நுழையவும்.</string>
+    <string name="fui_welcome_back_password_prompt_body">ஏற்கனவே %1$sஐப் பயன்படுத்தி உள்நுழைந்திருக்கிறீர்கள். அந்தக் கணக்கிற்கான கடவுச்சொல்லை உள்ளிடவும்.</string>
+    <string msgid="146198913615257606" name="search_menu_title">"தேடு"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

@@ -15,7 +15,7 @@
         android:title="@string/menu_more_feedback"
         app:showAsAction="never" />
     <item
-        android:id="@+id/menu_more_support"
+        android:id="@+id/menu_more_about"
         android:orderInCategory="80"
         android:title="@string/menu_more_support"
         app:showAsAction="never" />

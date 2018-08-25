@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="fui_error_weak_password"> <item quantity="one">Zaporka nije dovoljno jaka. Upotrijebite najmanje %1$d znak i koristite kombinaciju slova i znamenki.</item> <item quantity="few">Zaporka nije dovoljno jaka. Upotrijebite najmanje %1$d znaka i koristite kombinaciju slova i znamenki.</item> <item quantity="other">Zaporka nije dovoljno jaka. Upotrijebite najmanje %1$d znakova i koristite kombinaciju slova i znamenki.</item> </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Idi na početnu"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Idi gore"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Dodatne opcije"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Gotovo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Prikaži sve"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Odabir aplikacije"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ISKLJUČENO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"UKLJUČENO"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Pretražite…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Izbriši upit"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Upit za pretraživanje"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Pretraživanje"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Pošalji upit"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Glasovno pretraživanje"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Dijeljenje sa"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Dijeli putem aplikacije <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Sažmi"</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Omogući"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> neće funkcionirati ako ne omogućite usluge Google Playa."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Omogućivanje usluga Google Playa"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Instaliraj"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> neće funkcionirati bez usluga Google Playa koje nisu instalirane na vašem uređaju."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Preuzimanje usluga Google Playa"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Dostupnost usluga za Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Pogreška Usluga za Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> ima poteškoća s uslugama Google Playa. Pokušajte ponovo."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> neće funkcionirati bez usluga Google Playa koje vaš uređaj ne podržava."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Ažuriraj"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> neće funkcionirati ako ne ažurirate Google Play usluge."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Ažuriranje usluga Google Playa"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> neće se pokrenuti bez usluga Google Playa koje se trenutačno ažuriraju."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Potrebna je nova verzija usluga Google Playa. Uskoro će se ažurirati."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Otvori na telefonu"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Prijava"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Prijava putem Googlea"</string>
+    <string name="fui_accessibility_logo">Logotip aplikacije</string>
+    <string name="fui_auto_verified">Telefonski je broj automatski potvrđen</string>
+    <string name="fui_button_text_save">Spremi</string>
+    <string name="fui_button_text_send">Pošalji</string>
+    <string name="fui_confirm_recovery_body">Slijedite upute za ponovno postavljanje zaporke koje smo poslali na e-adresu %1$s.</string>
+    <string name="fui_continue_phone_login">Nastavi</string>
+    <string name="fui_email_account_creation_error">Registracija računa putem e-adrese nije uspjela</string>
+    <string name="fui_email_hint">E-adresa</string>
+    <string name="fui_enter_confirmation_code">Unesite 6-znamenkasti kôd koji smo poslali na broj</string>
+    <string name="fui_error_email_does_not_exist">Ta e-adresa ne pripada postojećem računu</string>
+    <string name="fui_error_invalid_password">Pogrešna zaporka.</string>
+    <string name="fui_error_quota_exceeded">Došlo je do problema s potvrdom vašeg telefonskog broja</string>
+    <string name="fui_error_session_expired">Kôd više nije važeći</string>
+    <string name="fui_error_too_many_attempts">Taj telefonski broj upotrijebljen je previše puta</string>
+    <string name="fui_error_unknown">Došlo je do nepoznate pogreške.</string>
+    <string name="fui_idp_name_facebook">Facebook</string>
+    <string name="fui_idp_name_github">GitHub</string>
+    <string name="fui_idp_name_google">Google</string>
+    <string name="fui_idp_name_twitter">Twitter</string>
+    <string name="fui_incorrect_code_dialog_body">Pogrešan kôd. Pokušajte ponovo.</string>
+    <string name="fui_invalid_email_address">Ta e-adresa nije točna</string>
+    <string name="fui_invalid_phone_number">Unesite važeći telefonski broj</string>
+    <string name="fui_missing_email_address">Unesite svoju e-adresu za nastavak</string>
+    <string name="fui_name_hint">Ime i prezime</string>
+    <string name="fui_next_default">Dalje</string>
+    <string name="fui_password_hint">Zaporka</string>
+    <string name="fui_password_recovery_body">Provjerite upute za ponovno postavljanje zaporke koje smo poslali na vašu e-adresu.</string>
+    <string name="fui_phone_hint">Telefonski broj</string>
+    <string name="fui_privacy_policy">Pravila o privatnosti</string>
+    <string name="fui_progress_dialog_checking_accounts">Traženje postojećih računa…</string>
+    <string name="fui_progress_dialog_loading">Učitavanje…</string>
+    <string name="fui_progress_dialog_sending">Slanje…</string>
+    <string name="fui_progress_dialog_signing_in">Prijava…</string>
+    <string name="fui_progress_dialog_signing_up">Registriranje….</string>
+    <string name="fui_required_field">Ne možete to ostaviti prazno.</string>
+    <string name="fui_resend_code">Ponovo pošalji kôd</string>
+    <string name="fui_resend_code_in">Ponovno slanje koda za 0:%02d</string>
+    <string name="fui_sign_in_default">Prijava</string>
+    <string name="fui_sign_in_with_email">Prijava putem e-adrese</string>
+    <string name="fui_sign_in_with_facebook">Prijava putem Facebooka</string>
+    <string name="fui_sign_in_with_github">Prijava putem GitHuba</string>
+    <string name="fui_sign_in_with_google">Prijava putem Googlea</string>
+    <string name="fui_sign_in_with_phone">Prijava putem telefona</string>
+    <string name="fui_sign_in_with_phone_number">Prijava putem telefonskog broja</string>
+    <string name="fui_sign_in_with_twitter">Prijava putem Twittera</string>
+    <string name="fui_sms_terms_of_service">Dodirivanje gumba “%1$s” može dovesti do slanja SMS poruke. Mogu se primijeniti naknade za slanje poruka i podatkovni promet.</string>
+    <string name="fui_sms_terms_of_service_and_privacy_policy_extended">Ako dodirnete “%1$s”, potvrđujete da prihvaćate odredbe koje sadrže %2$s i %3$s. Možda ćemo vam poslati SMS. Moguća je naplata poruke i podatkovnog prometa.</string>
+    <string name="fui_terms_of_service">Uvjeti pružanja usluge</string>
+    <string name="fui_title_confirm_recover_password">Provjerite e-poštu</string>
+    <string name="fui_title_recover_password_activity">Ponovno postavljanje zaporke</string>
+    <string name="fui_title_register_email">Registracija</string>
+    <string name="fui_tos_and_pp">Ako nastavite, potvrđujete da prihvaćate odredbe koje sadrže %1$s i %2$s.</string>
+    <string name="fui_tos_and_pp_footer">%1$s \u00A0 \u00A0 %2$s</string>
+    <string name="fui_trouble_signing_in">Problem s prijavom?</string>
+    <string name="fui_verify_phone_number">Potvrda telefonskog broja</string>
+    <string name="fui_verify_phone_number_title">Unesite telefonski broj</string>
+    <string name="fui_verify_your_phone_title">Potvrda telefonskog broja</string>
+    <string name="fui_verifying">Potvrđivanje…</string>
+    <string name="fui_welcome_back_email_header">Dobro došli natrag!</string>
+    <string name="fui_welcome_back_idp_header">Već imate račun</string>
+    <string name="fui_welcome_back_idp_prompt">Već ste upotrijebili e-adresu %1$s. Za nastavak se prijavite putem usluge %2$s.</string>
+    <string name="fui_welcome_back_password_prompt_body">Za prijavu ste već upotrijebili e-adresu %1$s. Unesite zaporku za taj račun.</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Pretraživanje"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

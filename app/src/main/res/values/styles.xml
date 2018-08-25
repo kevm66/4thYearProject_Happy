@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Base application theme. -->
+    <!-- Base application theme -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
@@ -8,9 +9,9 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
-        <item name="android:windowBackground">@drawable/bg_splash_background</item>
-    </style>
+    <!--<style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">-->
+        <!--<item name="android:windowBackground">@drawable/bg_splash_background</item>-->
+    <!--</style>-->
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
@@ -20,5 +21,12 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--&lt;!&ndash; Splash screen/launcher theme &ndash;&gt;-->
+    <!--<style name="AppTheme.Launcher">-->
+        <!--<item name="android:windowBackground">@drawable/launch_screen</item>-->
+        <!--&lt;!&ndash; Optional, on Android 5+ you can modify the colorPrimaryDark color to match the windowBackground color for further branding&ndash;&gt;-->
+        <!--&lt;!&ndash; <item name="colorPrimaryDark">@android:color/white</item> &ndash;&gt;-->
+    <!--</style>-->
 
 </resources>

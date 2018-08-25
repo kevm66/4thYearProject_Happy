@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="fui_error_weak_password"> <item quantity="one">A palavra-passe não é suficientemente forte. Utilize, pelo menos, %1$d caráter e uma combinação de letras e números</item> <item quantity="other">A palavra-passe não é suficientemente forte. Utilize, pelo menos, %1$d caracteres e uma combinação de letras e números</item> </plurals>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navegar para cima"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Mais opções"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Concluído"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver tudo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Escolher uma aplicação"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"DESATIVADO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ATIVADO"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Pesquisar..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Limpar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta de pesquisa"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Pesquisar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Pesquisa por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Partilhar com"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Partilhar com a aplicação <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Reduzir"</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Ativar"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"O <ns1:g id="APP_NAME">%1$s</ns1:g> não funciona enquanto não ativar os serviços do Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Ativar serviços do Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Instalar"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"O <ns1:g id="APP_NAME">%1$s</ns1:g> não é executado sem os Serviços do Google Play, os quais estão em falta no seu dispositivo."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Obter serviços do Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Disponibilidade Serviços do Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Erro dos Serviços do Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> está a ter problemas com os Serviços do Google Play. Tente novamente."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"Não é possível executar o <ns1:g id="APP_NAME">%1$s</ns1:g> sem os Serviços do Google Play, os quais não são compatíveis com o seu dispositivo."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Atualizar"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"O <ns1:g id="APP_NAME">%1$s</ns1:g> não é executado enquanto não atualizar os serviços do Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Atualizar serviços do Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"O <ns1:g id="APP_NAME">%1$s</ns1:g> não é executado sem os serviços do Google Play, os quais estão a ser atualizados."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"É necessária uma nova versão dos serviços do Google Play. Esta será atualizada automaticamente em breve."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Abrir no telemóvel"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Iniciar sessão"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Iniciar sessão com o Google"</string>
+    <string name="fui_accessibility_logo">Logótipo da aplicação</string>
+    <string name="fui_auto_verified">Número de telefone verificado automaticamente</string>
+    <string name="fui_button_text_save">Guardar</string>
+    <string name="fui_button_text_send">Enviar</string>
+    <string name="fui_confirm_recovery_body">Siga as instruções enviadas para %1$s para recuperar a palavra-passe.</string>
+    <string name="fui_continue_phone_login">Continuar</string>
+    <string name="fui_email_account_creation_error">O registo da conta de email não foi bem-sucedido</string>
+    <string name="fui_email_hint">Email</string>
+    <string name="fui_enter_confirmation_code">Introduza o código de 6 dígitos que enviámos para</string>
+    <string name="fui_error_email_does_not_exist">O endereço de email introduzido não corresponde a uma conta existente</string>
+    <string name="fui_error_invalid_password">Palavra-passe incorreta.</string>
+    <string name="fui_error_quota_exceeded">Ocorreu um problema ao validar o número de telefone</string>
+    <string name="fui_error_session_expired">Este código já não é válido</string>
+    <string name="fui_error_too_many_attempts">Este número de telefone foi utilizado demasiadas vezes</string>
+    <string name="fui_error_unknown">Ocorreu um erro desconhecido.</string>
+    <string name="fui_idp_name_facebook">Facebook</string>
+    <string name="fui_idp_name_github">GitHub</string>
+    <string name="fui_idp_name_google">Google</string>
+    <string name="fui_idp_name_twitter">Twitter</string>
+    <string name="fui_incorrect_code_dialog_body">Código errado. Tente novamente.</string>
+    <string name="fui_invalid_email_address">O endereço de email não está correto</string>
+    <string name="fui_invalid_phone_number">Introduza um número de telefone válido</string>
+    <string name="fui_missing_email_address">Introduza o endereço de email para continuar</string>
+    <string name="fui_name_hint">Nome próprio e apelido</string>
+    <string name="fui_next_default">Seguinte</string>
+    <string name="fui_password_hint">Palavra-passe</string>
+    <string name="fui_password_recovery_body">Utilize este endereço de email para obter instruções que explicam como repor a palavra-passe.</string>
+    <string name="fui_phone_hint">Número de telefone</string>
+    <string name="fui_privacy_policy">Política de Privacidade</string>
+    <string name="fui_progress_dialog_checking_accounts">A verificar a existência de contas…</string>
+    <string name="fui_progress_dialog_loading">A carregar…</string>
+    <string name="fui_progress_dialog_sending">A enviar…</string>
+    <string name="fui_progress_dialog_signing_in">A iniciar sessão…</string>
+    <string name="fui_progress_dialog_signing_up">A realizar a inscrição…</string>
+    <string name="fui_required_field">Não pode deixar este campo em branco.</string>
+    <string name="fui_resend_code">Reenviar código</string>
+    <string name="fui_resend_code_in">Reenviar código em 0:%02d</string>
+    <string name="fui_sign_in_default">Iniciar sessão</string>
+    <string name="fui_sign_in_with_email">Iniciar sessão com o email</string>
+    <string name="fui_sign_in_with_facebook">Iniciar sessão com o Facebook</string>
+    <string name="fui_sign_in_with_github">Iniciar sessão com o GitHub</string>
+    <string name="fui_sign_in_with_google">Iniciar sessão com o Google</string>
+    <string name="fui_sign_in_with_phone">Iniciar sessão com o telemóvel</string>
+    <string name="fui_sign_in_with_phone_number">Iniciar sessão com o número de telefone</string>
+    <string name="fui_sign_in_with_twitter">Iniciar sessão com o Twitter</string>
+    <string name="fui_sms_terms_of_service">Ao tocar em “%1$s”, pode gerar o envio de uma SMS. Podem aplicar-se tarifas de mensagens e dados.</string>
+    <string name="fui_sms_terms_of_service_and_privacy_policy_extended">Ao tocar em “%1$s”, indica que aceita os %2$s e a %3$s. Pode gerar o envio de uma SMS. Podem aplicar-se tarifas de dados e de mensagens.</string>
+    <string name="fui_terms_of_service">Termos de Utilização</string>
+    <string name="fui_title_confirm_recover_password">Verifique o seu email</string>
+    <string name="fui_title_recover_password_activity">Recuperar a palavra-passe</string>
+    <string name="fui_title_register_email">Inscrever-se</string>
+    <string name="fui_tos_and_pp">Ao continuar, indica que aceita os %1$s e a %2$s.</string>
+    <string name="fui_tos_and_pp_footer">%1$s     %2$s</string>
+    <string name="fui_trouble_signing_in">Está com problemas ao iniciar sessão?</string>
+    <string name="fui_verify_phone_number">Validar número de telefone</string>
+    <string name="fui_verify_phone_number_title">Introduza o seu número de telefone</string>
+    <string name="fui_verify_your_phone_title">Validar o número de telefone</string>
+    <string name="fui_verifying">A validar…</string>
+    <string name="fui_welcome_back_email_header">Bem-vindo de volta!</string>
+    <string name="fui_welcome_back_idp_header">Já tem uma conta</string>
+    <string name="fui_welcome_back_idp_prompt">Já utilizou %1$s. Inicie sessão com %2$s para continuar.</string>
+    <string name="fui_welcome_back_password_prompt_body">Já utilizou %1$s para iniciar sessão. Introduza a palavra-passe da conta em questão.</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Pesquisar"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+</resources>
