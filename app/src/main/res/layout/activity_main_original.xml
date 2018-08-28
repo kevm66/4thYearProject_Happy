@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_nav"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kevinmaher.x14328981.happy.MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/navigation"
+        android:animateLayoutChanges="true" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/background_light"
+        app:itemIconTint="@color/item_state_list_nav"
+        app:itemTextColor="@color/item_state_list_nav"
+        app:menu="@menu/nav"/>
+
+</RelativeLayout>
+
+<!--can add to the widget section above-->
+    <!--android:layout_gravity="start"-->
+
+
+    <!--Working-->
+    <!--android:background="@color/colorPrimary"-->
+    <!--app:itemIconTint="@color/item_state_list_nav"-->
+    <!--app:itemTextColor="@color/item_state_list_nav"-->
+
+    <!--removed last line of FrameLayout-->
+    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+
+    <!--app:itemBackground="@android:color/background_light"-->
+
+    <!--app:itemIconTint="@android:color/darker_gray"-->
+    <!--app:itemTextColor="@android:color/darker_gray"-->
+
+    <!--app:itemIconTint="@color/item_state_list_nav"-->
+    <!--app:itemTextColor="@color/item_state_list_nav"-->
+
+    <!--app:itemBackground="@color/colorPrimary"-->
+    <!--app:itemIconTint="@android:color/white"-->
+    <!--app:itemTextColor="@android:color/white"-->

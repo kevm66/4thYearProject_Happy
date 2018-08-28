@@ -1,274 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.kevinmaher.x14328981.happy.HomeFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
 
-    <!--reformat the design below to include  android:layout_alignEnd tags-->
-
-    <RelativeLayout
+    <android.support.v4.widget.SwipeRefreshLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        tools:context="com.kevinmaher.x14328981.happy.HomeFragment">
+        android:id="@+id/swipe_refresh_layout">
 
-        <!--reformat the design below to include  android:layout_alignEnd tags-->
-
-        <RelativeLayout
+        <android.support.v7.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            tools:context="com.kevinmaher.x14328981.happy.HomeFragment">
+            android:id="@+id/recycler_view"
+            android:orientation="vertical">
 
-            <!--reformat the design below to include  android:layout_alignEnd tags-->
 
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="19dp"
-                android:layout_height="21dp"
-                android:layout_alignBottom="@+id/btn_update_happy8"
-                android:layout_alignEnd="@+id/textView_update_mood_title12"
-                android:background="@drawable/ic_person_outline_black" />
+        </android.support.v7.widget.RecyclerView>
 
-            <TextView
-                android:id="@+id/textView_update_mood_location9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignEnd="@+id/textView_update_mood_title12"
-                android:layout_below="@+id/textView_update_mood_location8"
-                android:hint="Location"
-                android:text="Dublin" />
+    </android.support.v4.widget.SwipeRefreshLayout>
 
-            <TextView
-                android:id="@+id/textView_update_mood_location8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignEnd="@+id/textView_update_mood_title12"
-                android:layout_below="@+id/textView_update_mood_title14"
-                android:hint="Location"
-                android:text="Sun 05 May 12:04" />
 
-            <TextView
-                android:id="@+id/textView_update_mood_title14"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignEnd="@+id/textView_update_mood_title12"
-                android:layout_alignTop="@+id/btn_update_happy8"
-                android:text="Failed my exams"
-                android:textColor="@color/colorRed"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="19dp"
-                android:layout_height="21dp"
-                android:layout_alignBottom="@+id/btn_update_happy7"
-                android:layout_alignEnd="@+id/textView_update_mood_title12"
-                android:background="@drawable/ic_people_outline_black" />
-
-            <TextView
-                android:id="@+id/textView_update_mood_location6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignEnd="@+id/textView_update_mood_location2"
-                android:layout_below="@+id/textView_update_mood_location5"
-                android:layout_marginTop="-1dp"
-                android:hint="Location"
-                android:text="Wicklow" />
-
-            <TextView
-                android:id="@+id/textView_update_mood_location5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignEnd="@+id/textView_update_mood_title12"
-                android:layout_below="@+id/textView_update_mood_title13"
-                android:hint="Location"
-                android:text="Wed 20 May 14:01" />
-
-            <TextView
-                android:id="@+id/textView_update_mood_title13"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignEnd="@+id/textView_update_mood_location2"
-                android:layout_alignTop="@+id/btn_update_happy7"
-                android:text="Missed my train"
-                android:textColor="@color/indifferent"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <Button
-                android:id="@+id/btn_update_happy8"
-                android:layout_width="wrap_content"
-                android:layout_height="81dp"
-                android:layout_alignParentBottom="true"
-                android:layout_alignStart="@+id/btn_update_happy4"
-                android:layout_marginBottom="151dp"
-                android:background="@drawable/btn_face_sad_selected" />
-
-            <Button
-                android:id="@+id/btn_update_happy7"
-                android:layout_width="wrap_content"
-                android:layout_height="81dp"
-                android:layout_alignParentTop="true"
-                android:layout_alignStart="@+id/btn_update_happy4"
-                android:layout_marginTop="155dp"
-                android:background="@drawable/btn_face_indifferent_selected" />
-
-            <TextView
-                android:id="@+id/textView_update_mood_location4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBottom="@+id/btn_update_happy4"
-                android:layout_toStartOf="@+id/button"
-                android:hint="Location"
-                android:text="zebra123" />
-
-            <TextView
-                android:id="@+id/textView_update_mood_location3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignEnd="@+id/textView_update_mood_title12"
-                android:layout_below="@+id/textView_update_mood_location2"
-                android:hint="Location"
-                android:text="Dublin" />
-
-            <Button
-                android:id="@+id/btn_update_visibility4"
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:layout_alignEnd="@+id/textView_update_mood_location"
-                android:layout_below="@+id/textView_update_mood_location"
-                android:layout_marginTop="-113dp"
-                android:background="@drawable/ic_person_outline_black" />
-
-            <Button
-                android:id="@+id/btn_update_visibility3"
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:layout_alignEnd="@+id/textView_update_mood_location"
-                android:layout_below="@+id/textView_update_mood_location"
-                android:layout_marginTop="-113dp"
-                android:background="@drawable/ic_person_outline_black" />
-
-            <Button
-                android:id="@+id/btn_update_visibility2"
-                android:layout_width="24dp"
-                android:layout_height="24dp"
-                android:layout_alignEnd="@+id/textView_update_mood_location"
-                android:layout_below="@+id/textView_update_mood_location"
-                android:layout_marginTop="-113dp"
-                android:background="@drawable/ic_person_outline_black" />
-
-            <TextView
-                android:id="@+id/textView_update_mood_location2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignEnd="@+id/textView_update_mood_title12"
-                android:layout_below="@+id/textView_update_mood_title12"
-                android:hint="Location"
-                android:text="Mon 23 June 18:00" />
-
-            <TextView
-                android:id="@+id/textView_update_mood_time3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignEnd="@+id/textView_update_mood_location"
-                android:layout_below="@+id/textView_update_mood_title"
-                android:layout_marginTop="-153dp"
-                android:hint="Time" />
-
-            <TextView
-                android:id="@+id/textView_update_mood_title12"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_alignTop="@+id/btn_update_happy4"
-                android:layout_marginEnd="50dp"
-                android:text="Went for a jog"
-                android:textColor="@color/colorGreen"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <Button
-                android:id="@+id/btn_update_happy4"
-                android:layout_width="wrap_content"
-                android:layout_height="81dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginStart="30dp"
-                android:layout_marginTop="19dp"
-                android:background="@drawable/btn_face_happy_selected" />
-
-            <Button
-                android:id="@+id/button"
-                android:layout_width="19dp"
-                android:layout_height="21dp"
-                android:layout_alignEnd="@+id/textView_update_mood_title12"
-                android:layout_below="@+id/textView_update_mood_location3"
-                android:background="@drawable/ic_people_outline_black" />
-
-        </RelativeLayout>
-
-        <TextView
-            android:id="@+id/textView_update_mood_title12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignTop="@+id/btn_update_happy4"
-            android:layout_marginEnd="50dp"
-            android:text="Went for a jog"
-            android:textColor="@color/colorGreen"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/btn_update_happy4"
-            android:layout_width="wrap_content"
-            android:layout_height="81dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="19dp"
-            android:background="@drawable/btn_face_happy_selected" />
-
-    </RelativeLayout>
-
-    <TextView
-        android:id="@+id/textView_update_mood_title12"
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/ic_info"
+        android:layout_margin="16dp"
+        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/btn_update_happy4"
-        android:layout_marginEnd="50dp"
-        android:text="Went for a jog"
-        android:textColor="@color/colorGreen"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/btn_update_happy4"
-        android:layout_width="wrap_content"
-        android:layout_height="81dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="19dp"
-        android:background="@drawable/btn_face_happy_selected" />
-
-    <Button
-        android:id="@+id/btn_log_update"
-        android:layout_width="347dp"
-        android:layout_height="@dimen/btn_height"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="22dp"
-        android:background="@drawable/btn_rounding_orange"
-        android:text="@string/btn_log_update"
-        android:textColor="@android:color/white" />
+        android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>
+    <!--TODO UNCOMMENT-->
+    <!--<Button-->
+    <!--android:id="@+id/btn_log_update"-->
+    <!--android:layout_width="347dp"-->
+    <!--android:layout_height="@dimen/btn_height"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:layout_marginBottom="22dp"-->
+    <!--android:background="@drawable/btn_rounding_orange"-->
+    <!--android:text="@string/btn_log_update"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:visibility="invisible" />-->

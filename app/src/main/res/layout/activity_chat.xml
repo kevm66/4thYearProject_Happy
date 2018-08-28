@@ -5,51 +5,114 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.kevinmaher.x14328981.happy.ChatActivity">
 
-    <TextView
-        android:id="@+id/text_chat_message_bot_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="75dp"
-        android:background="@drawable/btn_rounding_orange"
-        android:text="@string/text_chat_message_bot_1"
-        android:textColor="@android:color/white" />
+    <!--<ScrollView--> <!--TODO SCROLLVIEW-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent">-->
+        <TextView
+            android:id="@+id/text_chat_message_bot_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/text_chat_message_user_1"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_rounding_orange"
+            android:padding="10dp"
+            android:text="@string/text_chat_message_bot_1"
+            android:textColor="@android:color/white" />
 
-    <Button
-        android:id="@+id/btn_chat_send"
-        android:layout_width="329dp"
-        android:layout_height="@dimen/btn_height"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="22dp"
-        android:background="@drawable/btn_rounding_orange"
-        android:text="@string/activity_chat_btn_send"
-        android:textColor="@android:color/white"
-        android:textSize="14sp" />
+        <TextView
+            android:id="@+id/text_chat_message_bot_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/text_chat_message_bot_1"
+            android:layout_below="@+id/text_chat_message_user_2"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_rounding_orange"
+            android:padding="10dp"
+            android:text="@string/text_chat_message_bot_2"
+            android:textColor="@android:color/white" />
 
-    <EditText
-        android:id="@+id/text_input_chat_chatbox"
-        android:layout_width="328dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="102dp"
-        android:ems="10"
-        android:hint="@string/text_input_chat_chatbox_hint"
-        android:inputType="textPersonName" />
+        <TextView
+            android:id="@+id/text_chat_message_bot_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/text_chat_message_bot_2"
+            android:layout_below="@+id/text_chat_message_user_3"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_rounding_orange"
+            android:padding="10dp"
+            android:text="@string/text_chat_message_bot_3"
+            android:textColor="@android:color/white" />
 
-    <TextView
-        android:id="@+id/text_chat_message_user_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginEnd="14dp"
-        android:layout_marginTop="22dp"
-        android:background="@drawable/btn_rounding_white"
-        android:text="@string/text_chat_message_user_1"
-        android:textColor="@android:color/background_dark" />
+        <TextView
+            android:id="@+id/text_chat_message_bot_4"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="145dp"
+            android:background="@drawable/btn_rounding_orange"
+            android:padding="10dp"
+            android:text="@string/text_chat_message_bot_4"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_chat_send"
+            android:layout_width="329dp"
+            android:layout_height="@dimen/btn_height"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/btn_rounding_orange"
+            android:text="@string/activity_chat_btn_send"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/text_input_chat_chatbox"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_chat_send"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="@string/text_input_chat_chatbox_hint"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/text_chat_message_user_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_rounding_grey"
+            android:padding="10dp"
+            android:text="@string/text_chat_message_user_1"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/text_chat_message_user_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/text_chat_message_bot_1"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_rounding_grey"
+            android:padding="10dp"
+            android:text="@string/text_chat_message_user_2"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/text_chat_message_user_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/text_chat_message_bot_2"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_rounding_grey"
+            android:padding="10dp"
+            android:text="@string/text_chat_message_user_3"
+            android:textColor="@android:color/white" />
+    <!--</ScrollView>-->
 
 </RelativeLayout>

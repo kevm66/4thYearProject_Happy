@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="19dp"
+        android:layout_height="21dp"
+        android:layout_alignEnd="@+id/timestamp"
+        android:layout_below="@+id/timestamp4"
+        android:background="@drawable/ic_person_outline_black"
+        android:textAlignment="viewEnd" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:textSize="18sp"
+        android:textColor="@color/Black"
+        android:text="This is the First Mood"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/title"
+        android:layout_marginEnd="21dp"
+        android:text="Jogging"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/DarkGrey"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/content"
+        android:layout_below="@+id/content"
+        android:text="28/08/2018"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/DarkGrey"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/timestamp4"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/content"
+        android:layout_below="@+id/timestamp"
+        android:text="Dublin"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/DarkGrey"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/ivFace"
+        android:layout_width="86dp"
+        android:layout_height="80dp"
+        android:layout_alignStart="@+id/title"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/btn_face_happy_unselected" />
+
+</RelativeLayout>

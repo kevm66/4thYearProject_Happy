@@ -5,6 +5,7 @@
 
     <item
         android:id="@+id/menu_more_filter"
+        android:orderInCategory="1"
         android:icon="@drawable/ic_menu_filter"
         android:title="@string/menu_more_filter"
         app:showAsAction="always" />

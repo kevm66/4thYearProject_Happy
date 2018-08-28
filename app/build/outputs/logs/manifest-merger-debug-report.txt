@@ -31,6 +31,7 @@ MERGED from [com.google.firebase:firebase-measurement-connector:16.0.0] C:\Users
 MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\2d1b4a0b332ed2fbeb9a3e5db008c8b5\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\6e2073dcd0158ed4820f2db0709bfcb5\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\3fa0435b881ec708d72e1a472800f697\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:percent:27.1.1] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\percent-27.1.1.aar\1542a01a29873bc241bc665d05ce4b53\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\cbe51493b5c47295fa3bb8b651f6010a\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:customtabs:27.1.1] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\customtabs-27.1.1.aar\2054029aac74f1ed1b183e429d9a7a41\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\02c0a7592e874be16088afa8a2231d77\AndroidManifest.xml:17:1-22:12
@@ -213,6 +214,8 @@ MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\kevm
 MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\6e2073dcd0158ed4820f2db0709bfcb5\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\3fa0435b881ec708d72e1a472800f697\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\3fa0435b881ec708d72e1a472800f697\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:percent:27.1.1] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\percent-27.1.1.aar\1542a01a29873bc241bc665d05ce4b53\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:percent:27.1.1] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\percent-27.1.1.aar\1542a01a29873bc241bc665d05ce4b53\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\cbe51493b5c47295fa3bb8b651f6010a\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\cbe51493b5c47295fa3bb8b651f6010a\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:customtabs:27.1.1] C:\Users\kevm6\.gradle\caches\transforms-1\files-1.1\customtabs-27.1.1.aar\2054029aac74f1ed1b183e429d9a7a41\AndroidManifest.xml:20:5-44

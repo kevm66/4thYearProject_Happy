@@ -8,14 +8,14 @@
     <!--tools:context="com.kevinmaher.x14328981.happy_color.Frag1Activity"-->
 
     <Button
-        android:id="@+id/btn_support_websites"
+        android:id="@+id/btn_support_mental"
         android:layout_width="319dp"
         android:layout_height="@dimen/btn_height"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="31dp"
         android:background="@drawable/btn_rounding_orange"
-        android:text="@string/btn_support_websites"
+        android:text="@string/btn_support_mental"
         android:textColor="@android:color/white"
         android:textSize="14sp" />
 
@@ -25,7 +25,7 @@
         android:layout_height="@dimen/btn_height"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="195dp"
+        android:layout_marginBottom="196dp"
         android:background="@drawable/btn_rounding_orange"
         android:text="@string/btn_support_about"
         android:textColor="@android:color/white"
@@ -35,36 +35,24 @@
         android:id="@+id/btn_support_chat"
         android:layout_width="317dp"
         android:layout_height="@dimen/btn_height"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="116dp"
+        android:layout_marginTop="177dp"
         android:background="@drawable/btn_rounding_orange"
         android:text="@string/btn_support_chat"
         android:textColor="@android:color/white"
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_support_apps"
-        android:layout_width="320dp"
-        android:layout_height="@dimen/btn_height"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="180dp"
-        android:background="@drawable/btn_rounding_orange"
-        android:text="@string/btn_support_apps"
-        android:textColor="@android:color/white"
-        android:textSize="14sp" />
-
-    <Button
-        android:id="@+id/btn_support_phone"
+        android:id="@+id/btn_support_physical"
         android:layout_width="@dimen/btn_width"
         android:layout_height="@dimen/btn_height"
-        android:layout_alignEnd="@+id/btn_support_websites"
-        android:layout_alignStart="@+id/btn_support_websites"
-        android:layout_alignTop="@+id/btn_support_websites"
+        android:layout_alignEnd="@+id/btn_support_mental"
+        android:layout_alignStart="@+id/btn_support_mental"
+        android:layout_alignTop="@+id/btn_support_mental"
         android:layout_marginTop="@dimen/btn_top_spacing"
         android:background="@drawable/btn_rounding_orange"
-        android:text="@string/btn_support_phone"
+        android:text="@string/btn_support_physical"
         android:textColor="@android:color/white"
         android:textSize="14sp" />
 
